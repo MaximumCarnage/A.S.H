@@ -1,0 +1,1060 @@
+﻿Log file open, 09/19/18 17:22:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ASH_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.293037
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin DatasmithMDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogStreaming: Display: Took  0.180s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.025s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.19-21.22.58:963][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.19-21.22.58:963][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.19-21.22.59:018][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.19-21.22.59:018][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.19-21.22.59:018][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.19-21.22.59:019][  0]LogInit: Computer: DESKTOP-MIASDKN
+[2018.09.19-21.22.59:019][  0]LogInit: User: DKG
+[2018.09.19-21.22.59:019][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.19-21.22.59:019][  0]LogInit: High frequency timer resolution =2.742190 MHz
+[2018.09.19-21.22.59:019][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.19-21.22.59:019][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.19-21.22.59:019][  0]LogMemory: Process Physical Memory: 100.64 MB used, 100.64 MB peak
+[2018.09.19-21.22.59:019][  0]LogMemory: Process Virtual Memory: 89.54 MB used, 89.54 MB peak
+[2018.09.19-21.22.59:019][  0]LogMemory: Physical Memory: 6743.79 MB used,  9513.24 MB free, 16257.03 MB total
+[2018.09.19-21.22.59:019][  0]LogMemory: Virtual Memory: 4643.41 MB used,  9513.24 MB free, 134217728.00 MB total
+[2018.09.19-21.22.59:372][  0]LogInit: Using OS detected language (en-US).
+[2018.09.19-21.22.59:372][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.19-21.22.59:373][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.19-21.22.59:760][  0]LogStreaming: Display: Took  0.388s to InitEngineTextLocalization.
+[2018.09.19-21.22.59:761][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.19-21.22.59:799][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.19-21.22.59:799][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.19-21.23.00:056][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2018.09.19-21.23.00:057][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.19-21.23.00:120][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.19-21.23.00:120][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.19-21.23.00:144][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.19-21.23.00:144][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.19-21.23.00:146][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.19-21.23.00:146][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.19-21.23.00:146][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.19-21.23.00:155][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.19-21.23.00:155][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.19-21.23.00:155][  0]LogWindows: EnumDisplayDevices:
+[2018.09.19-21.23.00:155][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.19-21.23.00:155][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.19-21.23.00:156][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.19-21.23.00:156][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.19-21.23.00:156][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.19-21.23.00:156][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.19-21.23.00:157][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.19-21.23.00:157][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.19-21.23.00:157][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.19-21.23.00:157][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.09.19-21.23.00:157][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.09.19-21.23.00:157][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.09.19-21.23.00:200][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.19-21.23.00:232][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.19-21.23.00:280][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../GameDev/_projects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/15136/).
+[2018.09.19-21.23.00:280][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DKG/AppData/Local/Temp/UnrealShaderWorkingDir/343A2F12406F9B3577AD928CBDB1613F/'.
+[2018.09.19-21.23.00:573][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.19-21.23.00:585][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.19-21.23.00:599][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.19-21.23.00:612][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.19-21.23.00:625][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.19-21.23.00:639][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.19-21.23.00:652][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.19-21.23.00:666][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.19-21.23.00:672][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-21.23.00:758][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.19-21.23.00:818][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.19-21.23.00:818][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.19-21.23.00:844][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.19-21.23.00:844][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.19-21.23.00:857][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.19-21.23.00:872][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.19-21.23.00:884][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.19-21.23.00:898][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.19-21.23.00:908][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.19-21.23.00:908][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.19-21.23.00:959][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.19-21.23.00:960][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.19-21.23.00:960][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.19-21.23.01:719][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.19-21.23.01:784][  0]LogDerivedDataCache: Loaded boot cache 0.06s 72MB C:/Users/DKG/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.19-21.23.01:785][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DKG/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.19-21.23.01:786][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_projects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.19-21.23.01:786][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.19-21.23.01:786][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_projects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.19-21.23.01:786][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.19-21.23.01:801][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.19-21.23.01:814][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DKG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.19-21.23.01:814][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.19-21.23.01:814][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.19-21.23.01:838][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.19-21.23.01:839][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.19-21.23.01:840][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.19-21.23.01:919][  0]LogAssetRegistry: FAssetRegistry took 0.0292 seconds to start up
+[2018.09.19-21.23.02:253][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.19-21.23.02:299][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.19-21.23.02:302][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.19-21.23.02:302][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.19-21.23.02:302][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.19-21.23.02:302][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.19-21.23.02:406][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.09.19-21.23.03:043][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 2 prioritized culture(s) in 0.191914 seconds
+[2018.09.19-21.23.03:051][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.19-21.23.03:052][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.19-21.23.03:052][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.19-21.23.03:923][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.19-21.23.03:937][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.19-21.23.04:079][  0]SourceControl: Source control is disabled
+[2018.09.19-21.23.04:079][  0]SourceControl: Source control is disabled
+[2018.09.19-21.23.04:080][  0]SourceControl: Source control is disabled
+[2018.09.19-21.23.04:081][  0]SourceControl: Source control is disabled
+[2018.09.19-21.23.04:288][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.19-21.23.04:371][  0]LogOcInput: OculusInput pre-init called
+[2018.09.19-21.23.09:249][  0]LogEngine: Initializing Engine...
+[2018.09.19-21.23.14:815][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2018.09.19-21.23.14:817][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.19-21.23.14:817][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.19-21.23.14:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.19-21.23.14:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.19-21.23.15:063][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.19-21.23.15:078][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.19-21.23.15:110][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-21.23.15:191][  0]LogInit: FAudioDevice initialized.
+[2018.09.19-21.23.15:191][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.19-21.23.15:337][  0]LogDerivedDataCache: Saved boot cache 0.15s 72MB C:/Users/DKG/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.19-21.23.15:348][  0]LogInit: Texture streaming: Enabled
+[2018.09.19-21.23.15:364][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.19-21.23.15:379][  0]LogInit: Transaction tracking system initialized
+[2018.09.19-21.23.15:397][  0]BlueprintLog: New page: Editor Load
+[2018.09.19-21.23.15:455][  0]LocalizationService: Localization service is disabled
+[2018.09.19-21.23.15:798][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.19-21.23.15:798][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.19-21.23.15:798][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.19-21.23.15:798][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.19-21.23.15:798][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.19-21.23.15:798][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.19-21.23.15:798][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.19-21.23.15:904][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_projects/A.S.H/ASH_Game/Content/' took 0.03s
+[2018.09.19-21.23.17:109][  0]SourceControl: Source control is disabled
+[2018.09.19-21.23.17:109][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.19-21.23.17:150][  0]LightingResults: New page: Lighting Build
+[2018.09.19-21.23.17:153][  0]MapCheck: New page: Map Check
+[2018.09.19-21.23.17:153][  0]LightingResults: New page: Lighting Build
+[2018.09.19-21.23.17:934][  0]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.19-21.23.17:938][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.19-21.23.17:963][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.19-21.23.18:022][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.815ms to complete.
+[2018.09.19-21.23.18:022][  0]LogFileHelpers: Loading map 'MapGenerator' took 0.913
+[2018.09.19-21.23.18:137][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-21.23.18:144][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-21.23.18:153][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-21.23.18:160][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-21.23.18:249][  0]LogCollectionManager: Loaded 0 collections in 0.001499 seconds
+[2018.09.19-21.23.18:290][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_projects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
+[2018.09.19-21.23.18:290][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_projects/A.S.H/ASH_Game/Content/Developers/DKG/Collections/' took 0.01s
+[2018.09.19-21.23.18:290][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_projects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
+[2018.09.19-21.23.18:290][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.19-21.23.18:302][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2622 classes and 631 folders.
+[2018.09.19-21.23.18:309][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.19-21.23.18:382][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.19-21.23.18:524][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.19-21.23.18:524][  0]LogLoad: (Engine Initialization) Total time: 21.70 seconds
+[2018.09.19-21.23.18:524][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.19-21.23.18:535][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.19-21.23.18:601][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.19-21.23.18:602][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.19-21.23.18:603][  0]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.19-21.23.18:611][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.19-21.23.18:825][  1]LogRenderer: Reallocating scene render targets to support 728x392 Format 10 NumSamples 1 (Frame:1).
+[2018.09.19-21.23.19:005][  2]LogAssetRegistry: Asset discovery search completed in 17.1086 seconds
+[2018.09.19-21.23.19:008][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.19-21.23.19:008][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000100 seconds (updated 0 objects)
+[2018.09.19-21.23.19:572][ 62]LogSlate: Took 0.018644 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.19-21.23.24:678][653]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-21.23.26:455][845]LogRenderer: Reallocating scene render targets to support 972x540 Format 10 NumSamples 1 (Frame:837).
+[2018.09.19-21.23.28:488][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-21.23.34:389][522]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2018.09.19-21.23.34:389][522]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.09.19-21.23.34:389][522]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.09.19-21.23.34:389][522]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.09.19-21.23.34:414][522]LogBlueprint: Warning: [Compiler TopDownCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.09.19-21.23.34:469][522]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0037.65] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 146 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.09.19-21.23.34:469][522]LogBlueprint: Warning: [Compiler TopDownCharacter] [0037.65] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 146 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2018.09.19-21.23.35:733][522]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-21.23.35:789][522]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest
+[2018.09.19-21.23.35:840][522]Cmd: MAP LOAD FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/MinMaptest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.19-21.23.35:840][522]LightingResults: New page: Lighting Build
+[2018.09.19-21.23.35:841][522]LoadErrors: New page: Loading map: MinMaptest.umap
+[2018.09.19-21.23.35:841][522]MapCheck: New page: Map Check
+[2018.09.19-21.23.35:841][522]LightingResults: New page: Lighting Build
+[2018.09.19-21.23.36:022][522]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.19-21.23.36:075][522]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.19-21.23.36:151][522]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.604ms to complete.
+[2018.09.19-21.23.36:151][522]LogFileHelpers: Loading map 'MinMaptest' took 0.311
+[2018.09.19-21.23.38:116][739]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-21.23.38:172][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.23.38:173][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-21.23.38:211][739]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 1:23:38 PM)
+[2018.09.19-21.23.38:211][739]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-21.23.38:271][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059223s)
+[2018.09.19-21.23.38:272][739]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-21.23.38:272][739]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2018.09.19-21.23.38:272][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.060386s)
+[2018.09.19-21.23.38:312][739]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-21.23.38:394][739]LogInit: FAudioDevice initialized.
+[2018.09.19-21.23.38:406][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-21.23.38:505][739]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-21.23.38:523][739]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-17.23.38
+[2018.09.19-21.23.38:561][739]LogWorld: Bringing up level for play took: 0.045461
+[2018.09.19-21.23.38:609][739]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.09.19-21.23.38:644][739]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest 0.428
+[2018.09.19-21.23.38:644][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.26.12:063][917]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.26.12:063][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-21.26.12:080][917]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-21.26.12:149][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-21.26.12:149][917]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.26.12:197][918]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.09.19-21.27.08:949][234]LogRenderer: Reallocating scene render targets to support 972x568 Format 10 NumSamples 1 (Frame:242).
+[2018.09.19-21.37.26:332][132]AssetReimport: New page: Outstanding source content changes 1:37:26 PM
+[2018.09.19-21.37.26:353][133]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/MINImAP.png)
+[2018.09.19-21.37.26:541][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/MiniMap/MINImAP" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/MINImAP.uasset" SILENT=true
+[2018.09.19-21.37.26:609][134]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/MINImAP05FBCDD94EC0489493FB91B81694A1F7.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/MINImAP.uasset'
+[2018.09.19-21.37.29:655][310]AssetReimport: Importing new asset /Game/TopDownBP/MiniMap/MINImAP.
+[2018.09.19-21.37.35:000][611]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/TopDownBP/MiniMap/MINImAP_Sprite.MINImAP_Sprite
+[2018.09.19-21.37.35:191][611]LogSlate: Took 0.012426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.19-21.37.35:512][611]LogRenderer: Reallocating scene render targets to support 972x644 Format 10 NumSamples 1 (Frame:1).
+[2018.09.19-21.37.35:512][611]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.19-21.37.36:976][699]LogSlate: Window 'MINImAP_Sprite*' being destroyed
+[2018.09.19-21.37.36:981][699]LogSlate: Window 'MINImAP_Sprite*' being destroyed
+[2018.09.19-21.37.44:680][153]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-21.37.44:696][153]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.37.44:696][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-21.37.44:696][153]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 1:37:44 PM)
+[2018.09.19-21.37.44:696][153]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-21.37.44:712][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015536s)
+[2018.09.19-21.37.44:713][153]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-21.37.44:713][153]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2018.09.19-21.37.44:713][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.016797s)
+[2018.09.19-21.37.44:750][153]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-21.37.44:835][153]LogInit: FAudioDevice initialized.
+[2018.09.19-21.37.44:853][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-21.37.44:945][153]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-21.37.44:948][153]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 60) at 2018.09.19-17.37.44
+[2018.09.19-21.37.44:949][153]LogWorld: Bringing up level for play took: 0.004539
+[2018.09.19-21.37.44:966][153]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest 0.751
+[2018.09.19-21.37.44:967][153]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.38.05:925][407]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.38.05:926][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-21.38.05:942][407]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-21.38.05:981][407]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-21.38.05:981][407]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.38.06:025][408]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.09.19-21.38.33:299][997]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/MiniMap/MinMaptest' took 0.023
+[2018.09.19-21.38.33:306][997]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/MiniMap/MINImAP_Sprite] ([1] browsable assets)...
+[2018.09.19-21.38.33:314][997]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDownBP/MiniMap/MINImAP_Sprite.MINImAP_Sprite]
+[2018.09.19-21.38.33:314][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/MiniMap/MINImAP_Sprite]
+[2018.09.19-21.38.33:365][997]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/MINImAP_Sprite_Auto1A2C92A8A47BBF749B4F3D785F62C80EA.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/MiniMap/MINImAP_Sprite_Auto1.uasset'
+[2018.09.19-21.38.33:366][997]LogFileHelpers: Auto-saving content packages took 0.066
+[2018.09.19-21.55.27:246][749]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI-Rick/TopDownHUD.TopDownHUD
+[2018.09.19-21.55.28:293][749]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.09.19-21.57.49:905][761]LogEditorTransaction: Undo Move Widget
+[2018.09.19-21.58.23:668][968]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/MiniMap/MinMaptest' took 0.034
+[2018.09.19-21.58.23:946][968]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI-Rick/TopDownHUD] ([1] browsable assets)...
+[2018.09.19-21.58.23:947][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI-Rick/TopDownHUD]
+[2018.09.19-21.58.23:947][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI-Rick/TopDownHUD" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.09.19-21.58.24:081][968]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/TopDownHUD_Auto2CB5A1994405B729E41401AB75C405AED.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto2.uasset'
+[2018.09.19-21.58.24:093][968]LogFileHelpers: Auto-saving content packages took 0.423
+[2018.09.19-21.59.06:319][589]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-21.59.07:019][611]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-21.59.07:039][611]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.59.07:039][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-21.59.07:039][611]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 1:59:07 PM)
+[2018.09.19-21.59.07:039][611]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-21.59.07:056][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017194s)
+[2018.09.19-21.59.07:057][611]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-21.59.07:057][611]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2018.09.19-21.59.07:057][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.018245s)
+[2018.09.19-21.59.07:105][611]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-21.59.07:185][611]LogInit: FAudioDevice initialized.
+[2018.09.19-21.59.07:203][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-21.59.07:301][611]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-21.59.07:306][611]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 60) at 2018.09.19-17.59.07
+[2018.09.19-21.59.07:306][611]LogWorld: Bringing up level for play took: 0.004114
+[2018.09.19-21.59.07:325][611]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest 1.11
+[2018.09.19-21.59.07:325][611]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.59.14:674][881]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.59.14:674][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-21.59.14:693][881]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-21.59.14:732][881]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-21.59.14:733][881]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-21.59.14:806][882]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.09.19-22.08.32:071][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/MiniMap/MinMaptest' took 0.034
+[2018.09.19-22.08.32:073][976]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI-Rick/TopDownHUD] ([1] browsable assets)...
+[2018.09.19-22.08.32:073][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI-Rick/TopDownHUD]
+[2018.09.19-22.08.32:073][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI-Rick/TopDownHUD" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.09.19-22.08.32:101][976]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/TopDownHUD_Auto399728CB94B6E7AE8BE1A0C97C8C095C1.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto3.uasset'
+[2018.09.19-22.08.32:102][976]LogFileHelpers: Auto-saving content packages took 0.030
+[2018.09.19-22.14.06:332][474]LogEditorTransaction: Undo Edit Draw As
+[2018.09.19-22.14.12:555][710]LogEditorTransaction: Undo Edit Draw As
+[2018.09.19-22.14.16:780][879]Cmd: TRANSACTION UNDO
+[2018.09.19-22.14.16:780][879]LogEditorTransaction: Undo Edit Draw As
+[2018.09.19-22.18.32:515][906]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/MiniMap/MinMaptest' took 0.038
+[2018.09.19-22.18.32:518][906]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI-Rick/TopDownHUD] ([1] browsable assets)...
+[2018.09.19-22.18.32:518][906]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI-Rick/TopDownHUD]
+[2018.09.19-22.18.32:518][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI-Rick/TopDownHUD" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.09.19-22.18.32:548][906]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/TopDownHUD_Auto4B67F3BD2426F34509100FBB04B43F3A5.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto4.uasset'
+[2018.09.19-22.18.32:549][906]LogFileHelpers: Auto-saving content packages took 0.032
+[2018.09.19-22.21.09:584][674]LogEditorTransaction: Undo Add Widget
+[2018.09.19-22.28.33:111][389]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/MiniMap/MinMaptest' took 0.038
+[2018.09.19-22.28.33:113][389]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI-Rick/TopDownHUD] ([1] browsable assets)...
+[2018.09.19-22.28.33:113][389]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI-Rick/TopDownHUD]
+[2018.09.19-22.28.33:113][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI-Rick/TopDownHUD" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.09.19-22.28.33:139][389]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/TopDownHUD_Auto5F740171A4546C277B6805CB4F50870DF.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto5.uasset'
+[2018.09.19-22.28.33:139][389]LogFileHelpers: Auto-saving content packages took 0.027
+[2018.09.19-22.34.18:979][515]AssetReimport: New page: Outstanding source content changes 2:34:18 PM
+[2018.09.19-22.34.18:981][515]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/62844-result.png)
+[2018.09.19-22.34.19:100][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/MiniMap/62844-result" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/62844-result.uasset" SILENT=true
+[2018.09.19-22.34.19:160][516]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/62844-resultDB4324124A1D193395F7A0833D721BA8.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/62844-result.uasset'
+[2018.09.19-22.34.22:190][635]AssetReimport: Importing new asset /Game/TopDownBP/MiniMap/62844-result.
+[2018.09.19-22.35.06:422][145]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-22.35.07:924][194]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.35.07:945][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.35.07:945][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.35.07:945][194]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 2:35:07 PM)
+[2018.09.19-22.35.07:946][194]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-22.35.07:965][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019264s)
+[2018.09.19-22.35.07:966][194]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-22.35.07:966][194]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2018.09.19-22.35.07:966][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.020764s)
+[2018.09.19-22.35.08:010][194]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.35.08:088][194]LogInit: FAudioDevice initialized.
+[2018.09.19-22.35.08:109][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.35.08:213][194]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.35.08:218][194]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-18.35.08
+[2018.09.19-22.35.08:219][194]LogWorld: Bringing up level for play took: 0.004475
+[2018.09.19-22.35.08:239][194]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest 0.023
+[2018.09.19-22.35.08:239][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.35.20:576][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.35.20:577][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.35.20:593][637]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.35.20:632][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.35.20:632][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.35.20:707][638]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.09.19-22.36.16:309][516]LogAssetEditorManager: Opening Asset editor for TextureRenderTarget2D /Game/TopDownBP/MiniMap/MinMapTarget.MinMapTarget
+[2018.09.19-22.36.16:623][516]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.19-22.36.58:626][365]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2018.09.19-22.36.59:144][388]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2018.09.19-22.37.00:300][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-22.37.00:410][512]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2018.09.19-22.37.02:974][564]LogSlate: Took 0.042480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.19-22.37.04:045][611]LogRenderer: Reallocating scene render targets to support 1092x644 Format 10 NumSamples 1 (Frame:1).
+[2018.09.19-22.37.14:218][264]LogClass: Warning: In asset 'None', there is an enum property of type 'ECameraProjectionMode' with an invalid value of ''
+[2018.09.19-22.37.14:218][264]LogClass: Warning: In asset 'None', there is an enum property of type 'ECameraProjectionMode' with an invalid value of ''
+[2018.09.19-22.37.32:090][396]LogSlate: Window 'Save Asset As' being destroyed
+[2018.09.19-22.38.09:654][719]LogAssetEditorManager: Opening Asset editor for TextureRenderTarget2D /Game/TopDownBP/MiniMap/MinMapTarget.MinMapTarget
+[2018.09.19-22.38.18:640][441]LogAssetEditorManager: Opening Asset editor for TextureRenderTarget2D /Game/TopDownBP/MiniMap/mini.mini
+[2018.09.19-22.38.21:628][676]LogSlate: Window 'mini*' being destroyed
+[2018.09.19-22.38.21:636][676]LogSlate: Window 'mini*' being destroyed
+[2018.09.19-22.38.52:986][126]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI-Rick/TopDownHUD.TopDownHUD
+[2018.09.19-22.39.47:206][ 58]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/MinMaptest_Auto6BFE1005340D209085A4D338F9C63FD39.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/MiniMap/MinMaptest_Auto6.umap'
+[2018.09.19-22.39.47:213][ 58]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/MiniMap/MinMaptest' took 0.628
+[2018.09.19-22.39.47:213][ 58]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.628
+[2018.09.19-22.39.47:216][ 58]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.09.19-22.39.47:240][ 58]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2018.09.19-22.39.47:240][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2018.09.19-22.39.47:503][ 58]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/TopDownCharacter_Auto686A0CE9843EF79901B007CA8444FBD58.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto6.uasset'
+[2018.09.19-22.39.47:559][ 58]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI-Rick/TopDownHUD] ([1] browsable assets)...
+[2018.09.19-22.39.47:559][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI-Rick/TopDownHUD]
+[2018.09.19-22.39.47:559][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI-Rick/TopDownHUD" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2018.09.19-22.39.47:582][ 58]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/TopDownHUD_Auto6358684F3457F6EB7F4F604A6DB2501EF.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto6.uasset'
+[2018.09.19-22.39.47:584][ 58]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/MiniMap/mini] ([1] browsable assets)...
+[2018.09.19-22.39.47:590][ 58]OBJ SavePackage:     Rendered thumbnail for [TextureRenderTarget2D /Game/TopDownBP/MiniMap/mini.mini]
+[2018.09.19-22.39.47:590][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/MiniMap/mini]
+[2018.09.19-22.39.47:590][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/MiniMap/mini" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/MiniMap/mini_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2018.09.19-22.39.47:600][ 58]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/mini_Auto61C7B60B54DB265B0B04F9BBC07F34EA5.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/MiniMap/mini_Auto6.uasset'
+[2018.09.19-22.39.47:601][ 58]LogFileHelpers: Auto-saving content packages took 0.386
+[2018.09.19-22.43.39:567][497]AssetReimport: New page: Outstanding source content changes 2:43:39 PM
+[2018.09.19-22.43.39:568][497]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/62844.png)
+[2018.09.19-22.43.39:661][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/MiniMap/62844" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/62844.uasset" SILENT=true
+[2018.09.19-22.43.39:679][498]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/62844BBDD4585445B7C9E6007F2BECEA8FC9A.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/62844.uasset'
+[2018.09.19-22.43.42:700][767]AssetReimport: Importing new asset /Game/TopDownBP/MiniMap/62844.
+[2018.09.19-22.44.09:862][488]LogEditorTransaction: Undo Edit Image
+[2018.09.19-22.45.31:391][377]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-22.45.32:723][418]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.45.32:742][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.45.32:742][418]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.19-22.45.32:856][418]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
+[2018.09.19-22.45.32:970][418]LogBlueprint: Warning: [Compiler TopDownCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.09.19-22.45.32:990][418]LogBlueprint: Warning: [Compiler TopDownCharacter] [4956.17] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 157 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2018.09.19-22.45.33:313][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 571 ms (1 blueprints)
+[2018.09.19-22.45.33:314][418]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 2:45:33 PM)
+[2018.09.19-22.45.33:314][418]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-22.45.33:330][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016358s)
+[2018.09.19-22.45.33:331][418]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-22.45.33:331][418]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2018.09.19-22.45.33:331][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.017763s)
+[2018.09.19-22.45.33:399][418]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.45.33:467][418]LogInit: FAudioDevice initialized.
+[2018.09.19-22.45.33:487][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.45.33:581][418]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.45.33:585][418]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-18.45.33
+[2018.09.19-22.45.33:585][418]LogWorld: Bringing up level for play took: 0.003457
+[2018.09.19-22.45.33:606][418]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest 1.391
+[2018.09.19-22.45.33:607][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.45.36:776][528]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.45.36:776][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.45.36:795][528]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.45.36:834][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.45.36:834][528]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.45.36:908][529]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.09.19-22.45.42:353][720]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-22.45.43:271][755]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.45.43:291][755]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.45.43:291][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.45.43:291][755]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 2:45:43 PM)
+[2018.09.19-22.45.43:291][755]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-22.45.43:305][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013957s)
+[2018.09.19-22.45.43:307][755]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-22.45.43:307][755]LogPlayLevel: PIE: World Init took: (0.001753s)
+[2018.09.19-22.45.43:307][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.016028s)
+[2018.09.19-22.45.43:355][755]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.45.43:429][755]LogInit: FAudioDevice initialized.
+[2018.09.19-22.45.43:448][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.45.43:548][755]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.45.43:551][755]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-18.45.43
+[2018.09.19-22.45.43:553][755]LogWorld: Bringing up level for play took: 0.004159
+[2018.09.19-22.45.43:574][755]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest -0.641
+[2018.09.19-22.45.43:574][755]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.46.21:001][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.46.21:001][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.46.21:020][433]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.46.21:064][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.46.21:064][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.46.21:136][434]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.09.19-22.46.32:918][892]Cmd: TRANSACTION UNDO
+[2018.09.19-22.46.32:918][892]LogEditorTransaction: Undo Edit Color and Opacity
+[2018.09.19-22.46.34:155][933]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.19-22.47.16:947][160]AssetReimport: New page: Outstanding source content changes 2:47:16 PM
+[2018.09.19-22.47.16:991][160]LogEditorFactories: Performing atomic reimport of [D:/GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/62844-result.png]
+[2018.09.19-22.47.16:991][160]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/62844-result.png)
+[2018.09.19-22.47.17:004][160]LogEditorFactories: -- imported successfully
+[2018.09.19-22.47.17:098][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/MiniMap/62844-result" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/62844-result.uasset" SILENT=true
+[2018.09.19-22.47.17:126][161]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/62844-result06D61A7F43BB75694AD7BA9CD215717A.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/62844-result.uasset'
+[2018.09.19-22.47.20:144][264]AssetReimport: Reimported asset 62844-result from D:/GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/62844-result.png.
+[2018.09.19-22.47.46:975][231]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.19-22.47.48:685][291]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-22.47.49:708][324]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.47.49:730][324]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.47.49:730][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.47.49:730][324]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 2:47:49 PM)
+[2018.09.19-22.47.49:730][324]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-22.47.49:746][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015384s)
+[2018.09.19-22.47.49:747][324]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-22.47.49:747][324]LogPlayLevel: PIE: World Init took: (0.001755s)
+[2018.09.19-22.47.49:747][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.017324s)
+[2018.09.19-22.47.49:801][324]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.47.49:877][324]LogInit: FAudioDevice initialized.
+[2018.09.19-22.47.49:898][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.47.49:993][324]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.47.49:996][324]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-18.47.49
+[2018.09.19-22.47.49:996][324]LogWorld: Bringing up level for play took: 0.002861
+[2018.09.19-22.47.50:015][324]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest -0.2
+[2018.09.19-22.47.50:015][324]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.47.52:647][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.47.52:648][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.47.52:668][420]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.47.52:707][420]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.47.52:707][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.47.52:780][421]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.09.19-22.48.04:367][820]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-22.48.04:974][836]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.48.04:994][836]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.48.04:994][836]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.48.04:994][836]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 2:48:04 PM)
+[2018.09.19-22.48.04:995][836]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-22.48.05:007][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012331s)
+[2018.09.19-22.48.05:008][836]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-22.48.05:008][836]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2018.09.19-22.48.05:008][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.013614s)
+[2018.09.19-22.48.05:057][836]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.48.05:136][836]LogInit: FAudioDevice initialized.
+[2018.09.19-22.48.05:159][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.48.05:262][836]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.48.05:266][836]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-18.48.05
+[2018.09.19-22.48.05:267][836]LogWorld: Bringing up level for play took: 0.004324
+[2018.09.19-22.48.05:285][836]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest 1.07
+[2018.09.19-22.48.05:286][836]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.48.17:391][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.48.17:391][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.48.17:410][267]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.48.17:451][267]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.48.17:452][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.48.17:539][268]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.09.19-22.48.44:588][195]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-22.49.12:851][206]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-22.49.13:527][228]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.49.13:546][228]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.49.13:546][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.49.13:546][228]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 2:49:13 PM)
+[2018.09.19-22.49.13:546][228]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-22.49.13:563][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016524s)
+[2018.09.19-22.49.13:563][228]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-22.49.13:564][228]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2018.09.19-22.49.13:564][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.017457s)
+[2018.09.19-22.49.13:603][228]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.49.13:681][228]LogInit: FAudioDevice initialized.
+[2018.09.19-22.49.13:701][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.49.13:799][228]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.49.13:803][228]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-18.49.13
+[2018.09.19-22.49.13:804][228]LogWorld: Bringing up level for play took: 0.003435
+[2018.09.19-22.49.13:824][228]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest -0.391
+[2018.09.19-22.49.13:824][228]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.49.17:661][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.49.17:661][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.49.17:680][366]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.49.17:713][366]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.49.17:714][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.49.17:787][367]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.19-22.49.21:023][482]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.49.21:043][482]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.49.21:043][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.49.21:043][482]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 2:49:21 PM)
+[2018.09.19-22.49.21:043][482]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-22.49.21:056][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012845s)
+[2018.09.19-22.49.21:057][482]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-22.49.21:058][482]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2018.09.19-22.49.21:058][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.014136s)
+[2018.09.19-22.49.21:103][482]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.49.21:179][482]LogInit: FAudioDevice initialized.
+[2018.09.19-22.49.21:198][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.49.21:290][482]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.49.21:293][482]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-18.49.21
+[2018.09.19-22.49.21:294][482]LogWorld: Bringing up level for play took: 0.003477
+[2018.09.19-22.49.21:314][482]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest 1.099
+[2018.09.19-22.49.21:314][482]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.49.25:830][652]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.49.25:831][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.49.25:851][652]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.49.25:885][652]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.49.25:885][652]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.49.25:968][653]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.09.19-22.50.00:890][849]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-22.50.01:619][870]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.50.01:639][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.50.01:639][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.50.01:639][870]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 2:50:01 PM)
+[2018.09.19-22.50.01:639][870]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-22.50.01:651][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011708s)
+[2018.09.19-22.50.01:652][870]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-22.50.01:652][870]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2018.09.19-22.50.01:653][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.013160s)
+[2018.09.19-22.50.01:700][870]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.50.01:776][870]LogInit: FAudioDevice initialized.
+[2018.09.19-22.50.01:798][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.50.01:892][870]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.50.01:896][870]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-18.50.01
+[2018.09.19-22.50.01:896][870]LogWorld: Bringing up level for play took: 0.003237
+[2018.09.19-22.50.01:916][870]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest -0.299
+[2018.09.19-22.50.01:916][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.50.03:727][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.50.03:727][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.50.03:745][933]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.50.03:778][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.50.03:779][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.50.03:857][934]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.09.19-22.50.23:479][623]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-22.50.24:288][647]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.50.24:310][647]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.50.24:310][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.50.24:310][647]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 2:50:24 PM)
+[2018.09.19-22.50.24:310][647]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-22.50.24:322][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011558s)
+[2018.09.19-22.50.24:322][647]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-22.50.24:322][647]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2018.09.19-22.50.24:322][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.012362s)
+[2018.09.19-22.50.24:369][647]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.50.24:443][647]LogInit: FAudioDevice initialized.
+[2018.09.19-22.50.24:463][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.50.24:556][647]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.50.24:559][647]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-18.50.24
+[2018.09.19-22.50.24:560][647]LogWorld: Bringing up level for play took: 0.002787
+[2018.09.19-22.50.24:578][647]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest 0.363
+[2018.09.19-22.50.24:579][647]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.50.46:826][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.50.46:827][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.50.46:846][468]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.50.46:884][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.50.46:885][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.50.46:960][469]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.09.19-22.51.15:571][487]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-22.51.16:193][505]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.51.16:212][505]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.51.16:212][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.51.16:212][505]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 2:51:16 PM)
+[2018.09.19-22.51.16:212][505]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-22.51.16:225][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012845s)
+[2018.09.19-22.51.16:227][505]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-22.51.16:227][505]LogPlayLevel: PIE: World Init took: (0.001947s)
+[2018.09.19-22.51.16:227][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.014993s)
+[2018.09.19-22.51.16:273][505]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.51.16:346][505]LogInit: FAudioDevice initialized.
+[2018.09.19-22.51.16:366][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.51.16:465][505]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.51.16:470][505]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-18.51.16
+[2018.09.19-22.51.16:470][505]LogWorld: Bringing up level for play took: 0.003967
+[2018.09.19-22.51.16:490][505]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest 0.275
+[2018.09.19-22.51.16:491][505]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.51.33:917][179]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.51.33:918][179]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.51.33:936][179]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.51.33:976][179]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.51.33:977][179]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.51.34:054][180]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.09.19-22.52.17:518][738]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.19-22.52.20:731][858]BlueprintLog: New page: Compile TopDownHUD
+[2018.09.19-22.52.21:674][885]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.52.21:695][885]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.52.21:695][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.52.21:695][885]PIE: New page: PIE session: MinMaptest (Sep 19, 2018, 2:52:21 PM)
+[2018.09.19-22.52.21:695][885]LogPlayLevel: Creating play world package: /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest
+[2018.09.19-22.52.21:709][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013060s)
+[2018.09.19-22.52.21:710][885]LogAIModule: Creating AISystem for world MinMaptest
+[2018.09.19-22.52.21:710][885]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2018.09.19-22.52.21:710][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/MiniMap/MinMaptest.MinMaptest to /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest (0.014559s)
+[2018.09.19-22.52.21:756][885]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.52.21:826][885]LogInit: FAudioDevice initialized.
+[2018.09.19-22.52.21:848][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.52.21:948][885]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.52.21:953][885]LogWorld: Bringing World /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest.MinMaptest up for play (max tick rate 0) at 2018.09.19-18.52.21
+[2018.09.19-22.52.21:953][885]LogWorld: Bringing up level for play took: 0.004472
+[2018.09.19-22.52.21:974][885]PIE: Play in editor start time for /Game/TopDownBP/MiniMap/UEDPIE_0_MinMaptest -0.241
+[2018.09.19-22.52.21:975][885]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.52.51:828][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.52.51:828][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.52.51:848][971]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.52.51:882][971]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.52.51:883][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest' with GeneratedClass '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest_C' with ClassGeneratedBy '/Game/TopDownBP/MiniMap/MinMaptest.MinMaptest:PersistentLevel.MinMaptest'
+[2018.09.19-22.52.51:959][972]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.09.19-22.53.12:236][746]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/MinMaptest_Auto72A24B49041F10DD2CFD160BC35CCFBA6.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/MiniMap/MinMaptest_Auto7.umap'
+[2018.09.19-22.53.12:239][746]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/MiniMap/MinMaptest' took 0.321
+[2018.09.19-22.53.12:239][746]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.321
+[2018.09.19-22.53.12:241][746]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.09.19-22.53.12:241][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2018.09.19-22.53.12:514][746]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/TopDownCharacter_Auto7406B2D43469B72AD69B1A18DAE6C79D3.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto7.uasset'
+[2018.09.19-22.53.12:515][746]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI-Rick/TopDownHUD] ([1] browsable assets)...
+[2018.09.19-22.53.12:515][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI-Rick/TopDownHUD]
+[2018.09.19-22.53.12:515][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI-Rick/TopDownHUD" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2018.09.19-22.53.12:540][746]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/TopDownHUD_Auto7670D01614AE53FDE51765BB88AD547C8.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/TopDownHUD_Auto7.uasset'
+[2018.09.19-22.53.12:540][746]LogFileHelpers: Auto-saving content packages took 0.301
+[2018.09.19-22.53.42:246][352]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.19-22.53.42:249][352]LogAssetEditorManager: Opening Asset editor for World /Game/MapGenerator_Mike/MapGenerator.MapGenerator
+[2018.09.19-22.53.43:742][352]LogSlate: Window 'Save Content' being destroyed
+[2018.09.19-22.53.43:757][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2018.09.19-22.53.44:005][352]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/TopDownCharacter43324B314E6D043AEB375AACEF5D7DFA.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.09.19-22.53.44:014][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/MiniMap/mini" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/mini.uasset" SILENT=true
+[2018.09.19-22.53.44:020][352]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/miniD2F0082340CB4778BA73718551999D18.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/mini.uasset'
+[2018.09.19-22.53.44:029][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/MiniMap/MINImAP_Sprite" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/MINImAP_Sprite.uasset" SILENT=true
+[2018.09.19-22.53.44:036][352]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/MINImAP_Sprite6320BF094267F39960A6C5B3FF1B7574.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/MINImAP_Sprite.uasset'
+[2018.09.19-22.53.44:136][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/MiniMap/MinMaptest" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/MinMaptest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.19-22.53.44:444][352]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/MinMaptest7B51E79A4002E1A864ED7ABB2EA783A8.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/MiniMap/MinMaptest.umap'
+[2018.09.19-22.53.44:478][352]LogFileHelpers: Saving map 'MinMaptest' took 0.436
+[2018.09.19-22.53.44:478][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI-Rick/TopDownHUD" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/UI-Rick/TopDownHUD.uasset" SILENT=true
+[2018.09.19-22.53.44:495][352]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/TopDownHUD73BD03FB4E4EB0E71AA076986561DFD5.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Content/UI-Rick/TopDownHUD.uasset'
+[2018.09.19-22.53.44:503][352]Cmd: MAP LOAD FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.19-22.53.44:503][352]LightingResults: New page: Lighting Build
+[2018.09.19-22.53.44:503][352]LoadErrors: New page: Loading map: MapGenerator.umap
+[2018.09.19-22.53.44:506][352]MapCheck: New page: Map Check
+[2018.09.19-22.53.44:506][352]LightingResults: New page: Lighting Build
+[2018.09.19-22.53.44:634][352]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.19-22.53.44:699][352]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.19-22.53.44:784][352]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.634ms to complete.
+[2018.09.19-22.53.44:784][352]LogFileHelpers: Loading map 'MapGenerator' took 0.283
+[2018.09.19-22.53.46:461][527]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.53.46:482][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.53.46:482][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.53.46:482][527]PIE: New page: PIE session: MapGenerator (Sep 19, 2018, 2:53:46 PM)
+[2018.09.19-22.53.46:482][527]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.19-22.53.46:483][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001502s)
+[2018.09.19-22.53.46:484][527]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.19-22.53.46:484][527]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2018.09.19-22.53.46:484][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002227s)
+[2018.09.19-22.53.46:527][527]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.53.46:596][527]LogInit: FAudioDevice initialized.
+[2018.09.19-22.53.46:618][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.53.46:710][527]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.53.46:712][527]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.19-18.53.46
+[2018.09.19-22.53.46:712][527]LogWorld: Bringing up level for play took: 0.000897
+[2018.09.19-22.53.46:805][527]LogBlueprintUserMessages: [MapGenerator_BP_4] 4
+[2018.09.19-22.53.46:805][527]LogBlueprintUserMessages: [MapGenerator_BP_4] 1
+[2018.09.19-22.53.46:821][527]LogBlueprintUserMessages: [MapGenerator_BP_4] GENERATOR
+[2018.09.19-22.53.46:828][527]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 0.613
+[2018.09.19-22.53.46:829][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.55.38:908][775]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.55.38:908][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.55.38:929][775]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.55.38:966][775]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.55.38:967][775]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.55.39:021][776]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.09.19-22.56.01:337][441]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.56.01:357][441]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.56.01:358][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.56.01:358][441]PIE: New page: PIE session: MapGenerator (Sep 19, 2018, 2:56:01 PM)
+[2018.09.19-22.56.01:358][441]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.19-22.56.01:359][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001304s)
+[2018.09.19-22.56.01:360][441]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.19-22.56.01:360][441]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2018.09.19-22.56.01:360][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002137s)
+[2018.09.19-22.56.01:400][441]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.56.01:469][441]LogInit: FAudioDevice initialized.
+[2018.09.19-22.56.01:488][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.56.01:582][441]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.56.01:583][441]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.19-18.56.01
+[2018.09.19-22.56.01:583][441]LogWorld: Bringing up level for play took: 0.000622
+[2018.09.19-22.56.01:602][441]LogBlueprintUserMessages: [MapGenerator_BP_4] 4
+[2018.09.19-22.56.01:602][441]LogBlueprintUserMessages: [MapGenerator_BP_4] 1
+[2018.09.19-22.56.01:617][441]LogBlueprintUserMessages: [MapGenerator_BP_4] GENERATOR
+[2018.09.19-22.56.01:626][441]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator -0.589
+[2018.09.19-22.56.01:626][441]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.56.31:857][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.56.31:858][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.56.31:881][921]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.56.31:916][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.56.31:917][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.56.31:981][922]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.09.19-22.56.33:044][ 36]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-22.56.33:066][ 36]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.56.33:066][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-22.56.33:066][ 36]PIE: New page: PIE session: MapGenerator (Sep 19, 2018, 2:56:33 PM)
+[2018.09.19-22.56.33:066][ 36]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.19-22.56.33:069][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002558s)
+[2018.09.19-22.56.33:070][ 36]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.19-22.56.33:070][ 36]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2018.09.19-22.56.33:070][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.003858s)
+[2018.09.19-22.56.33:108][ 36]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-22.56.33:178][ 36]LogInit: FAudioDevice initialized.
+[2018.09.19-22.56.33:201][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.56.33:295][ 36]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.56.33:296][ 36]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.19-18.56.33
+[2018.09.19-22.56.33:296][ 36]LogWorld: Bringing up level for play took: 0.000499
+[2018.09.19-22.56.33:314][ 36]LogBlueprintUserMessages: [MapGenerator_BP_4] 3
+[2018.09.19-22.56.33:314][ 36]LogBlueprintUserMessages: [MapGenerator_BP_4] 1
+[2018.09.19-22.56.33:321][ 36]LogBlueprintUserMessages: [MapGenerator_BP_4] GENERATOR
+[2018.09.19-22.56.33:333][ 36]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 1.118
+[2018.09.19-22.56.33:333][ 36]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.56.33:431][ 37]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.19-22.56.33:431][ 37]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.19-22.56.33:468][ 37]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.19-22.56.33:471][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002578s)
+[2018.09.19-22.56.33:472][ 37]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.19-22.56.33:472][ 37]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2018.09.19-22.56.33:472][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.004000s)
+[2018.09.19-22.56.33:472][ 37]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.56.33:474][ 37]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.19-18.56.33
+[2018.09.19-22.56.33:474][ 37]LogWorld: Bringing up level for play took: 0.000671
+[2018.09.19-22.56.33:474][ 37]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.19-22.56.33:479][ 37]LogBlueprintUserMessages: [MapGenerator_BP_4] 5
+[2018.09.19-22.56.33:479][ 37]LogBlueprintUserMessages: [MapGenerator_BP_4] 1
+[2018.09.19-22.56.33:493][ 37]LogLoad: Took 0.061712 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.19-22.56.33:558][ 38]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.19-22.56.33:558][ 38]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.19-22.56.33:597][ 38]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.19-22.56.33:599][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001947s)
+[2018.09.19-22.56.33:600][ 38]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.19-22.56.33:600][ 38]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2018.09.19-22.56.33:600][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002820s)
+[2018.09.19-22.56.33:600][ 38]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-22.56.33:601][ 38]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.19-18.56.33
+[2018.09.19-22.56.33:601][ 38]LogWorld: Bringing up level for play took: 0.000853
+[2018.09.19-22.56.33:602][ 38]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.19-22.56.33:608][ 38]LogBlueprintUserMessages: [MapGenerator_BP_4] 2
+[2018.09.19-22.56.33:608][ 38]LogBlueprintUserMessages: [MapGenerator_BP_4] 1
+[2018.09.19-22.56.33:620][ 38]LogBlueprintUserMessages: [MapGenerator_BP_4] GENERATOR
+[2018.09.19-22.56.33:623][ 38]LogLoad: Took 0.065033 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.19-22.59.42:832][916]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.59.42:833][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-22.59.42:850][916]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-22.59.42:892][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-22.59.42:892][916]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-22.59.42:942][917]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.09.19-23.03.43:640][732]LogAssetEditorManager: Opening Asset editor for World /Game/MapGenerator_Mike/MapGenerator.MapGenerator
+[2018.09.19-23.03.43:678][732]Cmd: MAP LOAD FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.19-23.03.43:678][732]LightingResults: New page: Lighting Build
+[2018.09.19-23.03.43:679][732]LoadErrors: New page: Loading map: MapGenerator.umap
+[2018.09.19-23.03.43:679][732]MapCheck: New page: Map Check
+[2018.09.19-23.03.43:679][732]LightingResults: New page: Lighting Build
+[2018.09.19-23.03.43:724][732]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.19-23.03.43:797][732]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.19-23.03.43:857][732]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.19-23.03.43:942][732]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.331ms to complete.
+[2018.09.19-23.03.43:943][732]LogFileHelpers: Loading map 'MapGenerator' took 0.266
+[2018.09.19-23.03.48:488][246]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-23.03.48:510][246]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-23.03.48:510][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-23.03.48:510][246]PIE: New page: PIE session: MapGenerator (Sep 19, 2018, 3:03:48 PM)
+[2018.09.19-23.03.48:510][246]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.19-23.03.48:512][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001458s)
+[2018.09.19-23.03.48:512][246]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.19-23.03.48:513][246]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2018.09.19-23.03.48:513][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002175s)
+[2018.09.19-23.03.48:556][246]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-23.03.48:625][246]LogInit: FAudioDevice initialized.
+[2018.09.19-23.03.48:647][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-23.03.48:751][246]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-23.03.48:752][246]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.19-19.03.48
+[2018.09.19-23.03.48:752][246]LogWorld: Bringing up level for play took: 0.000845
+[2018.09.19-23.03.48:771][246]LogBlueprintUserMessages: [MapGenerator_BP_4] 0
+[2018.09.19-23.03.48:771][246]LogBlueprintUserMessages: [MapGenerator_BP_4] 1
+[2018.09.19-23.03.48:782][246]LogBlueprintUserMessages: [MapGenerator_BP_4] GENERATOR
+[2018.09.19-23.03.48:793][246]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 0.578
+[2018.09.19-23.03.48:793][246]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-23.05.48:377][378]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-23.05.48:378][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-23.05.48:397][378]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-23.05.48:434][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-23.05.48:435][378]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.19-23.05.48:497][379]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.09.19-23.06.01:157][791]LogLinker: Warning: Can't find file '/Game/TopDownBP/Maps/ControllerTest_BuiltData'
+[2018.09.19-23.06.01:157][791]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Maps/ControllerTest_BuiltData' while loading ../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/ControllerTest.umap.
+[2018.09.19-23.06.01:158][791]LoadErrors: Error: /Game/TopDownBP/Maps/ControllerTest : Can't find file for asset. /Game/TopDownBP/Maps/ControllerTest_BuiltData
+[2018.09.19-23.06.01:159][791]LogLinker: Warning: Can't find file '/Game/TopDownBP/Maps/ControllerTest_BuiltData'
+[2018.09.19-23.06.01:159][791]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Maps/ControllerTest_BuiltData' while loading ../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/ControllerTest.umap.
+[2018.09.19-23.06.01:163][791]LogLinker: Warning: Can't find file '/Game/TopDownBP/Maps/ControllerTest_BuiltData'
+[2018.09.19-23.06.01:163][791]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Maps/ControllerTest_BuiltData' while loading NULL.
+[2018.09.19-23.06.01:163][791]LogLinker: Warning: Can't find file '/Game/TopDownBP/Maps/ControllerTest_BuiltData'
+[2018.09.19-23.06.01:163][791]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Maps/ControllerTest_BuiltData' while loading NULL.
+[2018.09.19-23.06.01:176][791]LogLinker: Warning: Can't find file '/Game/TopDownBP/Maps/ControllerTest_BuiltData'
+[2018.09.19-23.06.01:176][791]LoadErrors: Failed to load /Game/TopDownBP/Maps/ControllerTest_BuiltData.ControllerTest_BuiltData Referenced by PersistentLevel
+[2018.09.19-23.06.01:176][791]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Maps/ControllerTest_BuiltData' while loading NULL.
+[2018.09.19-23.06.01:197][791]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.19-23.06.10:083][802]LogAIModule: Creating AISystem for world DeanTestScene
+[2018.09.19-23.06.13:515][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/DeanTestScene" FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/DeanTestScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.19-23.06.13:837][171]LogSavePackage: Moving '../../../../GameDev/_projects/A.S.H/ASH_Game/Saved/DeanTestSceneCC5577034B3E80C09171F2B84BCCF1DB.tmp' to '../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/DeanTestScene.umap'
+[2018.09.19-23.06.13:853][171]LogFileHelpers: Saving map 'DeanTestScene' took 0.419
+[2018.09.19-23.06.14:821][275]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/DeanTestScene.DeanTestScene
+[2018.09.19-23.06.14:849][275]Cmd: MAP LOAD FILE="../../../../GameDev/_projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/DeanTestScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.19-23.06.14:849][275]LightingResults: New page: Lighting Build
+[2018.09.19-23.06.14:850][275]LoadErrors: New page: Loading map: DeanTestScene.umap
+[2018.09.19-23.06.14:851][275]MapCheck: New page: Map Check
+[2018.09.19-23.06.14:851][275]LightingResults: New page: Lighting Build
+[2018.09.19-23.06.15:064][275]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.19-23.06.15:132][275]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.19-23.06.15:212][275]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.566ms to complete.
+[2018.09.19-23.06.15:213][275]LogFileHelpers: Loading map 'DeanTestScene' took 0.365
+[2018.09.19-23.06.16:864][433]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-23.06.16:882][433]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene' with GeneratedClass '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene'
+[2018.09.19-23.06.16:883][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-23.06.16:883][433]PIE: New page: PIE session: DeanTestScene (Sep 19, 2018, 3:06:16 PM)
+[2018.09.19-23.06.16:883][433]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_DeanTestScene
+[2018.09.19-23.06.16:897][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014363s)
+[2018.09.19-23.06.16:898][433]LogAIModule: Creating AISystem for world DeanTestScene
+[2018.09.19-23.06.16:898][433]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2018.09.19-23.06.16:898][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/DeanTestScene.DeanTestScene to /Game/TopDownBP/Maps/UEDPIE_0_DeanTestScene.DeanTestScene (0.015508s)
+[2018.09.19-23.06.16:939][433]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-23.06.17:006][433]LogInit: FAudioDevice initialized.
+[2018.09.19-23.06.17:028][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-23.06.17:124][433]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-23.06.17:126][433]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_DeanTestScene.DeanTestScene up for play (max tick rate 0) at 2018.09.19-19.06.17
+[2018.09.19-23.06.17:127][433]LogWorld: Bringing up level for play took: 0.002591
+[2018.09.19-23.06.17:185][433]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_DeanTestScene 0.97
+[2018.09.19-23.06.17:185][433]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene' with GeneratedClass '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene'
+[2018.09.19-23.06.43:961][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene' with GeneratedClass '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene'
+[2018.09.19-23.06.43:961][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-23.06.43:979][420]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-23.06.44:017][420]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-23.06.44:018][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene' with GeneratedClass '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene'
+[2018.09.19-23.06.44:067][421]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2018.09.19-23.06.52:648][418]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-23.06.52:666][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene' with GeneratedClass '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene'
+[2018.09.19-23.06.52:667][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-23.06.52:667][418]PIE: New page: PIE session: DeanTestScene (Sep 19, 2018, 3:06:52 PM)
+[2018.09.19-23.06.52:667][418]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_DeanTestScene
+[2018.09.19-23.06.52:682][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014675s)
+[2018.09.19-23.06.52:682][418]LogAIModule: Creating AISystem for world DeanTestScene
+[2018.09.19-23.06.52:683][418]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2018.09.19-23.06.52:683][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/DeanTestScene.DeanTestScene to /Game/TopDownBP/Maps/UEDPIE_0_DeanTestScene.DeanTestScene (0.015777s)
+[2018.09.19-23.06.52:723][418]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-23.06.52:787][418]LogInit: FAudioDevice initialized.
+[2018.09.19-23.06.52:808][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-23.06.52:907][418]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-23.06.52:912][418]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_DeanTestScene.DeanTestScene up for play (max tick rate 0) at 2018.09.19-19.06.52
+[2018.09.19-23.06.52:913][418]LogWorld: Bringing up level for play took: 0.004667
+[2018.09.19-23.06.52:934][418]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_DeanTestScene 0.718
+[2018.09.19-23.06.52:934][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene' with GeneratedClass '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene'
+[2018.09.19-23.06.58:222][  7]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene' with GeneratedClass '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene'
+[2018.09.19-23.06.58:223][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-23.06.58:240][  7]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-23.06.58:276][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-23.06.58:277][  7]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene' with GeneratedClass '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/DeanTestScene.DeanTestScene:PersistentLevel.DeanTestScene'
+[2018.09.19-23.06.58:325][  8]LogPlayLevel: Display: Destroying online subsystem :Context_28
