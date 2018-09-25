@@ -1,0 +1,1392 @@
+﻿Log file open, 09/18/18 19:50:15
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ASH_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.276016
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.138s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.18-23.50.15:488][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.18-23.50.15:488][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.18-23.50.15:503][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.18-23.50.15:503][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.18-23.50.15:503][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.18-23.50.15:503][  0]LogInit: Computer: DESKTOP-S49REJ4
+[2018.09.18-23.50.15:503][  0]LogInit: User: ryanv
+[2018.09.18-23.50.15:503][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.18-23.50.15:503][  0]LogInit: High frequency timer resolution =2.742185 MHz
+[2018.09.18-23.50.15:504][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.18-23.50.15:504][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.18-23.50.15:504][  0]LogMemory: Process Physical Memory: 101.57 MB used, 101.57 MB peak
+[2018.09.18-23.50.15:504][  0]LogMemory: Process Virtual Memory: 90.55 MB used, 90.55 MB peak
+[2018.09.18-23.50.15:504][  0]LogMemory: Physical Memory: 6148.07 MB used,  10108.96 MB free, 16257.03 MB total
+[2018.09.18-23.50.15:504][  0]LogMemory: Virtual Memory: 4644.48 MB used,  10108.96 MB free, 134217728.00 MB total
+[2018.09.18-23.50.15:783][  0]LogInit: Using OS detected language (en-US).
+[2018.09.18-23.50.15:783][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.18-23.50.15:783][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.18-23.50.16:197][  0]LogStreaming: Display: Took  0.415s to InitEngineTextLocalization.
+[2018.09.18-23.50.16:197][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.18-23.50.16:233][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.18-23.50.16:234][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.18-23.50.16:430][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.18-23.50.16:430][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.18-23.50.16:477][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.18-23.50.16:477][  0]LogD3D11RHI:       8074/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.18-23.50.16:501][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.18-23.50.16:501][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.18-23.50.16:503][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.18-23.50.16:503][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.18-23.50.16:503][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.18-23.50.16:511][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.18-23.50.16:511][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.18-23.50.16:511][  0]LogWindows: EnumDisplayDevices:
+[2018.09.18-23.50.16:511][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.18-23.50.16:511][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.18-23.50.16:511][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.18-23.50.16:512][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.18-23.50.16:512][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.18-23.50.16:512][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.18-23.50.16:513][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.18-23.50.16:513][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.18-23.50.16:513][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.18-23.50.16:513][  0]LogD3D11RHI:   Driver Version: 385.14 (internal:22.21.13.8514, unified:385.14)
+[2018.09.18-23.50.16:513][  0]LogD3D11RHI:      Driver Date: 7-30-2017
+[2018.09.18-23.50.16:513][  0]LogRHI: Texture pool is 5651 MB (70% of 8074 MB)
+[2018.09.18-23.50.16:539][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.18-23.50.16:550][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.09.18-23.50.16:597][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../GameDev/_Projects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/16448/).
+[2018.09.18-23.50.16:597][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ryanv/AppData/Local/Temp/UnrealShaderWorkingDir/909259C44328B25491773C95A86634B8/'.
+[2018.09.18-23.50.16:912][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.18-23.50.16:926][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.18-23.50.16:938][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.18-23.50.16:952][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.18-23.50.16:966][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.18-23.50.16:978][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.18-23.50.16:991][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.18-23.50.17:004][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.18-23.50.17:010][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-23.50.17:090][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.18-23.50.17:150][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.18-23.50.17:150][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.18-23.50.17:174][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.18-23.50.17:174][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.18-23.50.17:185][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.18-23.50.17:202][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.18-23.50.17:216][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.18-23.50.17:229][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.18-23.50.17:238][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.18-23.50.17:238][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.18-23.50.17:281][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.18-23.50.17:281][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.18-23.50.17:281][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.18-23.50.17:973][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.18-23.50.18:029][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.18-23.50.18:030][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.18-23.50.18:030][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.18-23.50.18:030][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.18-23.50.18:030][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.18-23.50.18:030][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.18-23.50.18:042][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.18-23.50.18:055][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanv/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.18-23.50.18:055][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.18-23.50.18:055][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.18-23.50.18:074][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.18-23.50.18:075][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.18-23.50.18:076][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.18-23.50.18:147][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.09.18-23.50.18:471][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.18-23.50.18:603][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.18-23.50.18:606][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.18-23.50.18:606][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.18-23.50.18:606][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.18-23.50.18:606][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.18-23.50.18:627][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.09.18-23.50.19:129][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.097036 seconds
+[2018.09.18-23.50.19:138][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.18-23.50.19:138][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.18-23.50.19:138][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.18-23.50.19:941][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.18-23.50.19:954][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.18-23.50.20:104][  0]SourceControl: Source control is disabled
+[2018.09.18-23.50.20:104][  0]SourceControl: Source control is disabled
+[2018.09.18-23.50.20:105][  0]SourceControl: Source control is disabled
+[2018.09.18-23.50.20:106][  0]SourceControl: Source control is disabled
+[2018.09.18-23.50.20:268][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.18-23.50.20:336][  0]LogOcInput: OculusInput pre-init called
+[2018.09.18-23.50.20:393][  0]LogEngine: Initializing Engine...
+[2018.09.18-23.50.20:394][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.18-23.50.20:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.18-23.50.20:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.18-23.50.20:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.18-23.50.20:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.18-23.50.20:601][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.18-23.50.20:619][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.18-23.50.20:680][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-23.50.20:756][  0]LogInit: FAudioDevice initialized.
+[2018.09.18-23.50.20:757][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.18-23.50.20:844][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.18-23.50.20:853][  0]LogInit: Texture streaming: Enabled
+[2018.09.18-23.50.20:866][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.18-23.50.20:880][  0]LogInit: Transaction tracking system initialized
+[2018.09.18-23.50.20:897][  0]BlueprintLog: New page: Editor Load
+[2018.09.18-23.50.20:952][  0]LocalizationService: Localization service is disabled
+[2018.09.18-23.50.21:236][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.18-23.50.21:236][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.18-23.50.21:236][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.18-23.50.21:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.18-23.50.21:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.18-23.50.21:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.18-23.50.21:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.18-23.50.21:337][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.02s
+[2018.09.18-23.50.21:337][  0]SourceControl: Source control is disabled
+[2018.09.18-23.50.21:338][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-23.50.21:338][  0]LightingResults: New page: Lighting Build
+[2018.09.18-23.50.21:340][  0]MapCheck: New page: Map Check
+[2018.09.18-23.50.21:340][  0]LightingResults: New page: Lighting Build
+[2018.09.18-23.50.21:730][  0]LogMaterial: Display: Missing cached shader map for material BranchTile, compiling. 
+[2018.09.18-23.50.21:986][  0]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.09.18-23.50.21:986][  0]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.09.18-23.50.21:986][  0]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.09.18-23.50.21:986][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.18-23.50.21:986][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.18-23.50.21:986][  0]LogMaterial: Display: Missing cached shader map for material GeneratorTile, compiling. 
+[2018.09.18-23.50.22:021][  0]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.18-23.50.22:026][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-23.50.22:052][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-23.50.22:102][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.771ms to complete.
+[2018.09.18-23.50.22:102][  0]LogFileHelpers: Loading map 'MapGenerator' took 0.765
+[2018.09.18-23.50.23:263][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.50.23:306][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.50.23:313][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.50.23:324][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.50.23:366][  0]LogCollectionManager: Loaded 0 collections in 0.001231 seconds
+[2018.09.18-23.50.23:555][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
+[2018.09.18-23.50.23:555][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Developers/ryanv/Collections/' took 0.01s
+[2018.09.18-23.50.23:555][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
+[2018.09.18-23.50.23:555][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.18-23.50.23:564][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2572 classes and 603 folders.
+[2018.09.18-23.50.23:639][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.18-23.50.25:478][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.18-23.50.25:523][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.18-23.50.26:376][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.18-23.50.26:379][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.18-23.50.26:468][  0]LogSlate: Took 0.020502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.18-23.50.26:712][  0]LogRenderer: Reallocating scene render targets to support 1060x440 Format 10 NumSamples 1 (Frame:1).
+[2018.09.18-23.50.27:236][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.18-23.50.27:236][  0]LogLoad: (Engine Initialization) Total time: 13.36 seconds
+[2018.09.18-23.50.27:236][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.18-23.50.27:255][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.18-23.50.27:325][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.18-23.50.27:654][ 12]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.09.18-23.50.27:940][ 29]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.09.18-23.50.28:316][ 47]LogSlate: Took 0.021791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.18-23.50.30:031][150]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.09.18-23.50.30:031][150]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.09.18-23.50.30:732][192]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.09.18-23.50.32:178][278]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.18-23.50.33:017][328]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.18-23.50.34:149][396]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.50.38:320][644]LogAssetRegistry: Asset discovery search completed in 20.1949 seconds
+[2018.09.18-23.50.38:322][644]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.18-23.50.38:322][644]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2018.09.18-23.50.44:888][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.51.01:281][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.51.02:946][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.53.32:413][840]LogSlate: Window 'New Level' being destroyed
+[2018.09.18-23.53.32:698][840]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-23.53.32:715][840]LightingResults: New page: Lighting Build
+[2018.09.18-23.53.32:716][840]LoadErrors: New page: Loading map: Template_Default.umap
+[2018.09.18-23.53.32:722][840]MapCheck: New page: Map Check
+[2018.09.18-23.53.32:722][840]LightingResults: New page: Lighting Build
+[2018.09.18-23.53.32:895][840]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.18-23.53.32:995][840]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-23.53.33:027][840]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-23.53.33:076][840]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.802ms to complete.
+[2018.09.18-23.53.33:076][840]LogFileHelpers: Loading map 'Template_Default' took 0.379
+[2018.09.18-23.53.44:620][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2018.09.18-23.53.44:620][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.09.18-23.53.44:620][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.09.18-23.53.44:621][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.09.18-23.53.44:643][502]LogBlueprint: Warning: [Compiler TopDownCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.09.18-23.53.44:696][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0210.82] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 175 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.09.18-23.53.44:696][502]LogBlueprint: Warning: [Compiler TopDownCharacter] [0210.82] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 175 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: Tex_0006_3 (AutoDXT, 256X1024)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: Tex_0004_1 (AutoDXT, 2048X2048)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: Tex_0012_1 (AutoDXT, 256X256)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: Tex_0012_3 (BC5, 256X256)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: Tex_0006_1 (AutoDXT, 256X1024)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: shooting-clipart-pointer (AutoDXT, 980X980)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: HealthBar (AutoDXT, 1920X1080)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2018.09.18-23.53.46:090][502]LogTexture: Display: Building textures: WeaponBar (AutoDXT, 1920X1080)
+[2018.09.18-23.53.46:090][502]LogMaterial: Display: Missing cached shader map for material Tex_0004_1_dds_ncl1_1, compiling. 
+[2018.09.18-23.53.46:170][502]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.18-23.53.46:170][502]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.18-23.53.46:170][502]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.53.46:170][502]LogStaticMesh: Building static mesh ACWR_TRIGGER...
+[2018.09.18-23.53.46:208][502]LogStaticMesh: Built static mesh [0.04s] /Game/FPWeapon/ACWR_TRIGGER.ACWR_TRIGGER
+[2018.09.18-23.53.46:260][502]LogStaticMesh: Building static mesh ACWR_Mesh_0007...
+[2018.09.18-23.53.46:312][502]LogStaticMesh: Built static mesh [0.05s] /Game/FPWeapon/ACWR_Mesh_0007.ACWR_Mesh_0007
+[2018.09.18-23.53.46:371][502]LogStaticMesh: Building static mesh ACWR_BOLT...
+[2018.09.18-23.53.46:382][502]LogStaticMesh: Built static mesh [0.01s] /Game/FPWeapon/ACWR_BOLT.ACWR_BOLT
+[2018.09.18-23.53.46:391][502]LogStaticMesh: Building static mesh ACWR_MAG...
+[2018.09.18-23.53.46:419][502]LogStaticMesh: Built static mesh [0.03s] /Game/FPWeapon/ACWR_MAG.ACWR_MAG
+[2018.09.18-23.53.46:456][502]LogStaticMesh: Building static mesh ACWR_Mesh_0004...
+[2018.09.18-23.53.46:585][502]LogStaticMesh: Built static mesh [0.13s] /Game/FPWeapon/ACWR_Mesh_0004.ACWR_Mesh_0004
+[2018.09.18-23.53.46:605][502]LogStaticMesh: Building static mesh ACWR_Mesh_0005...
+[2018.09.18-23.53.46:622][502]LogStaticMesh: Built static mesh [0.02s] /Game/FPWeapon/ACWR_Mesh_0005.ACWR_Mesh_0005
+[2018.09.18-23.53.46:628][502]LogStaticMesh: Building static mesh ACWR_Mesh_0006...
+[2018.09.18-23.53.46:639][502]LogStaticMesh: Built static mesh [0.01s] /Game/FPWeapon/ACWR_Mesh_0006.ACWR_Mesh_0006
+[2018.09.18-23.53.46:690][502]LogMaterial: Display: Missing cached shader map for material Tex_0005_1_dds, compiling. 
+[2018.09.18-23.53.46:720][502]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.18-23.53.46:720][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2018.09.18-23.53.46:720][502]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_10) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.18-23.53.46:724][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2018.09.18-23.53.46:725][502]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_8) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.18-23.53.46:736][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand
+[2018.09.18-23.53.46:736][502]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand) using current/default (AnimCompress_BitwiseCompressOnly_39) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.18-23.53.46:737][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights
+[2018.09.18-23.53.46:737][502]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_59) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.18-23.53.46:739][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog
+[2018.09.18-23.53.46:739][502]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog) using current/default (AnimCompress_BitwiseCompressOnly_38) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.18-23.53.46:741][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2018.09.18-23.53.46:741][502]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.18-23.53.46:924][502]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.18-23.53.46:925][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2018.09.18-23.53.46:925][502]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.18-23.53.46:971][502]LogMaterial: Display: Missing cached shader map for material Tex_0006_1_dds, compiling. 
+[2018.09.18-23.53.46:988][502]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.09.18-23.53.47:091][502]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2018.09.18-23.53.47:163][502]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2018.09.18-23.53.47:174][502]LogMaterial: Display: Missing cached shader map for material Tex_0004_1_dds, compiling. 
+[2018.09.18-23.53.47:212][502]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.09.18-23.53.47:299][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2018.09.18-23.53.47:299][502]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_12) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.18-23.53.47:301][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights
+[2018.09.18-23.53.47:301][502]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.18-23.53.47:306][502]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Single_Shot...
+[2018.09.18-23.53.47:307][502]LogTemp: Couldn't find amount to resample to.
+[2018.09.18-23.53.47:348][502]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 149024 while cooking SoundWave /Game/FPWeapon/Single_Shot.Single_Shot.
+[2018.09.18-23.53.48:639][534]LogShaderCompilers: Display: Shaders left to compile 302
+[2018.09.18-23.53.49:311][555]LogShaderCompilers: Display: Shaders left to compile 292
+[2018.09.18-23.53.50:192][578]LogShaderCompilers: Display: Shaders left to compile 282
+[2018.09.18-23.53.50:623][601]LogShaderCompilers: Display: Shaders left to compile 272
+[2018.09.18-23.53.50:690][605]LogShaderCompilers: Display: Shaders left to compile 262
+[2018.09.18-23.53.52:575][680]LogShaderCompilers: Display: Shaders left to compile 252
+[2018.09.18-23.53.52:659][685]LogShaderCompilers: Display: Shaders left to compile 242
+[2018.09.18-23.53.52:844][696]LogShaderCompilers: Display: Shaders left to compile 232
+[2018.09.18-23.53.52:943][702]LogShaderCompilers: Display: Shaders left to compile 222
+[2018.09.18-23.53.55:035][817]LogShaderCompilers: Display: Shaders left to compile 212
+[2018.09.18-23.53.55:539][845]LogShaderCompilers: Display: Shaders left to compile 202
+[2018.09.18-23.53.55:673][853]LogShaderCompilers: Display: Shaders left to compile 192
+[2018.09.18-23.53.56:226][886]LogShaderCompilers: Display: Shaders left to compile 182
+[2018.09.18-23.53.57:708][975]LogShaderCompilers: Display: Shaders left to compile 172
+[2018.09.18-23.53.58:092][998]LogShaderCompilers: Display: Shaders left to compile 162
+[2018.09.18-23.53.58:508][ 23]LogShaderCompilers: Display: Shaders left to compile 152
+[2018.09.18-23.53.59:518][ 72]LogShaderCompilers: Display: Shaders left to compile 142
+[2018.09.18-23.54.00:461][123]LogShaderCompilers: Display: Shaders left to compile 132
+[2018.09.18-23.54.00:509][126]LogShaderCompilers: Display: Shaders left to compile 122
+[2018.09.18-23.54.02:219][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.54.02:263][228]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.09.18-23.54.02:291][229]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.18-23.54.02:354][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-23.54.02:379][229]PIE: New page: PIE session: Untitled_1 (Sep 18, 2018, 3:54:02 PM)
+[2018.09.18-23.54.02:379][229]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.18-23.54.02:407][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029255s)
+[2018.09.18-23.54.02:408][229]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.18-23.54.02:409][229]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2018.09.18-23.54.02:409][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.030617s)
+[2018.09.18-23.54.02:445][229]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.09.18-23.54.02:503][229]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-23.54.02:588][229]LogInit: FAudioDevice initialized.
+[2018.09.18-23.54.02:600][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.54.02:760][229]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.18-23.54.02:779][229]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.18-19.54.02
+[2018.09.18-23.54.02:819][229]LogWorld: Bringing up level for play took: 0.052409
+[2018.09.18-23.54.02:898][229]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.09.18-23.54.02:937][229]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.09.18-23.54.02:937][229]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.925
+[2018.09.18-23.54.03:054][229]LogRenderer: Reallocating scene render targets to support 1060x480 Format 10 NumSamples 1 (Frame:1).
+[2018.09.18-23.54.03:175][234]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.09.18-23.54.04:421][309]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.09.18-23.54.05:287][361]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.09.18-23.54.05:287][361]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.09.18-23.54.06:355][425]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.09.18-23.54.06:705][446]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.09.18-23.54.08:110][528]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.18-23.54.08:259][537]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.18-23.54.08:878][574]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.54.39:318][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.54.39:335][399]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.18-23.54.39:661][399]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-23.54.39:709][400]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.09.18-23.54.44:189][654]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.18-23.56.07:452][112]LogSlate: Window 'Save Level As' being destroyed
+[2018.09.18-23.56.07:896][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RoomCreationLevel" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Maps/RoomCreationLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.18-23.56.08:011][112]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLevel85B9A9F8413F39943F2ADF8C313C81B5.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Maps/RoomCreationLevel.umap'
+[2018.09.18-23.56.08:078][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RoomCreationLevel_BuiltData" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Maps/RoomCreationLevel_BuiltData.uasset" SILENT=true
+[2018.09.18-23.56.08:093][112]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLevel_BuiltData4AD6728C46EA1C9972024AA7D7C9DB38.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Maps/RoomCreationLevel_BuiltData.uasset'
+[2018.09.18-23.56.08:101][112]LogFileHelpers: Saving map 'RoomCreationLevel' took 0.372
+[2018.09.18-23.56.08:102][112]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Maps/RoomCreationLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-23.56.08:110][112]LightingResults: New page: Lighting Build
+[2018.09.18-23.56.08:111][112]LoadErrors: New page: Loading map: RoomCreationLevel.umap
+[2018.09.18-23.56.08:114][112]MapCheck: New page: Map Check
+[2018.09.18-23.56.08:114][112]LightingResults: New page: Lighting Build
+[2018.09.18-23.56.08:161][112]LogAIModule: Creating AISystem for world RoomCreationLevel
+[2018.09.18-23.56.08:263][112]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-23.56.08:318][112]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-23.56.08:381][112]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.04ms to complete.
+[2018.09.18-23.56.08:381][112]LogFileHelpers: Loading map 'RoomCreationLevel' took 0.279
+[2018.09.18-23.56.27:337][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.18-23.56.44:793][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.18-23.56.46:287][373]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.57.00:965][253]LogActorFactory: Actor Factory created TemplateFloor
+[2018.09.18-23.57.02:792][360]LogActorFactory: Actor Factory created TemplateFloor
+[2018.09.18-23.57.03:652][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.18-23.57.06:191][557]Cmd: DELETE
+[2018.09.18-23.57.06:191][557]Cmd: ACTOR DELETE
+[2018.09.18-23.57.06:269][557]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.18-23.57.06:334][557]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2018.09.18-23.57.10:817][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.57.10:917][832]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.18-23.57.10:970][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-23.57.10:970][832]PIE: New page: PIE session: RoomCreationLevel (Sep 18, 2018, 3:57:10 PM)
+[2018.09.18-23.57.10:970][832]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RoomCreationLevel
+[2018.09.18-23.57.10:973][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003318s)
+[2018.09.18-23.57.10:974][832]LogAIModule: Creating AISystem for world RoomCreationLevel
+[2018.09.18-23.57.10:974][832]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2018.09.18-23.57.10:974][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RoomCreationLevel.RoomCreationLevel to /Game/Maps/UEDPIE_0_RoomCreationLevel.RoomCreationLevel (0.004215s)
+[2018.09.18-23.57.11:008][832]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-23.57.11:079][832]LogInit: FAudioDevice initialized.
+[2018.09.18-23.57.11:089][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.57.11:156][832]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.18-23.57.11:159][832]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RoomCreationLevel.RoomCreationLevel up for play (max tick rate 60) at 2018.09.18-19.57.11
+[2018.09.18-23.57.11:160][832]LogWorld: Bringing up level for play took: 0.002366
+[2018.09.18-23.57.11:182][832]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_RoomCreationLevel 1.17
+[2018.09.18-23.57.15:421][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.57.15:437][ 84]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.18-23.57.15:470][ 84]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-23.57.15:525][ 85]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.09.18-23.57.25:211][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
+[2018.09.18-23.57.26:437][736]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.57.42:945][609]LogLinker: Warning: Can't find file '/Game/TopDownBP/Maps/ControllerTest_BuiltData'
+[2018.09.18-23.57.42:945][609]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Maps/ControllerTest_BuiltData' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/ControllerTest.umap.
+[2018.09.18-23.57.42:946][609]LoadErrors: Error: /Game/TopDownBP/Maps/ControllerTest : Can't find file for asset. /Game/TopDownBP/Maps/ControllerTest_BuiltData
+[2018.09.18-23.57.42:951][609]LogLinker: Warning: Can't find file '/Game/TopDownBP/Maps/ControllerTest_BuiltData'
+[2018.09.18-23.57.42:951][609]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Maps/ControllerTest_BuiltData' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/ControllerTest.umap.
+[2018.09.18-23.57.42:953][609]LogLinker: Warning: Can't find file '/Game/TopDownBP/Maps/ControllerTest_BuiltData'
+[2018.09.18-23.57.42:953][609]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Maps/ControllerTest_BuiltData' while loading NULL.
+[2018.09.18-23.57.42:953][609]LogLinker: Warning: Can't find file '/Game/TopDownBP/Maps/ControllerTest_BuiltData'
+[2018.09.18-23.57.42:953][609]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Maps/ControllerTest_BuiltData' while loading NULL.
+[2018.09.18-23.57.42:965][609]LogLinker: Warning: Can't find file '/Game/TopDownBP/Maps/ControllerTest_BuiltData'
+[2018.09.18-23.57.42:965][609]LoadErrors: Failed to load /Game/TopDownBP/Maps/ControllerTest_BuiltData.ControllerTest_BuiltData Referenced by PersistentLevel
+[2018.09.18-23.57.42:965][609]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Maps/ControllerTest_BuiltData' while loading NULL.
+[2018.09.18-23.57.43:100][609]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.18-23.57.50:548][ 45]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.18-23.57.54:679][292]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand
+[2018.09.18-23.57.58:861][292]LogSlate: Window 'Save Content' being destroyed
+[2018.09.18-23.57.58:936][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RoomCreationLevel" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Maps/RoomCreationLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.18-23.57.59:054][292]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLevel90F48F1043BB3F6BF0E943B0F2A659BD.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Maps/RoomCreationLevel.umap'
+[2018.09.18-23.57.59:082][292]LogFileHelpers: Saving map 'RoomCreationLevel' took 0.215
+[2018.09.18-23.57.59:441][292]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand3241AD0F47B77B12E9574B932C042721.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.18-23.57.59:454][292]LogFileHelpers: Saving map 'RoomCreationLand' took 0.372
+[2018.09.18-23.57.59:456][292]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-23.57.59:457][292]LightingResults: New page: Lighting Build
+[2018.09.18-23.57.59:457][292]LoadErrors: New page: Loading map: RoomCreationLand.umap
+[2018.09.18-23.57.59:458][292]MapCheck: New page: Map Check
+[2018.09.18-23.57.59:459][292]LightingResults: New page: Lighting Build
+[2018.09.18-23.57.59:626][292]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-23.57.59:735][292]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-23.57.59:797][292]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.901ms to complete.
+[2018.09.18-23.57.59:799][292]LogFileHelpers: Loading map 'RoomCreationLand' took 0.343
+[2018.09.18-23.58.03:707][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.58.03:840][531]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.18-23.58.03:858][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.18-23.58.03:859][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-23.58.03:859][531]PIE: New page: PIE session: RoomCreationLand (Sep 18, 2018, 3:58:03 PM)
+[2018.09.18-23.58.03:859][531]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
+[2018.09.18-23.58.03:877][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018115s)
+[2018.09.18-23.58.03:878][531]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.18-23.58.03:878][531]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2018.09.18-23.58.03:878][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.019421s)
+[2018.09.18-23.58.03:915][531]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-23.58.03:987][531]LogInit: FAudioDevice initialized.
+[2018.09.18-23.58.03:995][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.58.04:070][531]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.18-23.58.04:074][531]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.18-19.58.04
+[2018.09.18-23.58.04:074][531]LogWorld: Bringing up level for play took: 0.003335
+[2018.09.18-23.58.04:091][531]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 0.08
+[2018.09.18-23.58.04:092][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.18-23.58.09:687][859]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.18-23.58.09:688][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.58.09:703][859]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.18-23.58.09:738][859]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-23.58.09:738][859]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.18-23.58.09:807][861]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.09.18-23.58.12:207][  5]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2018.09.18-23.58.13:727][ 91]Cmd: DELETE
+[2018.09.18-23.58.13:727][ 91]Cmd: ACTOR DELETE
+[2018.09.18-23.58.13:730][ 91]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.09.18-23.58.13:753][ 91]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.09.18-23.58.19:851][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.18-23.58.22:601][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.58.42:362][804]LogActorFactory: Actor Factory created TemplateFloor
+[2018.09.18-23.58.46:797][ 70]LogActorFactory: Actor Factory created TemplateFloor
+[2018.09.18-23.58.47:832][130]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2018.09.18-23.58.47:941][130]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.58.48:330][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.18-23.58.49:122][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.18-23.58.50:084][255]Cmd: DELETE
+[2018.09.18-23.58.50:084][255]Cmd: ACTOR DELETE
+[2018.09.18-23.58.50:087][255]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.18-23.58.50:109][255]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.09.18-23.58.50:868][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
+[2018.09.18-23.59.11:639][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.59.12:055][564]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.18-23.59.12:070][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.18-23.59.12:070][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-23.59.12:070][564]PIE: New page: PIE session: RoomCreationLand (Sep 18, 2018, 3:59:12 PM)
+[2018.09.18-23.59.12:070][564]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
+[2018.09.18-23.59.12:086][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015657s)
+[2018.09.18-23.59.12:087][564]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.18-23.59.12:087][564]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2018.09.18-23.59.12:087][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.016990s)
+[2018.09.18-23.59.12:123][564]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-23.59.12:193][564]LogInit: FAudioDevice initialized.
+[2018.09.18-23.59.12:201][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.59.12:273][564]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.18-23.59.12:277][564]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.18-19.59.12
+[2018.09.18-23.59.12:278][564]LogWorld: Bringing up level for play took: 0.003826
+[2018.09.18-23.59.12:295][564]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 0.283
+[2018.09.18-23.59.12:295][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.18-23.59.21:307][100]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.18-23.59.21:307][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-23.59.21:323][100]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.18-23.59.21:367][100]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-23.59.21:367][100]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.18-23.59.21:411][101]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.18-23.59.29:475][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
+[2018.09.18-23.59.31:564][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.01.53:015][684]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.02.10:660][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.02.10:743][747]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-00.02.10:758][747]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.02.10:758][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-00.02.10:758][747]PIE: New page: PIE session: RoomCreationLand (Sep 18, 2018, 4:02:10 PM)
+[2018.09.19-00.02.10:758][747]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
+[2018.09.19-00.02.10:773][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014215s)
+[2018.09.19-00.02.10:773][747]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.19-00.02.10:774][747]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2018.09.19-00.02.10:774][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.015349s)
+[2018.09.19-00.02.10:808][747]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-00.02.10:875][747]LogInit: FAudioDevice initialized.
+[2018.09.19-00.02.10:885][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.02.10:953][747]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-00.02.10:957][747]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.18-20.02.10
+[2018.09.19-00.02.10:957][747]LogWorld: Bringing up level for play took: 0.003327
+[2018.09.19-00.02.10:974][747]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 0.962
+[2018.09.19-00.02.10:974][747]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.02.26:491][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.02.26:491][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.02.26:507][674]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-00.02.26:550][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-00.02.26:550][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.02.26:600][675]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.09.19-00.02.32:886][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2018.09.19-00.02.33:824][104]Cmd: DELETE
+[2018.09.19-00.02.33:824][104]Cmd: ACTOR DELETE
+[2018.09.19-00.02.33:826][104]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.33:849][104]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.09.19-00.02.34:356][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube28)
+[2018.09.19-00.02.34:616][148]Cmd: DELETE
+[2018.09.19-00.02.34:616][148]Cmd: ACTOR DELETE
+[2018.09.19-00.02.34:619][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.34:640][148]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.09.19-00.02.34:956][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2018.09.19-00.02.35:130][175]Cmd: DELETE
+[2018.09.19-00.02.35:130][175]Cmd: ACTOR DELETE
+[2018.09.19-00.02.35:132][175]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.35:154][175]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.09.19-00.02.35:503][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2018.09.19-00.02.35:625][201]Cmd: DELETE
+[2018.09.19-00.02.35:625][201]Cmd: ACTOR DELETE
+[2018.09.19-00.02.35:628][201]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.35:650][201]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.09.19-00.02.36:097][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube30)
+[2018.09.19-00.02.36:152][229]Cmd: DELETE
+[2018.09.19-00.02.36:152][229]Cmd: ACTOR DELETE
+[2018.09.19-00.02.36:155][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.36:179][229]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2018.09.19-00.02.37:129][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2018.09.19-00.02.37:251][291]Cmd: DELETE
+[2018.09.19-00.02.37:251][291]Cmd: ACTOR DELETE
+[2018.09.19-00.02.37:254][291]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.37:276][291]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.09.19-00.02.40:366][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.09.19-00.02.41:099][517]Cmd: DELETE
+[2018.09.19-00.02.41:099][517]Cmd: ACTOR DELETE
+[2018.09.19-00.02.41:102][517]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.41:128][517]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.09.19-00.02.41:853][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2018.09.19-00.02.41:992][567]Cmd: DELETE
+[2018.09.19-00.02.41:992][567]Cmd: ACTOR DELETE
+[2018.09.19-00.02.41:997][567]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.42:025][567]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.09.19-00.02.42:476][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2018.09.19-00.02.42:796][611]Cmd: DELETE
+[2018.09.19-00.02.42:796][611]Cmd: ACTOR DELETE
+[2018.09.19-00.02.42:799][611]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.42:823][611]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.09.19-00.02.43:088][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.19-00.02.43:428][645]Cmd: DELETE
+[2018.09.19-00.02.43:428][645]Cmd: ACTOR DELETE
+[2018.09.19-00.02.43:430][645]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.43:452][645]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.09.19-00.02.43:876][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2018.09.19-00.02.44:064][680]Cmd: DELETE
+[2018.09.19-00.02.44:064][680]Cmd: ACTOR DELETE
+[2018.09.19-00.02.44:067][680]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.44:088][680]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.09.19-00.02.44:421][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.19-00.02.44:689][714]Cmd: DELETE
+[2018.09.19-00.02.44:689][714]Cmd: ACTOR DELETE
+[2018.09.19-00.02.44:692][714]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.44:716][714]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.09.19-00.02.45:140][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.09.19-00.02.45:461][757]Cmd: DELETE
+[2018.09.19-00.02.45:461][757]Cmd: ACTOR DELETE
+[2018.09.19-00.02.45:463][757]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.45:485][757]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.09.19-00.02.45:749][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2018.09.19-00.02.46:024][787]Cmd: DELETE
+[2018.09.19-00.02.46:024][787]Cmd: ACTOR DELETE
+[2018.09.19-00.02.46:028][787]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.46:049][787]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.09.19-00.02.46:442][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2018.09.19-00.02.46:980][841]Cmd: DELETE
+[2018.09.19-00.02.46:980][841]Cmd: ACTOR DELETE
+[2018.09.19-00.02.46:983][841]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.47:007][841]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2018.09.19-00.02.47:287][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2018.09.19-00.02.48:143][907]Cmd: DELETE
+[2018.09.19-00.02.48:143][907]Cmd: ACTOR DELETE
+[2018.09.19-00.02.48:146][907]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.48:167][907]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.09.19-00.02.48:892][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2018.09.19-00.02.49:432][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube31)
+[2018.09.19-00.02.49:620][990]Cmd: DELETE
+[2018.09.19-00.02.49:620][990]Cmd: ACTOR DELETE
+[2018.09.19-00.02.49:622][990]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.49:646][990]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.09.19-00.02.52:443][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2018.09.19-00.02.53:271][205]Cmd: DELETE
+[2018.09.19-00.02.53:271][205]Cmd: ACTOR DELETE
+[2018.09.19-00.02.53:273][205]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.02.53:296][205]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.09.19-00.03.03:261][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2018.09.19-00.03.12:843][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2018.09.19-00.03.23:090][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2018.09.19-00.03.30:597][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2018.09.19-00.03.37:763][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2018.09.19-00.03.47:989][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2018.09.19-00.03.49:014][516]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.04.13:798][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.04.23:332][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2018.09.19-00.04.24:238][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.04.34:209][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2018.09.19-00.04.35:036][270]Cmd: TRANSACTION UNDO
+[2018.09.19-00.04.35:036][270]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.19-00.04.37:558][421]Cmd: TRANSACTION UNDO
+[2018.09.19-00.04.37:558][421]LogEditorTransaction: Undo Set Scale
+[2018.09.19-00.04.39:544][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.04.46:381][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2018.09.19-00.04.56:120][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2018.09.19-00.04.57:956][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2018.09.19-00.04.58:943][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.05.07:886][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2018.09.19-00.05.09:633][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2018.09.19-00.05.10:693][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2018.09.19-00.05.11:616][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.05.32:196][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2018.09.19-00.05.33:304][745]Cmd: DELETE
+[2018.09.19-00.05.33:304][745]Cmd: ACTOR DELETE
+[2018.09.19-00.05.33:307][745]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.19-00.05.33:331][745]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.09.19-00.05.35:339][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.05.35:439][872]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-00.05.35:454][872]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.05.35:454][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-00.05.35:454][872]PIE: New page: PIE session: RoomCreationLand (Sep 18, 2018, 4:05:35 PM)
+[2018.09.19-00.05.35:454][872]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
+[2018.09.19-00.05.35:470][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015849s)
+[2018.09.19-00.05.35:471][872]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.19-00.05.35:471][872]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2018.09.19-00.05.35:471][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.016899s)
+[2018.09.19-00.05.35:506][872]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-00.05.35:576][872]LogInit: FAudioDevice initialized.
+[2018.09.19-00.05.35:585][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.05.35:662][872]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-00.05.35:665][872]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.18-20.05.35
+[2018.09.19-00.05.35:666][872]LogWorld: Bringing up level for play took: 0.002684
+[2018.09.19-00.05.35:683][872]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand -0.328
+[2018.09.19-00.05.35:683][872]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.05.41:138][197]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.05.41:139][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.05.41:154][197]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-00.05.41:193][197]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-00.05.41:194][197]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.05.41:252][199]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.09.19-00.05.41:568][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.05.45:703][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
+[2018.09.19-00.05.58:923][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.05.59:209][261]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand11DF60654C9B3B4767CD4386A279B597.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.19-00.08.20:066][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.08.20:133][438]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-00.08.20:148][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.08.20:148][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-00.08.20:148][438]PIE: New page: PIE session: RoomCreationLand (Sep 18, 2018, 4:08:20 PM)
+[2018.09.19-00.08.20:148][438]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
+[2018.09.19-00.08.20:162][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013558s)
+[2018.09.19-00.08.20:163][438]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.19-00.08.20:163][438]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2018.09.19-00.08.20:163][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.014780s)
+[2018.09.19-00.08.20:200][438]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-00.08.20:265][438]LogInit: FAudioDevice initialized.
+[2018.09.19-00.08.20:274][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.08.20:341][438]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-00.08.20:345][438]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.18-20.08.20
+[2018.09.19-00.08.20:345][438]LogWorld: Bringing up level for play took: 0.003119
+[2018.09.19-00.08.20:363][438]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 0.352
+[2018.09.19-00.08.20:364][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.08.25:452][740]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.08.25:452][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.08.25:467][740]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-00.08.25:511][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-00.08.25:511][740]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.08.25:555][741]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.09.19-00.08.29:910][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
+[2018.09.19-00.08.31:371][ 86]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.09.19-00.08.35:454][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.08.54:487][458]Cmd: TRANSACTION UNDO
+[2018.09.19-00.08.54:488][458]LogEditorTransaction: Undo Move Actors
+[2018.09.19-00.08.56:877][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.09.00:699][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.09.11:649][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.09.22:926][154]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.09.38:501][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.09.45:076][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.09.54:915][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.10.00:964][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.10.07:806][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.10.30:304][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.10.46:111][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.11.03:499][165]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavigationMeshBoundsVolume)
+[2018.09.19-00.11.25:627][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.11.38:976][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.11.59:834][536]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2018.09.19-00.12.07:006][948]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2018.09.19-00.12.16:741][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.12.35:160][619]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2018.09.19-00.12.40:661][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.12.43:305][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.12.50:826][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.12.51:134][562]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLandEACCAAC744525F98D4286F84A1AC741F.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.19-00.14.11:164][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.14.23:379][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.14.23:616][ 95]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand270CA04A47D472DEB3E1289B9EDD8589.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.19-00.14.25:553][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.14.25:652][215]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-00.14.25:667][215]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.14.25:667][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-00.14.25:667][215]PIE: New page: PIE session: RoomCreationLand (Sep 18, 2018, 4:14:25 PM)
+[2018.09.19-00.14.25:667][215]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
+[2018.09.19-00.14.25:680][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013090s)
+[2018.09.19-00.14.25:681][215]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.19-00.14.25:682][215]LogPlayLevel: PIE: World Init took: (0.001176s)
+[2018.09.19-00.14.25:682][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.014410s)
+[2018.09.19-00.14.25:717][215]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-00.14.25:789][215]LogInit: FAudioDevice initialized.
+[2018.09.19-00.14.25:798][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.14.25:864][215]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-00.14.25:866][215]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.18-20.14.25
+[2018.09.19-00.14.25:867][215]LogWorld: Bringing up level for play took: 0.002729
+[2018.09.19-00.14.25:886][215]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand -0.126
+[2018.09.19-00.14.25:886][215]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.14.58:955][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.14.58:955][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.14.58:975][196]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-00.14.59:023][196]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-00.14.59:024][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.14.59:064][197]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.09.19-00.14.59:694][234]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TemplateFloor)
+[2018.09.19-00.14.59:738][234]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.19-00.15.00:996][308]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.09.19-00.15.13:188][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.15.13:453][ 42]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLandC4FD64A44EF0D4C933EE389C81290AF0.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.19-00.15.52:793][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.16.07:292][908]LogAIModule: Creating AISystem for world RoomCreationLevel
+[2018.09.19-00.16.11:134][908]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.19-00.16.11:146][908]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.19-00.16.11:166][908]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.19-00.16.11:182][908]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.19-00.16.12:339][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.16.20:419][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2018.09.19-00.16.26:788][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.16.26:870][839]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-00.16.26:888][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.16.26:888][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-00.16.26:888][839]PIE: New page: PIE session: RoomCreationLand (Sep 18, 2018, 4:16:26 PM)
+[2018.09.19-00.16.26:888][839]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
+[2018.09.19-00.16.26:902][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014262s)
+[2018.09.19-00.16.26:903][839]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.19-00.16.26:903][839]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2018.09.19-00.16.26:903][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.015380s)
+[2018.09.19-00.16.26:939][839]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-00.16.27:011][839]LogInit: FAudioDevice initialized.
+[2018.09.19-00.16.27:019][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.16.27:092][839]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-00.16.27:096][839]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.18-20.16.27
+[2018.09.19-00.16.27:097][839]LogWorld: Bringing up level for play took: 0.003747
+[2018.09.19-00.16.27:113][839]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 1.102
+[2018.09.19-00.16.27:114][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.16.32:153][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.16.32:154][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.16.32:171][139]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-00.16.32:214][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-00.16.32:215][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.16.32:256][140]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.09.19-00.16.54:485][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.16.54:756][268]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand4E8CD781492E814B2A3124ADE1760BC6.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.19-00.30.15:971][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.34.42:643][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.34.42:726][121]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-00.34.42:743][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.34.42:743][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-00.34.42:744][121]PIE: New page: PIE session: RoomCreationLand (Sep 18, 2018, 4:34:42 PM)
+[2018.09.19-00.34.42:744][121]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
+[2018.09.19-00.34.42:757][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013580s)
+[2018.09.19-00.34.42:759][121]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.19-00.34.42:759][121]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2018.09.19-00.34.42:759][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.015089s)
+[2018.09.19-00.34.42:796][121]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-00.34.42:868][121]LogInit: FAudioDevice initialized.
+[2018.09.19-00.34.42:877][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.34.42:949][121]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-00.34.42:952][121]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.18-20.34.42
+[2018.09.19-00.34.42:953][121]LogWorld: Bringing up level for play took: 0.002739
+[2018.09.19-00.34.42:971][121]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 0.959
+[2018.09.19-00.34.42:971][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.34.51:294][617]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.34.51:294][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.34.51:310][617]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-00.34.51:353][617]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-00.34.51:353][617]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.34.51:397][618]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.09.19-00.35.14:963][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2018.09.19-00.35.16:786][138]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.35.20:668][370]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.09.19-00.35.22:216][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2018.09.19-00.35.30:570][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.35.38:428][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2018.09.19-00.35.40:406][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.35.44:058][753]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand0A1C581C47EBFBAD7622D1ABACB8D3D6.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.19-00.36.05:965][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.36.06:222][536]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand4BE9CBD640CF69858F7FAAAB3F3945F0.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.19-00.36.07:380][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.37.09:411][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.37.09:650][229]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLandE2C1908C44D0E097915822A69B0AAA1D.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.19-00.37.14:245][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.37.14:311][507]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-00.37.14:326][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.37.14:326][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-00.37.14:326][507]PIE: New page: PIE session: RoomCreationLand (Sep 18, 2018, 4:37:14 PM)
+[2018.09.19-00.37.14:326][507]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
+[2018.09.19-00.37.14:339][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012384s)
+[2018.09.19-00.37.14:339][507]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.19-00.37.14:339][507]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2018.09.19-00.37.14:339][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.013250s)
+[2018.09.19-00.37.14:375][507]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-00.37.14:446][507]LogInit: FAudioDevice initialized.
+[2018.09.19-00.37.14:455][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.37.14:526][507]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-00.37.14:529][507]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.18-20.37.14
+[2018.09.19-00.37.14:530][507]LogWorld: Bringing up level for play took: 0.002929
+[2018.09.19-00.37.14:547][507]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 0.536
+[2018.09.19-00.37.14:548][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.37.24:290][ 88]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.37.24:290][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.37.24:305][ 88]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-00.37.24:348][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-00.37.24:349][ 88]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.37.24:393][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.09.19-00.37.25:020][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.37.25:069][129]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.19-00.37.25:084][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.37.25:084][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-00.37.25:084][129]PIE: New page: PIE session: RoomCreationLand (Sep 18, 2018, 4:37:25 PM)
+[2018.09.19-00.37.25:084][129]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
+[2018.09.19-00.37.25:095][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010964s)
+[2018.09.19-00.37.25:096][129]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.19-00.37.25:096][129]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2018.09.19-00.37.25:096][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.011943s)
+[2018.09.19-00.37.25:131][129]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-00.37.25:203][129]LogInit: FAudioDevice initialized.
+[2018.09.19-00.37.25:211][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.37.25:285][129]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.19-00.37.25:288][129]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.18-20.37.25
+[2018.09.19-00.37.25:288][129]LogWorld: Bringing up level for play took: 0.002607
+[2018.09.19-00.37.25:306][129]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand -0.706
+[2018.09.19-00.37.25:306][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.39.43:217][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.39.43:217][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-00.39.43:233][398]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.19-00.39.43:279][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-00.39.43:280][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
+[2018.09.19-00.39.43:321][399]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.09.19-00.44.11:296][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.44.11:566][478]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand26AC196E42DD6650920304A98F75D878.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.19-00.44.52:935][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.46.40:573][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-00.47.23:751][512]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLandB0F03CEB499D3E28EC7319B42E5AE49E.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.19-00.49.03:713][961]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameDev\Unreal Project Assets\Sci_Fi_Project\floor1.fbx)
+[2018.09.19-00.49.03:860][961]LogFbx: Loading FBX Scene from D:\GameDev\Unreal Project Assets\Sci_Fi_Project\floor1.fbx
+[2018.09.19-00.49.03:885][961]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.19-00.49.15:194][961]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.09.19-00.49.15:518][961]LogLinker: Can't find file '/Game/RoomBluePrints_Ryan/RoomAssets/main_hud_modular_pieces1'
+[2018.09.19-00.49.15:518][961]LogLinker: Can't find file '/Game/RoomBluePrints_Ryan/RoomAssets/main_hud_modular_pieces1'
+[2018.09.19-00.49.15:519][961]LogFbxMaterialImport: Warning: Unable to find Texture file D:\3D_Modeling_Class\Sci_Fi_Project\Modular_Pieces\main_hud_modular_pieces1.png
+[2018.09.19-00.49.15:522][961]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2018.09.19-00.49.15:535][961]LogFbx: Warning: Triangulating static mesh floor1
+[2018.09.19-00.49.15:565][961]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.19-00.49.15:565][961]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.19-00.49.15:565][961]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.19-00.49.15:574][961]LogStaticMesh: Building static mesh floor1...
+[2018.09.19-00.49.15:579][961]LogStaticMesh: Built static mesh [0.01s] /Game/RoomBluePrints_Ryan/RoomAssets/floor1.floor1
+[2018.09.19-00.49.15:599][961]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.09.19-00.49.18:684][140]LogSlate: Window 'Message Log' being destroyed
+[2018.09.19-00.49.18:689][140]LogSlate: Window 'Message Log' being destroyed
+[2018.09.19-00.49.28:583][658]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.19-00.49.39:414][923]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameDev\Unreal Project Assets\Sci_Fi_Project\floor7.fbx)
+[2018.09.19-00.49.39:425][923]LogFbx: Loading FBX Scene from D:\GameDev\Unreal Project Assets\Sci_Fi_Project\floor7.fbx
+[2018.09.19-00.49.39:432][923]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.19-00.49.41:221][923]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.09.19-00.49.41:261][923]LogLinker: Can't find file '/Game/RoomBluePrints_Ryan/RoomAssets/Corridor_modular_pieces2'
+[2018.09.19-00.49.41:261][923]LogLinker: Can't find file '/Game/RoomBluePrints_Ryan/RoomAssets/Corridor_modular_pieces2'
+[2018.09.19-00.49.41:261][923]LogFbxMaterialImport: Warning: Unable to find Texture file D:\3D_Modeling_Class\Sci_Fi_Project\Modular_Pieces\Corridor_modular_pieces2.png
+[2018.09.19-00.49.41:264][923]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2018.09.19-00.49.41:277][923]LogFbx: Warning: Triangulating static mesh floor7
+[2018.09.19-00.49.41:279][923]LogStaticMesh: Building static mesh floor7...
+[2018.09.19-00.49.41:281][923]LogStaticMesh: Built static mesh [0.00s] /Game/RoomBluePrints_Ryan/RoomAssets/floor7.floor7
+[2018.09.19-00.49.41:290][923]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.19-00.49.41:291][923]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.19-00.49.41:291][923]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.19-00.49.41:291][923]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.09.19-00.49.42:929][ 19]LogSlate: Window 'Message Log' being destroyed
+[2018.09.19-00.49.42:933][ 19]LogSlate: Window 'Message Log' being destroyed
+[2018.09.19-00.50.17:602][490]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameDev\Unreal Project Assets\Sci_Fi_Project\stairs1.fbx)
+[2018.09.19-00.50.17:611][490]LogFbx: Loading FBX Scene from D:\GameDev\Unreal Project Assets\Sci_Fi_Project\stairs1.fbx
+[2018.09.19-00.50.17:906][490]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.19-00.50.19:116][490]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.09.19-00.50.19:143][490]LogFbx: Warning: Triangulating static mesh stairs1
+[2018.09.19-00.50.19:158][490]LogStaticMesh: Building static mesh stairs1...
+[2018.09.19-00.50.19:171][490]LogStaticMesh: Built static mesh [0.01s] /Game/RoomBluePrints_Ryan/RoomAssets/stairs1.stairs1
+[2018.09.19-00.50.19:178][490]LogStaticMesh: Warning: stairs1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.19-00.50.19:191][490]LogStaticMesh: Warning: stairs1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.09.19-00.50.19:199][490]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.09.19-00.50.19:199][490]FBXImport: Warning: stairs1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.19-00.50.19:199][490]FBXImport: Warning: stairs1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.09.19-00.50.22:387][680]LogSlate: Window 'Message Log' being destroyed
+[2018.09.19-00.50.22:391][680]LogSlate: Window 'Message Log' being destroyed
+[2018.09.19-00.50.36:869][418]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.19-00.50.38:316][490]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand226593F646096C4D4007EAB60A1A0263.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.19-00.51.29:971][688]LogSlate: Window 'ASH_Game - Unreal Editor' being destroyed
+[2018.09.19-00.51.29:972][688]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.19-00.51.30:190][689]Cmd: QUIT_EDITOR
+[2018.09.19-00.51.30:504][689]LogExit: Preparing to exit.
+[2018.09.19-00.51.30:876][689]LogExit: Editor shut down
+[2018.09.19-00.51.30:878][689]LogExit: Transaction tracking system shut down
+[2018.09.19-00.51.31:619][689]LogExit: Object subsystem successfully closed.
+[2018.09.19-00.51.31:642][689]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.09.19-00.51.31:644][689]LogD3D11RHI: Shutdown
+[2018.09.19-00.51.31:644][689]LogD3D11RHI: CleanupD3DDevice
+[2018.09.19-00.51.31:647][689]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.19-00.51.31:657][689]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (620)
+[2018.09.19-00.51.31:657][689]LogModuleManager: Shutting down and abandoning module Voice (618)
+[2018.09.19-00.51.31:657][689]LogModuleManager: Shutting down and abandoning module MeshBuilder (616)
+[2018.09.19-00.51.31:657][689]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (614)
+[2018.09.19-00.51.31:657][689]LogModuleManager: Shutting down and abandoning module NewLevelDialog (612)
+[2018.09.19-00.51.31:657][689]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2018.09.19-00.51.31:657][689]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.09.19-00.51.31:657][689]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.09.19-00.51.31:658][689]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.09.19-00.51.31:659][689]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.09.19-00.51.32:009][689]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.09.19-00.51.32:010][689]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.09.19-00.51.32:010][689]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.09.19-00.51.32:010][689]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.09.19-00.51.32:010][689]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.09.19-00.51.32:010][689]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.09.19-00.51.32:011][689]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.09.19-00.51.32:011][689]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.09.19-00.51.32:012][689]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.09.19-00.51.32:012][689]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.09.19-00.51.32:012][689]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.09.19-00.51.32:067][689]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.09.19-00.51.32:067][689]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.09.19-00.51.32:067][689]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.09.19-00.51.32:067][689]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.09.19-00.51.32:067][689]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.09.19-00.51.32:067][689]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.09.19-00.51.32:067][689]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.09.19-00.51.32:068][689]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.09.19-00.51.32:068][689]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.09.19-00.51.32:068][689]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.09.19-00.51.32:070][689]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.09.19-00.51.32:070][689]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.09.19-00.51.32:072][689]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.09.19-00.51.32:073][689]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.09.19-00.51.32:074][689]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.09.19-00.51.32:074][689]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.09.19-00.51.32:074][689]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.09.19-00.51.32:074][689]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.09.19-00.51.32:248][689]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.09.19-00.51.32:249][689]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.09.19-00.51.32:249][689]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.09.19-00.51.32:249][689]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.09.19-00.51.32:249][689]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.09.19-00.51.32:256][689]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.09.19-00.51.32:257][689]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.09.19-00.51.32:257][689]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.09.19-00.51.32:257][689]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.09.19-00.51.32:257][689]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.09.19-00.51.32:257][689]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.09.19-00.51.32:257][689]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.09.19-00.51.32:258][689]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.09.19-00.51.32:259][689]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.09.19-00.51.32:259][689]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.09.19-00.51.32:259][689]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.09.19-00.51.32:259][689]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.09.19-00.51.32:259][689]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.09.19-00.51.32:259][689]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.09.19-00.51.32:259][689]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.09.19-00.51.32:259][689]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.09.19-00.51.32:259][689]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.09.19-00.51.32:360][689]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.09.19-00.51.32:461][689]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.09.19-00.51.32:461][689]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.09.19-00.51.32:461][689]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.09.19-00.51.32:461][689]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.09.19-00.51.32:461][689]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.09.19-00.51.32:461][689]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.09.19-00.51.32:461][689]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.09.19-00.51.32:462][689]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.09.19-00.51.32:462][689]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.09.19-00.51.32:462][689]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.09.19-00.51.32:462][689]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.09.19-00.51.32:462][689]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.09.19-00.51.32:463][689]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.09.19-00.51.32:463][689]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.09.19-00.51.32:463][689]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.09.19-00.51.32:463][689]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.09.19-00.51.32:463][689]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.09.19-00.51.32:463][689]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.09.19-00.51.32:465][689]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.09.19-00.51.32:471][689]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.09.19-00.51.32:472][689]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.09.19-00.51.32:472][689]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.09.19-00.51.32:472][689]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.09.19-00.51.32:472][689]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.09.19-00.51.32:473][689]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.09.19-00.51.32:562][689]LogDerivedDataCache: Shutdown
+[2018.09.19-00.51.32:562][689]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.09.19-00.51.32:562][689]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.09.19-00.51.32:562][689]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.09.19-00.51.32:562][689]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.09.19-00.51.32:562][689]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.09.19-00.51.32:562][689]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.09.19-00.51.32:562][689]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.09.19-00.51.32:562][689]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.09.19-00.51.32:562][689]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.09.19-00.51.32:562][689]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.09.19-00.51.32:562][689]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.09.19-00.51.32:563][689]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.09.19-00.51.32:564][689]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.09.19-00.51.32:564][689]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.09.19-00.51.32:572][689]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.09.19-00.51.32:573][689]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.09.19-00.51.32:574][689]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.09.19-00.51.32:574][689]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.09.19-00.51.32:585][689]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.09.19-00.51.32:585][689]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.19-00.51.32:585][689]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAB44B3E6-471C-2DC3-531D-1682BC8C1360%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=b105bdaf4271f5bfef2632aad0b764fd%7C6f8981bb82404b44a03572ec187d576a%7Cdfe7b47d-b589-462c-89aa-ec018837db33&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.19-00.51.32:613][689]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.09.19-00.51.32:615][689]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.19-00.51.32:615][689]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.19-00.51.32:616][689]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.19-00.51.32:616][689]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.19-00.51.32:616][689]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.19-00.51.32:616][689]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.19-00.51.32:616][689]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.19-00.51.32:616][689]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.19-00.51.32:616][689]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.19-00.51.32:616][689]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.19-00.51.32:616][689]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.19-00.51.32:616][689]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.19-00.51.32:616][689]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.19-00.51.32:627][689]LogExit: Exiting.
+[2018.09.19-00.51.32:649][689]Log file closed, 09/18/18 20:51:32
