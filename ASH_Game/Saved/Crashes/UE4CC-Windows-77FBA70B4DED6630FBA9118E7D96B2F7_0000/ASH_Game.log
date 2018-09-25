@@ -504,33 +504,3 @@ Make sure 'TopDownCharacter_C' has been compiled for  Get IsHealing
 [2018.09.24-15.54.35:000][462]LogHttp: Warning: 00000121D3A2DE40: libcurl info message cache 1 (Re-using existing connection! (#43) with host datarouter.ol.epicgames.com)
 [2018.09.24-15.54.35:000][462]LogHttp: Warning: 00000121D3A2DE40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.4.186.227) port 443 (#43))
 [2018.09.24-15.54.35:000][462]LogHttp: Warning: 00000121D3A2DE40: libcurl info message cache 3 (Closing connection 43)
-[2018.09.24-15.54.55:333][466]LogStats: FPlatformStackWalk::StackWalkAndDump -  8.466 s
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: === Handled ensure: ===
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: 
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: Ensure condition failed: Lhs.Array.Num() == Lhs.InitialNum [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Containers/SparseArray.h] [Line: 808]
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: Container has changed during ranged-for iteration!
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: Stack: 
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: [Callstack] 0x00007ff85dfd71e6 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: [Callstack] 0x00007ff85dd10c82 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: [Callstack] 0x00007ff85dd2b346 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: [Callstack] 0x00007ff840b54c7d UE4Editor-XAudio2.dll!UnknownFunction []
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: [Callstack] 0x00007ff89f062cca MMDevApi.dll!UnknownFunction []
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: [Callstack] 0x00007ff89f04be05 MMDevApi.dll!UnknownFunction []
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: [Callstack] 0x00007ff89f034abc MMDevApi.dll!UnknownFunction []
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: [Callstack] 0x00007ff8ab326715 ntdll.dll!UnknownFunction []
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: [Callstack] 0x00007ff8ab2cfa48 ntdll.dll!UnknownFunction []
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: [Callstack] 0x00007ff8aa103034 KERNEL32.DLL!UnknownFunction []
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: [Callstack] 0x00007ff8ab321461 ntdll.dll!UnknownFunction []
-[2018.09.24-15.54.55:333][466]LogOutputDevice: Error: 
-[2018.09.24-15.54.55:333][466]LogStats:                SubmitErrorReport -  0.003 s
-[2018.09.24-15.54.55:333][466]LogStats:                    SendNewReport -  8.498 s
-[2018.09.24-15.54.55:333][466]LogStats:             FDebug::EnsureFailed - 16.969 s
-[2018.09.24-15.54.55:333][466]LogInit: XAudio2 using 'Line (Steinberg UR22mkII )' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.24-15.58.07:146][ 99]LogSlate: Window 'Save Content' being destroyed
-[2018.09.24-15.58.07:201][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Enviornment/ShipAmbience_Cue" FILE="../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Sounds/Enviornment/ShipAmbience_Cue.uasset" SILENT=true
-[2018.09.24-15.58.07:269][ 99]LogSavePackage: Moving '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/ShipAmbience_CueE136D4734ACAA0F15494BD8E0C9CF784.tmp' to '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Sounds/Enviornment/ShipAmbience_Cue.uasset'
-[2018.09.24-15.58.07:311][ 99]LogSavePackage: Moving '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Unsettling_Wet_Ambience_EQ_Cue43D0ED7E4A8A80049A578387F4552BBB.tmp' to '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Sounds/Enviornment/Unsettling_Wet_Ambience_EQ_Cue.uasset'
-[2018.09.24-15.58.07:541][ 99]LogSlate: Window 'ASH_Game - Unreal Editor' being destroyed
-[2018.09.24-15.58.08:225][100]Cmd: QUIT_EDITOR
-[2018.09.24-15.58.08:607][100]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.24-15.58.08:714][100]LogExit: Preparing to exit.
