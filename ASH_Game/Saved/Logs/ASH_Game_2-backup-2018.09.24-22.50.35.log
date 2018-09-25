@@ -1,0 +1,901 @@
+﻿Log file open, 09/20/18 13:48:19
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ASH_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.406398
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.116s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: NVIDIA GeForce GTX 1060
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.20-17.48.19:436][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.20-17.48.19:436][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.20-17.48.19:443][  0]LogHAL: Display: Platform has ~ 16 GB [17028878336 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.20-17.48.19:443][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.20-17.48.19:443][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.20-17.48.19:443][  0]LogInit: Computer: DESKTOP-EQNU1S5
+[2018.09.20-17.48.19:443][  0]LogInit: User: XENO
+[2018.09.20-17.48.19:443][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.09.20-17.48.19:443][  0]LogInit: High frequency timer resolution =2.156250 MHz
+[2018.09.20-17.48.19:444][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.20-17.48.19:444][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.20-17.48.19:444][  0]LogMemory: Process Physical Memory: 101.51 MB used, 101.51 MB peak
+[2018.09.20-17.48.19:444][  0]LogMemory: Process Virtual Memory: 85.90 MB used, 85.90 MB peak
+[2018.09.20-17.48.19:444][  0]LogMemory: Physical Memory: 3035.98 MB used,  13204.02 MB free, 16240.00 MB total
+[2018.09.20-17.48.19:444][  0]LogMemory: Virtual Memory: 4657.24 MB used,  13204.02 MB free, 134217728.00 MB total
+[2018.09.20-17.48.19:719][  0]LogInit: Using OS detected language (en-US).
+[2018.09.20-17.48.19:719][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.20-17.48.19:720][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.20-17.48.20:078][  0]LogStreaming: Display: Took  0.359s to InitEngineTextLocalization.
+[2018.09.20-17.48.20:079][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.20-17.48.20:107][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.20-17.48.20:107][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.20-17.48.20:281][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.20-17.48.20:281][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.20-17.48.20:341][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.09.20-17.48.20:341][  0]LogD3D11RHI:       6061/0/8120 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.09.20-17.48.20:866][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2018.09.20-17.48.20:866][  0]LogD3D11RHI:       128/0/8120 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.20-17.48.20:868][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.20-17.48.20:868][  0]LogD3D11RHI:       0/0/8120 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.20-17.48.20:868][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.20-17.48.20:874][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.20-17.48.20:875][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.20-17.48.20:875][  0]LogWindows: EnumDisplayDevices:
+[2018.09.20-17.48.20:875][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.09.20-17.48.20:875][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2018.09.20-17.48.20:875][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.20-17.48.20:876][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.20-17.48.20:876][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.20-17.48.20:876][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.20-17.48.20:876][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.20-17.48.20:876][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.20-17.48.20:876][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.09.20-17.48.20:876][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
+[2018.09.20-17.48.20:876][  0]LogD3D11RHI:      Driver Date: 3-7-2018
+[2018.09.20-17.48.20:876][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.09.20-17.48.20:904][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.20-17.48.20:914][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.09.20-17.48.20:961][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../UnrealProjects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/9148/).
+[2018.09.20-17.48.20:961][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/XENO/AppData/Local/Temp/UnrealShaderWorkingDir/66EB65414D3151AA699B168883E4BB40/'.
+[2018.09.20-17.48.21:153][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.20-17.48.21:190][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.20-17.48.21:216][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.20-17.48.21:234][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.20-17.48.21:280][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.20-17.48.21:311][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.20-17.48.21:342][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.20-17.48.21:360][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.20-17.48.21:372][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-17.48.21:512][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.20-17.48.21:641][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.20-17.48.21:641][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.20-17.48.21:668][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.20-17.48.21:668][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.20-17.48.21:694][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.20-17.48.21:708][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.20-17.48.21:723][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.20-17.48.21:738][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.20-17.48.21:759][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.20-17.48.21:759][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.20-17.48.22:203][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.20-17.48.22:203][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.20-17.48.22:203][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.20-17.48.24:023][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.20-17.48.24:303][  0]LogDerivedDataCache: Loaded boot cache 0.28s 71MB C:/Users/XENO/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.20-17.48.24:304][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/XENO/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.20-17.48.24:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UnrealProjects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.20-17.48.24:304][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.20-17.48.24:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UnrealProjects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.20-17.48.24:305][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.20-17.48.24:353][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.20-17.48.24:366][  0]LogDerivedDataCache: Using Local data cache path C:/Users/XENO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.20-17.48.24:366][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.20-17.48.24:366][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.20-17.48.24:449][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.20-17.48.24:512][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.20-17.48.24:568][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.20-17.48.24:956][  0]LogAssetRegistry: FAssetRegistry took 0.0396 seconds to start up
+[2018.09.20-17.48.28:967][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.20-17.48.30:292][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.20-17.48.30:435][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.20-17.48.30:436][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.20-17.48.30:439][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.20-17.48.30:439][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.20-17.48.30:792][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.09.20-17.48.34:571][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.159853 seconds
+[2018.09.20-17.48.34:610][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.20-17.48.34:610][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.20-17.48.34:610][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.20-17.48.41:908][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.20-17.48.41:938][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.20-17.48.42:751][  0]SourceControl: Source control is disabled
+[2018.09.20-17.48.42:751][  0]SourceControl: Source control is disabled
+[2018.09.20-17.48.42:843][  0]SourceControl: Source control is disabled
+[2018.09.20-17.48.42:857][  0]SourceControl: Source control is disabled
+[2018.09.20-17.48.43:911][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.20-17.48.44:091][  0]LogOcInput: OculusInput pre-init called
+[2018.09.20-17.48.44:637][  0]LogEngine: Initializing Engine...
+[2018.09.20-17.48.44:656][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.20-17.48.44:679][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.20-17.48.44:679][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.20-17.48.44:679][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.20-17.48.44:680][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.20-17.48.45:198][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.20-17.48.45:490][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.20-17.48.45:621][  0]LogInit: XAudio2 using 'Speakers (4- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.20-17.48.45:680][  0]LogInit: FAudioDevice initialized.
+[2018.09.20-17.48.45:680][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.20-17.48.45:833][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/XENO/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.20-17.48.45:841][  0]LogInit: Texture streaming: Enabled
+[2018.09.20-17.48.45:923][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.20-17.48.46:033][  0]LogInit: Transaction tracking system initialized
+[2018.09.20-17.48.46:294][  0]BlueprintLog: New page: Editor Load
+[2018.09.20-17.48.47:201][  0]LocalizationService: Localization service is disabled
+[2018.09.20-17.48.49:298][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/' took 0.05s
+[2018.09.20-17.48.49:298][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.20-17.48.49:306][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.20-17.48.49:311][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.20-17.48.49:311][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.20-17.48.49:312][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.20-17.48.49:312][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.20-17.48.49:312][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.20-17.48.50:485][  0]SourceControl: Source control is disabled
+[2018.09.20-17.48.50:496][  0]Cmd: MAP LOAD FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.20-17.48.50:497][  0]LightingResults: New page: Lighting Build
+[2018.09.20-17.48.50:619][  0]MapCheck: New page: Map Check
+[2018.09.20-17.48.50:619][  0]LightingResults: New page: Lighting Build
+[2018.09.20-17.48.51:944][  0]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.20-17.48.52:351][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.20-17.48.52:481][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.20-17.48.52:535][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.759ms to complete.
+[2018.09.20-17.48.52:535][  0]LogFileHelpers: Loading map 'MapGenerator' took 2.045
+[2018.09.20-17.48.53:569][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-17.48.53:582][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-17.48.53:589][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-17.48.53:595][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-17.48.53:671][  0]LogCollectionManager: Loaded 0 collections in 0.016608 seconds
+[2018.09.20-17.48.53:779][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
+[2018.09.20-17.48.53:779][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/Developers/XENO/Collections/' took 0.01s
+[2018.09.20-17.48.53:779][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
+[2018.09.20-17.48.53:779][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.20-17.48.53:790][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2572 classes and 603 folders.
+[2018.09.20-17.48.53:845][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.20-17.48.54:358][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.20-17.48.54:401][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.20-17.48.54:861][  0]LogSlate: Took 0.015243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.20-17.48.54:903][  0]LogSlate: Took 0.032574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.20-17.48.54:979][  0]LogSlate: Took 0.009952 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.20-17.48.55:371][  0]LogRenderer: Reallocating scene render targets to support 1612x808 Format 10 NumSamples 1 (Frame:1).
+[2018.09.20-17.48.55:869][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.20-17.48.55:869][  0]LogLoad: (Engine Initialization) Total time: 37.99 seconds
+[2018.09.20-17.48.55:869][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.20-17.48.55:902][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.20-17.48.56:066][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.20-17.48.56:179][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/' took 0.24s
+[2018.09.20-17.48.56:255][  2]LogAssetRegistry: Asset discovery search completed in 31.3327 seconds
+[2018.09.20-17.48.56:257][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.20-17.48.56:257][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2018.09.20-17.48.56:960][ 35]LogSlate: Took 0.022984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.20-17.48.59:045][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-17.48.59:130][162]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP
+[2018.09.20-17.48.59:999][162]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.09.20-17.49.01:733][162]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI-Rick/TopDownHUD.TopDownHUD
+[2018.09.20-17.49.02:373][162]LogSlate: Took 0.014699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.20-17.49.15:315][427]LogAssetEditorManager: Opening Asset editor for World /Game/MapGenerator_Mike/MapGenerator.MapGenerator
+[2018.09.20-17.49.15:372][427]Cmd: MAP LOAD FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.20-17.49.15:372][427]LightingResults: New page: Lighting Build
+[2018.09.20-17.49.15:373][427]LoadErrors: New page: Loading map: MapGenerator.umap
+[2018.09.20-17.49.15:399][427]MapCheck: New page: Map Check
+[2018.09.20-17.49.15:399][427]LightingResults: New page: Lighting Build
+[2018.09.20-17.49.15:448][427]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.20-17.49.15:456][427]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.20-17.49.15:500][427]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.20-17.49.15:547][427]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.014ms to complete.
+[2018.09.20-17.49.15:548][427]LogFileHelpers: Loading map 'MapGenerator' took 0.185
+[2018.09.20-17.49.24:257][768]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.20-17.49.24:396][769]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ASHGame
+[2018.09.20-17.49.24:396][769]LogTemp: CWD: D:\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.20-17.49.24:396][769]LogTemp: Initial Dir: D:\UE_4.20
+[2018.09.20-17.49.24:396][769]LogTemp: Env CWD: D:\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.20-17.49.24:396][769]LogTemp: BranchPath = DESKTOP-EQNU1S5/D/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-EQNU1S5/D/UE_4.20/Engine/Binaries
+[2018.09.20-17.49.24:396][769]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\XENO\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.20-17.49.27:431][865]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2018.09.20-17.49.27:431][865]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.09.20-17.49.27:517][865]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0069.64] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 174 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.09.20-17.49.30:828][993]LogSlate: Window 'Project Settings' being destroyed
+[2018.09.20-17.49.30:841][993]LogSlate: Window 'Project Settings' being destroyed
+[2018.09.20-17.49.32:751][ 66]LogSavePackage: Moving '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/MapGenerator7E1478CE47D03A898FC29BBEFB5EC5C6.tmp' to '../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap'
+[2018.09.20-17.49.52:867][634]LogSlate: Took 0.010737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.20-17.49.56:159][795]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-17.49.56:203][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.20-17.49.56:203][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-17.49.56:261][795]PIE: New page: PIE session: MapGenerator (Sep 20, 2018, 9:49:56 AM)
+[2018.09.20-17.49.56:261][795]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.20-17.49.56:280][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018716s)
+[2018.09.20-17.49.56:280][795]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.20-17.49.56:280][795]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2018.09.20-17.49.56:280][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.019514s)
+[2018.09.20-17.49.56:371][795]LogInit: XAudio2 using 'Speakers (4- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.20-17.49.56:413][795]LogInit: FAudioDevice initialized.
+[2018.09.20-17.49.56:502][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-17.49.56:702][795]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.20-17.49.56:703][795]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.20-13.49.56
+[2018.09.20-17.49.56:703][795]LogWorld: Bringing up level for play took: 0.000509
+[2018.09.20-17.49.56:809][795]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.09.20-17.49.56:966][795]LogBlueprintUserMessages: [MapGenerator_BP_4] 6
+[2018.09.20-17.49.56:971][795]LogBlueprintUserMessages: [MapGenerator_BP_4] 4
+[2018.09.20-17.49.56:975][795]LogBlueprintUserMessages: [MapGenerator_BP_4] 9
+[2018.09.20-17.49.56:977][795]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.20-17.49.56:998][795]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator -0.059
+[2018.09.20-17.49.56:998][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.20-17.49.56:999][795]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.57:633][796]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.20-17.49.57:633][796]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.20-17.49.57:717][796]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.20-17.49.57:719][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001574s)
+[2018.09.20-17.49.57:719][796]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.20-17.49.57:720][796]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2018.09.20-17.49.57:720][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002328s)
+[2018.09.20-17.49.57:720][796]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.20-17.49.57:721][796]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.20-13.49.57
+[2018.09.20-17.49.57:721][796]LogWorld: Bringing up level for play took: 0.000909
+[2018.09.20-17.49.57:722][796]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.20-17.49.57:728][796]LogBlueprintUserMessages: [MapGenerator_BP_4] 6
+[2018.09.20-17.49.57:732][796]LogBlueprintUserMessages: [MapGenerator_BP_4] 3
+[2018.09.20-17.49.57:732][796]LogBlueprintUserMessages: [MapGenerator_BP_4] GENERATOR
+[2018.09.20-17.49.57:734][796]LogBlueprintUserMessages: [MapGenerator_BP_4] 6
+[2018.09.20-17.49.57:735][796]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.20-17.49.57:740][796]LogLoad: Took 0.106245 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.20-17.49.57:740][796]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.57:815][797]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.20-17.49.57:821][797]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.20-17.49.57:857][797]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.20-17.49.57:859][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001651s)
+[2018.09.20-17.49.57:860][797]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.20-17.49.57:860][797]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2018.09.20-17.49.57:860][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002679s)
+[2018.09.20-17.49.57:860][797]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.20-17.49.57:861][797]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.20-13.49.57
+[2018.09.20-17.49.57:861][797]LogWorld: Bringing up level for play took: 0.000498
+[2018.09.20-17.49.57:861][797]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.20-17.49.57:867][797]LogBlueprintUserMessages: [MapGenerator_BP_4] 9
+[2018.09.20-17.49.57:869][797]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.20-17.49.57:872][797]LogBlueprintUserMessages: [MapGenerator_BP_4] 2
+[2018.09.20-17.49.57:874][797]LogBlueprintUserMessages: [MapGenerator_BP_4] 4
+[2018.09.20-17.49.57:879][797]LogBlueprintUserMessages: [MapGenerator_BP_4] 1
+[2018.09.20-17.49.57:880][797]LogBlueprintUserMessages: [MapGenerator_BP_4] GENERATOR
+[2018.09.20-17.49.57:883][797]LogLoad: Took 0.061511 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.20-17.49.57:883][797]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.57:951][798]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.20-17.49.57:959][798]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.20-17.49.57:986][798]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.20-17.49.57:989][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002372s)
+[2018.09.20-17.49.57:989][798]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.20-17.49.57:990][798]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2018.09.20-17.49.57:990][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.003174s)
+[2018.09.20-17.49.57:990][798]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.20-17.49.57:991][798]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.20-13.49.57
+[2018.09.20-17.49.57:991][798]LogWorld: Bringing up level for play took: 0.000468
+[2018.09.20-17.49.57:991][798]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.20-17.49.57:997][798]LogBlueprintUserMessages: [MapGenerator_BP_4] 5
+[2018.09.20-17.49.57:999][798]LogBlueprintUserMessages: [MapGenerator_BP_4] GENERATOR
+[2018.09.20-17.49.58:002][798]LogBlueprintUserMessages: [MapGenerator_BP_4] 3
+[2018.09.20-17.49.58:006][798]LogBlueprintUserMessages: [MapGenerator_BP_4] 5
+[2018.09.20-17.49.58:010][798]LogLoad: Took 0.051372 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.20-17.49.58:010][798]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:053][799]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.20-17.49.58:061][799]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.20-17.49.58:092][799]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.20-17.49.58:093][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001311s)
+[2018.09.20-17.49.58:093][799]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.20-17.49.58:094][799]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2018.09.20-17.49.58:094][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002088s)
+[2018.09.20-17.49.58:094][799]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.20-17.49.58:095][799]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.20-13.49.58
+[2018.09.20-17.49.58:095][799]LogWorld: Bringing up level for play took: 0.000493
+[2018.09.20-17.49.58:095][799]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.20-17.49.58:100][799]LogBlueprintUserMessages: [MapGenerator_BP_4] 2
+[2018.09.20-17.49.58:101][799]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.20-17.49.58:101][799]LogBlueprintUserMessages: [MapGenerator_BP_4] GENERATOR
+[2018.09.20-17.49.58:103][799]LogBlueprintUserMessages: [MapGenerator_BP_4] 3
+[2018.09.20-17.49.58:106][799]LogBlueprintUserMessages: [MapGenerator_BP_4] 6
+[2018.09.20-17.49.58:108][799]LogBlueprintUserMessages: [MapGenerator_BP_4] 1
+[2018.09.20-17.49.58:111][799]LogLoad: Took 0.049425 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.20-17.49.58:111][799]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:147][800]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.20-17.49.58:153][800]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.20-17.49.58:184][800]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.20-17.49.58:186][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001681s)
+[2018.09.20-17.49.58:187][800]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.20-17.49.58:187][800]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2018.09.20-17.49.58:187][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002712s)
+[2018.09.20-17.49.58:187][800]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.20-17.49.58:188][800]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.20-13.49.58
+[2018.09.20-17.49.58:188][800]LogWorld: Bringing up level for play took: 0.000473
+[2018.09.20-17.49.58:188][800]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.20-17.49.58:193][800]LogBlueprintUserMessages: [MapGenerator_BP_4] 2
+[2018.09.20-17.49.58:195][800]LogBlueprintUserMessages: [MapGenerator_BP_4] 7
+[2018.09.20-17.49.58:198][800]LogBlueprintUserMessages: [MapGenerator_BP_4] 1
+[2018.09.20-17.49.58:200][800]LogBlueprintUserMessages: [MapGenerator_BP_4] 3
+[2018.09.20-17.49.58:201][800]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.20-17.49.58:203][800]LogBlueprintUserMessages: [MapGenerator_BP_4] 4
+[2018.09.20-17.49.58:204][800]LogBlueprintUserMessages: [MapGenerator_BP_4] GENERATOR
+[2018.09.20-17.49.58:206][800]LogLoad: Took 0.052821 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.20-17.49.58:206][800]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:246][801]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:266][802]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:286][803]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:305][804]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:325][805]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:345][806]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:366][807]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:386][808]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:405][809]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:427][810]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:446][811]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:467][812]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:488][813]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:506][814]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:524][815]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:544][816]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:564][817]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:582][818]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:600][819]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:620][820]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:639][821]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:661][822]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:682][823]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:703][824]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:720][825]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:743][826]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:764][827]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:784][828]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:803][829]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:823][830]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:845][831]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:862][832]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:880][833]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:901][834]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:922][835]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:940][836]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:959][837]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:979][838]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.58:998][839]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:018][840]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:037][841]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:059][842]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:079][843]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:099][844]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:118][845]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:140][846]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:159][847]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:182][848]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:204][849]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:225][850]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:244][851]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:267][852]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:286][853]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:305][854]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:325][855]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:346][856]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:368][857]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:387][858]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:407][859]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:426][860]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:446][861]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:466][862]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:483][863]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:502][864]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:519][865]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:536][866]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:555][867]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:575][868]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:593][869]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:610][870]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:628][871]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:646][872]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:662][873]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:682][874]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:700][875]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:719][876]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:737][877]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:754][878]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:773][879]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:791][880]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:809][881]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:829][882]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:847][883]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:865][884]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:884][885]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:906][886]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:922][887]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:940][888]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:959][889]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:977][890]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.49.59:994][891]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:012][892]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:032][893]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:050][894]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:071][895]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:089][896]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:108][897]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:126][898]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:144][899]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:164][900]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:183][901]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:214][902]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:235][903]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:257][904]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:277][905]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:294][906]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:313][907]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:333][908]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:350][909]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:371][910]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:390][911]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:409][912]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:429][913]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:447][914]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:466][915]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:484][916]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:501][917]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:519][918]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:537][919]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:555][920]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:573][921]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:592][922]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:611][923]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:633][924]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:650][925]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:669][926]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:688][927]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:705][928]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:723][929]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:742][930]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:760][931]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:778][932]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:796][933]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:814][934]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:831][935]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:850][936]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:870][937]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:889][938]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:907][939]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:927][940]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:944][941]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:962][942]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.00:980][943]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:000][944]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:018][945]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:037][946]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:057][947]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:075][948]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:096][949]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:115][950]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:133][951]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:154][952]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:172][953]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:193][954]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:212][955]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:233][956]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:254][957]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:279][958]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:297][959]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:315][960]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:335][961]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:354][962]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:374][963]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:391][964]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:410][965]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:429][966]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:448][967]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:467][968]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:485][969]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:504][970]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:522][971]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:540][972]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:558][973]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:576][974]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:595][975]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:614][976]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:631][977]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:650][978]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:668][979]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:686][980]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:703][981]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:721][982]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:738][983]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:757][984]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:776][985]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:794][986]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:815][987]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:832][988]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:850][989]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:868][990]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:885][991]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:902][992]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:922][993]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:943][994]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:963][995]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.01:983][996]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:008][997]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:028][998]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:048][999]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:067][  0]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:085][  1]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:106][  2]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:126][  3]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:146][  4]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:167][  5]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:188][  6]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:207][  7]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:229][  8]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:251][  9]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:270][ 10]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:290][ 11]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:309][ 12]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:327][ 13]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:346][ 14]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:366][ 15]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:387][ 16]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:406][ 17]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:425][ 18]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:441][ 19]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:460][ 20]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:479][ 21]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:497][ 22]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:515][ 23]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:533][ 24]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:551][ 25]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:570][ 26]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:587][ 27]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:605][ 28]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:623][ 29]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:640][ 30]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:658][ 31]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:676][ 32]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:694][ 33]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:713][ 34]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:732][ 35]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:749][ 36]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:767][ 37]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:787][ 38]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:805][ 39]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:821][ 40]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:839][ 41]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:856][ 42]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:878][ 43]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:896][ 44]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:914][ 45]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:932][ 46]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:950][ 47]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:970][ 48]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.02:986][ 49]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:005][ 50]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:026][ 51]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:042][ 52]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:061][ 53]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:079][ 54]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:097][ 55]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:114][ 56]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:131][ 57]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:150][ 58]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:167][ 59]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:186][ 60]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:205][ 61]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:224][ 62]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:244][ 63]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:264][ 64]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:282][ 65]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:300][ 66]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:319][ 67]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:340][ 68]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:359][ 69]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:379][ 70]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:399][ 71]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:418][ 72]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:437][ 73]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:454][ 74]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:475][ 75]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:494][ 76]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:512][ 77]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:532][ 78]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:553][ 79]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:574][ 80]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:595][ 81]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:615][ 82]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:635][ 83]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:655][ 84]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:673][ 85]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:692][ 86]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:711][ 87]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:730][ 88]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:747][ 89]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:766][ 90]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:787][ 91]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:807][ 92]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:826][ 93]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:844][ 94]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:865][ 95]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:884][ 96]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:904][ 97]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:920][ 98]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:938][ 99]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:958][100]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:975][101]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.03:995][102]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:055][103]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:070][104]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:088][105]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:105][106]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:124][107]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:143][108]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:162][109]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:182][110]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:203][111]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:222][112]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:241][113]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:258][114]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:277][115]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:297][116]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:315][117]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:332][118]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:352][119]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:371][120]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:388][121]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:405][122]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:425][123]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:444][124]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:463][125]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:485][126]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:503][127]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:524][128]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:542][129]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:562][130]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:584][131]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:603][132]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:622][133]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:642][134]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:662][135]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:681][136]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:700][137]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:721][138]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:741][139]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:759][140]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:781][141]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:798][142]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:818][143]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:837][144]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:856][145]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:875][146]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:893][147]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:910][148]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:931][149]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:948][150]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:967][151]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.04:985][152]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:003][153]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:020][154]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:038][155]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:057][156]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:076][157]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:093][158]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:110][159]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:130][160]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:148][161]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:170][162]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:186][163]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:206][164]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:222][165]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:242][166]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:259][167]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:278][168]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:295][169]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:311][170]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:328][171]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:347][172]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:364][173]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:384][174]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:401][175]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:418][176]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:436][177]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:455][178]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:475][179]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:495][180]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:514][181]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:530][182]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:548][183]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:568][184]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:586][185]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:602][186]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:621][187]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:642][188]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:659][189]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:678][190]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:696][191]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:713][192]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:733][193]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:751][194]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:769][195]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:786][196]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:803][197]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:821][198]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:839][199]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:858][200]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:875][201]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:893][202]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:911][203]LogBlueprintUserMessages: [TopDownController_C_0] Can Move true
+[2018.09.20-17.50.05:912][203]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.20-17.50.05:913][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-17.50.05:928][203]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.20-17.50.05:962][203]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-17.50.05:963][203]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.20-17.50.06:017][204]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.09.20-17.50.47:152][229]LogSlate: Window 'MapGenerator_BP' being destroyed
+[2018.09.20-17.50.47:234][229]LogSlate: Window 'ASH_Game - Unreal Editor' being destroyed
+[2018.09.20-17.50.47:235][229]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.20-17.50.47:413][230]Cmd: QUIT_EDITOR
+[2018.09.20-17.50.48:330][230]LogExit: Preparing to exit.
+[2018.09.20-17.50.49:198][230]LogExit: Editor shut down
+[2018.09.20-17.50.49:198][230]LogExit: Transaction tracking system shut down
