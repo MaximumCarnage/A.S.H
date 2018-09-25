@@ -1,0 +1,515 @@
+﻿Log file open, 09/25/18 13:23:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ASH_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.410375
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.434s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: NVIDIA GeForce GTX 1060
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/GameDev/UE4/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.106s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.25-17.23.33:740][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.25-17.23.33:740][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.25-17.23.33:992][  0]LogHAL: Display: Platform has ~ 16 GB [17031884800 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.25-17.23.33:992][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.25-17.23.33:992][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.25-17.23.33:993][  0]LogInit: Computer: DESKTOP-J54LIC6
+[2018.09.25-17.23.33:993][  0]LogInit: User: Canados
+[2018.09.25-17.23.33:993][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.09.25-17.23.33:993][  0]LogInit: High frequency timer resolution =2.156251 MHz
+[2018.09.25-17.23.33:993][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.25-17.23.33:993][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.25-17.23.33:993][  0]LogMemory: Process Physical Memory: 103.10 MB used, 103.10 MB peak
+[2018.09.25-17.23.33:993][  0]LogMemory: Process Virtual Memory: 96.40 MB used, 96.40 MB peak
+[2018.09.25-17.23.33:993][  0]LogMemory: Physical Memory: 6362.25 MB used,  9880.62 MB free, 16242.87 MB total
+[2018.09.25-17.23.33:993][  0]LogMemory: Virtual Memory: 4667.68 MB used,  9880.62 MB free, 134217728.00 MB total
+[2018.09.25-17.23.34:453][  0]LogInit: Using OS detected language (en-US).
+[2018.09.25-17.23.34:453][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.25-17.23.34:453][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.25-17.23.34:755][  0]LogStreaming: Display: Took  0.302s to InitEngineTextLocalization.
+[2018.09.25-17.23.34:755][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.25-17.23.34:789][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.25-17.23.34:789][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.25-17.23.35:194][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.25-17.23.35:194][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.25-17.23.35:260][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.09.25-17.23.35:260][  0]LogD3D11RHI:       6052/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.09.25-17.23.35:286][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2018.09.25-17.23.35:286][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.25-17.23.35:288][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.25-17.23.35:288][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.25-17.23.35:288][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.25-17.23.35:294][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.25-17.23.35:294][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.25-17.23.35:295][  0]LogWindows: EnumDisplayDevices:
+[2018.09.25-17.23.35:295][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.09.25-17.23.35:295][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2018.09.25-17.23.35:295][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.25-17.23.35:295][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.25-17.23.35:296][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.25-17.23.35:296][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.25-17.23.35:296][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.25-17.23.35:296][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.25-17.23.35:296][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.09.25-17.23.35:296][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2018.09.25-17.23.35:296][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2018.09.25-17.23.35:296][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.09.25-17.23.35:330][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.25-17.23.35:354][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.25-17.23.35:453][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../../_Projects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/17312/).
+[2018.09.25-17.23.35:454][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Canados/AppData/Local/Temp/UnrealShaderWorkingDir/1EB193264DFBFADF8221E1879B436962/'.
+[2018.09.25-17.23.35:726][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.25-17.23.35:737][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.25-17.23.35:748][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.25-17.23.35:760][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.25-17.23.35:772][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.25-17.23.35:783][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.25-17.23.35:794][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.25-17.23.35:805][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.25-17.23.35:811][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-17.23.35:877][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.25-17.23.35:935][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.25-17.23.35:935][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.25-17.23.35:955][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.25-17.23.35:955][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.25-17.23.35:966][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.25-17.23.35:977][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.25-17.23.35:988][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.25-17.23.36:000][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.25-17.23.36:008][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.25-17.23.36:008][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.25-17.23.36:057][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.25-17.23.36:057][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.25-17.23.36:057][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.25-17.23.36:683][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.25-17.23.36:732][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Canados/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.25-17.23.36:733][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Canados/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.25-17.23.36:733][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../_Projects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.25-17.23.36:733][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.25-17.23.36:733][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../_Projects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.25-17.23.36:733][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.25-17.23.36:744][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.25-17.23.36:757][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Canados/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.25-17.23.36:757][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.25-17.23.36:757][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.25-17.23.36:772][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.25-17.23.36:773][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.25-17.23.36:775][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.25-17.23.36:898][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.09.25-17.23.37:142][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.25-17.23.37:194][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.25-17.23.37:197][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.25-17.23.37:197][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.25-17.23.37:197][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.25-17.23.37:197][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.25-17.23.37:283][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.09.25-17.23.38:047][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.289220 seconds
+[2018.09.25-17.23.38:052][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.25-17.23.38:052][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.25-17.23.38:052][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.25-17.23.39:532][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.25-17.23.39:547][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.25-17.23.39:703][  0]SourceControl: Source control is disabled
+[2018.09.25-17.23.39:703][  0]SourceControl: Source control is disabled
+[2018.09.25-17.23.39:705][  0]SourceControl: Source control is disabled
+[2018.09.25-17.23.39:706][  0]SourceControl: Source control is disabled
+[2018.09.25-17.23.39:888][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.25-17.23.39:969][  0]LogOcInput: OculusInput pre-init called
+[2018.09.25-17.23.40:025][  0]LogEngine: Initializing Engine...
+[2018.09.25-17.23.40:026][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.25-17.23.40:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.25-17.23.40:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.25-17.23.40:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.25-17.23.40:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.25-17.23.40:215][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.25-17.23.40:225][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.25-17.23.40:240][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.25-17.23.40:642][  0]LogInit: FAudioDevice initialized.
+[2018.09.25-17.23.40:642][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.25-17.23.40:721][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/Canados/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.25-17.23.40:721][  0]LogInit: Texture streaming: Enabled
+[2018.09.25-17.23.40:734][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.25-17.23.40:863][  0]LogInit: Transaction tracking system initialized
+[2018.09.25-17.23.40:881][  0]BlueprintLog: New page: Editor Load
+[2018.09.25-17.23.40:983][  0]LocalizationService: Localization service is disabled
+[2018.09.25-17.23.41:366][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../../../_Projects/A.S.H/ASH_Game/Content/ as it will conflict with another watching ../../../../../../../_Projects/A.S.H/ASH_Game/Content/.
+[2018.09.25-17.23.41:412][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.25-17.23.41:412][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.25-17.23.41:430][  0]LogFileCache: Scanning file cache for directory 'D:/_Projects/A.S.H/ASH_Game/Content/' took 0.05s
+[2018.09.25-17.23.41:430][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.25-17.23.41:430][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.25-17.23.41:430][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.25-17.23.41:430][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.25-17.23.41:430][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.25-17.23.41:550][  0]SourceControl: Source control is disabled
+[2018.09.25-17.23.41:550][  0]Cmd: MAP LOAD FILE="../../../../../../../_Projects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.25-17.23.41:611][  0]LightingResults: New page: Lighting Build
+[2018.09.25-17.23.41:617][  0]MapCheck: New page: Map Check
+[2018.09.25-17.23.41:617][  0]LightingResults: New page: Lighting Build
+[2018.09.25-17.23.44:240][  0]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-17.23.44:271][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.25-17.23.44:294][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.25-17.23.44:373][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.183ms to complete.
+[2018.09.25-17.23.44:373][  0]LogFileHelpers: Loading map 'MapGenerator' took 2.823
+[2018.09.25-17.23.45:464][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-17.23.45:471][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-17.23.45:478][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-17.23.45:484][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-17.23.45:560][  0]LogCollectionManager: Loaded 0 collections in 0.011290 seconds
+[2018.09.25-17.23.45:710][  0]LogFileCache: Scanning file cache for directory 'D:/_Projects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
+[2018.09.25-17.23.45:710][  0]LogFileCache: Scanning file cache for directory 'D:/_Projects/A.S.H/ASH_Game/Content/Developers/Canados/Collections/' took 0.01s
+[2018.09.25-17.23.45:710][  0]LogFileCache: Scanning file cache for directory 'D:/_Projects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
+[2018.09.25-17.23.45:710][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.25-17.23.45:720][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2572 classes and 603 folders.
+[2018.09.25-17.23.45:835][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.25-17.23.46:969][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.25-17.23.47:023][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.09.25-17.23.47:970][  0]LogSlate: Took 0.000645 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.25-17.23.47:993][  0]LogSlate: Took 0.000601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.25-17.23.48:015][  0]LogSlate: Took 0.007294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.25-17.23.48:289][  0]LogRenderer: Reallocating scene render targets to support 1312x288 Format 10 NumSamples 1 (Frame:1).
+[2018.09.25-17.23.48:616][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.25-17.23.48:616][  0]LogLoad: (Engine Initialization) Total time: 18.23 seconds
+[2018.09.25-17.23.48:616][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.25-17.23.48:635][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.25-17.23.48:745][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.25-17.23.48:924][  1]LogRenderer: Reallocating scene render targets to support 1312x296 Format 10 NumSamples 1 (Frame:2).
+[2018.09.25-17.23.48:932][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/_Projects/A.S.H/ASH_Game/Content/' took 0.28s
+[2018.09.25-17.23.48:949][  1]LogAssetRegistry: Asset discovery search completed in 12.0742 seconds
+[2018.09.25-17.23.48:951][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.25-17.23.48:951][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2018.09.25-17.23.50:318][  5]LogSlate: Took 0.012679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.25-17.23.50:940][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.24.06:419][467]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.25-17.24.06:419][467]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Weapons/PistolBullet.PistolBullet_C Referenced by GUN_GEN_VARIABLE
+[2018.09.25-17.24.06:419][467]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-17.24.06:419][467]LoadErrors: Error: /Game/TopDownBP/Blueprints/Parasite : Can't find file for asset. /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP
+[2018.09.25-17.24.06:558][467]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.25-17.24.06:559][467]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP.ParasiteAnim_BP_C Referenced by GUN_GEN_VARIABLE
+[2018.09.25-17.24.06:559][467]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-17.24.06:560][467]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.25-17.24.06:560][467]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP.ParasiteAnim_BP_C Referenced by Default__Parasite_C
+[2018.09.25-17.24.06:560][467]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-17.24.06:561][467]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.25-17.24.06:561][467]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose.parasite-TPose Referenced by Default__Parasite_C
+[2018.09.25-17.24.06:561][467]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-17.24.06:561][467]LoadErrors: Error: /Game/TopDownBP/Blueprints/Parasite : Can't find file for asset. /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose
+[2018.09.25-17.24.06:562][467]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.25-17.24.06:562][467]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose Referenced by GUN_GEN_VARIABLE
+[2018.09.25-17.24.06:562][467]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-17.24.06:562][467]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.25-17.24.06:562][467]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP Referenced by GUN_GEN_VARIABLE
+[2018.09.25-17.24.06:562][467]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-17.24.06:562][467]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.25-17.24.06:562][467]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose.parasite-TPose Referenced by GUN_GEN_VARIABLE
+[2018.09.25-17.24.06:562][467]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-17.24.06:566][467]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.25-17.24.06:566][467]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-17.24.06:566][467]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.25-17.24.06:566][467]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-17.24.06:567][467]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.25-17.24.06:567][467]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-17.24.08:392][467]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.25-17.24.08:681][467]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/ControllerTest.ControllerTest
+[2018.09.25-17.24.08:742][467]Cmd: MAP LOAD FILE="../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/ControllerTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.25-17.24.08:742][467]LightingResults: New page: Lighting Build
+[2018.09.25-17.24.08:743][467]LoadErrors: New page: Loading map: ControllerTest.umap
+[2018.09.25-17.24.08:743][467]MapCheck: New page: Map Check
+[2018.09.25-17.24.08:743][467]LightingResults: New page: Lighting Build
+[2018.09.25-17.24.08:981][467]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.25-17.24.09:071][467]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.25-17.24.09:185][467]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 113.433ms to complete.
+[2018.09.25-17.24.09:186][467]LogFileHelpers: Loading map 'ControllerTest' took 0.444
+[2018.09.25-17.24.10:263][515]LogRenderer: Reallocating scene render targets to support 1312x300 Format 10 NumSamples 1 (Frame:6).
+[2018.09.25-17.24.10:310][516]LogRenderer: Reallocating scene render targets to support 1312x344 Format 10 NumSamples 1 (Frame:8).
+[2018.09.25-17.24.10:363][517]LogRenderer: Reallocating scene render targets to support 1312x392 Format 10 NumSamples 1 (Frame:10).
+[2018.09.25-17.24.10:411][518]LogRenderer: Reallocating scene render targets to support 1312x444 Format 10 NumSamples 1 (Frame:12).
+[2018.09.25-17.24.10:458][519]LogRenderer: Reallocating scene render targets to support 1312x472 Format 10 NumSamples 1 (Frame:14).
+[2018.09.25-17.24.10:508][520]LogRenderer: Reallocating scene render targets to support 1312x476 Format 10 NumSamples 1 (Frame:16).
+[2018.09.25-17.24.49:680][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.24.49:680][985]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-17.24.49:711][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.24.49:716][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-17.24.49:788][985]PIE: New page: PIE session: ControllerTest (Sep 25, 2018, 9:24:49 AM)
+[2018.09.25-17.24.49:788][985]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest
+[2018.09.25-17.24.49:872][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084397s)
+[2018.09.25-17.24.49:872][985]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.25-17.24.49:872][985]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2018.09.25-17.24.49:878][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/ControllerTest.ControllerTest to /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest (0.090649s)
+[2018.09.25-17.24.49:923][985]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.25-17.24.49:981][985]LogInit: FAudioDevice initialized.
+[2018.09.25-17.24.50:004][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-17.24.50:124][985]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-17.24.50:221][985]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest up for play (max tick rate 60) at 2018.09.25-13.24.50
+[2018.09.25-17.24.50:327][985]LogWorld: Bringing up level for play took: 0.126551
+[2018.09.25-17.24.50:390][985]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.09.25-17.24.50:450][985]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest 0.832
+[2018.09.25-17.24.50:451][985]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.24.50:587][985]LogRenderer: Reallocating scene render targets to support 1312x480 Format 10 NumSamples 1 (Frame:1).
+[2018.09.25-17.25.37:096][750]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.25.37:131][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-17.25.37:155][750]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-17.25.37:200][750]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-17.25.37:200][750]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.25.37:223][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-17.25.37:247][751]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.09.25-17.25.39:281][833]LogSavePackage: Moving '../../../../../../../_Projects/A.S.H/ASH_Game/Saved/ControllerTest96E00A6B43772D3AA6F72594EE7B537A.tmp' to '../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/ControllerTest.umap'
+[2018.09.25-17.25.39:355][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/ControllerTest_BuiltData" FILE="../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/ControllerTest_BuiltData.uasset" SILENT=true
+[2018.09.25-17.25.39:502][833]LogSavePackage: Moving '../../../../../../../_Projects/A.S.H/ASH_Game/Saved/ControllerTest_BuiltData9B83915F44F0992CB6A731AE2AB3E9E3.tmp' to '../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/ControllerTest_BuiltData.uasset'
+[2018.09.25-17.25.45:348][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.26.10:526][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.27.54:438][796]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.27.56:902][854]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.25-17.28.10:242][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.28.10:374][653]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Point_1.Point_1
+[2018.09.25-17.28.11:225][653]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.09.25-17.28.12:831][654]LogRenderer: Reallocating scene render targets to support 1312x540 Format 10 NumSamples 1 (Frame:1).
+[2018.09.25-17.28.14:727][764]LogSlate: Took 0.020088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.25-17.28.24:673][293]LogSavePackage: Moving '../../../../../../../_Projects/A.S.H/ASH_Game/Saved/Point_13782E484437AAE0217EBFF97572CA6B3.tmp' to '../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Point_1.uasset'
+[2018.09.25-17.28.25:036][315]BlueprintLog: New page: Compile Point_1
+[2018.09.25-17.28.31:036][614]LogSavePackage: Moving '../../../../../../../_Projects/A.S.H/ASH_Game/Saved/Point_12284FA67401E74F53F6E02AE66B8A297.tmp' to '../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Point_1.uasset'
+[2018.09.25-17.28.31:374][634]BlueprintLog: New page: Compile Point_1
+[2018.09.25-17.28.32:216][672]LogSlate: Took 0.013517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.25-17.28.41:406][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.28.41:489][215]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-17.28.41:504][215]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.28.41:504][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-17.28.41:504][215]PIE: New page: PIE session: ControllerTest (Sep 25, 2018, 9:28:41 AM)
+[2018.09.25-17.28.41:504][215]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest
+[2018.09.25-17.28.41:519][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015014s)
+[2018.09.25-17.28.41:520][215]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.25-17.28.41:520][215]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2018.09.25-17.28.41:520][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/ControllerTest.ControllerTest to /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest (0.015730s)
+[2018.09.25-17.28.41:550][215]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.25-17.28.41:603][215]LogInit: FAudioDevice initialized.
+[2018.09.25-17.28.41:617][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-17.28.41:702][215]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-17.28.41:704][215]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest up for play (max tick rate 60) at 2018.09.25-13.28.41
+[2018.09.25-17.28.41:705][215]LogWorld: Bringing up level for play took: 0.002530
+[2018.09.25-17.28.41:724][215]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest 0.106
+[2018.09.25-17.28.41:725][215]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.28.48:407][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.28.48:407][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-17.28.48:422][613]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-17.28.48:456][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-17.28.48:456][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.28.48:538][614]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.09.25-17.29.07:157][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.29.07:301][716]LogSavePackage: Moving '../../../../../../../_Projects/A.S.H/ASH_Game/Saved/Point_181EEF1A14791A9578FD4E7BC6B8DCA94.tmp' to '../../../../../../../_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Point_1.uasset'
+[2018.09.25-17.29.07:747][743]BlueprintLog: New page: Compile Point_1
+[2018.09.25-17.29.08:856][799]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-17.29.08:872][799]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.29.08:872][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-17.29.08:872][799]PIE: New page: PIE session: ControllerTest (Sep 25, 2018, 9:29:08 AM)
+[2018.09.25-17.29.08:872][799]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest
+[2018.09.25-17.29.08:886][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013209s)
+[2018.09.25-17.29.08:886][799]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.25-17.29.08:886][799]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2018.09.25-17.29.08:886][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/ControllerTest.ControllerTest to /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest (0.013910s)
+[2018.09.25-17.29.08:915][799]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.25-17.29.08:965][799]LogInit: FAudioDevice initialized.
+[2018.09.25-17.29.08:979][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-17.29.09:069][799]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-17.29.09:072][799]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest up for play (max tick rate 60) at 2018.09.25-13.29.09
+[2018.09.25-17.29.09:072][799]LogWorld: Bringing up level for play took: 0.002387
+[2018.09.25-17.29.09:090][799]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest -0.53
+[2018.09.25-17.29.09:090][799]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.29.18:728][367]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.29.18:729][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-17.29.18:744][367]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-17.29.18:776][367]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-17.29.18:777][367]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.25-17.29.18:847][368]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.09.25-17.35.25:456][437]LogWindows: Error: === Critical error: ===
+[2018.09.25-17.35.25:456][437]LogWindows: Error: 
+[2018.09.25-17.35.25:456][437]LogWindows: Error: Fatal error!
+[2018.09.25-17.35.25:456][437]LogWindows: Error: 
+[2018.09.25-17.35.25:456][437]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2018.09.25-17.35.25:456][437]LogWindows: Error: 
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff82bda37a3 NahimicOSD.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff822fdcdcc UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff807a65348 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff807a69b76 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff8079ecf7a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff807a0c437 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff81d270d23 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff81d258538 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff81d24b073 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff822fed007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff822fe0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff822fef4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff822fdc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff8662c6cc1 USER32.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff8662c6693 USER32.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff822ff0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff649e554e5 UE4Editor.exe!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff649e65b3c UE4Editor.exe!UnknownFunction []
+[2018.09.25-17.35.25:456][437]LogWindows: Error: [Callstack] 0x00007ff649e65bba UE4Editor.exe!UnknownFunction []
+[2018.09.25-17.35.25:457][437]LogWindows: Error: [Callstack] 0x00007ff649e73dac UE4Editor.exe!UnknownFunction []
+[2018.09.25-17.35.25:457][437]LogWindows: Error: [Callstack] 0x00007ff649e75aaa UE4Editor.exe!UnknownFunction []
+[2018.09.25-17.35.25:457][437]LogWindows: Error: [Callstack] 0x00007ff867fd3034 KERNEL32.DLL!UnknownFunction []
+[2018.09.25-17.35.25:457][437]LogWindows: Error: [Callstack] 0x00007ff868621461 ntdll.dll!UnknownFunction []
+[2018.09.25-17.35.25:457][437]LogWindows: Error: 
+[2018.09.25-17.35.25:466][437]LogExit: Executing StaticShutdownAfterError
+[2018.09.25-17.35.25:481][437]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.09.25-17.35.25:483][437]Log file closed, 09/25/18 13:35:25
