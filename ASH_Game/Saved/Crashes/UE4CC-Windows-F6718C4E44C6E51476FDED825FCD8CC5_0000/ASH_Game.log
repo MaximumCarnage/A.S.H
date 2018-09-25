@@ -1,0 +1,1198 @@
+﻿Log file open, 09/24/18 23:04:03
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ASH_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.395760
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.327s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: NVIDIA GeForce GTX 1060
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.25-03.04.03:715][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.25-03.04.03:715][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.25-03.04.03:805][  0]LogHAL: Display: Platform has ~ 16 GB [17032564736 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.25-03.04.03:805][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.25-03.04.03:805][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.25-03.04.03:805][  0]LogInit: Computer: DIEP-ALIEN
+[2018.09.25-03.04.03:805][  0]LogInit: User: Diep
+[2018.09.25-03.04.03:805][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.09.25-03.04.03:805][  0]LogInit: High frequency timer resolution =2.156253 MHz
+[2018.09.25-03.04.03:805][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.25-03.04.03:805][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.25-03.04.03:805][  0]LogMemory: Process Physical Memory: 102.93 MB used, 102.93 MB peak
+[2018.09.25-03.04.03:805][  0]LogMemory: Process Virtual Memory: 96.10 MB used, 96.10 MB peak
+[2018.09.25-03.04.03:805][  0]LogMemory: Physical Memory: 6180.50 MB used,  10063.02 MB free, 16243.52 MB total
+[2018.09.25-03.04.03:805][  0]LogMemory: Virtual Memory: 4662.83 MB used,  10063.02 MB free, 134217728.00 MB total
+[2018.09.25-03.04.03:819][  0]LogInit: Using OS detected language (en-US).
+[2018.09.25-03.04.03:819][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.25-03.04.03:819][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.25-03.04.04:119][  0]LogStreaming: Display: Took  0.301s to InitEngineTextLocalization.
+[2018.09.25-03.04.04:119][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.25-03.04.04:143][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.25-03.04.04:143][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.25-03.04.04:314][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.25-03.04.04:314][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.25-03.04.04:374][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.09.25-03.04.04:374][  0]LogD3D11RHI:       6052/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.25-03.04.04:398][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2018.09.25-03.04.04:398][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.25-03.04.04:400][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.25-03.04.04:400][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.25-03.04.04:400][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.25-03.04.04:406][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.25-03.04.04:406][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.25-03.04.04:406][  0]LogWindows: EnumDisplayDevices:
+[2018.09.25-03.04.04:406][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.09.25-03.04.04:406][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.25-03.04.04:406][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.25-03.04.04:406][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.25-03.04.04:406][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.25-03.04.04:407][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.25-03.04.04:407][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.25-03.04.04:407][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.25-03.04.04:407][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.09.25-03.04.04:407][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
+[2018.09.25-03.04.04:407][  0]LogD3D11RHI:      Driver Date: 3-16-2018
+[2018.09.25-03.04.04:407][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.09.25-03.04.04:434][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.25-03.04.04:450][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.25-03.04.04:498][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../GameDev/_Projects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/3980/).
+[2018.09.25-03.04.04:499][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Inuya/AppData/Local/Temp/UnrealShaderWorkingDir/AF3CA87B4E43A892E6406EAC315127A8/'.
+[2018.09.25-03.04.04:746][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.25-03.04.04:756][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.25-03.04.04:770][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.25-03.04.04:780][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.25-03.04.04:790][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.25-03.04.04:800][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.25-03.04.04:811][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.25-03.04.04:822][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.25-03.04.04:827][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-03.04.04:890][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.25-03.04.04:944][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.25-03.04.04:944][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.25-03.04.04:968][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.25-03.04.04:968][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.25-03.04.04:978][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.25-03.04.04:988][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.25-03.04.04:998][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.25-03.04.05:009][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.25-03.04.05:015][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.25-03.04.05:016][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.25-03.04.05:061][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.25-03.04.05:062][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.25-03.04.05:062][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.25-03.04.05:625][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.25-03.04.05:672][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Inuya/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.25-03.04.05:672][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Inuya/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.25-03.04.05:672][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.25-03.04.05:672][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.25-03.04.05:672][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.25-03.04.05:672][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.25-03.04.05:683][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.25-03.04.05:695][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Inuya/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.25-03.04.05:695][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.25-03.04.05:695][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.25-03.04.05:711][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.25-03.04.05:712][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.25-03.04.05:713][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.25-03.04.05:776][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2018.09.25-03.04.06:028][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.25-03.04.06:068][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.25-03.04.06:070][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.25-03.04.06:070][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.25-03.04.06:070][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.25-03.04.06:070][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.25-03.04.06:161][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.09.25-03.04.06:698][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.212444 seconds
+[2018.09.25-03.04.06:704][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.25-03.04.06:704][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.25-03.04.06:704][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.25-03.04.07:385][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.25-03.04.07:399][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.25-03.04.07:520][  0]SourceControl: Source control is disabled
+[2018.09.25-03.04.07:520][  0]SourceControl: Source control is disabled
+[2018.09.25-03.04.07:521][  0]SourceControl: Source control is disabled
+[2018.09.25-03.04.07:522][  0]SourceControl: Source control is disabled
+[2018.09.25-03.04.07:709][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.25-03.04.07:776][  0]LogOcInput: OculusInput pre-init called
+[2018.09.25-03.04.07:826][  0]LogEngine: Initializing Engine...
+[2018.09.25-03.04.07:826][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.25-03.04.07:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.25-03.04.07:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.25-03.04.07:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.25-03.04.07:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.25-03.04.07:998][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.25-03.04.08:006][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.25-03.04.08:016][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.04.08:024][  0]LogInit: FAudioDevice initialized.
+[2018.09.25-03.04.08:024][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.25-03.04.08:104][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/Inuya/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.25-03.04.08:107][  0]LogInit: Texture streaming: Enabled
+[2018.09.25-03.04.08:117][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.25-03.04.08:126][  0]LogInit: Transaction tracking system initialized
+[2018.09.25-03.04.08:138][  0]BlueprintLog: New page: Editor Load
+[2018.09.25-03.04.08:189][  0]LocalizationService: Localization service is disabled
+[2018.09.25-03.04.08:239][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2018.09.25-03.04.08:239][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2018.09.25-03.04.08:240][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2018.09.25-03.04.08:407][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/ as it will conflict with another watching ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/.
+[2018.09.25-03.04.08:473][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.25-03.04.08:473][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.25-03.04.08:473][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.25-03.04.08:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.25-03.04.08:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.25-03.04.08:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.25-03.04.08:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.25-03.04.08:550][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.07s
+[2018.09.25-03.04.08:550][  0]SourceControl: Source control is disabled
+[2018.09.25-03.04.08:550][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.25-03.04.08:551][  0]LightingResults: New page: Lighting Build
+[2018.09.25-03.04.08:552][  0]MapCheck: New page: Map Check
+[2018.09.25-03.04.08:553][  0]LightingResults: New page: Lighting Build
+[2018.09.25-03.04.09:425][  0]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.04.09:430][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.25-03.04.09:453][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.25-03.04.09:497][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.297ms to complete.
+[2018.09.25-03.04.09:497][  0]LogFileHelpers: Loading map 'MapGenerator' took 0.947
+[2018.09.25-03.04.09:659][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.04.09:668][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.04.09:676][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.04.09:683][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.04.09:690][  0]LogCollectionManager: Loaded 0 collections in 0.000700 seconds
+[2018.09.25-03.04.09:730][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
+[2018.09.25-03.04.09:730][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Developers/Diep/Collections/' took 0.01s
+[2018.09.25-03.04.09:730][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
+[2018.09.25-03.04.09:730][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.25-03.04.09:738][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2572 classes and 603 folders.
+[2018.09.25-03.04.09:743][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.25-03.04.10:731][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.25-03.04.10:766][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.09.25-03.04.10:888][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.25-03.04.10:890][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.25-03.04.10:909][  0]LogSlate: Took 0.016066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.25-03.04.11:062][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.09.25-03.04.11:077][  0]LogRenderer: Reallocating scene render targets to support 1128x564 Format 10 NumSamples 1 (Frame:1).
+[2018.09.25-03.04.11:164][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.25-03.04.11:164][  0]LogLoad: (Engine Initialization) Total time: 9.83 seconds
+[2018.09.25-03.04.11:164][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.25-03.04.11:183][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.25-03.04.11:216][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.25-03.04.11:330][  0]LogSlate: Took 0.014033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.25-03.04.11:335][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.14s
+[2018.09.25-03.04.11:372][  1]LogAssetRegistry: Asset discovery search completed in 5.6177 seconds
+[2018.09.25-03.04.11:373][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.25-03.04.11:373][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2018.09.25-03.06.33:490][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-03.06.33:540][810]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.06.33:557][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.06.33:557][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.06.33:570][810]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:06:33 PM)
+[2018.09.25-03.06.33:570][810]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.06.33:572][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001651s)
+[2018.09.25-03.06.33:572][810]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.06.33:573][810]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2018.09.25-03.06.33:573][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002415s)
+[2018.09.25-03.06.33:599][810]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.06.33:604][810]LogInit: FAudioDevice initialized.
+[2018.09.25-03.06.33:610][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.06.35:754][810]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.25-03.06.35:754][810]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Weapons/PistolBullet.PistolBullet_C Referenced by GUN_GEN_VARIABLE
+[2018.09.25-03.06.35:754][810]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-03.06.35:754][810]LoadErrors: Error: /Game/TopDownBP/Blueprints/Parasite : Can't find file for asset. /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP
+[2018.09.25-03.06.35:817][810]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.25-03.06.35:817][810]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP.ParasiteAnim_BP_C Referenced by GUN_GEN_VARIABLE
+[2018.09.25-03.06.35:817][810]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-03.06.35:818][810]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.25-03.06.35:818][810]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP.ParasiteAnim_BP_C Referenced by Default__Parasite_C
+[2018.09.25-03.06.35:818][810]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-03.06.35:818][810]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.25-03.06.35:819][810]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose.parasite-TPose Referenced by Default__Parasite_C
+[2018.09.25-03.06.35:819][810]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-03.06.35:819][810]LoadErrors: Error: /Game/TopDownBP/Blueprints/Parasite : Can't find file for asset. /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose
+[2018.09.25-03.06.35:820][810]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.25-03.06.35:820][810]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose Referenced by GUN_GEN_VARIABLE
+[2018.09.25-03.06.35:820][810]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-03.06.35:821][810]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.25-03.06.35:821][810]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP Referenced by GUN_GEN_VARIABLE
+[2018.09.25-03.06.35:821][810]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-03.06.35:821][810]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.25-03.06.35:821][810]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose.parasite-TPose Referenced by GUN_GEN_VARIABLE
+[2018.09.25-03.06.35:821][810]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-03.06.35:825][810]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.25-03.06.35:825][810]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-03.06.35:825][810]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.25-03.06.35:825][810]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-03.06.35:826][810]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.25-03.06.35:826][810]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.25-03.06.36:802][810]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.06.36:804][810]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.06.36
+[2018.09.25-03.06.36:804][810]LogWorld: Bringing up level for play took: 0.000674
+[2018.09.25-03.06.36:820][810]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.09.25-03.06.36:820][810]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.06.36:820][810]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.06.36:820][810]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.06.36:820][810]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.06.36:820][810]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.06.36:857][810]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 3.798
+[2018.09.25-03.06.36:857][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.06.36:879][810]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.09.25-03.06.36:926][811]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.06.36:926][811]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.06.36:953][811]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.06.36:954][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001373s)
+[2018.09.25-03.06.36:954][811]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.06.36:955][811]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2018.09.25-03.06.36:955][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002017s)
+[2018.09.25-03.06.36:955][811]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.06.36:956][811]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.06.36
+[2018.09.25-03.06.36:956][811]LogWorld: Bringing up level for play took: 0.000333
+[2018.09.25-03.06.36:956][811]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.06.36:956][811]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.06.36:956][811]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.06.36:956][811]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.06.36:957][811]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.06.36:957][811]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.06.36:980][811]LogLoad: Took 0.053122 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.06.43:217][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.06.43:217][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.06.43:241][183]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.06.43:275][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.06.43:276][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.06.43:323][185]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.09.25-03.06.49:501][460]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.25-03.06.49:509][460]LogAssetEditorManager: Opening Asset editor for TextureRenderTarget2D /Game/MapGenerator_Mike/Minimap/Minimap_Texture.Minimap_Texture
+[2018.09.25-03.06.49:574][460]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.09.25-03.06.51:049][539]LogSlate: Window 'Minimap_Texture' being destroyed
+[2018.09.25-03.06.51:052][539]LogSlate: Window 'Minimap_Texture' being destroyed
+[2018.09.25-03.06.52:960][651]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP
+[2018.09.25-03.06.53:654][651]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.09.25-03.06.54:735][651]LogSlate: Took 0.020983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.25-03.06.56:246][670]LogSlate: Took 0.020623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.25-03.07.05:980][248]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.07.07:230][249]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.07.07:300][249]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.07:301][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.07.07:301][249]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:07:07 PM)
+[2018.09.25-03.07.07:301][249]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.07:302][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001447s)
+[2018.09.25-03.07.07:303][249]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.07:303][249]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2018.09.25-03.07.07:303][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002115s)
+[2018.09.25-03.07.07:330][249]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.07.07:335][249]LogInit: FAudioDevice initialized.
+[2018.09.25-03.07.07:343][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.07.07:378][249]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.07:379][249]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.07
+[2018.09.25-03.07.07:379][249]LogWorld: Bringing up level for play took: 0.000368
+[2018.09.25-03.07.07:391][249]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.07:392][249]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.07:392][249]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.07:392][249]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.07:392][249]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.07:419][249]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 0.36
+[2018.09.25-03.07.07:420][249]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.08:360][250]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.08:360][250]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.08:384][250]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.08:386][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001314s)
+[2018.09.25-03.07.08:386][250]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.08:386][250]LogPlayLevel: PIE: World Init took: (0.000518s)
+[2018.09.25-03.07.08:386][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001951s)
+[2018.09.25-03.07.08:386][250]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.08:388][250]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.08
+[2018.09.25-03.07.08:388][250]LogWorld: Bringing up level for play took: 0.000370
+[2018.09.25-03.07.08:388][250]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.07.08:388][250]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.08:388][250]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.08:388][250]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.08:388][250]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.08:388][250]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.08:409][250]LogLoad: Took 0.049249 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.07.09:656][324]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.09:656][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.07.09:673][324]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.07.09:702][324]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.07.09:703][324]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.09:760][326]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.09.25-03.07.10:310][359]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.07.10:364][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.10:364][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.07.10:364][359]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:07:10 PM)
+[2018.09.25-03.07.10:364][359]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.10:365][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001285s)
+[2018.09.25-03.07.10:366][359]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.10:366][359]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2018.09.25-03.07.10:366][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001848s)
+[2018.09.25-03.07.10:389][359]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.07.10:394][359]LogInit: FAudioDevice initialized.
+[2018.09.25-03.07.10:400][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.07.10:431][359]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.10:432][359]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.10
+[2018.09.25-03.07.10:433][359]LogWorld: Bringing up level for play took: 0.000749
+[2018.09.25-03.07.10:445][359]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.10:445][359]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.10:445][359]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.10:445][359]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.10:445][359]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.10:476][359]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator -0.583
+[2018.09.25-03.07.10:476][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.11:418][360]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:418][360]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:445][360]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.11:446][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001332s)
+[2018.09.25-03.07.11:447][360]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.11:447][360]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2018.09.25-03.07.11:447][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001935s)
+[2018.09.25-03.07.11:447][360]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.11:448][360]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.11
+[2018.09.25-03.07.11:448][360]LogWorld: Bringing up level for play took: 0.000343
+[2018.09.25-03.07.11:448][360]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.07.11:449][360]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.11:449][360]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.11:449][360]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.11:449][360]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.11:449][360]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.11:481][360]LogLoad: Took 0.062788 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.07.11:508][361]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:512][361]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:537][361]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.11:538][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001305s)
+[2018.09.25-03.07.11:539][361]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.11:539][361]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2018.09.25-03.07.11:539][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001896s)
+[2018.09.25-03.07.11:539][361]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.11:540][361]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.11
+[2018.09.25-03.07.11:540][361]LogWorld: Bringing up level for play took: 0.000329
+[2018.09.25-03.07.11:541][361]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.07.11:541][361]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.11:541][361]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.11:541][361]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.11:541][361]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.11:541][361]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.11:570][361]LogLoad: Took 0.057333 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.07.11:595][362]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:596][362]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:619][362]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.11:621][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001432s)
+[2018.09.25-03.07.11:621][362]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.11:622][362]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2018.09.25-03.07.11:622][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002138s)
+[2018.09.25-03.07.11:622][362]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.11:623][362]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.11
+[2018.09.25-03.07.11:623][362]LogWorld: Bringing up level for play took: 0.000376
+[2018.09.25-03.07.11:623][362]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.07.11:623][362]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.11:623][362]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.11:623][362]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.11:623][362]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.11:623][362]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.11:641][362]LogLoad: Took 0.045695 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.07.11:663][363]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:664][363]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:688][363]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.11:690][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001261s)
+[2018.09.25-03.07.11:690][363]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.11:690][363]LogPlayLevel: PIE: World Init took: (0.000447s)
+[2018.09.25-03.07.11:690][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001825s)
+[2018.09.25-03.07.11:690][363]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.11:691][363]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.11
+[2018.09.25-03.07.11:691][363]LogWorld: Bringing up level for play took: 0.000315
+[2018.09.25-03.07.11:692][363]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.07.11:692][363]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.11:692][363]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.11:692][363]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.11:692][363]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.11:692][363]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.11:724][363]LogLoad: Took 0.059689 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.07.11:742][364]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:743][364]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:773][364]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.11:774][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001335s)
+[2018.09.25-03.07.11:774][364]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.11:775][364]LogPlayLevel: PIE: World Init took: (0.000461s)
+[2018.09.25-03.07.11:775][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001913s)
+[2018.09.25-03.07.11:775][364]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.11:776][364]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.11
+[2018.09.25-03.07.11:776][364]LogWorld: Bringing up level for play took: 0.000314
+[2018.09.25-03.07.11:776][364]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.07.11:776][364]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.11:776][364]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.11:776][364]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.11:776][364]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.11:776][364]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.11:805][364]LogLoad: Took 0.062125 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.07.11:823][365]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:824][365]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:848][365]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.11:850][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001267s)
+[2018.09.25-03.07.11:850][365]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.11:851][365]LogPlayLevel: PIE: World Init took: (0.000461s)
+[2018.09.25-03.07.11:851][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001844s)
+[2018.09.25-03.07.11:851][365]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.11:851][365]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.11
+[2018.09.25-03.07.11:852][365]LogWorld: Bringing up level for play took: 0.000327
+[2018.09.25-03.07.11:852][365]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.07.11:852][365]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.11:852][365]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.11:852][365]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.11:852][365]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.11:852][365]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.11:867][365]LogLoad: Took 0.041412 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.07.11:885][366]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:886][366]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:914][366]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.11:915][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001266s)
+[2018.09.25-03.07.11:916][366]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.11:916][366]LogPlayLevel: PIE: World Init took: (0.000462s)
+[2018.09.25-03.07.11:916][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001845s)
+[2018.09.25-03.07.11:916][366]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.11:917][366]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.11
+[2018.09.25-03.07.11:917][366]LogWorld: Bringing up level for play took: 0.000322
+[2018.09.25-03.07.11:917][366]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.07.11:917][366]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.11:917][366]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.11:917][366]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.11:917][366]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.11:917][366]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.11:939][366]LogLoad: Took 0.054800 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.07.11:957][367]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:958][367]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.11:985][367]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.11:986][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001264s)
+[2018.09.25-03.07.11:987][367]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.11:987][367]LogPlayLevel: PIE: World Init took: (0.000461s)
+[2018.09.25-03.07.11:987][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001840s)
+[2018.09.25-03.07.11:987][367]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.11:988][367]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.11
+[2018.09.25-03.07.11:988][367]LogWorld: Bringing up level for play took: 0.000311
+[2018.09.25-03.07.11:988][367]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.07.11:988][367]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.11:988][367]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.11:988][367]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.11:989][367]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.11:989][367]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.12:005][367]LogLoad: Took 0.045926 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.07.12:024][368]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.12:024][368]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.12:050][368]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.12:051][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001288s)
+[2018.09.25-03.07.12:051][368]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.12:051][368]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2018.09.25-03.07.12:051][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001894s)
+[2018.09.25-03.07.12:051][368]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.12:051][368]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.12
+[2018.09.25-03.07.12:052][368]LogWorld: Bringing up level for play took: 0.000345
+[2018.09.25-03.07.12:052][368]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.07.12:052][368]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.12:052][368]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.12:052][368]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.12:052][368]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.12:052][368]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.12:069][368]LogLoad: Took 0.045401 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.07.12:087][369]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.12:088][369]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.07.12:112][369]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.12:113][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001278s)
+[2018.09.25-03.07.12:114][369]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.12:114][369]LogPlayLevel: PIE: World Init took: (0.000476s)
+[2018.09.25-03.07.12:114][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001872s)
+[2018.09.25-03.07.12:114][369]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.12:115][369]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.12
+[2018.09.25-03.07.12:115][369]LogWorld: Bringing up level for play took: 0.000345
+[2018.09.25-03.07.12:115][369]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.07.12:116][369]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.12:116][369]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.12:116][369]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.12:116][369]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.12:116][369]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.12:157][369]LogLoad: Took 0.069484 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.07.25:884][ 21]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.25:884][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.07.25:902][ 21]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.07.25:937][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.07.25:937][ 21]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.26:222][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.09.25-03.07.38:027][571]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.07.38:083][571]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.38:083][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.07.38:083][571]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:07:38 PM)
+[2018.09.25-03.07.38:083][571]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.07.38:085][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001299s)
+[2018.09.25-03.07.38:085][571]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.07.38:085][571]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2018.09.25-03.07.38:085][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001864s)
+[2018.09.25-03.07.38:141][571]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.07.38:145][571]LogInit: FAudioDevice initialized.
+[2018.09.25-03.07.38:152][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.07.38:187][571]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.07.38:188][571]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.07.38
+[2018.09.25-03.07.38:188][571]LogWorld: Bringing up level for play took: 0.000352
+[2018.09.25-03.07.38:201][571]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.07.38:201][571]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.07.38:201][571]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.07.38:201][571]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.07.38:201][571]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.07.38:228][571]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 1.169
+[2018.09.25-03.07.38:228][571]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.43:058][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.43:059][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.07.43:077][742]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.07.43:144][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.07.43:144][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.07.44:038][743]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.09.25-03.10.43:278][920]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.10.47:081][ 79]LogSlate: Window 'MapGenerator_BP*' being destroyed
+[2018.09.25-03.10.47:084][ 79]LogSlate: Window 'MapGenerator_BP*' being destroyed
+[2018.09.25-03.10.50:317][267]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP
+[2018.09.25-03.14.45:975][967]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/MapGenerator_Auto1F76311CA487DC0C41F83BEB809E5D96D.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/MapGenerator_Mike/MapGenerator_Auto1.umap'
+[2018.09.25-03.14.45:980][967]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MapGenerator_Mike/MapGenerator' took 0.686
+[2018.09.25-03.14.45:980][967]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.686
+[2018.09.25-03.14.45:982][967]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MapGenerator_Mike/MapGenerator_BP] ([1] browsable assets)...
+[2018.09.25-03.14.45:982][967]OBJ SavePackage: Finished generating thumbnails for package [/Game/MapGenerator_Mike/MapGenerator_BP]
+[2018.09.25-03.14.46:261][967]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/MapGenerator_BP_Auto1166C3F2546BDA5DB52142DBEF63BAB3D.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/MapGenerator_Mike/MapGenerator_BP_Auto1.uasset'
+[2018.09.25-03.14.46:263][967]LogFileHelpers: Auto-saving content packages took 0.281
+[2018.09.25-03.14.53:429][ 53]LogSlate: Window 'MapGenerator_BP*' being destroyed
+[2018.09.25-03.14.53:433][ 53]LogSlate: Window 'MapGenerator_BP*' being destroyed
+[2018.09.25-03.14.56:012][202]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP
+[2018.09.25-03.15.07:345][822]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.15.08:466][823]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.15.08:540][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.08:540][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.15.08:540][823]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:15:08 PM)
+[2018.09.25-03.15.08:540][823]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.15.08:542][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001359s)
+[2018.09.25-03.15.08:542][823]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.15.08:542][823]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2018.09.25-03.15.08:542][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001977s)
+[2018.09.25-03.15.08:569][823]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.15.08:573][823]LogInit: FAudioDevice initialized.
+[2018.09.25-03.15.08:580][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.15.08:613][823]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.15.08:614][823]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.15.08
+[2018.09.25-03.15.08:614][823]LogWorld: Bringing up level for play took: 0.000424
+[2018.09.25-03.15.08:627][823]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.15.08:627][823]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.15.08:627][823]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.15.08:627][823]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.15.08:627][823]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.15.08:649][823]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator -0.411
+[2018.09.25-03.15.08:649][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.11:574][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.11:574][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.15.11:591][951]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.15.11:661][951]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.15.11:662][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.12:455][952]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.09.25-03.15.12:950][981]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.15.12:970][981]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.12:971][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.15.12:971][981]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:15:12 PM)
+[2018.09.25-03.15.12:971][981]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.15.12:972][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001315s)
+[2018.09.25-03.15.12:972][981]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.15.12:973][981]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2018.09.25-03.15.12:973][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001888s)
+[2018.09.25-03.15.13:002][981]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.15.13:007][981]LogInit: FAudioDevice initialized.
+[2018.09.25-03.15.13:013][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.15.13:069][981]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.15.13:070][981]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.15.13
+[2018.09.25-03.15.13:070][981]LogWorld: Bringing up level for play took: 0.000374
+[2018.09.25-03.15.13:082][981]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.15.13:082][981]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.15.13:082][981]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.15.13:082][981]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.15.13:083][981]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.15.13:163][981]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 0.103
+[2018.09.25-03.15.13:163][981]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.23:760][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.23:760][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.15.23:782][613]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.15.23:857][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.15.23:858][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.24:672][614]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.09.25-03.15.26:594][728]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MapGenerator_Mike/Minimap/Minimap_Widget.Minimap_Widget
+[2018.09.25-03.15.38:359][354]BlueprintLog: New page: Compile Minimap_Widget
+[2018.09.25-03.15.52:978][219]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.15.53:858][241]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.15.53:880][241]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.53:880][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.15.53:881][241]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:15:53 PM)
+[2018.09.25-03.15.53:881][241]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.15.53:882][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001294s)
+[2018.09.25-03.15.53:882][241]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.15.53:882][241]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2018.09.25-03.15.53:883][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001882s)
+[2018.09.25-03.15.53:913][241]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.15.53:918][241]LogInit: FAudioDevice initialized.
+[2018.09.25-03.15.53:923][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.15.53:960][241]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.15.53:961][241]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.15.53
+[2018.09.25-03.15.53:961][241]LogWorld: Bringing up level for play took: 0.000361
+[2018.09.25-03.15.53:973][241]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.15.53:973][241]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.15.53:973][241]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.15.53:973][241]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.15.53:973][241]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.15.54:002][241]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 0.942
+[2018.09.25-03.15.54:002][241]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.58:339][492]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.58:339][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.15.58:356][492]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.15.58:388][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.15.58:388][492]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.15.58:517][493]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.09.25-03.16.02:572][735]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.16.03:149][742]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.16.03:174][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.03:174][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.16.03:174][742]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:16:03 PM)
+[2018.09.25-03.16.03:174][742]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.03:175][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001325s)
+[2018.09.25-03.16.03:176][742]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.03:176][742]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2018.09.25-03.16.03:176][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001925s)
+[2018.09.25-03.16.03:204][742]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.16.03:209][742]LogInit: FAudioDevice initialized.
+[2018.09.25-03.16.03:214][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.03:252][742]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.03:253][742]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.03
+[2018.09.25-03.16.03:253][742]LogWorld: Bringing up level for play took: 0.000365
+[2018.09.25-03.16.03:266][742]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.03:266][742]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.03:266][742]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.03:266][742]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.03:266][742]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.03:308][742]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 0.248
+[2018.09.25-03.16.03:308][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.05:115][841]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.05:115][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.05:132][841]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.16.05:162][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.16.05:162][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.05:300][842]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.09.25-03.16.08:921][ 58]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.16.09:584][ 69]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.16.09:607][ 69]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.09:607][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.16.09:607][ 69]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:16:09 PM)
+[2018.09.25-03.16.09:607][ 69]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.09:609][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001378s)
+[2018.09.25-03.16.09:609][ 69]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.09:609][ 69]LogPlayLevel: PIE: World Init took: (0.000485s)
+[2018.09.25-03.16.09:609][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001948s)
+[2018.09.25-03.16.09:638][ 69]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.16.09:643][ 69]LogInit: FAudioDevice initialized.
+[2018.09.25-03.16.09:649][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.09:687][ 69]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.09:688][ 69]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.09
+[2018.09.25-03.16.09:688][ 69]LogWorld: Bringing up level for play took: 0.000372
+[2018.09.25-03.16.09:700][ 69]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.09:700][ 69]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.09:700][ 69]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.09:700][ 69]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.09:700][ 69]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.09:725][ 69]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 0.665
+[2018.09.25-03.16.09:725][ 69]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.11:281][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.11:281][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.11:298][153]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.16.11:327][153]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.16.11:328][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.11:462][154]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.09.25-03.16.14:167][315]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.16.15:011][338]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.16.15:034][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.15:034][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.16.15:034][338]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:16:15 PM)
+[2018.09.25-03.16.15:034][338]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.15:036][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001380s)
+[2018.09.25-03.16.15:036][338]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.15:036][338]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2018.09.25-03.16.15:036][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001968s)
+[2018.09.25-03.16.15:065][338]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.16.15:070][338]LogInit: FAudioDevice initialized.
+[2018.09.25-03.16.15:076][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.15:115][338]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.15:116][338]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.15
+[2018.09.25-03.16.15:116][338]LogWorld: Bringing up level for play took: 0.000421
+[2018.09.25-03.16.15:127][338]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.15:127][338]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.15:127][338]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.15:127][338]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.15:127][338]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.15:149][338]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 0.089
+[2018.09.25-03.16.15:149][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.15:320][339]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.15:320][339]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.15:347][339]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.15:348][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001307s)
+[2018.09.25-03.16.15:349][339]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.15:349][339]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2018.09.25-03.16.15:349][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001904s)
+[2018.09.25-03.16.15:349][339]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.15:350][339]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.15
+[2018.09.25-03.16.15:350][339]LogWorld: Bringing up level for play took: 0.000392
+[2018.09.25-03.16.15:351][339]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.16.15:351][339]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.15:351][339]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.15:351][339]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.15:351][339]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.15:351][339]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.15:373][339]LogLoad: Took 0.052742 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.16.15:434][340]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.15:434][340]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.15:463][340]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.15:464][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001329s)
+[2018.09.25-03.16.15:465][340]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.15:465][340]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2018.09.25-03.16.15:465][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001954s)
+[2018.09.25-03.16.15:465][340]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.15:466][340]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.15
+[2018.09.25-03.16.15:466][340]LogWorld: Bringing up level for play took: 0.000366
+[2018.09.25-03.16.15:466][340]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.16.15:466][340]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.15:466][340]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.15:466][340]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.15:466][340]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.15:466][340]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.15:501][340]LogLoad: Took 0.066440 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.16.16:670][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.16:670][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.16:687][409]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.16.16:717][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.16.16:718][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.16:787][411]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.09.25-03.16.20:024][605]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.16.21:144][644]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.16.21:167][644]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.21:167][644]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.16.21:167][644]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:16:21 PM)
+[2018.09.25-03.16.21:167][644]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.21:168][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001345s)
+[2018.09.25-03.16.21:169][644]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.21:169][644]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2018.09.25-03.16.21:169][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002074s)
+[2018.09.25-03.16.21:199][644]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.16.21:204][644]LogInit: FAudioDevice initialized.
+[2018.09.25-03.16.21:210][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.21:248][644]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.21:249][644]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.21
+[2018.09.25-03.16.21:249][644]LogWorld: Bringing up level for play took: 0.000417
+[2018.09.25-03.16.21:261][644]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.21:261][644]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.21:261][644]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.21:261][644]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.21:261][644]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.21:301][644]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 0.241
+[2018.09.25-03.16.21:301][644]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.21:469][645]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.21:469][645]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.21:499][645]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.21:501][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001352s)
+[2018.09.25-03.16.21:501][645]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.21:501][645]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2018.09.25-03.16.21:501][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002075s)
+[2018.09.25-03.16.21:501][645]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.21:502][645]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.21
+[2018.09.25-03.16.21:503][645]LogWorld: Bringing up level for play took: 0.000529
+[2018.09.25-03.16.21:503][645]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.16.21:503][645]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.21:503][645]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.21:503][645]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.21:503][645]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.21:503][645]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.21:543][645]LogLoad: Took 0.073364 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.16.23:299][748]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.23:299][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.23:317][748]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.16.23:348][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.16.23:348][748]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.23:417][750]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.09.25-03.16.26:292][922]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.16.27:974][995]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.16.27:997][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.27:997][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.16.27:997][995]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:16:27 PM)
+[2018.09.25-03.16.27:997][995]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.27:999][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001296s)
+[2018.09.25-03.16.27:999][995]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.27:999][995]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2018.09.25-03.16.27:999][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001921s)
+[2018.09.25-03.16.28:028][995]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.16.28:033][995]LogInit: FAudioDevice initialized.
+[2018.09.25-03.16.28:039][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.28:078][995]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.28:080][995]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.28
+[2018.09.25-03.16.28:080][995]LogWorld: Bringing up level for play took: 0.000403
+[2018.09.25-03.16.28:092][995]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.28:092][995]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.28:092][995]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.28:092][995]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.28:092][995]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.28:112][995]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 1.052
+[2018.09.25-03.16.28:112][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.34:461][364]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.34:461][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.34:478][364]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.16.34:512][364]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.16.34:513][364]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.34:648][365]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.25-03.16.38:829][614]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.16.39:465][624]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.16.39:488][624]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.39:488][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.16.39:488][624]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:16:39 PM)
+[2018.09.25-03.16.39:489][624]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.39:490][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001587s)
+[2018.09.25-03.16.39:490][624]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.39:491][624]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2018.09.25-03.16.39:491][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002258s)
+[2018.09.25-03.16.39:522][624]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.16.39:527][624]LogInit: FAudioDevice initialized.
+[2018.09.25-03.16.39:533][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.39:568][624]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.39:569][624]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.39
+[2018.09.25-03.16.39:569][624]LogWorld: Bringing up level for play took: 0.000416
+[2018.09.25-03.16.39:581][624]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.39:581][624]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.39:581][624]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.39:581][624]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.39:581][624]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.39:606][624]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 0.547
+[2018.09.25-03.16.39:607][624]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.40:958][695]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.40:959][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.40:976][695]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.16.41:009][695]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.16.41:010][695]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.41:142][696]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.09.25-03.16.43:813][855]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.16.44:460][866]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.16.44:482][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.44:482][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.16.44:482][866]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:16:44 PM)
+[2018.09.25-03.16.44:482][866]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.44:483][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001281s)
+[2018.09.25-03.16.44:484][866]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.44:484][866]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2018.09.25-03.16.44:484][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001865s)
+[2018.09.25-03.16.44:514][866]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.16.44:518][866]LogInit: FAudioDevice initialized.
+[2018.09.25-03.16.44:524][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.44:558][866]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.44:559][866]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.44
+[2018.09.25-03.16.44:560][866]LogWorld: Bringing up level for play took: 0.000393
+[2018.09.25-03.16.44:572][866]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.44:572][866]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.44:572][866]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.44:572][866]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.44:572][866]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.44:593][866]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator -0.467
+[2018.09.25-03.16.44:593][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.46:044][943]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.46:044][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.46:061][943]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.16.46:098][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.16.46:098][943]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.46:231][944]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.09.25-03.16.49:151][117]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.25-03.16.49:736][124]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.25-03.16.49:758][124]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.49:758][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-03.16.49:758][124]PIE: New page: PIE session: MapGenerator (Sep 24, 2018, 7:16:49 PM)
+[2018.09.25-03.16.49:759][124]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.49:760][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001933s)
+[2018.09.25-03.16.49:761][124]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.49:761][124]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2018.09.25-03.16.49:761][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002547s)
+[2018.09.25-03.16.49:789][124]LogInit: XAudio2 using 'Speakers/Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-03.16.49:794][124]LogInit: FAudioDevice initialized.
+[2018.09.25-03.16.49:800][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.49:835][124]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.49:836][124]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.49
+[2018.09.25-03.16.49:836][124]LogWorld: Bringing up level for play took: 0.000676
+[2018.09.25-03.16.49:849][124]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.49:849][124]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.49:849][124]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.49:849][124]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.49:849][124]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.49:893][124]PIE: Play in editor start time for /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator 0.833
+[2018.09.25-03.16.49:893][124]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.50:069][125]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.50:070][125]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.50:094][125]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.50:095][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001323s)
+[2018.09.25-03.16.50:096][125]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.50:096][125]LogPlayLevel: PIE: World Init took: (0.000468s)
+[2018.09.25-03.16.50:096][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001907s)
+[2018.09.25-03.16.50:096][125]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.50:097][125]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.50
+[2018.09.25-03.16.50:097][125]LogWorld: Bringing up level for play took: 0.000326
+[2018.09.25-03.16.50:098][125]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.16.50:098][125]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.50:098][125]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.50:098][125]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.50:098][125]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.50:098][125]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.50:115][125]LogLoad: Took 0.045806 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.16.50:175][126]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.50:175][126]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.50:205][126]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.50:206][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001341s)
+[2018.09.25-03.16.50:207][126]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.50:207][126]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2018.09.25-03.16.50:207][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.001933s)
+[2018.09.25-03.16.50:207][126]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.50:208][126]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.50
+[2018.09.25-03.16.50:208][126]LogWorld: Bringing up level for play took: 0.000348
+[2018.09.25-03.16.50:208][126]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.16.50:209][126]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.50:209][126]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.50:209][126]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.50:209][126]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.50:209][126]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.50:224][126]LogLoad: Took 0.048868 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.16.50:263][127]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.50:264][127]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.25-03.16.50:293][127]LogPlayLevel: Creating play world package: /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator
+[2018.09.25-03.16.50:294][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001384s)
+[2018.09.25-03.16.50:295][127]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-03.16.50:295][127]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2018.09.25-03.16.50:295][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapGenerator_Mike/MapGenerator.MapGenerator to /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator (0.002009s)
+[2018.09.25-03.16.50:295][127]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.25-03.16.50:295][127]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.24-23.16.50
+[2018.09.25-03.16.50:296][127]LogWorld: Bringing up level for play took: 0.000378
+[2018.09.25-03.16.50:296][127]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.25-03.16.50:296][127]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.25-03.16.50:296][127]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.25-03.16.50:296][127]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.25-03.16.50:296][127]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.25-03.16.50:296][127]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.25-03.16.50:318][127]LogLoad: Took 0.054742 seconds to LoadMap(/Game/MapGenerator_Mike/UEDPIE_0_MapGenerator)
+[2018.09.25-03.16.51:916][222]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.51:917][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-03.16.51:935][222]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.25-03.16.51:968][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-03.16.51:968][222]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel' has LevelScriptBlueprint '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator' with GeneratedClass '/Game/MapGenerator_Mike/MapGenerator.MapGenerator_C' with ClassGeneratedBy '/Game/MapGenerator_Mike/MapGenerator.MapGenerator:PersistentLevel.MapGenerator'
+[2018.09.25-03.16.52:037][224]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.09.25-03.16.53:821][331]LogEditorTransaction: Undo Set Location
+[2018.09.25-03.16.55:328][331]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.503 s
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: 
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: 
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: Stack: 
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa56bb71e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa568f0c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa5690b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa5057eedf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa50524514 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa49d441a9 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa49d44ee5 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa49cf1a51 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa0e2d0d2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa0df3f79 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa0e96a2e UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa0ca93b0 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa0c41444 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa4fc80014 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa4f8f8d70 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa4f88f869 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa4fc84833 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa4fc6b550 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa4fc1b524 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa4fc70f0a UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa4f82b41b UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa4f8b843e UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa4f905d9d UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa50524dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa505501fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa50536535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa505a2dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa505e9b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa5057c81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa4f8905b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa0c424df UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa0c8437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa50dd3a6e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffa50dc1a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa0c070ac UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa0c8606c UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa0c79846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa3e3ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa3e30270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa3e3f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa3e2c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffab2066cc1 USER32.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffab2066693 USER32.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffaa3e40646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ff7d3a754e5 UE4Editor.exe!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ff7d3a85b3c UE4Editor.exe!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ff7d3a85bba UE4Editor.exe!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ff7d3a93dac UE4Editor.exe!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ff7d3a95aaa UE4Editor.exe!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffab4523034 KERNEL32.DLL!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: [Callstack] 0x00007ffab4bc1461 ntdll.dll!UnknownFunction []
+[2018.09.25-03.16.55:328][331]LogOutputDevice: Error: 
+[2018.09.25-03.16.55:335][331]LogStats:                SubmitErrorReport -  0.000 s
