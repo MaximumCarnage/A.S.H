@@ -1,4 +1,4 @@
-﻿Log file open, 09/20/18 18:13:52
+﻿Log file open, 09/25/18 18:22:42
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ASH_Game
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.277514
+LogStats: Stats thread started at 0.283344
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.816s to configure plugins.
+LogStreaming: Display: Took  0.745s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,943 +147,234 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.123s to delete old logs.
+LogStreaming: Display: Took  0.393s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.20-22.13.53:217][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.20-22.13.53:217][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.20-22.13.53:332][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.20-22.13.53:332][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.20-22.13.53:332][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.20-22.13.53:332][  0]LogInit: Computer: DESKTOP-S49REJ4
-[2018.09.20-22.13.53:332][  0]LogInit: User: ryanv
-[2018.09.20-22.13.53:332][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.20-22.13.53:332][  0]LogInit: High frequency timer resolution =2.742185 MHz
-[2018.09.20-22.13.53:333][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.09.20-22.13.53:333][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.20-22.13.53:333][  0]LogMemory: Process Physical Memory: 100.89 MB used, 100.89 MB peak
-[2018.09.20-22.13.53:333][  0]LogMemory: Process Virtual Memory: 89.65 MB used, 89.65 MB peak
-[2018.09.20-22.13.53:333][  0]LogMemory: Physical Memory: 6666.57 MB used,  9590.45 MB free, 16257.03 MB total
-[2018.09.20-22.13.53:333][  0]LogMemory: Virtual Memory: 4643.41 MB used,  9590.45 MB free, 134217728.00 MB total
-[2018.09.20-22.13.53:711][  0]LogInit: Using OS detected language (en-US).
-[2018.09.20-22.13.53:711][  0]LogInit: Using OS detected locale (en-CA).
-[2018.09.20-22.13.53:711][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.09.20-22.13.54:107][  0]LogStreaming: Display: Took  0.396s to InitEngineTextLocalization.
-[2018.09.20-22.13.54:107][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.20-22.13.54:136][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.20-22.13.54:136][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.20-22.13.54:339][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.20-22.13.54:339][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.20-22.13.54:388][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.09.20-22.13.54:388][  0]LogD3D11RHI:       8074/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.09.20-22.13.54:916][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.09.20-22.13.54:916][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.09.20-22.13.54:920][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.20-22.13.54:920][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.20-22.13.54:920][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.20-22.13.54:969][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.20-22.13.54:970][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.20-22.13.54:970][  0]LogWindows: EnumDisplayDevices:
-[2018.09.20-22.13.54:970][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.09.20-22.13.54:971][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.20-22.13.54:972][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.20-22.13.54:972][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.20-22.13.54:973][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.20-22.13.54:973][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.20-22.13.54:974][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.20-22.13.54:974][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.09.20-22.13.54:974][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.09.20-22.13.54:974][  0]LogD3D11RHI:   Driver Version: 385.14 (internal:22.21.13.8514, unified:385.14)
-[2018.09.20-22.13.54:974][  0]LogD3D11RHI:      Driver Date: 7-30-2017
-[2018.09.20-22.13.54:974][  0]LogRHI: Texture pool is 5651 MB (70% of 8074 MB)
-[2018.09.20-22.13.55:014][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.20-22.13.55:029][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.09.20-22.13.55:076][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../GameDev/_Projects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/20536/).
-[2018.09.20-22.13.55:076][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ryanv/AppData/Local/Temp/UnrealShaderWorkingDir/8F3399B1415A6CAE5CFFA280305EF758/'.
-[2018.09.20-22.13.55:434][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.20-22.13.55:448][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.20-22.13.55:463][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.20-22.13.55:475][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.20-22.13.55:489][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.20-22.13.55:501][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.20-22.13.55:514][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.20-22.13.55:526][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.20-22.13.55:532][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.20-22.13.55:614][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.20-22.13.55:687][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.20-22.13.55:687][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.20-22.13.55:723][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.20-22.13.55:723][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.20-22.13.55:735][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.20-22.13.55:747][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.20-22.13.55:760][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.20-22.13.55:773][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.20-22.13.55:782][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.20-22.13.55:782][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.20-22.13.55:830][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.20-22.13.55:830][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.20-22.13.55:830][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.20-22.13.56:538][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.20-22.13.56:600][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.20-22.13.56:600][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.20-22.13.56:600][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.20-22.13.56:600][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.20-22.13.56:600][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.20-22.13.56:600][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.20-22.13.56:613][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.20-22.13.56:625][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanv/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.20-22.13.56:625][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.20-22.13.56:625][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.20-22.13.56:649][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.20-22.13.56:652][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.20-22.13.56:653][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.20-22.13.56:739][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
-[2018.09.20-22.13.57:071][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.20-22.13.57:116][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.20-22.13.57:119][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.20-22.13.57:119][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.20-22.13.57:119][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.20-22.13.57:119][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.20-22.13.57:218][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
-[2018.09.20-22.13.57:825][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.122150 seconds
-[2018.09.20-22.13.57:832][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.20-22.13.57:832][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.09.20-22.13.57:832][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.20-22.13.58:666][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.20-22.13.58:679][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.20-22.13.58:861][  0]SourceControl: Source control is disabled
-[2018.09.20-22.13.58:861][  0]SourceControl: Source control is disabled
-[2018.09.20-22.13.58:862][  0]SourceControl: Source control is disabled
-[2018.09.20-22.13.58:863][  0]SourceControl: Source control is disabled
-[2018.09.20-22.13.59:041][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.20-22.13.59:112][  0]LogOcInput: OculusInput pre-init called
-[2018.09.20-22.13.59:185][  0]LogEngine: Initializing Engine...
-[2018.09.20-22.13.59:185][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.20-22.13.59:187][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.20-22.13.59:187][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.20-22.13.59:187][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.20-22.13.59:187][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.20-22.13.59:391][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.20-22.13.59:406][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.20-22.13.59:436][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.20-22.14.00:036][  0]LogInit: FAudioDevice initialized.
-[2018.09.20-22.14.00:036][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.20-22.14.00:113][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.20-22.14.00:130][  0]LogInit: Texture streaming: Enabled
-[2018.09.20-22.14.00:142][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.20-22.14.00:153][  0]LogInit: Transaction tracking system initialized
-[2018.09.20-22.14.00:169][  0]BlueprintLog: New page: Editor Load
-[2018.09.20-22.14.00:228][  0]LocalizationService: Localization service is disabled
-[2018.09.20-22.14.00:523][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.20-22.14.00:523][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.20-22.14.00:523][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.20-22.14.00:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.20-22.14.00:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.20-22.14.00:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.20-22.14.00:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.20-22.14.00:620][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.03s
-[2018.09.20-22.14.00:620][  0]SourceControl: Source control is disabled
-[2018.09.20-22.14.00:620][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.20-22.14.00:638][  0]LightingResults: New page: Lighting Build
-[2018.09.20-22.14.00:641][  0]MapCheck: New page: Map Check
-[2018.09.20-22.14.00:641][  0]LightingResults: New page: Lighting Build
-[2018.09.20-22.14.01:898][  0]LogAIModule: Creating AISystem for world MapGenerator
-[2018.09.20-22.14.01:904][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.20-22.14.01:928][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.20-22.14.01:973][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.66ms to complete.
-[2018.09.20-22.14.01:973][  0]LogFileHelpers: Loading map 'MapGenerator' took 1.352
-[2018.09.20-22.14.02:535][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.20-22.14.02:554][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.20-22.14.02:563][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.20-22.14.02:572][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.20-22.14.02:581][  0]LogCollectionManager: Loaded 0 collections in 0.001110 seconds
-[2018.09.20-22.14.02:689][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
-[2018.09.20-22.14.02:689][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Developers/ryanv/Collections/' took 0.01s
-[2018.09.20-22.14.02:689][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
-[2018.09.20-22.14.02:689][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.09.20-22.14.02:722][  0]LogContentBrowser: Native class hierarchy populated in 0.0334 seconds. Added 2572 classes and 603 folders.
-[2018.09.20-22.14.02:754][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.09.20-22.14.04:321][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.09.20-22.14.04:399][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.09.20-22.14.05:336][  0]LogSlate: Took 0.000482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.20-22.14.05:341][  0]LogSlate: Took 0.000513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.20-22.14.05:435][  0]LogSlate: Took 0.022322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.20-22.14.05:960][  0]LogRenderer: Reallocating scene render targets to support 1060x636 Format 10 NumSamples 1 (Frame:1).
-[2018.09.20-22.14.06:266][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.20-22.14.06:266][  0]LogLoad: (Engine Initialization) Total time: 16.01 seconds
-[2018.09.20-22.14.06:266][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.20-22.14.06:313][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.20-22.14.06:570][  2]LogAssetRegistry: Asset discovery search completed in 9.8529 seconds
-[2018.09.20-22.14.06:572][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.09.20-22.14.06:572][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
-[2018.09.20-22.34.04:558][562]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-22.34.05:426][654]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-22.34.05:529][654]LogSlate: Took 0.023367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.20-22.34.08:054][914]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.20-22.34.08:061][914]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.20-22.34.08:072][914]LightingResults: New page: Lighting Build
-[2018.09.20-22.34.08:073][914]LoadErrors: New page: Loading map: RoomCreationLand.umap
-[2018.09.20-22.34.08:075][914]MapCheck: New page: Map Check
-[2018.09.20-22.34.08:075][914]LightingResults: New page: Lighting Build
-[2018.09.20-22.34.10:488][914]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
-[2018.09.20-22.34.10:488][914]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
-[2018.09.20-22.34.10:488][914]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
-[2018.09.20-22.34.10:488][914]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
-[2018.09.20-22.34.10:510][914]LogBlueprint: Warning: [Compiler TopDownCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
-[2018.09.20-22.34.10:570][914]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [1220.32] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 190 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
-[2018.09.20-22.34.10:571][914]LogBlueprint: Warning: [Compiler TopDownCharacter] [1220.32] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 190 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
-[2018.09.20-22.34.12:621][914]LogAIModule: Creating AISystem for world RoomCreationLand
-[2018.09.20-22.34.13:017][914]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.20-22.34.13:122][914]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.20-22.34.15:368][914]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,246.467ms to complete.
-[2018.09.20-22.34.15:368][914]LogFileHelpers: Loading map 'RoomCreationLand' took 7.316
-[2018.09.20-22.34.15:371][914]LogSlate: Window 'Open Level' being destroyed
-[2018.09.20-22.34.23:093][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
-[2018.09.20-22.44.24:881][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
-[2018.09.20-22.44.32:297][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.44.32:397][ 99]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.09.20-22.44.32:461][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.20-22.44.32:461][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.20-22.44.32:486][ 99]PIE: New page: PIE session: RoomCreationLand (Sep 20, 2018, 2:44:32 PM)
-[2018.09.20-22.44.32:487][ 99]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
-[2018.09.20-22.44.32:573][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086469s)
-[2018.09.20-22.44.32:574][ 99]LogAIModule: Creating AISystem for world RoomCreationLand
-[2018.09.20-22.44.32:575][ 99]LogPlayLevel: PIE: World Init took: (0.001393s)
-[2018.09.20-22.44.32:575][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.088173s)
-[2018.09.20-22.44.32:628][ 99]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.20-22.44.32:706][ 99]LogInit: FAudioDevice initialized.
-[2018.09.20-22.44.32:725][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.20-22.44.32:819][ 99]LogLoad: Game class is 'TopDownGameMode_C'
-[2018.09.20-22.44.32:836][ 99]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 0) at 2018.09.20-18.44.32
-[2018.09.20-22.44.32:865][ 99]LogWorld: Bringing up level for play took: 0.040420
-[2018.09.20-22.44.32:982][ 99]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
-[2018.09.20-22.44.33:023][ 99]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 0.906
-[2018.09.20-22.44.33:024][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.20-22.44.39:727][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.20-22.44.39:728][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.20-22.44.39:744][862]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.09.20-22.44.39:796][862]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.20-22.44.39:796][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.20-22.44.39:838][863]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2018.09.20-22.44.41:805][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.47.34:035][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.47.47:346][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
-[2018.09.20-22.47.51:343][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.47.56:583][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.48.00:671][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.48.03:828][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.48.13:205][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
-[2018.09.20-22.48.14:428][362]Cmd: EDIT COPY
-[2018.09.20-22.48.14:844][398]Cmd: EDIT PASTE
-[2018.09.20-22.48.22:564][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
-[2018.09.20-22.48.23:377][357]Cmd: DELETE
-[2018.09.20-22.48.23:378][357]Cmd: ACTOR DELETE
-[2018.09.20-22.48.23:418][357]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.20-22.48.23:443][357]LogEditorActor: Deleted 1 Actors (0.065 secs)
-[2018.09.20-22.48.23:938][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
-[2018.09.20-22.49.03:397][791]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand_Auto15371FEF84423054892DE9DBC2E66CF58.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Maps/RoomCreationLand_Auto1.umap'
-[2018.09.20-22.49.03:414][791]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/RoomCreationLand' took 0.736
-[2018.09.20-22.49.03:414][791]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.736
-[2018.09.20-22.50.36:907][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
-[2018.09.20-22.50.55:493][704]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.09.20-22.50.57:982][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.51.03:838][473]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.09.20-22.51.04:959][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
-[2018.09.20-22.51.05:405][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
-[2018.09.20-22.51.07:293][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.51.09:629][136]Cmd: EDIT COPY
-[2018.09.20-22.51.10:035][183]Cmd: EDIT PASTE
-[2018.09.20-22.51.45:037][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1L)
-[2018.09.20-22.52.00:847][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.52.13:850][  2]Cmd: TRANSACTION UNDO
-[2018.09.20-22.52.13:850][  2]LogEditorTransaction: Undo Scale Actors
-[2018.09.20-22.52.15:582][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
-[2018.09.20-22.52.29:280][757]Cmd: TRANSACTION UNDO
-[2018.09.20-22.52.29:280][757]LogEditorTransaction: Undo Scale Actors
-[2018.09.20-22.52.32:209][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.52.56:678][746]Cmd: EDIT COPY
-[2018.09.20-22.52.57:011][766]Cmd: EDIT PASTE
-[2018.09.20-22.52.59:325][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.53.12:777][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.53.34:599][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.53.39:543][298]Cmd: EDIT COPY
-[2018.09.20-22.53.39:827][315]Cmd: EDIT PASTE
-[2018.09.20-22.53.49:095][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.53.51:104][985]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.20-22.53.51:127][985]LogEditorActor: Deleted 1 Actors (0.024 secs)
-[2018.09.20-22.53.54:971][214]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.09.20-22.54.08:630][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
-[2018.09.20-22.54.10:203][118]Cmd: DELETE
-[2018.09.20-22.54.10:203][118]Cmd: ACTOR DELETE
-[2018.09.20-22.54.10:206][118]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.20-22.54.10:233][118]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2018.09.20-22.54.11:201][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1L)
-[2018.09.20-22.54.13:248][296]Cmd: EDIT COPY
-[2018.09.20-22.54.14:778][387]Cmd: EDIT PASTE
-[2018.09.20-22.54.16:101][464]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.55.15:542][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.55.16:761][ 81]Cmd: EDIT COPY
-[2018.09.20-22.55.17:194][107]Cmd: EDIT PASTE
-[2018.09.20-22.55.34:046][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1R)
-[2018.09.20-22.55.37:774][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.55.38:373][363]Cmd: EDIT COPY
-[2018.09.20-22.55.38:658][380]Cmd: EDIT PASTE
-[2018.09.20-22.56.06:937][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4R)
-[2018.09.20-22.56.10:250][264]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall4L)
-[2018.09.20-22.56.25:921][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
-[2018.09.20-22.56.27:583][297]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
-[2018.09.20-22.56.38:980][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1M)
-[2018.09.20-22.56.41:417][118]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.09.20-22.56.44:828][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
-[2018.09.20-22.57.01:861][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
-[2018.09.20-22.57.03:223][417]Cmd: EDIT COPY
-[2018.09.20-22.57.03:690][445]Cmd: EDIT PASTE
-[2018.09.20-22.57.11:316][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
-[2018.09.20-22.57.20:595][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.57.47:626][ 28]Cmd: EDIT COPY
-[2018.09.20-22.57.48:009][ 51]Cmd: EDIT PASTE
-[2018.09.20-22.58.04:105][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.58.24:889][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2M2)
-[2018.09.20-22.58.26:017][313]Cmd: EDIT COPY
-[2018.09.20-22.58.27:486][401]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.58.38:976][ 90]Cmd: EDIT PASTE
-[2018.09.20-22.58.52:225][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.59.07:481][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
-[2018.09.20-22.59.08:971][876]Cmd: DELETE
-[2018.09.20-22.59.08:971][876]Cmd: ACTOR DELETE
-[2018.09.20-22.59.08:973][876]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.20-22.59.09:004][876]LogEditorActor: Deleted 1 Actors (0.033 secs)
-[2018.09.20-22.59.10:472][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2L)
-[2018.09.20-22.59.11:130][  1]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall2M)
-[2018.09.20-22.59.11:619][ 28]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall2R)
-[2018.09.20-22.59.13:242][123]Cmd: EDIT COPY
-[2018.09.20-22.59.13:642][147]Cmd: EDIT PASTE
-[2018.09.20-22.59.29:282][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2M2)
-[2018.09.20-22.59.30:664][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.59.40:145][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2L2)
-[2018.09.20-22.59.41:034][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-22.59.49:164][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2R2)
-[2018.09.20-22.59.50:308][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.00.06:874][318]LogEditorViewport: Clicking on Actor (LMB): RTSCamera_C (RTSCamera)
-[2018.09.20-23.00.10:250][515]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.09.20-23.00.14:722][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1M)
-[2018.09.20-23.00.23:219][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4M)
-[2018.09.20-23.00.24:264][343]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall4R)
-[2018.09.20-23.00.25:053][388]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall4L)
-[2018.09.20-23.00.33:108][868]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.09.20-23.00.34:831][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4R)
-[2018.09.20-23.00.35:445][  3]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall4M)
-[2018.09.20-23.00.35:971][ 32]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall4L)
-[2018.09.20-23.00.38:929][206]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.09.20-23.00.48:894][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
-[2018.09.20-23.00.50:118][870]Cmd: DELETE
-[2018.09.20-23.00.50:119][870]Cmd: ACTOR DELETE
-[2018.09.20-23.00.50:121][870]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.20-23.00.50:144][870]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.09.20-23.00.52:742][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1M)
-[2018.09.20-23.00.56:570][249]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.01.16:014][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2M)
-[2018.09.20-23.01.18:190][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.02.03:181][226]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.09.20-23.02.31:458][919]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.02.31:662][919]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand_Auto2FD78DCE644115F74403023B4DE8D5DCA.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Maps/RoomCreationLand_Auto2.umap'
-[2018.09.20-23.02.31:670][919]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/RoomCreationLand' took 0.186
-[2018.09.20-23.02.31:670][919]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.186
-[2018.09.20-23.12.48:386][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.12.48:749][670]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand166EE7084D0543011340C48CFDE2E00A.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
-[2018.09.20-23.13.00:988][159]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand94DAF54B495006F9BC25A9AA871A381E.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
-[2018.09.20-23.14.33:901][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1M)
-[2018.09.20-23.14.34:796][203]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1L)
-[2018.09.20-23.14.40:870][564]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.15.32:382][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1M)
-[2018.09.20-23.15.32:956][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1R)
-[2018.09.20-23.15.33:450][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1L)
-[2018.09.20-23.15.45:589][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3M)
-[2018.09.20-23.16.04:428][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.16.23:289][682]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.09.20-23.16.27:108][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3L)
-[2018.09.20-23.16.31:860][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.16.43:664][340]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
-[2018.09.20-23.16.43:743][340]LogStaticMesh: Building static mesh StaticMesh...
-[2018.09.20-23.16.43:781][340]LogStaticMesh: Built static mesh [0.04s] /Game/RoomBluePrints_Ryan/StaticMesh.StaticMesh
-[2018.09.20-23.16.46:254][484]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/RoomBluePrints_Ryan/StaticMesh.StaticMesh
-[2018.09.20-23.16.55:867][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.16.56:030][983]LogRenderer: Reallocating scene render targets to support 1272x804 Format 10 NumSamples 1 (Frame:540).
-[2018.09.20-23.16.56:030][983]LogSlate: Took 0.059809 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.09.20-23.17.01:890][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.17.07:274][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.17.10:252][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.17.53:753][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.18.00:433][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.18.39:909][141]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.18.54:340][  2]LogEditorActor: Deleted Actor: Actor
-[2018.09.20-23.18.54:362][  2]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2018.09.20-23.19.04:734][167]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.09.20-23.19.14:299][734]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/RoomBluePrints_Ryan/WallBlueprint.WallBlueprint
-[2018.09.20-23.19.15:394][734]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.09.20-23.19.30:333][463]LogSlate: Window 'StaticMesh*' being destroyed
-[2018.09.20-23.19.47:843][320]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.19.57:576][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.20.01:497][ 88]Cmd: TRANSACTION UNDO
-[2018.09.20-23.20.01:497][ 88]LogEditorTransaction: Undo Add Component
-[2018.09.20-23.20.01:930][104]Cmd: TRANSACTION UNDO
-[2018.09.20-23.20.01:931][104]LogEditorTransaction: Undo Delete selection
-[2018.09.20-23.20.02:506][130]Cmd: TRANSACTION UNDO
-[2018.09.20-23.20.02:506][130]LogEditorTransaction: Undo Create Actors
-[2018.09.20-23.20.03:130][158]Cmd: TRANSACTION UNDO
-[2018.09.20-23.20.03:130][158]LogEditorTransaction: Undo Clicking on Actors
-[2018.09.20-23.20.03:647][181]Cmd: TRANSACTION UNDO
-[2018.09.20-23.20.03:647][181]LogEditorTransaction: Undo Clicking on Actors
-[2018.09.20-23.20.04:093][200]Cmd: TRANSACTION UNDO
-[2018.09.20-23.20.04:093][200]LogEditorTransaction: Undo Clicking on Actors
-[2018.09.20-23.20.04:710][230]Cmd: TRANSACTION UNDO
-[2018.09.20-23.20.04:710][230]LogEditorTransaction: Undo Clicking on Actors
-[2018.09.20-23.20.05:357][261]Cmd: TRANSACTION UNDO
-[2018.09.20-23.20.05:357][261]LogEditorTransaction: Undo Clicking on Actors
-[2018.09.20-23.20.06:115][301]Cmd: TRANSACTION UNDO
-[2018.09.20-23.20.06:115][301]LogEditorTransaction: Undo Clicking on Actors
-[2018.09.20-23.20.06:812][335]Cmd: TRANSACTION UNDO
-[2018.09.20-23.20.06:812][335]LogEditorTransaction: Undo Clicking on Actors
-[2018.09.20-23.20.07:389][364]Cmd: TRANSACTION UNDO
-[2018.09.20-23.20.07:389][364]LogEditorTransaction: Undo Clicking on Actors
-[2018.09.20-23.20.16:529][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4M)
-[2018.09.20-23.20.17:031][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4L)
-[2018.09.20-23.20.17:528][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4R)
-[2018.09.20-23.20.19:554][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1M)
-[2018.09.20-23.20.26:337][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.20.31:139][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1L)
-[2018.09.20-23.20.32:424][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.20.33:899][877]LogRenderer: Reallocating scene render targets to support 1272x808 Format 10 NumSamples 1 (Frame:2065).
-[2018.09.20-23.20.37:103][  8]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall1R)
-[2018.09.20-23.20.37:652][ 38]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall1M)
-[2018.09.20-23.20.40:952][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.20.59:177][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
-[2018.09.20-23.20.59:643][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1L)
-[2018.09.20-23.21.02:564][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.21.14:438][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.21.27:563][486]LogSlate: Window 'Delete Assets' being destroyed
-[2018.09.20-23.21.28:074][486]LogSlate: Window 'WallBlueprint*' being destroyed
-[2018.09.20-23.21.58:124][157]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.09.20-23.21.58:157][157]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.21.58:912][201]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall1L)
-[2018.09.20-23.21.58:956][201]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.22.06:276][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1L)
-[2018.09.20-23.22.07:481][709]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall1L)
-[2018.09.20-23.22.07:504][709]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.22.10:942][914]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.22.34:111][236]Cmd: TRANSACTION UNDO
-[2018.09.20-23.22.34:111][236]LogEditorTransaction: Undo Clicking on Actors (context menu)
-[2018.09.20-23.22.39:861][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.22.44:880][878]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall1L)
-[2018.09.20-23.22.44:903][878]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.22.52:036][303]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.22.56:783][587]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall1L)
-[2018.09.20-23.22.56:807][587]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.23.47:208][264]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand_Auto3C2C8939942714ACCA85144BEDF0F5072.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Maps/RoomCreationLand_Auto3.umap'
-[2018.09.20-23.23.47:217][264]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/RoomCreationLand' took 0.294
-[2018.09.20-23.23.47:217][264]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.294
-[2018.09.20-23.23.47:219][264]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RoomBluePrints_Ryan/WallBlueprint] ([1] browsable assets)...
-[2018.09.20-23.23.47:219][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/RoomBluePrints_Ryan/WallBlueprint]
-[2018.09.20-23.23.47:230][264]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint_Auto3CA27D0A64B9CEE687716F5B8891EB039.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/RoomBluePrints_Ryan/WallBlueprint_Auto3.uasset'
-[2018.09.20-23.23.47:231][264]LogFileHelpers: Auto-saving content packages took 0.012
-[2018.09.20-23.24.17:406][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1M)
-[2018.09.20-23.24.31:522][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.24.49:819][  2]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/RoomBluePrints_Ryan/WallBlueprint.WallBlueprint
-[2018.09.20-23.24.50:107][  2]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
-[2018.09.20-23.24.53:451][131]LogSlate: Window 'CompilerResults' being destroyed
-[2018.09.20-23.24.53:457][131]LogSlate: Window 'CompilerResults' being destroyed
-[2018.09.20-23.25.05:782][774]LogSlate: Window 'WallBlueprint*' being destroyed
-[2018.09.20-23.25.05:872][774]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/RoomBluePrints_Ryan/WallBlueprint.WallBlueprint
-[2018.09.20-23.25.06:238][774]LogSlate: Took 0.038687 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.09.20-23.25.38:939][294]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
-[2018.09.20-23.25.38:963][294]LogStaticMesh: Building static mesh StaticMesh...
-[2018.09.20-23.25.38:968][294]LogStaticMesh: Built static mesh [0.01s] /Game/RoomBluePrints_Ryan/StaticMesh.StaticMesh
-[2018.09.20-23.26.06:783][513]LogSlate: Window 'Message' being destroyed
-[2018.09.20-23.26.15:705][513]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
-[2018.09.20-23.26.15:729][513]LogStaticMesh: Building static mesh Wall1M...
-[2018.09.20-23.26.15:732][513]LogStaticMesh: Built static mesh [0.00s] /Game/RoomBluePrints_Ryan/Wall1M.Wall1M
-[2018.09.20-23.26.25:786][666]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
-[2018.09.20-23.26.25:811][666]LogStaticMesh: Building static mesh Wall1R...
-[2018.09.20-23.26.25:815][666]LogStaticMesh: Built static mesh [0.00s] /Game/RoomBluePrints_Ryan/Wall1R.Wall1R
-[2018.09.20-23.26.44:008][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/Wall1L" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/Wall1L.uasset" SILENT=true
-[2018.09.20-23.26.44:039][647]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Wall1L0BB6F71041294EA14BC275A295ACE772.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/Wall1L.uasset'
-[2018.09.20-23.26.50:956][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.27.01:376][612]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.27.11:566][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.27.14:664][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.27.33:423][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.27.41:120][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.27.45:756][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.28.04:389][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.30.37:548][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.30.57:494][321]BlueprintLog: New page: Compile WallBlueprint
-[2018.09.20-23.30.57:694][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset" SILENT=true
-[2018.09.20-23.30.57:725][321]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint93387C0E4B1BB17D685167894638C0F0.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset'
-[2018.09.20-23.30.58:199][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset" SILENT=true
-[2018.09.20-23.30.58:223][344]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprintBC72EB824DE6481FBB52AF8D003B641D.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset'
-[2018.09.20-23.32.41:478][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.33.26:014][ 15]LogEditorTransaction: Undo Add Component
-[2018.09.20-23.33.34:915][539]LogEditorTransaction: Undo Add Component
-[2018.09.20-23.33.35:612][578]LogEditorTransaction: Undo Add Component
-[2018.09.20-23.33.44:208][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.33.44:307][ 88]BlueprintLog: New page: Compile WallBlueprint
-[2018.09.20-23.33.44:496][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset" SILENT=true
-[2018.09.20-23.33.44:526][ 88]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprintDE17B50845ABE47AABA16B96BB08D283.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset'
-[2018.09.20-23.33.44:815][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset" SILENT=true
-[2018.09.20-23.33.44:833][103]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint882E77DC4EAD81B465A03A8E5F73DBA9.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset'
-[2018.09.20-23.33.48:702][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.33.57:262][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.37.52:679][673]BlueprintLog: New page: Compile WallBlueprint
-[2018.09.20-23.37.52:876][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset" SILENT=true
-[2018.09.20-23.37.52:916][673]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint2815D06F4EF2444D7D510AB7DAB7F0EF.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset'
-[2018.09.20-23.37.53:284][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset" SILENT=true
-[2018.09.20-23.37.53:306][693]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint8B18B3584F8FF18DE7694E9C4DA7ED94.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset'
-[2018.09.20-23.38.18:332][177]BlueprintLog: New page: Compile WallBlueprint
-[2018.09.20-23.38.18:530][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset" SILENT=true
-[2018.09.20-23.38.18:560][177]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint599A33864F6EACA3459401845FA66077.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset'
-[2018.09.20-23.38.19:859][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset" SILENT=true
-[2018.09.20-23.38.19:881][252]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprintFBB293A84357FC3D8CB6CEB78D31A056.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint.uasset'
-[2018.09.20-23.38.32:839][ 23]LogSlate: Window 'WallBlueprint' being destroyed
-[2018.09.20-23.38.35:091][143]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLandA316F0624DC29B31BFAB289FC425C90A.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
-[2018.09.20-23.38.45:321][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.38.52:176][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1R)
-[2018.09.20-23.38.53:339][213]Cmd: DELETE
-[2018.09.20-23.38.53:339][213]Cmd: ACTOR DELETE
-[2018.09.20-23.38.53:342][213]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.20-23.38.53:378][213]LogEditorActor: Deleted 1 Actors (0.039 secs)
-[2018.09.20-23.38.53:826][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1M)
-[2018.09.20-23.38.53:963][246]Cmd: DELETE
-[2018.09.20-23.38.53:963][246]Cmd: ACTOR DELETE
-[2018.09.20-23.38.53:966][246]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.20-23.38.53:995][246]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2018.09.20-23.38.54:394][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1L)
-[2018.09.20-23.38.54:515][275]Cmd: DELETE
-[2018.09.20-23.38.54:515][275]Cmd: ACTOR DELETE
-[2018.09.20-23.38.54:518][275]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.20-23.38.54:549][275]LogEditorActor: Deleted 1 Actors (0.034 secs)
-[2018.09.20-23.38.55:173][313]LogEditorViewport: Clicking on Actor (LMB): WallBlueprint_C (WallBlueprint)
-[2018.09.20-23.39.15:778][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
-[2018.09.20-23.39.16:752][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3R)
-[2018.09.20-23.39.20:323][809]LogEditorViewport: Clicking on Actor (LMB): WallBlueprint_C (WallBlueprint)
-[2018.09.20-23.39.30:738][431]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.09.20-23.39.40:717][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.39.56:841][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint2" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint2.uasset" SILENT=true
-[2018.09.20-23.39.56:870][964]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint251CB130C450DD5AC4823A0BA4BDE00BA.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint2.uasset'
-[2018.09.20-23.39.56:873][964]LogMetaData: Removing '/Game/RoomBluePrints_Ryan/WallBlueprint2.WallBlueprint2:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/RoomBluePrints_Ryan/WallBlueprint.PackageMetaData'
-[2018.09.20-23.39.56:873][964]LogMetaData: Removing '/Game/RoomBluePrints_Ryan/WallBlueprint2.SKEL_WallBlueprint2_C' ref from Metadata '/Game/RoomBluePrints_Ryan/WallBlueprint.PackageMetaData'
-[2018.09.20-23.39.56:873][964]LogMetaData: Removing '/Game/RoomBluePrints_Ryan/WallBlueprint2.WallBlueprint2_C' ref from Metadata '/Game/RoomBluePrints_Ryan/WallBlueprint.PackageMetaData'
-[2018.09.20-23.39.56:873][964]LogMetaData: Removing '/Game/RoomBluePrints_Ryan/WallBlueprint2.WallBlueprint2:EventGraph.K2Node_Event_0' ref from Metadata '/Game/RoomBluePrints_Ryan/WallBlueprint.PackageMetaData'
-[2018.09.20-23.39.56:873][964]LogMetaData: Removing '/Game/RoomBluePrints_Ryan/WallBlueprint2.WallBlueprint2:EventGraph.K2Node_Event_1' ref from Metadata '/Game/RoomBluePrints_Ryan/WallBlueprint.PackageMetaData'
-[2018.09.20-23.39.56:873][964]LogMetaData: Removing '/Game/RoomBluePrints_Ryan/WallBlueprint2.WallBlueprint2:EventGraph.K2Node_Event_2' ref from Metadata '/Game/RoomBluePrints_Ryan/WallBlueprint.PackageMetaData'
-[2018.09.20-23.39.56:896][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint2" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint2.uasset" SILENT=true
-[2018.09.20-23.39.56:924][964]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint2EF3194F04D28C8E8581B2FA8C057544B.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint2.uasset'
-[2018.09.20-23.41.13:113][227]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.41.16:469][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.41.18:265][523]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/RoomBluePrints_Ryan/WallBlueprint1.WallBlueprint1
-[2018.09.20-23.41.22:218][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.41.44:403][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.41.48:295][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.42.21:462][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.42.27:783][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.44.09:038][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.44.09:119][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2M)
-[2018.09.20-23.44.14:469][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.44.24:249][465]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
-[2018.09.20-23.44.24:274][465]LogStaticMesh: Building static mesh longwall...
-[2018.09.20-23.44.24:277][465]LogStaticMesh: Built static mesh [0.00s] /Game/RoomBluePrints_Ryan/longwall.longwall
-[2018.09.20-23.45.07:514][433]LogEditorTransaction: Undo Add Component
-[2018.09.20-23.45.21:293][232]LogEditorTransaction: Undo Paste Component(s)
-[2018.09.20-23.45.38:369][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.45.40:572][341]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh2_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh2_GEN_VARIABLE
-[2018.09.20-23.45.40:572][341]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh3_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh3_GEN_VARIABLE
-[2018.09.20-23.45.40:572][341]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh1_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh1_GEN_VARIABLE
-[2018.09.20-23.45.43:186][486]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.45.54:787][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.46.32:578][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.46.37:625][672]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.47.04:664][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.47.07:692][420]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.47.11:159][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.47.44:059][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.47.58:687][439]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.48.02:584][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.48.11:473][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.48.15:034][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.48.29:386][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.48.35:019][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.48.38:132][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.48.43:604][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.48.47:588][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.48.51:967][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.49.39:922][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.49.46:765][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.49.50:144][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.49.55:904][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.50.14:628][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.50.22:727][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.50.26:404][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.50.39:642][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.50.51:420][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.50.54:843][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.51.51:405][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.51.54:168][166]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.51.59:586][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.52.03:623][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.52.45:487][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.52.48:914][352]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.52.58:578][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.53.01:609][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.53.10:013][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.53.12:884][731]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.20-23.53.25:383][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.20-23.53.25:466][476]BlueprintLog: New page: Compile WallBlueprint1
-[2018.09.20-23.53.25:874][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.20-23.53.25:923][476]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint1042267BF4D391CE9081779BEC4600574.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.20-23.53.26:192][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.20-23.53.26:233][488]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint170E0ABE64AFD09C360F7A894694C2933.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.20-23.53.51:321][955]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand_Auto450A3D2DA410D344A9311FE93DCF6A9FA.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Maps/RoomCreationLand_Auto4.umap'
-[2018.09.20-23.53.51:330][955]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/RoomCreationLand' took 0.562
-[2018.09.20-23.53.51:330][955]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.562
-[2018.09.20-23.53.51:332][955]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RoomBluePrints_Ryan/longwall] ([1] browsable assets)...
-[2018.09.20-23.53.51:342][955]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/RoomBluePrints_Ryan/longwall.longwall]
-[2018.09.20-23.53.51:343][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/RoomBluePrints_Ryan/longwall]
-[2018.09.20-23.53.51:358][955]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/longwall_Auto48B37628045CED271CCAF6187395A15E7.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/RoomBluePrints_Ryan/longwall_Auto4.uasset'
-[2018.09.20-23.53.51:358][955]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RoomBluePrints_Ryan/Wall1M] ([1] browsable assets)...
-[2018.09.20-23.53.51:370][955]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/RoomBluePrints_Ryan/Wall1M.Wall1M]
-[2018.09.20-23.53.51:370][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/RoomBluePrints_Ryan/Wall1M]
-[2018.09.20-23.53.51:385][955]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Wall1M_Auto462D8B6BE4DD48B702F603BA30D4F9057.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/RoomBluePrints_Ryan/Wall1M_Auto4.uasset'
-[2018.09.20-23.53.51:386][955]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RoomBluePrints_Ryan/Wall1R] ([1] browsable assets)...
-[2018.09.20-23.53.51:399][955]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/RoomBluePrints_Ryan/Wall1R.Wall1R]
-[2018.09.20-23.53.51:399][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/RoomBluePrints_Ryan/Wall1R]
-[2018.09.20-23.53.51:415][955]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Wall1R_Auto47D8A9A3B4A79EA2F36C48FBFC554BA2D.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/RoomBluePrints_Ryan/Wall1R_Auto4.uasset'
-[2018.09.20-23.53.51:416][955]LogFileHelpers: Auto-saving content packages took 0.085
-[2018.09.21-00.00.43:160][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.00.59:517][119]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
-[2018.09.21-00.00.59:540][119]LogStaticMesh: Building static mesh StaticMesh...
-[2018.09.21-00.00.59:543][119]LogStaticMesh: Built static mesh [0.00s] /Game/RoomBluePrints_Ryan/StaticMesh.StaticMesh
-[2018.09.21-00.01.14:148][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/Floor" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/Floor.uasset" SILENT=true
-[2018.09.21-00.01.14:165][777]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Floor685324D54BE25352F8099280C9E0D4CC.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/Floor.uasset'
-[2018.09.21-00.01.18:949][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.21-00.01.28:561][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.01.50:017][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.01.56:545][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.02.37:148][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.02.52:331][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.03.10:796][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.03.42:261][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.03.42:327][462]BlueprintLog: New page: Compile WallBlueprint1
-[2018.09.21-00.03.42:638][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.03.42:690][462]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint14D7E482D440A6D1362336C85AFDBDDC5.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.03.43:018][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.03.43:054][477]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint179E7B2DC48D19450BA50F0A292430882.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.04.04:083][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.04.06:486][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.04.12:378][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.04.44:240][  6]LogEditorTransaction: Undo Modify Component(s)
-[2018.09.21-00.04.46:583][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.05.05:299][213]LogEditorTransaction: Undo Attach Component
-[2018.09.21-00.05.14:853][762]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.05.29:196][579]LogEditorTransaction: Undo Modify Component(s)
-[2018.09.21-00.05.29:834][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.05.37:713][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.05.48:009][655]LogEditorTransaction: Undo Modify Component(s)
-[2018.09.21-00.05.48:623][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.05.57:355][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.06.16:086][273]LogEditorTransaction: Undo Modify Component(s)
-[2018.09.21-00.06.21:695][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.06.37:458][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.09.22:438][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.09.31:278][533]LogEditorTransaction: Undo Modify Component(s)
-[2018.09.21-00.09.39:781][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.10.19:207][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.10.26:780][782]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.21-00.10.39:623][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.10.57:327][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.11.04:718][946]LogEditorTransaction: Undo Modify Component(s)
-[2018.09.21-00.11.07:777][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.11.19:129][794]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.21-00.11.27:469][289]LogEditorTransaction: Undo Modify Component(s)
-[2018.09.21-00.11.29:163][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.11.32:610][586]LogEditorTransaction: Undo Modify Component(s)
-[2018.09.21-00.11.33:655][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.11.43:511][223]LogEditorTransaction: Undo Modify Component(s)
-[2018.09.21-00.11.45:071][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.11.58:468][ 90]LogEditorTransaction: Undo Modify Component(s)
-[2018.09.21-00.12.05:527][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.12.25:703][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.13.08:288][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.13.31:797][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.13.36:660][877]BlueprintLog: New page: Compile WallBlueprint1
-[2018.09.21-00.13.37:035][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.13.37:086][877]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint1D55D81CF41806175A98BC5B10B12D422.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.13.37:424][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.13.37:551][895]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint1EE53918A4BF6767AA7ED6AA556009366.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.13.43:557][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.13.44:803][317]LogSlate: Window 'WallBlueprint1' being destroyed
-[2018.09.21-00.13.50:089][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.13.55:194][735]LogSlate: Window 'Delete Assets' being destroyed
-[2018.09.21-00.13.55:204][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.21-00.14.26:062][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.14.38:304][207]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.21-00.14.38:304][207]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.21-00.14.38:305][207]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.21-00.14.38:305][207]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.21-00.14.38:305][207]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.21-00.14.38:305][207]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.21-00.14.38:305][207]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.21-00.14.38:306][207]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.21-00.14.38:306][207]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.21-00.14.38:306][207]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.21-00.14.38:364][207]LogEditorActor: Deleted 10 Actors (0.066 secs)
-[2018.09.21-00.14.43:734][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.14.43:834][533]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.09.21-00.14.43:857][533]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.14.43:857][533]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.09.21-00.14.43:859][533]LogPlayLevel: [PlayLevel] Compiling RoomCreationLand before play...
-[2018.09.21-00.14.44:121][533]LogPlayLevel: [PlayLevel]   Compiling RoomCreationLand as a dependent...
-[2018.09.21-00.14.44:308][533]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand509821D04B9ED4642E1C2B8773D6343C.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
-[2018.09.21-00.14.44:348][533]LogFileHelpers: Saving map 'RoomCreationLand' took 0.356
-[2018.09.21-00.14.44:380][533]LogPlayLevel: PlayLevel: Blueprint regeneration took 522 ms (2 blueprints)
-[2018.09.21-00.14.44:380][533]PIE: New page: PIE session: RoomCreationLand (Sep 20, 2018, 4:14:44 PM)
-[2018.09.21-00.14.44:380][533]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
-[2018.09.21-00.14.44:396][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015442s)
-[2018.09.21-00.14.44:397][533]LogAIModule: Creating AISystem for world RoomCreationLand
-[2018.09.21-00.14.44:397][533]LogPlayLevel: PIE: World Init took: (0.001248s)
-[2018.09.21-00.14.44:397][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.016918s)
-[2018.09.21-00.14.44:445][533]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.21-00.14.44:524][533]LogInit: FAudioDevice initialized.
-[2018.09.21-00.14.44:534][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.14.44:610][533]LogLoad: Game class is 'TopDownGameMode_C'
-[2018.09.21-00.14.44:614][533]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.20-20.14.44
-[2018.09.21-00.14.44:615][533]LogWorld: Bringing up level for play took: 0.003117
-[2018.09.21-00.14.44:632][533]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 0.515
-[2018.09.21-00.14.44:632][533]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.14.47:407][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.14.47:408][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.14.47:426][697]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.09.21-00.14.47:465][697]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.21-00.14.47:466][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.14.47:527][698]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2018.09.21-00.14.51:169][916]LogEditorViewport: Clicking on Actor (LMB): WallBlueprint1_C (WallBlueprint1)
-[2018.09.21-00.14.58:809][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.14.58:893][374]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.09.21-00.14.58:909][374]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.14.58:910][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.21-00.14.58:910][374]PIE: New page: PIE session: RoomCreationLand (Sep 20, 2018, 4:14:58 PM)
-[2018.09.21-00.14.58:910][374]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
-[2018.09.21-00.14.58:925][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015411s)
-[2018.09.21-00.14.58:926][374]LogAIModule: Creating AISystem for world RoomCreationLand
-[2018.09.21-00.14.58:926][374]LogPlayLevel: PIE: World Init took: (0.000748s)
-[2018.09.21-00.14.58:926][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.016288s)
-[2018.09.21-00.14.58:966][374]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.21-00.14.59:045][374]LogInit: FAudioDevice initialized.
-[2018.09.21-00.14.59:056][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.14.59:126][374]LogLoad: Game class is 'TopDownGameMode_C'
-[2018.09.21-00.14.59:129][374]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.20-20.14.59
-[2018.09.21-00.14.59:130][374]LogWorld: Bringing up level for play took: 0.003130
-[2018.09.21-00.14.59:147][374]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 1.029
-[2018.09.21-00.14.59:147][374]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.15.00:473][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.15.00:473][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.15.00:491][451]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.09.21-00.15.00:530][451]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.21-00.15.00:530][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.15.00:580][452]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2018.09.21-00.15.15:512][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.15.15:706][354]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/RoomBluePrints_Ryan/WallBlueprint1.WallBlueprint1
-[2018.09.21-00.15.36:302][524]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.21-00.15.43:720][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.15.43:786][962]BlueprintLog: New page: Compile WallBlueprint1
-[2018.09.21-00.15.44:012][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.15.44:060][962]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint1D513106B430548F3AC2B588F78A91FF1.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.15.44:239][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.15.44:290][967]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint148289BB648D41E99B296F4B431556A33.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.15.46:080][ 73]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.09.21-00.15.46:100][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.15.46:100][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.21-00.15.46:100][ 73]PIE: New page: PIE session: RoomCreationLand (Sep 20, 2018, 4:15:46 PM)
-[2018.09.21-00.15.46:100][ 73]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
-[2018.09.21-00.15.46:113][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013966s)
-[2018.09.21-00.15.46:114][ 73]LogAIModule: Creating AISystem for world RoomCreationLand
-[2018.09.21-00.15.46:114][ 73]LogPlayLevel: PIE: World Init took: (0.000749s)
-[2018.09.21-00.15.46:114][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.014853s)
-[2018.09.21-00.15.46:187][ 73]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.21-00.15.46:262][ 73]LogInit: FAudioDevice initialized.
-[2018.09.21-00.15.46:273][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.15.46:351][ 73]LogLoad: Game class is 'TopDownGameMode_C'
-[2018.09.21-00.15.46:354][ 73]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.20-20.15.46
-[2018.09.21-00.15.46:354][ 73]LogWorld: Bringing up level for play took: 0.002638
-[2018.09.21-00.15.46:372][ 73]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 0.255
-[2018.09.21-00.15.46:372][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.15.47:558][141]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.15.47:558][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.15.47:575][141]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.09.21-00.15.47:615][141]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.21-00.15.47:616][141]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.15.47:675][142]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2018.09.21-00.15.49:237][235]LogEditorViewport: Clicking on Actor (LMB): WallBlueprint1_C (WallBlueprint1)
-[2018.09.21-00.15.54:113][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.16.03:597][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.21-00.16.07:251][292]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.07:251][292]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.07:251][292]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.08:609][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.16.08:691][371]BlueprintLog: New page: Compile WallBlueprint1
-[2018.09.21-00.16.08:916][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.16.08:965][371]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint1D8EEB3F8476810CBB3FD8B9B32177546.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.16.09:330][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.16.09:372][388]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint199BD29A54CC666C5522644AE41097800.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.16.11:124][488]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.21-00.16.12:724][582]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.12:724][582]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.12:724][582]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.13:591][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.16.13:673][633]BlueprintLog: New page: Compile WallBlueprint1
-[2018.09.21-00.16.13:922][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.16.13:969][633]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint1A5F5A21F40D667E360D64CA267074012.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.16.16:564][783]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.09.21-00.16.16:581][783]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.16.16:581][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.21-00.16.16:582][783]PIE: New page: PIE session: RoomCreationLand (Sep 20, 2018, 4:16:16 PM)
-[2018.09.21-00.16.16:582][783]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
-[2018.09.21-00.16.16:596][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014105s)
-[2018.09.21-00.16.16:597][783]LogAIModule: Creating AISystem for world RoomCreationLand
-[2018.09.21-00.16.16:597][783]LogPlayLevel: PIE: World Init took: (0.000699s)
-[2018.09.21-00.16.16:597][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.014942s)
-[2018.09.21-00.16.16:639][783]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.21-00.16.16:717][783]LogInit: FAudioDevice initialized.
-[2018.09.21-00.16.16:732][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.16.16:801][783]LogLoad: Game class is 'TopDownGameMode_C'
-[2018.09.21-00.16.16:804][783]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.20-20.16.16
-[2018.09.21-00.16.16:804][783]LogWorld: Bringing up level for play took: 0.002715
-[2018.09.21-00.16.16:823][783]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 0.706
-[2018.09.21-00.16.16:823][783]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.16.18:306][869]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.16.18:307][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.16.18:338][869]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.09.21-00.16.18:379][869]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.21-00.16.18:379][869]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.16.18:438][870]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2018.09.21-00.16.23:244][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.16.38:082][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.16.45:607][471]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.45:607][471]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.45:607][471]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.49:672][699]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.49:672][699]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.49:672][699]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.57:357][141]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.57:357][141]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.16.57:357][141]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.00:402][312]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.00:402][312]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.00:402][312]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.03:118][461]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.03:118][461]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.03:118][461]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.09:397][823]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.09:397][823]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.09:397][823]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.12:866][ 22]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.12:866][ 22]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.12:866][ 22]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.14:915][137]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.14:915][137]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.14:915][137]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.18:348][330]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.18:348][330]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.18:348][330]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.24:023][655]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.24:023][655]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.24:023][655]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.26:436][787]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.26:436][787]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.26:436][787]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.29:712][970]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.29:712][970]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.29:712][970]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.09.21-00.17.32:190][ 98]BlueprintLog: New page: Compile WallBlueprint1
-[2018.09.21-00.17.32:509][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.17.32:566][ 98]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint128AF582042DED1A9EE24F9A7FDF63926.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.17.32:811][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.17.32:854][108]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint1EEE6AF53472E76DB8BBF119E891E2370.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.17.36:785][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.17.36:852][346]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.09.21-00.17.36:872][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.17.36:872][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.21-00.17.36:872][346]PIE: New page: PIE session: RoomCreationLand (Sep 20, 2018, 4:17:36 PM)
-[2018.09.21-00.17.36:873][346]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
-[2018.09.21-00.17.36:887][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014766s)
-[2018.09.21-00.17.36:888][346]LogAIModule: Creating AISystem for world RoomCreationLand
-[2018.09.21-00.17.36:888][346]LogPlayLevel: PIE: World Init took: (0.000756s)
-[2018.09.21-00.17.36:888][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.015661s)
-[2018.09.21-00.17.36:943][346]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.21-00.17.37:020][346]LogInit: FAudioDevice initialized.
-[2018.09.21-00.17.37:031][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.17.37:110][346]LogLoad: Game class is 'TopDownGameMode_C'
-[2018.09.21-00.17.37:113][346]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.20-20.17.37
-[2018.09.21-00.17.37:114][346]LogWorld: Bringing up level for play took: 0.002582
-[2018.09.21-00.17.37:132][346]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand 1.015
-[2018.09.21-00.17.37:132][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.17.39:925][511]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.17.39:925][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.17.39:941][511]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.09.21-00.17.39:979][511]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.21-00.17.39:980][511]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.17.40:033][512]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2018.09.21-00.17.41:173][580]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.09.21-00.17.41:190][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.17.41:190][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.21-00.17.41:190][580]PIE: New page: PIE session: RoomCreationLand (Sep 20, 2018, 4:17:41 PM)
-[2018.09.21-00.17.41:190][580]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand
-[2018.09.21-00.17.41:203][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013212s)
-[2018.09.21-00.17.41:204][580]LogAIModule: Creating AISystem for world RoomCreationLand
-[2018.09.21-00.17.41:204][580]LogPlayLevel: PIE: World Init took: (0.000763s)
-[2018.09.21-00.17.41:204][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand to /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand (0.014129s)
-[2018.09.21-00.17.41:248][580]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.21-00.17.41:327][580]LogInit: FAudioDevice initialized.
-[2018.09.21-00.17.41:337][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.17.41:415][580]LogLoad: Game class is 'TopDownGameMode_C'
-[2018.09.21-00.17.41:420][580]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand.RoomCreationLand up for play (max tick rate 60) at 2018.09.20-20.17.41
-[2018.09.21-00.17.41:420][580]LogWorld: Bringing up level for play took: 0.004257
-[2018.09.21-00.17.41:440][580]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_RoomCreationLand -0.678
-[2018.09.21-00.17.41:440][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.17.42:599][647]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.17.42:599][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.21-00.17.42:616][647]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.09.21-00.17.42:654][647]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.21-00.17.42:655][647]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand' with GeneratedClass '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/RoomCreationLand.RoomCreationLand:PersistentLevel.RoomCreationLand'
-[2018.09.21-00.17.42:707][648]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2018.09.21-00.17.44:856][776]LogEditorViewport: Clicking on Actor (LMB): WallBlueprint1_C (WallBlueprint1)
-[2018.09.21-00.18.01:092][746]LogEditorViewport: Clicking on Actor (LMB): WallBlueprint1_C (WallBlueprint1)
-[2018.09.21-00.18.03:933][915]LogEditorViewport: Clicking on Actor (LMB): WallBlueprint1_C (WallBlueprint1)
-[2018.09.21-00.18.04:644][957]LogEditorViewport: Clicking on Actor (LMB): WallBlueprint1_C (WallBlueprint1)
-[2018.09.21-00.18.08:056][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.21-00.18.10:970][326]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.21-00.18.58:551][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/RoomBaseBP" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/RoomBaseBP.uasset" SILENT=true
-[2018.09.21-00.18.58:597][145]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomBaseBP11B6401C42ABA0FED06BC6840901482C.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/RoomBaseBP.uasset'
-[2018.09.21-00.18.58:602][145]LogMetaData: Removing '/Game/RoomBluePrints_Ryan/RoomBaseBP.SKEL_RoomBaseBP_C' ref from Metadata '/Game/RoomBluePrints_Ryan/WallBlueprint1.PackageMetaData'
-[2018.09.21-00.18.58:602][145]LogMetaData: Removing '/Game/RoomBluePrints_Ryan/RoomBaseBP.RoomBaseBP_C' ref from Metadata '/Game/RoomBluePrints_Ryan/WallBlueprint1.PackageMetaData'
-[2018.09.21-00.18.58:629][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/RoomBaseBP" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/RoomBaseBP.uasset" SILENT=true
-[2018.09.21-00.18.58:674][145]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomBaseBP6CE592F147D0D3CD097081850793B428.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/RoomBaseBP.uasset'
-[2018.09.21-00.18.58:681][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBluePrints_Ryan/WallBlueprint1" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset" SILENT=true
-[2018.09.21-00.18.58:695][145]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WallBlueprint13DB224B8466C86FB477ECCB9F02BE23C.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/RoomBluePrints_Ryan/WallBlueprint1.uasset'
-[2018.09.21-00.19.00:284][222]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand964C191648155DA019D92DB8499CD431.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.25-22.22.43:317][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.25-22.22.43:317][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.25-22.22.43:958][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.25-22.22.43:958][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.25-22.22.43:958][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.25-22.22.43:959][  0]LogInit: Computer: DESKTOP-S49REJ4
+[2018.09.25-22.22.43:959][  0]LogInit: User: ryanv
+[2018.09.25-22.22.43:959][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.25-22.22.43:959][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.09.25-22.22.43:959][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.25-22.22.43:959][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.25-22.22.43:959][  0]LogMemory: Process Physical Memory: 101.23 MB used, 101.23 MB peak
+[2018.09.25-22.22.43:959][  0]LogMemory: Process Virtual Memory: 93.64 MB used, 93.64 MB peak
+[2018.09.25-22.22.43:959][  0]LogMemory: Physical Memory: 7272.71 MB used,  8984.32 MB free, 16257.03 MB total
+[2018.09.25-22.22.43:960][  0]LogMemory: Virtual Memory: 4647.41 MB used,  8984.32 MB free, 134217728.00 MB total
+[2018.09.25-22.22.44:382][  0]LogInit: Using OS detected language (en-US).
+[2018.09.25-22.22.44:382][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.25-22.22.44:382][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.25-22.22.44:759][  0]LogStreaming: Display: Took  0.379s to InitEngineTextLocalization.
+[2018.09.25-22.22.44:759][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.25-22.22.44:794][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.25-22.22.44:794][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.25-22.22.50:602][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2018.09.25-22.22.50:602][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.25-22.22.50:650][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.25-22.22.50:650][  0]LogD3D11RHI:       8074/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.25-22.22.50:675][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.25-22.22.50:675][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.25-22.22.50:677][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.25-22.22.50:677][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.25-22.22.50:677][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.25-22.22.50:691][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.25-22.22.50:691][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.25-22.22.50:691][  0]LogWindows: EnumDisplayDevices:
+[2018.09.25-22.22.50:691][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.25-22.22.50:691][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.25-22.22.50:692][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.25-22.22.50:692][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.25-22.22.50:693][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.25-22.22.50:693][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.25-22.22.50:693][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.25-22.22.50:694][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.25-22.22.50:694][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.25-22.22.50:694][  0]LogD3D11RHI:   Driver Version: 385.14 (internal:22.21.13.8514, unified:385.14)
+[2018.09.25-22.22.50:694][  0]LogD3D11RHI:      Driver Date: 7-30-2017
+[2018.09.25-22.22.50:694][  0]LogRHI: Texture pool is 5651 MB (70% of 8074 MB)
+[2018.09.25-22.22.50:727][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.25-22.22.50:740][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.09.25-22.22.50:786][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../GameDev/_Projects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/5508/).
+[2018.09.25-22.22.50:786][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ryanv/AppData/Local/Temp/UnrealShaderWorkingDir/84FF7F42424BAC21AABADD806FB0B3B3/'.
+[2018.09.25-22.22.51:133][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.25-22.22.51:144][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.25-22.22.51:157][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.25-22.22.51:172][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.25-22.22.51:185][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.25-22.22.51:197][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.25-22.22.51:211][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.25-22.22.51:226][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.25-22.22.51:232][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-22.22.51:332][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.25-22.22.51:403][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.25-22.22.51:403][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.25-22.22.51:432][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.25-22.22.51:432][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.25-22.22.51:449][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.25-22.22.51:465][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.25-22.22.51:479][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.25-22.22.51:492][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.25-22.22.51:504][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.25-22.22.51:505][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.25-22.22.51:553][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.25-22.22.51:553][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.25-22.22.51:553][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.25-22.22.52:326][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.25-22.22.52:391][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.25-22.22.52:392][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.25-22.22.52:392][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.25-22.22.52:392][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.25-22.22.52:392][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.25-22.22.52:392][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.25-22.22.52:409][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.25-22.22.52:421][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanv/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.25-22.22.52:421][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.25-22.22.52:421][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.25-22.22.52:442][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.25-22.22.52:444][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.25-22.22.52:444][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.25-22.22.52:524][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2018.09.25-22.22.52:895][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.25-22.22.53:035][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.25-22.22.53:039][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.25-22.22.53:039][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.25-22.22.53:039][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.25-22.22.53:039][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.25-22.22.53:060][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.09.25-22.22.53:715][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.132163 seconds
+[2018.09.25-22.22.53:722][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.25-22.22.53:722][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.25-22.22.53:722][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.25-22.22.54:631][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.25-22.22.54:645][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.25-22.22.54:816][  0]SourceControl: Source control is disabled
+[2018.09.25-22.22.54:816][  0]SourceControl: Source control is disabled
+[2018.09.25-22.22.54:817][  0]SourceControl: Source control is disabled
+[2018.09.25-22.22.54:818][  0]SourceControl: Source control is disabled
+[2018.09.25-22.22.54:979][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.25-22.22.55:052][  0]LogOcInput: OculusInput pre-init called
+[2018.09.25-22.22.55:111][  0]LogEngine: Initializing Engine...
+[2018.09.25-22.22.55:158][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2018.09.25-22.22.55:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.25-22.22.55:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.25-22.22.55:160][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.25-22.22.55:160][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.25-22.22.55:384][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.25-22.22.55:394][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.25-22.22.55:468][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.25-22.22.55:959][  0]LogInit: FAudioDevice initialized.
+[2018.09.25-22.22.55:960][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.25-22.22.56:043][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.25-22.22.56:055][  0]LogInit: Texture streaming: Enabled
+[2018.09.25-22.22.56:069][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.25-22.22.56:082][  0]LogInit: Transaction tracking system initialized
+[2018.09.25-22.22.56:099][  0]BlueprintLog: New page: Editor Load
+[2018.09.25-22.22.56:219][  0]LocalizationService: Localization service is disabled
+[2018.09.25-22.22.56:528][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.25-22.22.56:528][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.25-22.22.56:528][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.25-22.22.56:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.25-22.22.56:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.25-22.22.56:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.25-22.22.56:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.25-22.22.56:628][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.04s
+[2018.09.25-22.22.56:628][  0]SourceControl: Source control is disabled
+[2018.09.25-22.22.56:628][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.25-22.22.56:647][  0]LightingResults: New page: Lighting Build
+[2018.09.25-22.22.56:649][  0]MapCheck: New page: Map Check
+[2018.09.25-22.22.56:649][  0]LightingResults: New page: Lighting Build
+[2018.09.25-22.22.57:307][  0]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.25-22.22.57:313][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.25-22.22.57:335][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.25-22.22.57:388][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.083ms to complete.
+[2018.09.25-22.22.57:388][  0]LogFileHelpers: Loading map 'MapGenerator' took 0.760
+[2018.09.25-22.22.57:770][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-22.22.57:788][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-22.22.57:795][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-22.22.57:802][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-22.22.57:811][  0]LogCollectionManager: Loaded 0 collections in 0.001461 seconds
+[2018.09.25-22.22.57:886][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
+[2018.09.25-22.22.57:886][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Developers/ryanv/Collections/' took 0.01s
+[2018.09.25-22.22.57:886][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
+[2018.09.25-22.22.57:886][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.25-22.22.57:903][  0]LogContentBrowser: Native class hierarchy populated in 0.0170 seconds. Added 2572 classes and 603 folders.
+[2018.09.25-22.22.57:939][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.25-22.22.59:145][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.25-22.22.59:177][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.09.25-22.23.00:428][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.25-22.23.00:431][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.25-22.23.00:506][  0]LogSlate: Took 0.019084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.25-22.23.00:949][  0]LogRenderer: Reallocating scene render targets to support 1060x608 Format 10 NumSamples 1 (Frame:1).
+[2018.09.25-22.23.01:233][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.25-22.23.01:234][  0]LogLoad: (Engine Initialization) Total time: 21.48 seconds
+[2018.09.25-22.23.01:234][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.25-22.23.01:253][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.25-22.23.01:324][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.25-22.23.01:421][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.15s
+[2018.09.25-22.23.01:439][  1]LogAssetRegistry: Asset discovery search completed in 8.9388 seconds
+[2018.09.25-22.23.01:441][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.25-22.23.01:441][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2018.09.25-22.23.15:322][778]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-22.23.17:221][888]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-22.23.17:300][888]LogSlate: Took 0.019176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.25-22.23.19:099][992]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.25-22.23.19:106][992]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.25-22.23.19:118][992]LightingResults: New page: Lighting Build
+[2018.09.25-22.23.19:119][992]LoadErrors: New page: Loading map: RoomCreationLand.umap
+[2018.09.25-22.23.19:122][992]MapCheck: New page: Map Check
+[2018.09.25-22.23.19:122][992]LightingResults: New page: Lighting Build
+[2018.09.25-22.23.21:843][992]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2018.09.25-22.23.21:843][992]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.09.25-22.23.21:933][992]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0042.18] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 219 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.09.25-22.23.23:595][992]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.25-22.23.23:911][992]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.25-22.23.23:999][992]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.25-22.23.24:065][992]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.792ms to complete.
+[2018.09.25-22.23.24:065][992]LogFileHelpers: Loading map 'RoomCreationLand' took 4.967
+[2018.09.25-22.23.24:066][992]LogSlate: Window 'Open Level' being destroyed
+[2018.09.25-22.23.35:308][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-22.23.35:942][666]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/RoomCreationLand9D254E3C4448F8894E9C259B78EF84A5.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap'
+[2018.09.25-22.23.40:194][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-22.43.58:102][922]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-22.44.03:421][224]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-22.44.03:491][227]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-22.44.03:859][248]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-22.44.07:549][465]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-22.46.27:111][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-23.05.22:636][287]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.09.25-23.06.24:591][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.26-00.04.22:610][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.26-00.04.31:868][ 61]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-00.04.31:916][ 61]LogAssetEditorManager: Opening Asset editor for World /Game/MapGenerator_Mike/MapGenerator.MapGenerator
+[2018.09.26-00.04.31:951][ 61]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.26-00.04.31:951][ 61]LightingResults: New page: Lighting Build
+[2018.09.26-00.04.31:952][ 61]LoadErrors: New page: Loading map: MapGenerator.umap
+[2018.09.26-00.04.31:977][ 61]MapCheck: New page: Map Check
+[2018.09.26-00.04.31:977][ 61]LightingResults: New page: Lighting Build
+[2018.09.26-00.04.32:080][ 61]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.26-00.04.32:135][ 61]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.26-00.04.32:207][ 61]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.254ms to complete.
+[2018.09.26-00.04.32:207][ 61]LogFileHelpers: Loading map 'MapGenerator' took 0.257
+[2018.09.26-00.04.57:952][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
