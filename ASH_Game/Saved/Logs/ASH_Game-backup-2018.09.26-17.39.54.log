@@ -1,0 +1,1706 @@
+﻿Log file open, 09/26/18 17:05:13
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ASH_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.405889
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.202s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: NVIDIA GeForce GTX 1060
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.010s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.26-21.05.13:421][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.26-21.05.13:421][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.26-21.05.13:444][  0]LogHAL: Display: Platform has ~ 16 GB [17028878336 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.26-21.05.13:444][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.26-21.05.13:444][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.26-21.05.13:445][  0]LogInit: Computer: DESKTOP-EQNU1S5
+[2018.09.26-21.05.13:445][  0]LogInit: User: XENO
+[2018.09.26-21.05.13:445][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.09.26-21.05.13:445][  0]LogInit: High frequency timer resolution =2.156255 MHz
+[2018.09.26-21.05.13:445][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.26-21.05.13:445][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.26-21.05.13:445][  0]LogMemory: Process Physical Memory: 102.52 MB used, 102.52 MB peak
+[2018.09.26-21.05.13:445][  0]LogMemory: Process Virtual Memory: 98.14 MB used, 98.14 MB peak
+[2018.09.26-21.05.13:445][  0]LogMemory: Physical Memory: 3642.18 MB used,  12597.82 MB free, 16240.00 MB total
+[2018.09.26-21.05.13:445][  0]LogMemory: Virtual Memory: 4669.25 MB used,  12597.82 MB free, 134217728.00 MB total
+[2018.09.26-21.05.13:740][  0]LogInit: Using OS detected language (en-US).
+[2018.09.26-21.05.13:740][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.26-21.05.13:740][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.26-21.05.14:051][  0]LogStreaming: Display: Took  0.311s to InitEngineTextLocalization.
+[2018.09.26-21.05.14:051][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.26-21.05.14:072][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.26-21.05.14:072][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.26-21.05.14:216][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.26-21.05.14:216][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.26-21.05.14:258][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.09.26-21.05.14:258][  0]LogD3D11RHI:       6061/0/8120 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.26-21.05.14:285][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2018.09.26-21.05.14:285][  0]LogD3D11RHI:       128/0/8120 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.26-21.05.14:286][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.26-21.05.14:286][  0]LogD3D11RHI:       0/0/8120 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.26-21.05.14:286][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.26-21.05.14:291][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.26-21.05.14:292][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.26-21.05.14:292][  0]LogWindows: EnumDisplayDevices:
+[2018.09.26-21.05.14:292][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.09.26-21.05.14:292][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.26-21.05.14:292][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.26-21.05.14:292][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.26-21.05.14:292][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.26-21.05.14:293][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.26-21.05.14:293][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.09.26-21.05.14:293][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.26-21.05.14:293][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.09.26-21.05.14:293][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
+[2018.09.26-21.05.14:293][  0]LogD3D11RHI:      Driver Date: 3-7-2018
+[2018.09.26-21.05.14:293][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.09.26-21.05.14:321][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.26-21.05.14:332][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.09.26-21.05.14:379][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../UnrealProjects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/8012/).
+[2018.09.26-21.05.14:379][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/XENO/AppData/Local/Temp/UnrealShaderWorkingDir/9AF6001D4BA57744681EDE87332A8D9A/'.
+[2018.09.26-21.05.14:620][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.26-21.05.14:631][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.26-21.05.14:641][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.26-21.05.14:652][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.26-21.05.14:662][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.26-21.05.14:673][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.26-21.05.14:683][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.26-21.05.14:693][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.26-21.05.14:698][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:763][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.26-21.05.14:764][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.26-21.05.14:841][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.26-21.05.14:841][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.26-21.05.14:873][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.26-21.05.14:873][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.26-21.05.14:883][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.26-21.05.14:893][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.26-21.05.14:903][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.26-21.05.14:913][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.26-21.05.14:921][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.26-21.05.14:921][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.26-21.05.14:958][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.26-21.05.14:958][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.26-21.05.14:958][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.26-21.05.15:541][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.26-21.05.15:587][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/XENO/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.26-21.05.15:588][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/XENO/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.26-21.05.15:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UnrealProjects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.26-21.05.15:588][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.26-21.05.15:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UnrealProjects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.26-21.05.15:588][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.26-21.05.15:599][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.26-21.05.15:611][  0]LogDerivedDataCache: Using Local data cache path C:/Users/XENO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.26-21.05.15:611][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.26-21.05.15:611][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.26-21.05.15:628][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.26-21.05.15:630][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.26-21.05.15:630][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.26-21.05.15:692][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.09.26-21.05.15:939][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.26-21.05.16:040][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.26-21.05.16:042][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.26-21.05.16:042][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.26-21.05.16:042][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.26-21.05.16:042][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.26-21.05.16:058][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.09.26-21.05.16:937][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.413583 seconds
+[2018.09.26-21.05.16:942][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.26-21.05.16:942][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.26-21.05.16:942][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.26-21.05.17:630][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.26-21.05.17:643][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.26-21.05.17:905][  0]SourceControl: Source control is disabled
+[2018.09.26-21.05.17:905][  0]SourceControl: Source control is disabled
+[2018.09.26-21.05.17:906][  0]SourceControl: Source control is disabled
+[2018.09.26-21.05.17:907][  0]SourceControl: Source control is disabled
+[2018.09.26-21.05.18:093][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.26-21.05.18:204][  0]LogOcInput: OculusInput pre-init called
+[2018.09.26-21.05.18:281][  0]LogEngine: Initializing Engine...
+[2018.09.26-21.05.18:281][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.26-21.05.18:282][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.26-21.05.18:282][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.26-21.05.18:283][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.26-21.05.18:283][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.26-21.05.18:465][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.26-21.05.18:474][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.26-21.05.18:484][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.26-21.05.18:799][  0]LogInit: FAudioDevice initialized.
+[2018.09.26-21.05.18:799][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.26-21.05.18:889][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/XENO/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.26-21.05.18:889][  0]LogInit: Texture streaming: Enabled
+[2018.09.26-21.05.18:912][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.26-21.05.18:923][  0]LogInit: Transaction tracking system initialized
+[2018.09.26-21.05.18:945][  0]BlueprintLog: New page: Editor Load
+[2018.09.26-21.05.19:009][  0]LocalizationService: Localization service is disabled
+[2018.09.26-21.05.19:366][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../UnrealProjects/A.S.H/ASH_Game/Content/ as it will conflict with another watching ../../../../UnrealProjects/A.S.H/ASH_Game/Content/.
+[2018.09.26-21.05.19:379][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.26-21.05.19:379][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.26-21.05.19:379][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.26-21.05.19:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.26-21.05.19:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.26-21.05.19:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.26-21.05.19:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.26-21.05.19:466][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/' took 0.03s
+[2018.09.26-21.05.19:466][  0]SourceControl: Source control is disabled
+[2018.09.26-21.05.19:466][  0]Cmd: MAP LOAD FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/UI-Rick/MainMenuTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.26-21.05.19:490][  0]LightingResults: New page: Lighting Build
+[2018.09.26-21.05.19:492][  0]MapCheck: New page: Map Check
+[2018.09.26-21.05.19:492][  0]LightingResults: New page: Lighting Build
+[2018.09.26-21.05.20:401][  0]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.09.26-21.05.20:401][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.26-21.05.20:424][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.26-21.05.20:459][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34.783ms to complete.
+[2018.09.26-21.05.20:459][  0]LogFileHelpers: Loading map 'MainMenuTest' took 0.993
+[2018.09.26-21.05.20:887][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.05.20:921][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.05.20:931][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.05.20:939][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.05.21:052][  0]LogCollectionManager: Loaded 0 collections in 0.053454 seconds
+[2018.09.26-21.05.21:267][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
+[2018.09.26-21.05.21:267][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/Developers/XENO/Collections/' took 0.01s
+[2018.09.26-21.05.21:267][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
+[2018.09.26-21.05.21:267][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.26-21.05.21:309][  0]LogContentBrowser: Native class hierarchy populated in 0.0395 seconds. Added 2572 classes and 603 folders.
+[2018.09.26-21.05.21:377][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.09.26-21.05.22:236][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.09.26-21.05.22:317][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.09.26-21.05.22:745][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.26-21.05.22:749][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.26-21.05.22:802][  0]LogSlate: Took 0.011035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.26-21.05.23:183][  0]LogRenderer: Reallocating scene render targets to support 1612x808 Format 10 NumSamples 1 (Frame:1).
+[2018.09.26-21.05.23:570][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.26-21.05.23:570][  0]LogLoad: (Engine Initialization) Total time: 12.91 seconds
+[2018.09.26-21.05.23:570][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.26-21.05.23:607][  0]LogEditorViewport: Clicking Background
+[2018.09.26-21.05.23:644][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.26-21.05.23:720][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.26-21.05.23:803][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/' took 0.15s
+[2018.09.26-21.05.23:980][  2]LogAssetRegistry: Asset discovery search completed in 8.3099 seconds
+[2018.09.26-21.05.23:982][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.26-21.05.23:982][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2018.09.26-21.05.25:026][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.26-21.05.30:497][329]LogSlate: Took 0.022347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.26-21.05.30:514][329]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP
+[2018.09.26-21.05.31:515][329]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 116 classes and 0 folders.
+[2018.09.26-21.05.33:493][329]LogSlate: Took 0.015102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.26-21.05.35:097][330]LogSlate: Took 0.011507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.26-21.06.23:631][162]LogHttp: Warning: 000001C2C6C89300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.26-21.06.23:631][162]LogHttp: Warning: 000001C2C6C89300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.26-21.06.23:631][162]LogHttp: Warning: 000001C2C6C89300: libcurl info message cache 1 (Closing connection 0)
+[2018.09.26-21.08.23:651][204]LogHttp: Warning: 000001C2F77E6980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.26-21.08.23:651][204]LogHttp: Warning: 000001C2F77E6980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.26-21.08.23:651][204]LogHttp: Warning: 000001C2F77E6980: libcurl info message cache 1 (Closing connection 1)
+[2018.09.26-21.10.23:690][281]LogHttp: Warning: 000001C2F95E7100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.26-21.10.23:691][281]LogHttp: Warning: 000001C2F95E7100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.26-21.10.23:691][281]LogHttp: Warning: 000001C2F95E7100: libcurl info message cache 1 (Closing connection 2)
+[2018.09.26-21.11.19:749][567]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.26-21.11.20:724][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapGenerator_Mike/MapGenerator_BP" FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset" SILENT=true
+[2018.09.26-21.11.21:261][567]LogSavePackage: Moving '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/MapGenerator_BP7A3DDED54D401F91B703F7B62BF2B2F3.tmp' to '../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset'
+[2018.09.26-21.11.22:724][633]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.26-21.11.22:786][633]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.11.22:786][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.26-21.11.22:827][633]PIE: New page: PIE session: MainMenuTest (Sep 26, 2018, 1:11:22 PM)
+[2018.09.26-21.11.22:827][633]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.09.26-21.11.22:850][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022310s)
+[2018.09.26-21.11.22:850][633]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.09.26-21.11.22:851][633]LogPlayLevel: PIE: World Init took: (0.001822s)
+[2018.09.26-21.11.22:851][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.024434s)
+[2018.09.26-21.11.22:898][633]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.26-21.11.22:945][633]LogInit: FAudioDevice initialized.
+[2018.09.26-21.11.22:956][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.11.24:770][633]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.26-21.11.24:770][633]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Weapons/PistolBullet.PistolBullet_C Referenced by GUN_GEN_VARIABLE
+[2018.09.26-21.11.24:770][633]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.26-21.11.24:771][633]LoadErrors: Error: /Game/TopDownBP/Blueprints/Parasite : Can't find file for asset. /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP
+[2018.09.26-21.11.24:825][633]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.26-21.11.24:825][633]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP.ParasiteAnim_BP_C Referenced by GUN_GEN_VARIABLE
+[2018.09.26-21.11.24:826][633]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.26-21.11.24:830][633]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.26-21.11.24:831][633]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP.ParasiteAnim_BP_C Referenced by Default__Parasite_C
+[2018.09.26-21.11.24:831][633]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.26-21.11.24:832][633]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.26-21.11.24:832][633]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose.parasite-TPose Referenced by Default__Parasite_C
+[2018.09.26-21.11.24:832][633]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.26-21.11.24:832][633]LoadErrors: Error: /Game/TopDownBP/Blueprints/Parasite : Can't find file for asset. /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose
+[2018.09.26-21.11.24:834][633]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.26-21.11.24:835][633]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose Referenced by GUN_GEN_VARIABLE
+[2018.09.26-21.11.24:835][633]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.26-21.11.24:835][633]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.26-21.11.24:835][633]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP Referenced by GUN_GEN_VARIABLE
+[2018.09.26-21.11.24:836][633]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.26-21.11.24:836][633]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.26-21.11.24:836][633]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose.parasite-TPose Referenced by GUN_GEN_VARIABLE
+[2018.09.26-21.11.24:837][633]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.26-21.11.24:846][633]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.26-21.11.24:846][633]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.26-21.11.24:847][633]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP'
+[2018.09.26-21.11.24:847][633]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/ParasiteAnim_BP' while loading ../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.26-21.11.24:849][633]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose'
+[2018.09.26-21.11.24:850][633]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Assets/Enemies/Parasite/parasite-TPose' while loading ../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Parasite.uasset.
+[2018.09.26-21.11.26:078][633]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.11.26:108][633]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 60) at 2018.09.26-17.11.26
+[2018.09.26-21.11.26:108][633]LogWorld: Bringing up level for play took: 0.001599
+[2018.09.26-21.11.26:207][633]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2018.09.26-21.11.26:292][633]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 4.232
+[2018.09.26-21.11.26:307][633]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.11.29:140][765]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.29:149][765]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.30:378][765]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.11.30:379][765]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.11.30:383][765]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.26-17.11.30
+[2018.09.26-21.11.30:384][765]LogWorld: Bringing up level for play took: 0.002077
+[2018.09.26-21.11.30:385][765]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.11.30:393][765]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.11.30:394][765]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.11.30:394][765]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.11.30:394][765]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.11.30:394][765]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.11.30:438][765]LogLoad: Took 1.288925 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.11.30:507][766]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.30:515][766]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.30:610][766]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.11.30:610][766]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.11.30:612][766]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.26-17.11.30
+[2018.09.26-21.11.30:612][766]LogWorld: Bringing up level for play took: 0.000626
+[2018.09.26-21.11.30:612][766]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.11.30:612][766]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.11.30:612][766]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.11.30:618][766]LogLoad: Took 0.103140 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.11.30:651][767]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.30:659][767]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.30:752][767]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.11.30:752][767]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.11.30:753][767]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.26-17.11.30
+[2018.09.26-21.11.30:754][767]LogWorld: Bringing up level for play took: 0.000564
+[2018.09.26-21.11.30:754][767]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.11.30:754][767]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.11.30:754][767]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.11.30:754][767]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.11.30:761][767]LogLoad: Took 0.102002 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.11.31:583][808]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.31:598][808]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.31:711][808]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.11.31:712][808]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.11.31:713][808]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.26-17.11.31
+[2018.09.26-21.11.31:713][808]LogWorld: Bringing up level for play took: 0.000512
+[2018.09.26-21.11.31:713][808]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.11.31:714][808]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.11.31:714][808]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.11.31:714][808]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.11.31:720][808]LogLoad: Took 0.121491 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.11.32:539][851]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.32:548][851]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.32:645][851]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.11.32:645][851]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.11.32:647][851]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.26-17.11.32
+[2018.09.26-21.11.32:647][851]LogWorld: Bringing up level for play took: 0.000534
+[2018.09.26-21.11.32:647][851]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.11.32:648][851]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.11.32:649][851]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.11.32:649][851]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.11.32:652][851]LogLoad: Took 0.104546 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.11.33:344][888]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.33:353][888]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.33:445][888]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.11.33:446][888]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.11.33:447][888]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.26-17.11.33
+[2018.09.26-21.11.33:447][888]LogWorld: Bringing up level for play took: 0.000539
+[2018.09.26-21.11.33:447][888]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.11.33:448][888]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.11.33:448][888]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.11.33:448][888]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.11.33:448][888]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.11.33:452][888]LogLoad: Took 0.099288 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.11.33:483][889]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.33:491][889]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.11.33:585][889]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.11.33:585][889]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.11.33:585][889]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 60) at 2018.09.26-17.11.33
+[2018.09.26-21.11.33:585][889]LogWorld: Bringing up level for play took: 0.000507
+[2018.09.26-21.11.33:585][889]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.11.33:587][889]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.11.33:587][889]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.11.33:587][889]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.11.33:590][889]LogLoad: Took 0.099591 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.11.41:588][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.11.41:588][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.11.41:603][332]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.26-21.11.41:639][332]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.26-21.11.41:640][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.11.41:706][333]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.09.26-21.12.20:498][850]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.26-21.12.20:514][850]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.12.20:514][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.26-21.12.20:515][850]PIE: New page: PIE session: MainMenuTest (Sep 26, 2018, 1:12:20 PM)
+[2018.09.26-21.12.20:516][850]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.09.26-21.12.20:517][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000862s)
+[2018.09.26-21.12.20:517][850]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.09.26-21.12.20:517][850]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2018.09.26-21.12.20:517][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001575s)
+[2018.09.26-21.12.20:548][850]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.26-21.12.20:596][850]LogInit: FAudioDevice initialized.
+[2018.09.26-21.12.20:603][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.12.20:657][850]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.20:659][850]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.09.26-17.12.20
+[2018.09.26-21.12.20:659][850]LogWorld: Bringing up level for play took: 0.000292
+[2018.09.26-21.12.20:699][850]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 0.639
+[2018.09.26-21.12.20:699][850]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.12.23:727][ 45]LogHttp: Warning: 000001C2B8326340: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.26-21.12.23:727][ 45]LogHttp: Warning: 000001C2B8326340: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.26-21.12.23:727][ 45]LogHttp: Warning: 000001C2B8326340: libcurl info message cache 1 (Closing connection 3)
+[2018.09.26-21.12.25:831][182]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.25:839][182]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.25:936][182]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.25:937][182]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.25:938][182]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.25
+[2018.09.26-21.12.25:938][182]LogWorld: Bringing up level for play took: 0.000563
+[2018.09.26-21.12.25:938][182]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.25:939][182]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.12.25:939][182]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.12.25:939][182]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.12.25:939][182]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.25:944][182]LogLoad: Took 0.105218 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.25:970][183]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.25:977][183]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.26:070][183]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.26:070][183]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.26:071][183]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.26
+[2018.09.26-21.12.26:072][183]LogWorld: Bringing up level for play took: 0.000638
+[2018.09.26-21.12.26:072][183]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.26:072][183]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.26:072][183]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.12.26:077][183]LogLoad: Took 0.100244 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.26:105][184]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.26:113][184]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.26:206][184]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.26:206][184]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.26:207][184]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.26
+[2018.09.26-21.12.26:207][184]LogWorld: Bringing up level for play took: 0.000607
+[2018.09.26-21.12.26:208][184]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.26:208][184]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.12.26:208][184]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.12.26:208][184]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.12.26:215][184]LogLoad: Took 0.102074 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.27:130][244]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.27:139][244]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.27:234][244]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.27:235][244]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.27:236][244]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.27
+[2018.09.26-21.12.27:236][244]LogWorld: Bringing up level for play took: 0.000531
+[2018.09.26-21.12.27:236][244]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.27:237][244]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.27:237][244]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.12.27:242][244]LogLoad: Took 0.102006 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.27:267][245]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.27:274][245]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.27:367][245]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.27:367][245]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.27:368][245]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.27
+[2018.09.26-21.12.27:368][245]LogWorld: Bringing up level for play took: 0.000518
+[2018.09.26-21.12.27:369][245]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.27:369][245]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.12.27:369][245]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.12.27:369][245]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.27:374][245]LogLoad: Took 0.099054 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.28:096][291]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.28:105][291]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.28:196][291]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.28:196][291]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.28:198][291]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.28
+[2018.09.26-21.12.28:198][291]LogWorld: Bringing up level for play took: 0.000520
+[2018.09.26-21.12.28:198][291]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.28:198][291]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.28:198][291]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.12.28:203][291]LogLoad: Took 0.098577 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.28:229][292]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.28:237][292]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.28:327][292]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.28:328][292]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.28:329][292]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.28
+[2018.09.26-21.12.28:329][292]LogWorld: Bringing up level for play took: 0.000599
+[2018.09.26-21.12.28:330][292]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.28:330][292]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.12.28:330][292]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.28:330][292]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.12.28:335][292]LogLoad: Took 0.098441 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.29:886][395]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.29:895][395]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.29:986][395]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.29:986][395]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.29:988][395]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.29
+[2018.09.26-21.12.29:988][395]LogWorld: Bringing up level for play took: 0.000719
+[2018.09.26-21.12.29:988][395]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.29:989][395]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.12.29:989][395]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.12.29:989][395]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.12.29:995][395]LogLoad: Took 0.100878 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.30:696][439]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.30:705][439]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.30:805][439]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.30:805][439]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.30:806][439]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.30
+[2018.09.26-21.12.30:807][439]LogWorld: Bringing up level for play took: 0.000653
+[2018.09.26-21.12.30:807][439]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.30:807][439]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.12.30:807][439]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.30:807][439]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.12.30:813][439]LogLoad: Took 0.107344 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.31:506][484]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.31:514][484]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.31:609][484]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.31:609][484]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.31:611][484]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.31
+[2018.09.26-21.12.31:611][484]LogWorld: Bringing up level for play took: 0.000579
+[2018.09.26-21.12.31:611][484]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.31:611][484]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.12.31:611][484]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.31:611][484]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.12.31:616][484]LogLoad: Took 0.101775 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.32:552][546]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.32:560][546]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.32:654][546]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.32:654][546]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.32:656][546]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.32
+[2018.09.26-21.12.32:656][546]LogWorld: Bringing up level for play took: 0.000518
+[2018.09.26-21.12.32:656][546]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.32:657][546]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.32:657][546]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.12.32:657][546]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.12.32:661][546]LogLoad: Took 0.100717 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.35:846][754]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.35:855][754]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.35:949][754]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.35:950][754]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.35:951][754]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.35
+[2018.09.26-21.12.35:951][754]LogWorld: Bringing up level for play took: 0.000553
+[2018.09.26-21.12.35:951][754]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.35:952][754]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.35:952][754]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.12.35:952][754]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.12.35:957][754]LogLoad: Took 0.102680 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.36:860][813]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.36:868][813]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.36:964][813]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.36:964][813]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.36:965][813]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.36
+[2018.09.26-21.12.36:965][813]LogWorld: Bringing up level for play took: 0.000561
+[2018.09.26-21.12.36:966][813]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.36:966][813]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.12.36:966][813]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.12.36:966][813]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.12.36:971][813]LogLoad: Took 0.102846 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.37:759][865]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.37:767][865]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.37:857][865]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.37:859][865]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.37:859][865]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.37
+[2018.09.26-21.12.37:859][865]LogWorld: Bringing up level for play took: 0.000515
+[2018.09.26-21.12.37:859][865]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.37:860][865]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.12.37:860][865]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.37:865][865]LogLoad: Took 0.099075 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.37:892][866]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.37:899][866]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.37:992][866]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.37:992][866]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.37:994][866]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.37
+[2018.09.26-21.12.37:994][866]LogWorld: Bringing up level for play took: 0.000555
+[2018.09.26-21.12.37:994][866]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.37:994][866]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.12.37:994][866]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.12.37:994][866]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.38:000][866]LogLoad: Took 0.101209 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.40:713][ 45]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.12.40:713][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.12.40:732][ 45]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.26-21.12.40:768][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.26-21.12.40:768][ 45]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.12.40:892][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.09.26-21.12.51:564][120]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.26-21.12.51:579][120]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.12.51:579][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.26-21.12.51:580][120]PIE: New page: PIE session: MainMenuTest (Sep 26, 2018, 1:12:51 PM)
+[2018.09.26-21.12.51:581][120]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.09.26-21.12.51:582][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000818s)
+[2018.09.26-21.12.51:582][120]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.09.26-21.12.51:582][120]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2018.09.26-21.12.51:582][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001421s)
+[2018.09.26-21.12.51:615][120]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.26-21.12.51:667][120]LogInit: FAudioDevice initialized.
+[2018.09.26-21.12.51:676][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.12.51:739][120]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.51:742][120]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.09.26-17.12.51
+[2018.09.26-21.12.51:742][120]LogWorld: Bringing up level for play took: 0.000723
+[2018.09.26-21.12.51:785][120]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest -0.275
+[2018.09.26-21.12.51:786][120]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.12.56:346][649]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.56:352][649]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.56:448][649]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.56:448][649]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.56:450][649]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.56
+[2018.09.26-21.12.56:450][649]LogWorld: Bringing up level for play took: 0.001053
+[2018.09.26-21.12.56:451][649]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.56:451][649]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.12.56:451][649]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.12.56:459][649]LogLoad: Took 0.108377 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.56:480][650]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.56:488][650]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.12.56:594][650]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.12.56:594][650]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.56:595][650]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.12.56
+[2018.09.26-21.12.56:595][650]LogWorld: Bringing up level for play took: 0.000572
+[2018.09.26-21.12.56:596][650]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.12.56:596][650]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.12.56:596][650]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.12.56:596][650]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.12.56:600][650]LogLoad: Took 0.112311 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.12.57:778][787]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.12.57:779][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.12.57:794][787]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.26-21.12.57:824][787]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.26-21.12.57:825][787]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.12.57:887][789]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.09.26-21.12.59:725][  8]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.26-21.12.59:740][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.12.59:740][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.26-21.12.59:741][  8]PIE: New page: PIE session: MainMenuTest (Sep 26, 2018, 1:12:59 PM)
+[2018.09.26-21.12.59:742][  8]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.09.26-21.12.59:742][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000801s)
+[2018.09.26-21.12.59:743][  8]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.09.26-21.12.59:743][  8]LogPlayLevel: PIE: World Init took: (0.000493s)
+[2018.09.26-21.12.59:743][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001387s)
+[2018.09.26-21.12.59:775][  8]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.26-21.12.59:827][  8]LogInit: FAudioDevice initialized.
+[2018.09.26-21.12.59:835][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.12.59:890][  8]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.12.59:892][  8]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.09.26-17.12.59
+[2018.09.26-21.12.59:892][  8]LogWorld: Bringing up level for play took: 0.000778
+[2018.09.26-21.12.59:919][  8]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest -0.142
+[2018.09.26-21.12.59:919][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.13.32:126][837]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:131][837]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:225][837]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.32:225][837]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.32:227][837]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.32
+[2018.09.26-21.13.32:227][837]LogWorld: Bringing up level for play took: 0.000601
+[2018.09.26-21.13.32:227][837]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.32:227][837]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.32:227][837]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.32:227][837]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.32:227][837]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.32:228][837]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.32:233][837]LogLoad: Took 0.102067 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.32:252][838]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:260][838]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:351][838]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.32:351][838]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.32:353][838]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.32
+[2018.09.26-21.13.32:353][838]LogWorld: Bringing up level for play took: 0.000546
+[2018.09.26-21.13.32:353][838]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.32:354][838]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.32:354][838]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.32:354][838]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.32:354][838]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.32:354][838]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.32:361][838]LogLoad: Took 0.101226 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.32:382][839]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:387][839]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:497][839]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.32:498][839]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.32:499][839]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.32
+[2018.09.26-21.13.32:499][839]LogWorld: Bringing up level for play took: 0.000578
+[2018.09.26-21.13.32:500][839]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.32:500][839]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.32:500][839]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.32:500][839]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.32:505][839]LogLoad: Took 0.117721 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.32:525][840]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:530][840]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:625][840]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.32:625][840]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.32:627][840]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.32
+[2018.09.26-21.13.32:627][840]LogWorld: Bringing up level for play took: 0.000544
+[2018.09.26-21.13.32:627][840]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.32:627][840]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.32:627][840]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.32:634][840]LogLoad: Took 0.103322 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.32:654][841]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:660][841]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:758][841]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.32:759][841]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.32:760][841]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.32
+[2018.09.26-21.13.32:760][841]LogWorld: Bringing up level for play took: 0.000538
+[2018.09.26-21.13.32:760][841]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.32:761][841]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.32:761][841]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.32:761][841]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.32:761][841]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.32:761][841]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.32:770][841]LogLoad: Took 0.109618 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.32:791][842]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:796][842]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:893][842]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.32:893][842]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.32:894][842]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.32
+[2018.09.26-21.13.32:894][842]LogWorld: Bringing up level for play took: 0.000522
+[2018.09.26-21.13.32:895][842]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.32:895][842]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.32:895][842]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.32:895][842]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.32:895][842]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.32:895][842]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.32:900][842]LogLoad: Took 0.104101 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.32:924][843]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.32:931][843]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.33:027][843]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.33:028][843]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.33:029][843]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.33
+[2018.09.26-21.13.33:029][843]LogWorld: Bringing up level for play took: 0.000632
+[2018.09.26-21.13.33:030][843]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.33:030][843]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.33:030][843]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.33:030][843]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.33:030][843]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.33:030][843]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.33:038][843]LogLoad: Took 0.107334 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.33:064][844]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.33:070][844]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.33:169][844]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.33:170][844]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.33:171][844]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.33
+[2018.09.26-21.13.33:171][844]LogWorld: Bringing up level for play took: 0.000518
+[2018.09.26-21.13.33:171][844]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.33:172][844]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.33:172][844]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.33:172][844]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.33:172][844]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.33:172][844]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.33:179][844]LogLoad: Took 0.109012 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.33:200][845]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.33:205][845]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.33:303][845]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.33:303][845]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.33:304][845]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.33
+[2018.09.26-21.13.33:304][845]LogWorld: Bringing up level for play took: 0.000541
+[2018.09.26-21.13.33:305][845]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.33:305][845]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.33:305][845]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.33:305][845]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.33:313][845]LogLoad: Took 0.107329 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.33:336][846]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.33:342][846]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.33:438][846]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.33:438][846]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.33:439][846]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.33
+[2018.09.26-21.13.33:439][846]LogWorld: Bringing up level for play took: 0.000571
+[2018.09.26-21.13.33:440][846]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.33:440][846]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.33:440][846]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.33:440][846]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.33:440][846]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.33:446][846]LogLoad: Took 0.104249 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.35:305][ 66]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.35:310][ 66]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.35:404][ 66]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.35:404][ 66]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.35:406][ 66]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.35
+[2018.09.26-21.13.35:406][ 66]LogWorld: Bringing up level for play took: 0.000684
+[2018.09.26-21.13.35:407][ 66]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.35:407][ 66]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.35:407][ 66]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.35:407][ 66]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.35:413][ 66]LogLoad: Took 0.103268 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.35:433][ 67]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.35:437][ 67]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.35:532][ 67]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.35:532][ 67]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.35:534][ 67]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.35
+[2018.09.26-21.13.35:534][ 67]LogWorld: Bringing up level for play took: 0.000561
+[2018.09.26-21.13.35:534][ 67]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.35:534][ 67]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.35:534][ 67]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.35:534][ 67]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.35:540][ 67]LogLoad: Took 0.103418 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.35:562][ 68]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.35:567][ 68]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.35:673][ 68]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.35:673][ 68]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.35:676][ 68]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.35
+[2018.09.26-21.13.35:677][ 68]LogWorld: Bringing up level for play took: 0.001330
+[2018.09.26-21.13.35:678][ 68]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.35:678][ 68]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.35:678][ 68]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.35:678][ 68]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.35:678][ 68]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.35:678][ 68]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.35:698][ 68]LogLoad: Took 0.130987 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.35:735][ 69]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.35:741][ 69]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.35:833][ 69]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.35:833][ 69]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.35:834][ 69]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.35
+[2018.09.26-21.13.35:834][ 69]LogWorld: Bringing up level for play took: 0.000544
+[2018.09.26-21.13.35:835][ 69]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.35:835][ 69]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.35:835][ 69]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.35:835][ 69]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.35:841][ 69]LogLoad: Took 0.100842 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.35:862][ 70]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.35:867][ 70]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.35:960][ 70]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.35:960][ 70]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.35:961][ 70]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.35
+[2018.09.26-21.13.35:962][ 70]LogWorld: Bringing up level for play took: 0.000582
+[2018.09.26-21.13.35:962][ 70]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.35:962][ 70]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.35:962][ 70]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.35:962][ 70]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.35:962][ 70]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.35:971][ 70]LogLoad: Took 0.104097 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.37:516][253]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.37:522][253]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.37:649][253]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.37:650][253]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.37:652][253]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.37
+[2018.09.26-21.13.37:653][253]LogWorld: Bringing up level for play took: 0.001319
+[2018.09.26-21.13.37:653][253]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.37:654][253]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.37:654][253]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.37:654][253]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.37:654][253]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.37:667][253]LogLoad: Took 0.145371 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.39:206][434]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.39:211][434]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.39:306][434]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.39:306][434]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.39:307][434]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.39
+[2018.09.26-21.13.39:307][434]LogWorld: Bringing up level for play took: 0.000518
+[2018.09.26-21.13.39:308][434]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.39:308][434]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.39:308][434]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.39:308][434]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.39:308][434]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.39:308][434]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.39:313][434]LogLoad: Took 0.101581 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.39:333][435]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.39:338][435]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.39:434][435]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.39:434][435]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.39:436][435]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.39
+[2018.09.26-21.13.39:436][435]LogWorld: Bringing up level for play took: 0.000645
+[2018.09.26-21.13.39:436][435]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.39:437][435]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.39:437][435]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.39:437][435]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.39:437][435]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.39:445][435]LogLoad: Took 0.107270 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.40:542][563]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.40:548][563]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.40:644][563]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.40:644][563]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.40:646][563]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.40
+[2018.09.26-21.13.40:646][563]LogWorld: Bringing up level for play took: 0.000531
+[2018.09.26-21.13.40:647][563]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.40:647][563]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.40:647][563]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.40:647][563]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.40:655][563]LogLoad: Took 0.106443 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.40:677][564]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.40:682][564]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.40:776][564]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.40:776][564]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.40:777][564]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.40
+[2018.09.26-21.13.40:778][564]LogWorld: Bringing up level for play took: 0.000564
+[2018.09.26-21.13.40:778][564]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.40:778][564]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.40:778][564]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.40:778][564]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.13.40:785][564]LogLoad: Took 0.101934 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.40:804][565]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.40:809][565]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.13.40:911][565]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.13.40:911][565]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.13.40:913][565]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.13.40
+[2018.09.26-21.13.40:913][565]LogWorld: Bringing up level for play took: 0.000882
+[2018.09.26-21.13.40:914][565]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.13.40:914][565]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.13.40:914][565]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.13.40:914][565]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.13.40:914][565]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.13.40:924][565]LogLoad: Took 0.115174 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.13.44:641][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.13.44:641][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.13.44:657][998]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.26-21.13.44:690][998]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.26-21.13.44:691][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.13.44:749][  0]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.09.26-21.14.23:763][488]LogHttp: Warning: 000001C2B1706700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.26-21.14.23:763][488]LogHttp: Warning: 000001C2B1706700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.26-21.14.23:763][488]LogHttp: Warning: 000001C2B1706700: libcurl info message cache 1 (Closing connection 4)
+[2018.09.26-21.15.47:435][982]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.26-21.15.47:953][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapGenerator_Mike/MapGenerator_BP" FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset" SILENT=true
+[2018.09.26-21.15.48:253][982]LogSavePackage: Moving '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/MapGenerator_BPEC5FF3444651BE29E1576F9133D716AF.tmp' to '../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset'
+[2018.09.26-21.15.49:732][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapGenerator_Mike/MapGenerator_BP" FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset" SILENT=true
+[2018.09.26-21.15.50:035][ 94]LogSavePackage: Moving '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/MapGenerator_BPE42C3679426C73CECC72D7BD5E489A33.tmp' to '../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset'
+[2018.09.26-21.15.51:558][229]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.26-21.15.51:575][229]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.15.51:575][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.26-21.15.51:575][229]PIE: New page: PIE session: MainMenuTest (Sep 26, 2018, 1:15:51 PM)
+[2018.09.26-21.15.51:576][229]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.09.26-21.15.51:577][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000902s)
+[2018.09.26-21.15.51:578][229]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.09.26-21.15.51:578][229]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2018.09.26-21.15.51:578][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001638s)
+[2018.09.26-21.15.51:609][229]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.26-21.15.51:667][229]LogInit: FAudioDevice initialized.
+[2018.09.26-21.15.51:674][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.15.51:743][229]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.15.51:746][229]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.09.26-17.15.51
+[2018.09.26-21.15.51:746][229]LogWorld: Bringing up level for play took: 0.000727
+[2018.09.26-21.15.51:801][229]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest -0.259
+[2018.09.26-21.15.51:802][229]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.15.54:162][396]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.54:171][396]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.54:279][396]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.15.54:280][396]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.15.54:281][396]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.15.54
+[2018.09.26-21.15.54:282][396]LogWorld: Bringing up level for play took: 0.000618
+[2018.09.26-21.15.54:282][396]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.15.54:282][396]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.15.54:282][396]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.15.54:282][396]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.15.54:282][396]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.15.54:282][396]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.15.54:283][396]LogBlueprintUserMessages: [MapGenerator_BP_4] CS Spawned
+[2018.09.26-21.15.54:283][396]LogBlueprintUserMessages: [MapGenerator_BP_4] NAV Spawned
+[2018.09.26-21.15.54:284][396]LogBlueprintUserMessages: [MapGenerator_BP_4] ER Spawned
+[2018.09.26-21.15.54:284][396]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.15.54:287][396]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.15.54:287][396]LogBlueprintUserMessages: [MapGenerator_BP_4] LS Spawned
+[2018.09.26-21.15.54:288][396]LogLoad: Took 0.117803 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.15.54:314][397]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.54:323][397]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.54:418][397]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.15.54:418][397]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.15.54:420][397]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.15.54
+[2018.09.26-21.15.54:420][397]LogWorld: Bringing up level for play took: 0.000563
+[2018.09.26-21.15.54:420][397]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.15.54:421][397]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.15.54:422][397]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.15.54:422][397]LogBlueprintUserMessages: [MapGenerator_BP_4] CS Spawned
+[2018.09.26-21.15.54:423][397]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.15.54:425][397]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.15.54:425][397]LogLoad: Took 0.102649 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.15.54:452][398]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.54:461][398]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.54:557][398]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.15.54:557][398]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.15.54:558][398]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.15.54
+[2018.09.26-21.15.54:559][398]LogWorld: Bringing up level for play took: 0.000595
+[2018.09.26-21.15.54:559][398]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.15.54:559][398]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.15.54:559][398]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.15.54:560][398]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.15.54:562][398]LogBlueprintUserMessages: [MapGenerator_BP_4] CS Spawned
+[2018.09.26-21.15.54:562][398]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.15.54:564][398]LogLoad: Took 0.102754 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.15.54:594][399]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.54:602][399]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.54:697][399]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.15.54:698][399]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.15.54:699][399]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.15.54
+[2018.09.26-21.15.54:699][399]LogWorld: Bringing up level for play took: 0.000534
+[2018.09.26-21.15.54:699][399]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.15.54:700][399]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.15.54:700][399]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.15.54:701][399]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.15.54:704][399]LogBlueprintUserMessages: [MapGenerator_BP_4] CS Spawned
+[2018.09.26-21.15.54:704][399]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.15.54:705][399]LogLoad: Took 0.102877 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.15.54:730][400]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.54:738][400]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.54:844][400]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.15.54:844][400]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.15.54:846][400]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.15.54
+[2018.09.26-21.15.54:846][400]LogWorld: Bringing up level for play took: 0.000678
+[2018.09.26-21.15.54:846][400]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.15.54:847][400]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.15.54:847][400]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.15.54:847][400]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.15.54:847][400]LogBlueprintUserMessages: [MapGenerator_BP_4] ER Spawned
+[2018.09.26-21.15.54:850][400]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.15.54:851][400]LogBlueprintUserMessages: [MapGenerator_BP_4] CS Spawned
+[2018.09.26-21.15.54:851][400]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.15.54:854][400]LogLoad: Took 0.115231 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.15.57:006][554]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.57:015][554]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.15.57:110][554]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.15.57:110][554]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.15.57:111][554]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.15.57
+[2018.09.26-21.15.57:111][554]LogWorld: Bringing up level for play took: 0.000522
+[2018.09.26-21.15.57:112][554]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.15.57:112][554]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.15.57:112][554]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.15.57:112][554]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.15.57:113][554]LogBlueprintUserMessages: [MapGenerator_BP_4] NAV Spawned
+[2018.09.26-21.15.57:114][554]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.15.57:116][554]LogBlueprintUserMessages: [MapGenerator_BP_4] LS Spawned
+[2018.09.26-21.15.57:116][554]LogBlueprintUserMessages: [MapGenerator_BP_4] CS Spawned
+[2018.09.26-21.15.57:117][554]LogLoad: Took 0.102168 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.16.00:086][774]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.16.00:095][774]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.16.00:191][774]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.16.00:191][774]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.16.00:193][774]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.16.00
+[2018.09.26-21.16.00:193][774]LogWorld: Bringing up level for play took: 0.000613
+[2018.09.26-21.16.00:193][774]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.16.00:194][774]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.16.00:194][774]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.16.00:194][774]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.16.00:197][774]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.16.00:198][774]LogBlueprintUserMessages: [MapGenerator_BP_4] NAV Spawned
+[2018.09.26-21.16.00:199][774]LogLoad: Took 0.104351 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.16.00:229][775]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.16.00:238][775]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.16.00:341][775]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.16.00:341][775]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.16.00:343][775]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.16.00
+[2018.09.26-21.16.00:343][775]LogWorld: Bringing up level for play took: 0.000520
+[2018.09.26-21.16.00:343][775]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.16.00:343][775]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.16.00:343][775]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.16.00:343][775]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.16.00:343][775]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.16.00:343][775]LogBlueprintUserMessages: [MapGenerator_BP_4] CS Spawned
+[2018.09.26-21.16.00:345][775]LogBlueprintUserMessages: [MapGenerator_BP_4] ER Spawned
+[2018.09.26-21.16.00:345][775]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.16.00:346][775]LogLoad: Took 0.109251 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.16.02:606][941]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.16.02:615][941]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.16.02:709][941]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.16.02:709][941]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.16.02:710][941]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.16.02
+[2018.09.26-21.16.02:710][941]LogWorld: Bringing up level for play took: 0.000514
+[2018.09.26-21.16.02:711][941]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.16.02:711][941]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.16.02:711][941]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.16.02:711][941]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.16.02:712][941]LogBlueprintUserMessages: [MapGenerator_BP_4] LS Spawned
+[2018.09.26-21.16.02:714][941]LogBlueprintUserMessages: [MapGenerator_BP_4] NAV Spawned
+[2018.09.26-21.16.02:714][941]LogBlueprintUserMessages: [MapGenerator_BP_4] ER Spawned
+[2018.09.26-21.16.02:715][941]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.16.02:716][941]LogLoad: Took 0.102492 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.16.03:784][ 18]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.16.03:784][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.16.03:799][ 18]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.26-21.16.03:836][ 18]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.26-21.16.03:837][ 18]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.16.03:953][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.09.26-21.16.23:805][668]LogHttp: Warning: 000001C2DF03A200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.26-21.16.23:805][668]LogHttp: Warning: 000001C2DF03A200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.26-21.16.23:805][668]LogHttp: Warning: 000001C2DF03A200: libcurl info message cache 1 (Closing connection 5)
+[2018.09.26-21.16.57:170][220]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.26-21.16.57:646][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapGenerator_Mike/MapGenerator_BP" FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset" SILENT=true
+[2018.09.26-21.16.57:937][220]LogSavePackage: Moving '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/MapGenerator_BPB78440AF4147F76F4FB2E9A64BCC75CC.tmp' to '../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset'
+[2018.09.26-21.16.58:326][226]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.26-21.16.58:343][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.16.58:343][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.26-21.16.58:343][226]PIE: New page: PIE session: MainMenuTest (Sep 26, 2018, 1:16:58 PM)
+[2018.09.26-21.16.58:344][226]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.09.26-21.16.58:345][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000829s)
+[2018.09.26-21.16.58:345][226]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.09.26-21.16.58:345][226]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2018.09.26-21.16.58:346][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001446s)
+[2018.09.26-21.16.58:381][226]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.26-21.16.58:431][226]LogInit: FAudioDevice initialized.
+[2018.09.26-21.16.58:437][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.16.58:505][226]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.16.58:507][226]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.09.26-17.16.58
+[2018.09.26-21.16.58:507][226]LogWorld: Bringing up level for play took: 0.000762
+[2018.09.26-21.16.58:550][226]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 0.489
+[2018.09.26-21.16.58:550][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.17.00:355][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.26-21.17.01:427][424]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.01:436][424]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.01:535][424]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.17.01:535][424]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.01:537][424]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.17.01
+[2018.09.26-21.17.01:537][424]LogWorld: Bringing up level for play took: 0.000589
+[2018.09.26-21.17.01:538][424]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.17.01:538][424]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.17.01:538][424]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.17.01:538][424]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.17.01:541][424]LogBlueprintUserMessages: [MapGenerator_BP_4] ER Spawned
+[2018.09.26-21.17.01:542][424]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.17.01:542][424]LogLoad: Took 0.105937 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.17.02:792][511]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.02:801][511]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.02:903][511]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.17.02:904][511]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.02:906][511]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.17.02
+[2018.09.26-21.17.02:906][511]LogWorld: Bringing up level for play took: 0.000857
+[2018.09.26-21.17.02:906][511]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.17.02:907][511]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.17.02:907][511]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.17.02:907][511]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.17.02:914][511]LogBlueprintUserMessages: [MapGenerator_BP_4] LS Spawned
+[2018.09.26-21.17.02:914][511]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.17.02:916][511]LogLoad: Took 0.114838 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.17.04:151][595]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.04:159][595]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.04:256][595]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.17.04:256][595]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.04:257][595]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.17.04
+[2018.09.26-21.17.04:257][595]LogWorld: Bringing up level for play took: 0.000560
+[2018.09.26-21.17.04:258][595]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.17.04:258][595]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.17.04:258][595]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.17.04:261][595]LogBlueprintUserMessages: [MapGenerator_BP_4] NAV Spawned
+[2018.09.26-21.17.04:261][595]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.17.04:263][595]LogBlueprintUserMessages: [MapGenerator_BP_4] CS Spawned
+[2018.09.26-21.17.04:263][595]LogBlueprintUserMessages: [MapGenerator_BP_4] NAV Spawned
+[2018.09.26-21.17.04:263][595]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.17.04:265][595]LogLoad: Took 0.105769 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.17.04:290][596]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.04:298][596]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.04:393][596]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.17.04:393][596]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.04:395][596]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.17.04
+[2018.09.26-21.17.04:395][596]LogWorld: Bringing up level for play took: 0.000517
+[2018.09.26-21.17.04:395][596]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.17.04:396][596]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.17.04:396][596]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.17.04:397][596]LogBlueprintUserMessages: [MapGenerator_BP_4] LS Spawned
+[2018.09.26-21.17.04:398][596]LogBlueprintUserMessages: [MapGenerator_BP_4] ER Spawned
+[2018.09.26-21.17.04:400][596]LogLoad: Took 0.102361 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.17.04:426][597]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.04:434][597]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.04:526][597]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.17.04:527][597]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.04:528][597]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.17.04
+[2018.09.26-21.17.04:528][597]LogWorld: Bringing up level for play took: 0.000505
+[2018.09.26-21.17.04:528][597]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.17.04:529][597]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.17.04:529][597]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.17.04:529][597]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.17.04:529][597]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.17.04:529][597]LogBlueprintUserMessages: [MapGenerator_BP_4] NAVIGATION
+[2018.09.26-21.17.04:534][597]LogLoad: Took 0.098857 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.17.04:559][598]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.04:566][598]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.04:658][598]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.17.04:658][598]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.04:659][598]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.17.04
+[2018.09.26-21.17.04:659][598]LogWorld: Bringing up level for play took: 0.000575
+[2018.09.26-21.17.04:660][598]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.17.04:661][598]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.17.04:661][598]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.17.04:661][598]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.17.04:661][598]LogBlueprintUserMessages: [MapGenerator_BP_4] NAV Spawned
+[2018.09.26-21.17.04:665][598]LogBlueprintUserMessages: [MapGenerator_BP_4] CS Spawned
+[2018.09.26-21.17.04:665][598]LogBlueprintUserMessages: [MapGenerator_BP_4] NAV Spawned
+[2018.09.26-21.17.04:666][598]LogLoad: Took 0.099753 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.17.05:559][659]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.05:568][659]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.05:666][659]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.17.05:666][659]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.05:668][659]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.17.05
+[2018.09.26-21.17.05:668][659]LogWorld: Bringing up level for play took: 0.000551
+[2018.09.26-21.17.05:668][659]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.17.05:669][659]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.17.05:669][659]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.17.05:669][659]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.17.05:671][659]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.17.05:672][659]LogBlueprintUserMessages: [MapGenerator_BP_4] NAV Spawned
+[2018.09.26-21.17.05:672][659]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.17.05:675][659]LogLoad: Took 0.105906 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.17.06:943][746]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.17.06:943][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.17.06:960][746]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.26-21.17.06:996][746]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.26-21.17.06:996][746]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.17.07:093][747]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.09.26-21.17.08:634][888]LogEditorTransaction: Undo Create Pin Link
+[2018.09.26-21.17.10:158][977]LogEditorTransaction: Undo Break Pin Links
+[2018.09.26-21.17.13:056][201]LogEditorTransaction: Undo Create Pin Link
+[2018.09.26-21.17.13:467][202]LogEditorTransaction: Undo Break Pin Links
+[2018.09.26-21.17.15:312][321]LogEditorTransaction: Undo Create Pin Link
+[2018.09.26-21.17.15:721][322]LogEditorTransaction: Undo Break Pin Links
+[2018.09.26-21.17.17:584][452]LogEditorTransaction: Undo Create Pin Link
+[2018.09.26-21.17.17:995][453]LogEditorTransaction: Undo Break Pin Links
+[2018.09.26-21.17.20:285][621]LogEditorTransaction: Undo Create Pin Link
+[2018.09.26-21.17.20:722][622]LogEditorTransaction: Undo Break Pin Links
+[2018.09.26-21.17.24:139][892]LogEditorTransaction: Undo Break Pin Links
+[2018.09.26-21.17.24:575][893]LogEditorTransaction: Undo Create Pin Link
+[2018.09.26-21.17.27:106][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapGenerator_Mike/MapGenerator_BP" FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset" SILENT=true
+[2018.09.26-21.17.27:419][ 49]LogSavePackage: Moving '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/MapGenerator_BP778A5AB7438081BA69F5A09C27708894.tmp' to '../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset'
+[2018.09.26-21.17.28:590][133]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.09.26-21.17.32:296][357]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.26-21.17.32:313][357]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.17.32:313][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.26-21.17.32:313][357]PIE: New page: PIE session: MainMenuTest (Sep 26, 2018, 1:17:32 PM)
+[2018.09.26-21.17.32:314][357]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.09.26-21.17.32:315][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000882s)
+[2018.09.26-21.17.32:315][357]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.09.26-21.17.32:316][357]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2018.09.26-21.17.32:316][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001533s)
+[2018.09.26-21.17.32:345][357]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.26-21.17.32:432][357]LogInit: FAudioDevice initialized.
+[2018.09.26-21.17.32:441][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.17.32:508][357]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.32:509][357]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.09.26-17.17.32
+[2018.09.26-21.17.32:509][357]LogWorld: Bringing up level for play took: 0.000475
+[2018.09.26-21.17.32:555][357]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 0.495
+[2018.09.26-21.17.32:556][357]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.17.35:753][551]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.35:761][551]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.35:862][551]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.17.35:862][551]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.35:863][551]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.17.35
+[2018.09.26-21.17.35:863][551]LogWorld: Bringing up level for play took: 0.000547
+[2018.09.26-21.17.35:864][551]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.17.35:864][551]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.17.35:864][551]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.17.35:864][551]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.17.35:866][551]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.17.35:866][551]LogBlueprintUserMessages: [MapGenerator_BP_4] LS Spawned
+[2018.09.26-21.17.35:868][551]LogBlueprintUserMessages: [MapGenerator_BP_4] CS Spawned
+[2018.09.26-21.17.35:868][551]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.17.35:869][551]LogLoad: Took 0.107542 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.17.36:851][612]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.36:860][612]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.36:952][612]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.17.36:953][612]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.36:954][612]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.17.36
+[2018.09.26-21.17.36:954][612]LogWorld: Bringing up level for play took: 0.000562
+[2018.09.26-21.17.36:954][612]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.17.36:955][612]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.17.36:955][612]LogBlueprintUserMessages: [MapGenerator_BP_4] COLDSTORAGE
+[2018.09.26-21.17.36:955][612]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.17.36:956][612]LogBlueprintUserMessages: [MapGenerator_BP_4] CS Spawned
+[2018.09.26-21.17.36:956][612]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.17.36:958][612]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.17.36:958][612]LogBlueprintUserMessages: [MapGenerator_BP_4] LS Spawned
+[2018.09.26-21.17.36:960][612]LogLoad: Took 0.099984 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.17.39:305][758]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.39:314][758]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.39:412][758]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.17.39:413][758]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.39:414][758]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.17.39
+[2018.09.26-21.17.39:414][758]LogWorld: Bringing up level for play took: 0.000592
+[2018.09.26-21.17.39:414][758]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.17.39:414][758]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.17.39:415][758]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.17.39:415][758]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.17.39:417][758]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.17.39:418][758]LogBlueprintUserMessages: [MapGenerator_BP_4] LS Spawned
+[2018.09.26-21.17.39:419][758]LogBlueprintUserMessages: [MapGenerator_BP_4] ER Spawned
+[2018.09.26-21.17.39:419][758]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.17.39:420][758]LogLoad: Took 0.106014 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.17.45:364][129]LogNet: Browse: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.45:373][129]LogLoad: LoadMap: /Game/MapGenerator_Mike/MapGenerator
+[2018.09.26-21.17.45:470][129]LogAIModule: Creating AISystem for world MapGenerator
+[2018.09.26-21.17.45:470][129]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.26-21.17.45:472][129]LogWorld: Bringing World /Game/MapGenerator_Mike/UEDPIE_0_MapGenerator.MapGenerator up for play (max tick rate 0) at 2018.09.26-17.17.45
+[2018.09.26-21.17.45:472][129]LogWorld: Bringing up level for play took: 0.000592
+[2018.09.26-21.17.45:472][129]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.26-21.17.45:473][129]LogBlueprintUserMessages: [MapGenerator_BP_4] CLONING BAY
+[2018.09.26-21.17.45:473][129]LogBlueprintUserMessages: [MapGenerator_BP_4] LIFESUPPORT
+[2018.09.26-21.17.45:473][129]LogBlueprintUserMessages: [MapGenerator_BP_4] ENGINE ROOM
+[2018.09.26-21.17.45:473][129]LogBlueprintUserMessages: [MapGenerator_BP_4] REA Spawned
+[2018.09.26-21.17.45:473][129]LogBlueprintUserMessages: [MapGenerator_BP_4] LS Spawned
+[2018.09.26-21.17.45:475][129]LogBlueprintUserMessages: [MapGenerator_BP_4] ER Spawned
+[2018.09.26-21.17.45:475][129]LogBlueprintUserMessages: [MapGenerator_BP_4] CB Spawned
+[2018.09.26-21.17.45:479][129]LogLoad: Took 0.105204 seconds to LoadMap(/Game/MapGenerator_Mike/MapGenerator)
+[2018.09.26-21.17.45:800][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.17.45:800][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.26-21.17.45:818][148]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.26-21.17.45:857][148]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.26-21.17.45:858][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.09.26-21.17.45:978][149]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.09.26-21.18.08:302][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapGenerator_Mike/MapGenerator_BP" FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset" SILENT=true
+[2018.09.26-21.18.08:853][919]LogSavePackage: Moving '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/MapGenerator_BP57E1DF54404B84153B3BAFB44BBEE24F.tmp' to '../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset'
+[2018.09.26-21.18.11:265][ 87]LogSlate: Window 'MapGenerator_BP' being destroyed
+[2018.09.26-21.18.18:309][885]LogSlate: Window 'ASH_Game - Unreal Editor' being destroyed
+[2018.09.26-21.18.18:310][885]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.26-21.18.18:542][886]Cmd: QUIT_EDITOR
+[2018.09.26-21.18.19:515][886]LogExit: Preparing to exit.
+[2018.09.26-21.18.20:091][886]LogExit: Editor shut down
+[2018.09.26-21.18.20:092][886]LogExit: Transaction tracking system shut down
+[2018.09.26-21.18.20:409][886]LogExit: Object subsystem successfully closed.
+[2018.09.26-21.18.20:447][886]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.09.26-21.18.20:450][886]LogD3D11RHI: Shutdown
+[2018.09.26-21.18.20:450][886]LogD3D11RHI: CleanupD3DDevice
+[2018.09.26-21.18.20:451][886]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.26-21.18.20:459][886]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2018.09.26-21.18.20:459][886]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.09.26-21.18.20:460][886]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.09.26-21.18.20:461][886]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.09.26-21.18.20:484][886]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.09.26-21.18.20:539][886]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.09.26-21.18.20:539][886]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.09.26-21.18.20:539][886]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.09.26-21.18.20:539][886]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.09.26-21.18.20:539][886]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.09.26-21.18.20:539][886]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.09.26-21.18.20:539][886]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.09.26-21.18.20:539][886]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.09.26-21.18.20:539][886]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.09.26-21.18.20:539][886]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.09.26-21.18.20:547][886]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.09.26-21.18.20:548][886]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.09.26-21.18.20:549][886]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.09.26-21.18.20:549][886]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.09.26-21.18.20:552][886]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.09.26-21.18.20:553][886]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.09.26-21.18.20:654][886]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.09.26-21.18.20:755][886]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.09.26-21.18.20:755][886]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.09.26-21.18.20:755][886]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.09.26-21.18.20:755][886]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.09.26-21.18.20:755][886]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.09.26-21.18.20:755][886]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.09.26-21.18.20:755][886]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.09.26-21.18.20:756][886]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.09.26-21.18.20:757][886]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.09.26-21.18.20:757][886]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.09.26-21.18.20:757][886]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.09.26-21.18.20:757][886]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.09.26-21.18.20:759][886]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.09.26-21.18.20:759][886]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.09.26-21.18.20:759][886]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.09.26-21.18.20:760][886]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.09.26-21.18.20:760][886]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.09.26-21.18.20:760][886]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.09.26-21.18.20:763][886]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.09.26-21.18.20:770][886]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.09.26-21.18.20:771][886]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.09.26-21.18.20:771][886]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.09.26-21.18.20:771][886]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.09.26-21.18.20:774][886]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.09.26-21.18.20:775][886]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.09.26-21.18.20:853][886]LogDerivedDataCache: Shutdown
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.09.26-21.18.20:853][886]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.09.26-21.18.20:854][886]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.09.26-21.18.20:854][886]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.09.26-21.18.20:854][886]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.09.26-21.18.20:854][886]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.09.26-21.18.20:854][886]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.09.26-21.18.20:854][886]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.09.26-21.18.20:854][886]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.09.26-21.18.20:854][886]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.09.26-21.18.20:854][886]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.09.26-21.18.20:854][886]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.09.26-21.18.20:856][886]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.09.26-21.18.20:856][886]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.09.26-21.18.20:857][886]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.09.26-21.18.20:858][886]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.09.26-21.18.20:870][886]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.09.26-21.18.20:871][886]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.09.26-21.18.20:871][886]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.09.26-21.18.20:888][886]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.09.26-21.18.20:888][886]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.26-21.18.20:888][886]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B377A11DC-48D9-4455-8503-22A2ED434E1E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=04de7adc41fb3f9d47f5218e2bce6d0f%7C90e14dc38ca047fa894bbc6226fa752a%7C5675fb88-1c8f-4aca-bf29-b35c4edd0721&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.26-21.18.20:888][886]LogHttp: Warning: 000001C2A49256C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.26-21.18.20:888][886]LogHttp: Warning: 000001C2A49256C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.26-21.18.20:888][886]LogHttp: Warning: 000001C2A49256C0: libcurl info message cache 1 (Closing connection 6)
+[2018.09.26-21.18.20:894][886]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.09.26-21.18.20:896][886]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.26-21.18.20:896][886]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.26-21.18.20:897][886]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.26-21.18.20:897][886]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.26-21.18.20:897][886]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.26-21.18.20:897][886]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.26-21.18.20:897][886]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.26-21.18.20:899][886]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.26-21.18.20:899][886]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.26-21.18.20:899][886]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.26-21.18.20:899][886]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.26-21.18.20:899][886]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.26-21.18.20:899][886]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.26-21.18.20:899][886]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.26-21.18.20:899][886]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.26-21.18.20:899][886]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.26-21.18.20:899][886]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.26-21.18.20:899][886]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.26-21.18.20:921][886]LogExit: Exiting.
+[2018.09.26-21.18.20:927][886]Log file closed, 09/26/18 17:18:20
