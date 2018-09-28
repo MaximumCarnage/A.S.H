@@ -1,4 +1,4 @@
-﻿Log file open, 09/27/18 20:13:25
+﻿Log file open, 09/28/18 19:31:44
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ASH_Game
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.322721
+LogStats: Stats thread started at 0.279556
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.157s to configure plugins.
+LogStreaming: Display: Took  0.136s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,842 +147,310 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.013s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.28-00.13.25:582][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.28-00.13.25:582][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.28-00.13.25:608][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.28-00.13.25:608][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.28-00.13.25:608][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.28-00.13.25:619][  0]LogInit: Computer: DESKTOP-S49REJ4
-[2018.09.28-00.13.25:619][  0]LogInit: User: ryanv
-[2018.09.28-00.13.25:619][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.28-00.13.25:619][  0]LogInit: High frequency timer resolution =2.742191 MHz
-[2018.09.28-00.13.25:620][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.09.28-00.13.25:620][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.28-00.13.25:620][  0]LogMemory: Process Physical Memory: 100.46 MB used, 100.46 MB peak
-[2018.09.28-00.13.25:620][  0]LogMemory: Process Virtual Memory: 91.14 MB used, 91.14 MB peak
-[2018.09.28-00.13.25:620][  0]LogMemory: Physical Memory: 7774.20 MB used,  8482.83 MB free, 16257.03 MB total
-[2018.09.28-00.13.25:620][  0]LogMemory: Virtual Memory: 4644.98 MB used,  8482.83 MB free, 134217728.00 MB total
-[2018.09.28-00.13.25:945][  0]LogInit: Using OS detected language (en-US).
-[2018.09.28-00.13.25:945][  0]LogInit: Using OS detected locale (en-CA).
-[2018.09.28-00.13.25:945][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.09.28-00.13.26:328][  0]LogStreaming: Display: Took  0.383s to InitEngineTextLocalization.
-[2018.09.28-00.13.26:328][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.28-00.13.26:348][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.28-00.13.26:348][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.28-00.13.32:622][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2018.09.28-00.13.32:622][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.28-00.13.32:680][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.09.28-00.13.32:680][  0]LogD3D11RHI:       8074/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.09.28-00.13.32:706][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.09.28-00.13.32:706][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.09.28-00.13.32:708][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.28-00.13.32:708][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.28-00.13.32:708][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.28-00.13.32:717][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.28-00.13.32:717][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.28-00.13.32:717][  0]LogWindows: EnumDisplayDevices:
-[2018.09.28-00.13.32:717][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.09.28-00.13.32:717][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.28-00.13.32:718][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.28-00.13.32:718][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.28-00.13.32:718][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.28-00.13.32:719][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.28-00.13.32:719][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.28-00.13.32:720][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.09.28-00.13.32:720][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.09.28-00.13.32:720][  0]LogD3D11RHI:   Driver Version: 385.14 (internal:22.21.13.8514, unified:385.14)
-[2018.09.28-00.13.32:720][  0]LogD3D11RHI:      Driver Date: 7-30-2017
-[2018.09.28-00.13.32:720][  0]LogRHI: Texture pool is 5651 MB (70% of 8074 MB)
-[2018.09.28-00.13.32:748][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.28-00.13.32:759][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.09.28-00.13.32:806][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../GameDev/_Projects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/20572/).
-[2018.09.28-00.13.32:806][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ryanv/AppData/Local/Temp/UnrealShaderWorkingDir/1596921049F9658B9FCF84A974E285A4/'.
-[2018.09.28-00.13.33:171][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.28-00.13.33:185][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.28-00.13.33:198][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.28-00.13.33:213][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.28-00.13.33:226][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.28-00.13.33:246][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.28-00.13.33:261][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.28-00.13.33:276][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.28-00.13.33:281][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-00.13.33:375][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.28-00.13.33:436][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.28-00.13.33:436][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.28-00.13.33:474][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.28-00.13.33:474][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.28-00.13.33:487][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.28-00.13.33:503][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.28-00.13.33:516][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.28-00.13.33:529][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.28-00.13.33:538][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.28-00.13.33:538][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.28-00.13.33:582][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.28-00.13.33:583][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.28-00.13.33:583][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.28-00.13.34:345][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.28-00.13.34:407][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.28-00.13.34:407][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.28-00.13.34:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.28-00.13.34:407][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.28-00.13.34:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.28-00.13.34:407][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.28-00.13.34:421][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.28-00.13.34:433][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanv/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.28-00.13.34:433][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.28-00.13.34:433][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.28-00.13.34:451][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.28-00.13.34:453][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.28-00.13.34:453][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.28-00.13.34:531][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
-[2018.09.28-00.13.34:883][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.28-00.13.35:020][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.28-00.13.35:023][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.28-00.13.35:024][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.28-00.13.35:024][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.28-00.13.35:024][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.28-00.13.35:049][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
-[2018.09.28-00.13.35:663][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.110080 seconds
-[2018.09.28-00.13.35:670][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.28-00.13.35:671][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.09.28-00.13.35:671][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.28-00.13.36:579][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.28-00.13.36:593][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.28-00.13.36:745][  0]SourceControl: Source control is disabled
-[2018.09.28-00.13.36:745][  0]SourceControl: Source control is disabled
-[2018.09.28-00.13.36:747][  0]SourceControl: Source control is disabled
-[2018.09.28-00.13.36:748][  0]SourceControl: Source control is disabled
-[2018.09.28-00.13.36:912][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.28-00.13.36:989][  0]LogOcInput: OculusInput pre-init called
-[2018.09.28-00.13.37:052][  0]LogEngine: Initializing Engine...
-[2018.09.28-00.13.37:114][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2018.09.28-00.13.37:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.28-00.13.37:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.28-00.13.37:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.28-00.13.37:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.28-00.13.37:345][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.28-00.13.37:356][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.28-00.13.37:443][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.28-00.13.37:964][  0]LogInit: FAudioDevice initialized.
-[2018.09.28-00.13.37:964][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.28-00.13.38:044][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.28-00.13.38:054][  0]LogInit: Texture streaming: Enabled
-[2018.09.28-00.13.38:070][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.28-00.13.38:117][  0]LogInit: Transaction tracking system initialized
-[2018.09.28-00.13.38:133][  0]BlueprintLog: New page: Editor Load
-[2018.09.28-00.13.38:191][  0]LocalizationService: Localization service is disabled
-[2018.09.28-00.13.38:658][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.28-00.13.38:658][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.28-00.13.38:670][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.04s
-[2018.09.28-00.13.38:670][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.28-00.13.38:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.28-00.13.38:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.28-00.13.38:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.28-00.13.38:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.28-00.13.38:806][  0]SourceControl: Source control is disabled
-[2018.09.28-00.13.38:806][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/UI-Rick/MainMenuTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.28-00.13.38:806][  0]LightingResults: New page: Lighting Build
-[2018.09.28-00.13.38:811][  0]MapCheck: New page: Map Check
-[2018.09.28-00.13.38:811][  0]LightingResults: New page: Lighting Build
-[2018.09.28-00.13.40:186][  0]LogTexture: Display: Building textures: LevelSelect (AutoDXT, 1920X1080)
-[2018.09.28-00.13.40:186][  0]LogTexture: Display: Building textures: AshTitle (AutoDXT, 1920X1080)
-[2018.09.28-00.13.40:186][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Back...
-[2018.09.28-00.13.40:186][  0]LogTemp: Couldn't find amount to resample to.
-[2018.09.28-00.13.40:261][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 52448 while cooking SoundWave /Game/Sounds/UISetup/Back.Back.
-[2018.09.28-00.13.40:261][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Affirm2...
-[2018.09.28-00.13.40:261][  0]LogTemp: Couldn't find amount to resample to.
-[2018.09.28-00.13.40:270][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 15960 while cooking SoundWave /Game/Sounds/UISetup/Affirm2.Affirm2.
-[2018.09.28-00.13.40:282][  0]LogAIModule: Creating AISystem for world MainMenuTest
-[2018.09.28-00.13.40:283][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.28-00.13.40:317][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.28-00.13.40:363][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.556ms to complete.
-[2018.09.28-00.13.40:363][  0]LogFileHelpers: Loading map 'MainMenuTest' took 1.557
-[2018.09.28-00.13.41:021][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-00.13.41:053][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-00.13.41:060][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-00.13.41:066][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-00.13.41:134][  0]LogCollectionManager: Loaded 0 collections in 0.000819 seconds
-[2018.09.28-00.13.41:290][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
-[2018.09.28-00.13.41:291][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Developers/ryanv/Collections/' took 0.01s
-[2018.09.28-00.13.41:291][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
-[2018.09.28-00.13.41:291][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.09.28-00.13.41:304][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2572 classes and 603 folders.
-[2018.09.28-00.13.41:407][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.28-00.13.42:558][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.09.28-00.13.42:620][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.09.28-00.13.44:257][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.28-00.13.44:260][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.28-00.13.44:329][  0]LogSlate: Took 0.014600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.28-00.13.44:778][  0]LogRenderer: Reallocating scene render targets to support 1028x388 Format 10 NumSamples 1 (Frame:1).
-[2018.09.28-00.13.45:269][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.28-00.13.45:269][  0]LogLoad: (Engine Initialization) Total time: 21.73 seconds
-[2018.09.28-00.13.45:269][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.28-00.13.45:310][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.28-00.13.45:485][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.28-00.13.45:581][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.26s
-[2018.09.28-00.13.45:690][  2]LogAssetRegistry: Asset discovery search completed in 11.1810 seconds
-[2018.09.28-00.13.45:692][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.09.28-00.13.45:692][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
-[2018.09.28-00.28.36:330][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-00.28.47:362][ 20]LogSlate: Window 'Open Level' being destroyed
-[2018.09.28-00.45.55:942][588]LogSlate: Took 0.016139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.28-00.45.59:767][817]LogSlate: Window 'Open Level' being destroyed
-[2018.09.28-00.46.28:993][522]LogMaterial: Display: Missing cached shader map for material ColdStorageTile, compiling. 
-[2018.09.28-00.46.29:271][522]LogShaderCompilers: Display: Shaders left to compile 61
-[2018.09.28-00.46.29:271][522]LogShaderCompilers: Display: Shaders left to compile 51
-[2018.09.28-00.46.29:271][522]LogShaderCompilers: Display: Shaders left to compile 41
-[2018.09.28-00.46.29:271][522]LogShaderCompilers: Display: Shaders left to compile 31
-[2018.09.28-00.46.29:271][522]LogMaterial: Display: Missing cached shader map for material LifeSupportTile, compiling. 
-[2018.09.28-00.46.29:315][522]LogMaterial: Display: Missing cached shader map for material BranchTile, compiling. 
-[2018.09.28-00.46.29:596][522]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.28-00.46.29:637][522]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/ROOM_DEF.ROOM_DEF
-[2018.09.28-00.46.31:625][522]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.09.28-00.46.34:097][522]LogShaderCompilers: Display: Shaders left to compile 143
-[2018.09.28-00.46.34:097][522]LogShaderCompilers: Display: Shaders left to compile 133
-[2018.09.28-00.46.34:469][522]LogSlate: Took 0.038664 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.09.28-00.46.35:031][522]LogShaderCompilers: Display: Shaders left to compile 123
-[2018.09.28-00.46.35:031][522]LogShaderCompilers: Display: Shaders left to compile 113
-[2018.09.28-00.46.36:579][594]LogRenderer: Reallocating scene render targets to support 1028x600 Format 10 NumSamples 1 (Frame:1).
-[2018.09.28-00.46.36:906][610]LogShaderCompilers: Display: Shaders left to compile 103
-[2018.09.28-00.46.36:957][611]LogSlate: Took 0.024485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.09.28-00.46.37:863][655]LogShaderCompilers: Display: Shaders left to compile 93
-[2018.09.28-00.46.37:863][655]LogShaderCompilers: Display: Shaders left to compile 83
-[2018.09.28-00.46.38:727][663]LogShaderCompilers: Display: Shaders left to compile 73
-[2018.09.28-00.46.40:253][738]LogShaderCompilers: Display: Shaders left to compile 63
-[2018.09.28-00.46.40:938][773]LogShaderCompilers: Display: Shaders left to compile 53
-[2018.09.28-00.46.42:085][840]LogShaderCompilers: Display: Shaders left to compile 43
-[2018.09.28-00.46.42:334][855]LogShaderCompilers: Display: Shaders left to compile 33
-[2018.09.28-00.46.43:136][903]LogShaderCompilers: Display: Shaders left to compile 23
-[2018.09.28-00.46.44:525][985]LogShaderCompilers: Display: Shaders left to compile 13
-[2018.09.28-00.46.44:891][  7]LogShaderCompilers: Display: Shaders left to compile 3
-[2018.09.28-00.47.32:691][783]LogEditorTransaction: Undo Set Scale
-[2018.09.28-00.47.36:625][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-00.47.37:031][ 17]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/ROOM_DEF46959C244346B513BE6F87996F8D0131.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/ROOM_DEF.uasset'
-[2018.09.28-00.47.37:202][ 26]BlueprintLog: New page: Compile ROOM_DEF
-[2018.09.28-00.47.39:959][134]LogSlate: Window 'ROOM_DEF' being destroyed
-[2018.09.28-00.48.08:711][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-00.48.26:112][898]LogEditorTransaction: Undo Set Scale
-[2018.09.28-00.49.16:922][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-00.49.19:267][ 80]LogMaterial: Display: Missing cached shader map for material NavigationTile, compiling. 
-[2018.09.28-00.49.19:305][ 80]LogShaderCompilers: Display: Shaders left to compile 61
-[2018.09.28-00.49.19:305][ 80]LogShaderCompilers: Display: Shaders left to compile 51
-[2018.09.28-00.49.19:305][ 80]LogShaderCompilers: Display: Shaders left to compile 41
-[2018.09.28-00.49.19:305][ 80]LogShaderCompilers: Display: Shaders left to compile 31
-[2018.09.28-00.49.19:327][ 80]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.SPECIAL_ROOM_1
-[2018.09.28-00.49.22:072][209]LogShaderCompilers: Display: Shaders left to compile 21
-[2018.09.28-00.49.22:187][216]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.09.28-00.49.23:292][280]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.09.28-00.49.31:838][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-00.49.37:287][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-00.50.19:615][631]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/UI-Rick/MainMenuTest' took 0.031
-[2018.09.28-01.00.15:234][ 38]LogSlate: Window 'Delete Assets' being destroyed
-[2018.09.28-01.00.15:511][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.28-01.00.20:603][287]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/ROOM_DEF.ROOM_DEF
-[2018.09.28-01.01.01:567][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.01.38:644][911]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.28-01.01.38:701][911]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/UI-Rick/MainMenuTest' took 0.034
-[2018.09.28-01.01.38:977][911]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/ROOM_DEF] ([1] browsable assets)...
-[2018.09.28-01.01.38:994][911]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/ROOM_DEF.ROOM_DEF]
-[2018.09.28-01.01.38:994][911]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/ROOM_DEF]
-[2018.09.28-01.01.39:042][911]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/ROOM_DEF_Auto14EF39AB4495C5E66BC4087B33AEEBF0D.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/ROOM_DEF_Auto1.uasset'
-[2018.09.28-01.01.39:042][911]LogFileHelpers: Auto-saving content packages took 0.339
-[2018.09.28-01.01.57:951][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.02.11:275][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.02.14:027][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.02.20:170][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.02.25:632][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.02.32:736][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.02.42:140][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.02.47:390][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.02.56:059][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.03.23:787][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.03.38:719][955]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.03.48:354][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.05.07:681][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.05.13:655][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.05.23:301][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.05.38:643][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.28-01.06.01:640][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.06.23:764][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.06.54:639][575]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.06.54:721][580]BlueprintLog: New page: Compile ROOM_DEF
-[2018.09.28-01.06.55:505][604]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/ROOM_DEFFCE7855B4BC5FBB2F3C30EA4381F21AE.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/ROOM_DEF.uasset'
-[2018.09.28-01.07.05:883][218]LogSlate: Window 'ROOM_DEF' being destroyed
-[2018.09.28-01.07.05:890][218]LogSlate: Window 'ROOM_DEF' being destroyed
-[2018.09.28-01.07.51:019][916]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.SPECIAL_ROOM_1
-[2018.09.28-01.08.00:041][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.08.01:405][512]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1A.SPECIAL_ROOM_1A
-[2018.09.28-01.08.28:895][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.08.36:245][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.08.42:907][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.08.43:026][963]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_1AA3CA09944F8D17D3280B0DA48E319ED0.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1A.uasset'
-[2018.09.28-01.09.22:135][292]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/ROOM_DEF.ROOM_DEF
-[2018.09.28-01.09.50:068][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.11.00:559][114]LogMaterial: Display: Missing cached shader map for material EngineRoomTile, compiling. 
-[2018.09.28-01.11.00:620][114]LogShaderCompilers: Display: Shaders left to compile 61
-[2018.09.28-01.11.00:620][114]LogShaderCompilers: Display: Shaders left to compile 51
-[2018.09.28-01.11.00:620][114]LogShaderCompilers: Display: Shaders left to compile 41
-[2018.09.28-01.11.00:620][114]LogShaderCompilers: Display: Shaders left to compile 31
-[2018.09.28-01.11.03:142][251]LogShaderCompilers: Display: Shaders left to compile 21
-[2018.09.28-01.11.03:398][258]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:Floor' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:Wall_02' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:Wall_03' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:Wall_04' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:Wall_05' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:Wall_06' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:Wall_07' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:Wall_08' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:Wall_01' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:SP_DOOR1' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:SP_DOOR2' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:SP_DOOR3' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:SP_DOOR4' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SKEL_SPECIAL_ROOM_3_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:Floor' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:Wall_02' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:Wall_03' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:Wall_04' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:Wall_05' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:Wall_06' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:Wall_07' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:Wall_08' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:Wall_01' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:444][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:SP_DOOR1' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:445][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:SP_DOOR2' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:445][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:SP_DOOR3' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:445][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:SP_DOOR4' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:445][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:445][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.SPECIAL_ROOM_3_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3.PackageMetaData'
-[2018.09.28-01.11.03:470][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:470][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:470][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:470][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:470][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SKEL_SPAWNPOINT_ROOM_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SKEL_SPAWNPOINT_ROOM_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SKEL_SPAWNPOINT_ROOM_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SKEL_SPAWNPOINT_ROOM_C:Special_Room_3' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SKEL_SPAWNPOINT_ROOM_C:Special_Room_2' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SKEL_SPAWNPOINT_ROOM_C:Special_Room_1' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SKEL_SPAWNPOINT_ROOM_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SKEL_SPAWNPOINT_ROOM_C:Box' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SKEL_SPAWNPOINT_ROOM_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SKEL_SPAWNPOINT_ROOM_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM_C:Special_Room_3' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM_C:Special_Room_2' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM_C:Special_Room_1' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM_C:Box' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:471][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.SPAWNPOINT_ROOM_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_ROOM.PackageMetaData'
-[2018.09.28-01.11.03:486][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SPAWNPOINT_SPESIALROOM1_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:486][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SKEL_SPAWNPOINT_SPESIALROOM1_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:486][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SKEL_SPAWNPOINT_SPESIALROOM1_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:487][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SKEL_SPAWNPOINT_SPESIALROOM1_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:487][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SKEL_SPAWNPOINT_SPESIALROOM1_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:487][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SKEL_SPAWNPOINT_SPESIALROOM1_C:Box' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:487][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SKEL_SPAWNPOINT_SPESIALROOM1_C:Sphere' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:487][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SKEL_SPAWNPOINT_SPESIALROOM1_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:487][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SKEL_SPAWNPOINT_SPESIALROOM1_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:487][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SPAWNPOINT_SPESIALROOM1_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:487][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SPAWNPOINT_SPESIALROOM1_C:Box' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:487][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SPAWNPOINT_SPESIALROOM1_C:Sphere' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:487][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SPAWNPOINT_SPESIALROOM1_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:487][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.SPAWNPOINT_SPESIALROOM1_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM1.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SPAWNPOINT_SPESIALROOM2_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SKEL_SPAWNPOINT_SPESIALROOM2_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SKEL_SPAWNPOINT_SPESIALROOM2_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SKEL_SPAWNPOINT_SPESIALROOM2_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SKEL_SPAWNPOINT_SPESIALROOM2_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SKEL_SPAWNPOINT_SPESIALROOM2_C:Box' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SKEL_SPAWNPOINT_SPESIALROOM2_C:Sphere' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SKEL_SPAWNPOINT_SPESIALROOM2_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SKEL_SPAWNPOINT_SPESIALROOM2_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SPAWNPOINT_SPESIALROOM2_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SPAWNPOINT_SPESIALROOM2_C:Box' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SPAWNPOINT_SPESIALROOM2_C:Sphere' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SPAWNPOINT_SPESIALROOM2_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SPAWNPOINT_SPESIALROOM2_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:501][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.SPAWNPOINT_SPESIALROOM2_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM2.PackageMetaData'
-[2018.09.28-01.11.03:518][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SPAWNPOINT_SPESIALROOM3_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SKEL_SPAWNPOINT_SPESIALROOM3_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SKEL_SPAWNPOINT_SPESIALROOM3_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SKEL_SPAWNPOINT_SPESIALROOM3_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SKEL_SPAWNPOINT_SPESIALROOM3_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SKEL_SPAWNPOINT_SPESIALROOM3_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SKEL_SPAWNPOINT_SPESIALROOM3_C:Box' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SKEL_SPAWNPOINT_SPESIALROOM3_C:Sphere' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SKEL_SPAWNPOINT_SPESIALROOM3_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SKEL_SPAWNPOINT_SPESIALROOM3_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SPAWNPOINT_SPESIALROOM3_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SPAWNPOINT_SPESIALROOM3_C:Box' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SPAWNPOINT_SPESIALROOM3_C:Sphere' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SPAWNPOINT_SPESIALROOM3_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SPAWNPOINT_SPESIALROOM3_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:519][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.SPAWNPOINT_SPESIALROOM3_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPAWNPOINT_SPESIALROOM3.PackageMetaData'
-[2018.09.28-01.11.03:532][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:532][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:532][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:532][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:532][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:Floor' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:Wall_02' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:Wall_03' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:Wall_04' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:Wall_05' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:Wall_06' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:Wall_07' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:Wall_08' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:Wall_01' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:SP_DOOR1' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:SP_DOOR2' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:SP_DOOR3' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:SP_DOOR4' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SKEL_SPECIAL_ROOM_1_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:Floor' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:Wall_02' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:Wall_03' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:Wall_04' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:Wall_05' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:Wall_06' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:Wall_07' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:Wall_08' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:Wall_01' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:SP_DOOR1' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:SP_DOOR2' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:533][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:SP_DOOR3' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:534][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:SP_DOOR4' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:534][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:534][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:Floor' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:Wall_02' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:Wall_03' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:Wall_04' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:Wall_05' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:Wall_06' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:Wall_07' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:Wall_08' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:Wall_01' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:SP_DOOR1' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:SP_DOOR2' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:552][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:SP_DOOR3' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:SP_DOOR4' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SKEL_SPECIAL_ROOM_2_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:Floor' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:Wall_02' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:Wall_03' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:Wall_04' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:Wall_05' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:Wall_06' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:Wall_07' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:Wall_08' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:Wall_01' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:SP_DOOR1' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:SP_DOOR2' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:SP_DOOR3' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:SP_DOOR4' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:553][258]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.SPECIAL_ROOM_2_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2.PackageMetaData'
-[2018.09.28-01.11.03:663][258]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_35557EC064FCD5DD3229571BB552E6E0D.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_3.uasset'
-[2018.09.28-01.11.03:732][258]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPAWNPOINT_ROOME1AA479A4922BB4C56F2F38AEE27BFBD.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_ROOM.uasset'
-[2018.09.28-01.11.03:796][258]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPAWNPOINT_SPESIALROOM1E3A2C8544974B45F5C30B980D5D999AD.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM1.uasset'
-[2018.09.28-01.11.03:853][258]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPAWNPOINT_SPESIALROOM2E641821D47C31CBBE6F9AA9E8AC516B6.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM2.uasset'
-[2018.09.28-01.11.03:908][258]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPAWNPOINT_SPESIALROOM33B178CC4438C169CC7B882A72BF58BCE.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPAWNPOINT_SPESIALROOM3.uasset'
-[2018.09.28-01.11.03:979][258]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_150755E104680D55D8DB2F89BB24B1A71.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.uasset'
-[2018.09.28-01.11.04:042][258]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_25CA10BB84DD3D3B825D4C59D5E496C54.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_2.uasset'
-[2018.09.28-01.11.04:495][258]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.09.28-01.11.05:125][258]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SP_ROOM43EFD0F444B8756B600B26A1FAD56B97.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SP_ROOM.uasset'
-[2018.09.28-01.11.17:222][957]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2A.SKEL_SPECIAL_ROOM_2A_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM2A.PackageMetaData'
-[2018.09.28-01.11.17:222][957]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2A.SPECIAL_ROOM_2A_C' ref from Metadata '/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM2A.PackageMetaData'
-[2018.09.28-01.11.17:312][957]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_2A279B523D4393A056FBAB1093F5A21836.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2A.uasset'
-[2018.09.28-01.11.28:883][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI-Rick/MainMenuTest" FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/UI-Rick/MainMenuTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.09.28-01.11.29:093][632]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/MainMenuTest25B8E66C4E332B6FB10F96AAA463C6EE.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/UI-Rick/MainMenuTest.umap'
-[2018.09.28-01.11.31:187][755]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3A.SPECIAL_ROOM_3A
-[2018.09.28-01.11.58:149][343]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/OLD/SPECIAL_ROOM_1.SPECIAL_ROOM_1
-[2018.09.28-01.20.29:826][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-01.20.52:870][741]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/DOORS/WALL.WALL
-[2018.09.28-01.21.16:379][290]BlueprintLog: New page: Compile SPECIAL_ROOM_3A
-[2018.09.28-01.21.42:427][331]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_3A8E51981542726E7D3A9A1CB9CE9B0BAE.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3A.uasset'
-[2018.09.28-01.22.46:843][362]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/UI-Rick/MainMenuTest' took 0.060
-[2018.09.28-01.22.46:858][362]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_4A] ([1] browsable assets)...
-[2018.09.28-01.22.46:881][362]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_4A.SPECIAL_ROOM_4A]
-[2018.09.28-01.22.46:881][362]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_4A]
-[2018.09.28-01.22.47:023][362]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_4A_Auto2CECA3EDD45F45EE11956C8B920100CC5.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_4A_Auto2.uasset'
-[2018.09.28-01.22.47:025][362]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_5A] ([1] browsable assets)...
-[2018.09.28-01.22.47:045][362]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_5A.SPECIAL_ROOM_5A]
-[2018.09.28-01.22.47:046][362]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_5A]
-[2018.09.28-01.22.47:106][362]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_5A_Auto29D1AC49149C194271D04A7B45AA04CAF.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_5A_Auto2.uasset'
-[2018.09.28-01.22.47:107][362]LogFileHelpers: Auto-saving content packages took 0.258
-[2018.09.28-01.22.56:435][514]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.28-01.22.57:260][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.28-01.22.58:493][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.28-01.22.59:788][604]LogSlate: Window 'SPECIAL_ROOM_1A' being destroyed
-[2018.09.28-01.22.59:827][604]LogSlate: Window 'SPECIAL_ROOM_1A' being destroyed
-[2018.09.28-01.22.59:829][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.28-01.23.03:059][684]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_4A.SPECIAL_ROOM_4A
-[2018.09.28-01.23.04:686][712]BlueprintLog: New page: Compile SPECIAL_ROOM_4A
-[2018.09.28-01.23.05:607][724]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_4A94C50DEE40880C02B4B455BCB56C4717.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_4A.uasset'
-[2018.09.28-01.23.07:546][784]LogSlate: Window 'SPECIAL_ROOM_4A' being destroyed
-[2018.09.28-01.23.07:582][784]LogSlate: Window 'SPECIAL_ROOM_4A' being destroyed
-[2018.09.28-01.23.08:689][820]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_5A.SPECIAL_ROOM_5A
-[2018.09.28-01.23.10:195][851]BlueprintLog: New page: Compile SPECIAL_ROOM_5A
-[2018.09.28-01.23.10:739][856]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_5A17FF30F241BE9522D8C3D79952DC6A0B.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_5A.uasset'
-[2018.09.28-01.23.11:639][885]LogSlate: Window 'SPECIAL_ROOM_5A' being destroyed
-[2018.09.28-01.23.11:677][885]LogSlate: Window 'SPECIAL_ROOM_5A' being destroyed
-[2018.09.28-01.23.20:601][350]LogSlate: Window 'ASH_Game - Unreal Editor' being destroyed
-[2018.09.28-01.23.20:602][350]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.28-01.23.20:855][351]Cmd: QUIT_EDITOR
-[2018.09.28-01.23.20:922][351]LogExit: Preparing to exit.
-[2018.09.28-01.23.21:325][351]LogExit: Editor shut down
-[2018.09.28-01.23.21:326][351]LogExit: Transaction tracking system shut down
-[2018.09.28-01.23.21:976][351]LogExit: Object subsystem successfully closed.
-[2018.09.28-01.23.21:992][351]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.09.28-01.23.21:996][351]LogD3D11RHI: Shutdown
-[2018.09.28-01.23.21:996][351]LogD3D11RHI: CleanupD3DDevice
-[2018.09.28-01.23.22:021][351]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.09.28-01.23.22:042][351]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (614)
-[2018.09.28-01.23.22:042][351]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
-[2018.09.28-01.23.22:042][351]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
-[2018.09.28-01.23.22:042][351]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
-[2018.09.28-01.23.22:042][351]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
-[2018.09.28-01.23.22:043][351]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
-[2018.09.28-01.23.22:043][351]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
-[2018.09.28-01.23.22:043][351]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2018.09.28-01.23.22:044][351]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2018.09.28-01.23.22:045][351]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2018.09.28-01.23.22:046][351]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2018.09.28-01.23.22:046][351]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2018.09.28-01.23.22:046][351]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2018.09.28-01.23.22:046][351]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2018.09.28-01.23.22:046][351]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2018.09.28-01.23.22:046][351]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2018.09.28-01.23.22:046][351]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2018.09.28-01.23.22:980][351]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2018.09.28-01.23.22:981][351]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2018.09.28-01.23.22:981][351]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2018.09.28-01.23.22:981][351]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2018.09.28-01.23.22:981][351]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2018.09.28-01.23.22:981][351]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2018.09.28-01.23.22:981][351]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2018.09.28-01.23.22:981][351]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2018.09.28-01.23.23:036][351]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2018.09.28-01.23.23:036][351]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2018.09.28-01.23.23:036][351]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2018.09.28-01.23.23:036][351]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2018.09.28-01.23.23:036][351]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2018.09.28-01.23.23:036][351]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2018.09.28-01.23.23:036][351]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2018.09.28-01.23.23:036][351]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2018.09.28-01.23.23:036][351]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2018.09.28-01.23.23:036][351]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2018.09.28-01.23.23:042][351]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2018.09.28-01.23.23:191][351]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2018.09.28-01.23.23:194][351]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2018.09.28-01.23.23:194][351]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2018.09.28-01.23.23:194][351]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2018.09.28-01.23.23:194][351]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2018.09.28-01.23.23:194][351]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2018.09.28-01.23.23:194][351]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2018.09.28-01.23.23:194][351]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2018.09.28-01.23.23:194][351]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2018.09.28-01.23.23:194][351]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2018.09.28-01.23.23:194][351]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2018.09.28-01.23.23:195][351]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2018.09.28-01.23.23:196][351]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2018.09.28-01.23.23:196][351]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2018.09.28-01.23.23:196][351]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2018.09.28-01.23.23:196][351]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2018.09.28-01.23.23:196][351]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2018.09.28-01.23.23:196][351]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.09.28-01.23.23:196][351]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.09.28-01.23.23:297][351]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.09.28-01.23.23:397][351]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.09.28-01.23.23:397][351]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.09.28-01.23.23:397][351]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.09.28-01.23.23:397][351]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.09.28-01.23.23:397][351]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.09.28-01.23.23:397][351]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.09.28-01.23.23:397][351]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.09.28-01.23.23:397][351]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.09.28-01.23.23:397][351]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.09.28-01.23.23:397][351]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.09.28-01.23.23:398][351]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.09.28-01.23.23:398][351]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.09.28-01.23.23:400][351]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.09.28-01.23.23:400][351]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.09.28-01.23.23:400][351]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.09.28-01.23.23:400][351]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.09.28-01.23.23:400][351]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.09.28-01.23.23:400][351]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.09.28-01.23.23:402][351]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.09.28-01.23.23:408][351]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.09.28-01.23.23:409][351]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.09.28-01.23.23:409][351]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.09.28-01.23.23:409][351]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.09.28-01.23.23:409][351]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.09.28-01.23.23:409][351]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.09.28-01.23.23:411][351]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.09.28-01.23.23:493][351]LogDerivedDataCache: Shutdown
-[2018.09.28-01.23.23:493][351]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.09.28-01.23.23:493][351]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.09.28-01.23.23:493][351]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.09.28-01.23.23:493][351]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.09.28-01.23.23:493][351]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.09.28-01.23.23:493][351]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.09.28-01.23.23:493][351]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.09.28-01.23.23:494][351]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.09.28-01.23.23:495][351]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.09.28-01.23.23:495][351]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.09.28-01.23.23:495][351]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.09.28-01.23.23:495][351]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.09.28-01.23.23:501][351]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.09.28-01.23.23:502][351]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.09.28-01.23.23:502][351]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.09.28-01.23.23:518][351]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.09.28-01.23.23:518][351]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.09.28-01.23.23:518][351]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4AA3D853-4221-1A5F-E1C0-638C21F7D7CE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=b105bdaf4271f5bfef2632aad0b764fd%7C6f8981bb82404b44a03572ec187d576a%7Cdfe7b47d-b589-462c-89aa-ec018837db33&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.09.28-01.23.23:541][351]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.09.28-01.23.23:542][351]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.09.28-01.23.23:542][351]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.09.28-01.23.23:543][351]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.09.28-01.23.23:550][351]LogExit: Exiting.
-[2018.09.28-01.23.23:572][351]Log file closed, 09/27/18 21:23:23
+[2018.09.28-23.31.44:519][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.28-23.31.44:519][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.28-23.31.44:573][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.28-23.31.44:573][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.28-23.31.44:573][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.28-23.31.44:574][  0]LogInit: Computer: DESKTOP-S49REJ4
+[2018.09.28-23.31.44:574][  0]LogInit: User: ryanv
+[2018.09.28-23.31.44:574][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.28-23.31.44:574][  0]LogInit: High frequency timer resolution =2.742187 MHz
+[2018.09.28-23.31.44:574][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.28-23.31.44:574][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.28-23.31.44:574][  0]LogMemory: Process Physical Memory: 100.25 MB used, 100.25 MB peak
+[2018.09.28-23.31.44:574][  0]LogMemory: Process Virtual Memory: 91.04 MB used, 91.04 MB peak
+[2018.09.28-23.31.44:574][  0]LogMemory: Physical Memory: 7253.80 MB used,  9003.23 MB free, 16257.03 MB total
+[2018.09.28-23.31.44:574][  0]LogMemory: Virtual Memory: 4644.98 MB used,  9003.23 MB free, 134217728.00 MB total
+[2018.09.28-23.31.44:913][  0]LogInit: Using OS detected language (en-US).
+[2018.09.28-23.31.44:913][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.28-23.31.44:914][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.28-23.31.45:308][  0]LogStreaming: Display: Took  0.395s to InitEngineTextLocalization.
+[2018.09.28-23.31.45:308][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.28-23.31.45:338][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.28-23.31.45:338][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.28-23.31.51:185][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2018.09.28-23.31.51:185][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.28-23.31.51:227][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.28-23.31.51:227][  0]LogD3D11RHI:       8074/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.28-23.31.51:752][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.28-23.31.51:752][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.28-23.31.51:754][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.28-23.31.51:754][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.28-23.31.51:754][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.28-23.31.51:762][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.28-23.31.51:762][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.28-23.31.51:762][  0]LogWindows: EnumDisplayDevices:
+[2018.09.28-23.31.51:762][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.28-23.31.51:763][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.28-23.31.51:763][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.28-23.31.51:763][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.28-23.31.51:763][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.28-23.31.51:764][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.28-23.31.51:764][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.28-23.31.51:765][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.28-23.31.51:765][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.28-23.31.51:765][  0]LogD3D11RHI:   Driver Version: 385.14 (internal:22.21.13.8514, unified:385.14)
+[2018.09.28-23.31.51:765][  0]LogD3D11RHI:      Driver Date: 7-30-2017
+[2018.09.28-23.31.51:765][  0]LogRHI: Texture pool is 5651 MB (70% of 8074 MB)
+[2018.09.28-23.31.51:788][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.28-23.31.51:799][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.09.28-23.31.51:846][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../GameDev/_Projects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/18144/).
+[2018.09.28-23.31.51:846][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ryanv/AppData/Local/Temp/UnrealShaderWorkingDir/42EA4BE9412A082D6BB7CCB1A29ED325/'.
+[2018.09.28-23.31.52:180][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.28-23.31.52:194][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.28-23.31.52:207][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.28-23.31.52:219][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.28-23.31.52:233][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.28-23.31.52:245][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.28-23.31.52:257][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.28-23.31.52:270][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.28-23.31.52:275][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:350][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-23.31.52:351][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.28-23.31.52:410][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.28-23.31.52:410][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.28-23.31.52:434][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.28-23.31.52:434][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.28-23.31.52:446][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.28-23.31.52:459][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.28-23.31.52:471][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.28-23.31.52:483][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.28-23.31.52:493][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.28-23.31.52:493][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.28-23.31.52:536][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.28-23.31.52:536][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.28-23.31.52:536][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.28-23.31.53:226][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.28-23.31.53:282][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.28-23.31.53:283][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.28-23.31.53:283][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.28-23.31.53:283][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.28-23.31.53:283][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.28-23.31.53:283][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.28-23.31.53:296][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.28-23.31.53:309][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryanv/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.28-23.31.53:309][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.28-23.31.53:309][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.28-23.31.53:328][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.28-23.31.53:329][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.28-23.31.53:330][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.28-23.31.53:401][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2018.09.28-23.31.53:703][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.28-23.31.53:828][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.28-23.31.53:831][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.28-23.31.53:831][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.28-23.31.53:831][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.28-23.31.53:831][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.28-23.31.53:845][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.09.28-23.31.54:402][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.101687 seconds
+[2018.09.28-23.31.54:409][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.28-23.31.54:409][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.28-23.31.54:409][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.28-23.31.55:197][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.28-23.31.55:211][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.28-23.31.55:348][  0]SourceControl: Source control is disabled
+[2018.09.28-23.31.55:348][  0]SourceControl: Source control is disabled
+[2018.09.28-23.31.55:349][  0]SourceControl: Source control is disabled
+[2018.09.28-23.31.55:349][  0]SourceControl: Source control is disabled
+[2018.09.28-23.31.55:499][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.28-23.31.55:566][  0]LogOcInput: OculusInput pre-init called
+[2018.09.28-23.31.55:621][  0]LogEngine: Initializing Engine...
+[2018.09.28-23.32.01:117][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2018.09.28-23.32.01:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.28-23.32.01:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.28-23.32.01:119][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.28-23.32.01:119][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.28-23.32.01:397][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.28-23.32.01:408][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.28-23.32.01:427][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.28-23.32.01:499][  0]LogInit: FAudioDevice initialized.
+[2018.09.28-23.32.01:500][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.28-23.32.01:586][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/ryanv/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.28-23.32.01:589][  0]LogInit: Texture streaming: Enabled
+[2018.09.28-23.32.01:601][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.28-23.32.01:730][  0]LogInit: Transaction tracking system initialized
+[2018.09.28-23.32.01:746][  0]BlueprintLog: New page: Editor Load
+[2018.09.28-23.32.01:801][  0]LocalizationService: Localization service is disabled
+[2018.09.28-23.32.02:130][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.28-23.32.02:130][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.28-23.32.02:137][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.03s
+[2018.09.28-23.32.02:138][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.28-23.32.02:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.28-23.32.02:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.28-23.32.02:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.28-23.32.02:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.28-23.32.02:242][  0]SourceControl: Source control is disabled
+[2018.09.28-23.32.02:243][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/UI-Rick/MainMenuTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.28-23.32.02:243][  0]LightingResults: New page: Lighting Build
+[2018.09.28-23.32.02:245][  0]MapCheck: New page: Map Check
+[2018.09.28-23.32.02:245][  0]LightingResults: New page: Lighting Build
+[2018.09.28-23.32.03:738][  0]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.09.28-23.32.03:738][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.28-23.32.03:770][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.28-23.32.03:826][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.026ms to complete.
+[2018.09.28-23.32.03:826][  0]LogFileHelpers: Loading map 'MainMenuTest' took 1.583
+[2018.09.28-23.32.04:567][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-23.32.04:630][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-23.32.04:639][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-23.32.04:647][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-23.32.04:721][  0]LogCollectionManager: Loaded 0 collections in 0.000965 seconds
+[2018.09.28-23.32.04:863][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
+[2018.09.28-23.32.04:863][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Developers/ryanv/Collections/' took 0.01s
+[2018.09.28-23.32.04:863][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
+[2018.09.28-23.32.04:863][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.28-23.32.04:875][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2572 classes and 603 folders.
+[2018.09.28-23.32.04:971][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.28-23.32.06:081][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.28-23.32.06:128][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.09.28-23.32.07:275][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.28-23.32.07:277][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.28-23.32.07:342][  0]LogSlate: Took 0.014080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.28-23.32.07:807][  0]LogRenderer: Reallocating scene render targets to support 1028x388 Format 10 NumSamples 1 (Frame:1).
+[2018.09.28-23.32.08:357][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.28-23.32.08:357][  0]LogLoad: (Engine Initialization) Total time: 26.08 seconds
+[2018.09.28-23.32.08:357][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.28-23.32.08:549][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.28-23.32.08:636][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.21s
+[2018.09.28-23.32.08:757][  2]LogAssetRegistry: Asset discovery search completed in 15.3782 seconds
+[2018.09.28-23.32.08:758][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.28-23.32.08:759][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2018.09.28-23.34.49:054][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.34.54:928][827]LogSlate: Took 0.017428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.28-23.35.11:136][781]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Maps/RoomCreationLand.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.28-23.35.11:164][781]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.28-23.35.11:178][781]LightingResults: New page: Lighting Build
+[2018.09.28-23.35.11:178][781]LoadErrors: New page: Loading map: RoomCreationLand.umap
+[2018.09.28-23.35.11:180][781]MapCheck: New page: Map Check
+[2018.09.28-23.35.11:180][781]LightingResults: New page: Lighting Build
+[2018.09.28-23.35.15:387][781]LogTexture: Display: Building textures: select_character (AutoDXT, 512X512)
+[2018.09.28-23.35.15:387][781]LogTexture: Display: Building textures: vanguard_specular (AutoDXT, 1024X1024)
+[2018.09.28-23.35.15:589][781]LogTexture: Display: Building textures: vanguard_diffuse (AutoDXT, 1024X1024)
+[2018.09.28-23.35.15:589][781]LogTexture: Display: Building textures: vanguard_normal (BC5, 1024X1024)
+[2018.09.28-23.35.15:964][781]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Death/vanguard_t_choonyung_Death.vanguard_t_choonyung_Death
+[2018.09.28-23.35.15:972][781]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Death/vanguard_t_choonyung_Death.vanguard_t_choonyung_Death) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.28-23.35.16:283][781]LogMaterial: Display: Missing cached shader map for material Vanguard_VisorMat, compiling. 
+[2018.09.28-23.35.16:446][781]LogSkeletalMesh: Building Skeletal Mesh vanguard-TPose...
+[2018.09.28-23.35.16:494][781]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.09.28-23.35.16:494][781]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.09.28-23.35.16:494][781]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.09.28-23.35.16:494][781]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.09.28-23.35.16:494][781]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/vanguard-TPose.vanguard-TPose
+[2018.09.28-23.35.16:952][781]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave FOOTSTEP_Generic_Metal_Hollow_Run_RR2_mono...
+[2018.09.28-23.35.16:953][781]LogTemp: Couldn't find amount to resample to.
+[2018.09.28-23.35.17:072][781]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave FOOTSTEP_Generic_Metal_Hollow_Run_RR1_mono...
+[2018.09.28-23.35.17:072][781]LogTemp: Couldn't find amount to resample to.
+[2018.09.28-23.35.17:247][781]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave FOOTSTEP_Generic_Metal_Hollow_Run_RR3_mono...
+[2018.09.28-23.35.17:247][781]LogTemp: Couldn't find amount to resample to.
+[2018.09.28-23.35.17:254][781]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave FOOTSTEP_Generic_Metal_Hollow_Run_RR4_mono...
+[2018.09.28-23.35.17:254][781]LogTemp: Couldn't find amount to resample to.
+[2018.09.28-23.35.17:343][781]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave FOOTSTEP_Generic_Metal_Hollow_Run_RR6_mono...
+[2018.09.28-23.35.17:343][781]LogTemp: Couldn't find amount to resample to.
+[2018.09.28-23.35.17:351][781]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave FOOTSTEP_Generic_Metal_Hollow_Run_RR5_mono...
+[2018.09.28-23.35.17:351][781]LogTemp: Couldn't find amount to resample to.
+[2018.09.28-23.35.17:393][781]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave FOOTSTEP_Generic_Metal_Hollow_Run_RR8_mono...
+[2018.09.28-23.35.17:393][781]LogTemp: Couldn't find amount to resample to.
+[2018.09.28-23.35.17:401][781]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave FOOTSTEP_Generic_Metal_Hollow_Run_RR7_mono...
+[2018.09.28-23.35.17:401][781]LogTemp: Couldn't find amount to resample to.
+[2018.09.28-23.35.17:411][781]LogMaterial: Display: Missing cached shader map for material VanguardBodyMat, compiling. 
+[2018.09.28-23.35.17:446][781]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Walking_Anim.Walking_Anim
+[2018.09.28-23.35.17:446][781]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Walking_Anim.Walking_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.28-23.35.17:447][781]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Running_Anim.Running_Anim
+[2018.09.28-23.35.17:447][781]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Running_Anim.Running_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.28-23.35.17:476][781]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Idle_Anim.Idle_Anim
+[2018.09.28-23.35.17:476][781]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Idle_Anim.Idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.28-23.35.17:479][781]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Picking_Up_Anim.Picking_Up_Anim
+[2018.09.28-23.35.17:479][781]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Picking_Up_Anim.Picking_Up_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.28-23.35.17:483][781]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Givingitem_Anim.Givingitem_Anim
+[2018.09.28-23.35.17:483][781]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Givingitem_Anim.Givingitem_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.28-23.35.17:485][781]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Death/vanguard_t_choonyung_Rifle_Death.vanguard_t_choonyung_Rifle_Death
+[2018.09.28-23.35.17:485][781]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Death/vanguard_t_choonyung_Rifle_Death.vanguard_t_choonyung_Rifle_Death) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.28-23.35.17:576][781]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Death/vanguard_t_choonyung_Death_From_Front_Headshot.vanguard_t_choonyung_Death_From_Front_Headshot
+[2018.09.28-23.35.17:576][781]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Death/vanguard_t_choonyung_Death_From_Front_Headshot.vanguard_t_choonyung_Death_From_Front_Headshot) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.28-23.35.17:668][781]LogAIModule: Creating AISystem for world RoomCreationLand
+[2018.09.28-23.35.18:571][781]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.28-23.35.18:714][781]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.28-23.35.18:806][781]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.635ms to complete.
+[2018.09.28-23.35.18:806][781]LogFileHelpers: Loading map 'RoomCreationLand' took 7.671
+[2018.09.28-23.35.18:819][781]LogSlate: Window 'Open Level' being destroyed
+[2018.09.28-23.35.21:244][907]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.09.28-23.35.21:320][910]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.09.28-23.35.22:380][974]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.09.28-23.35.22:595][987]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.09.28-23.35.23:663][ 51]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.09.28-23.35.24:432][ 97]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.09.28-23.35.24:540][102]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.28-23.35.26:082][193]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.28-23.35.56:937][932]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.28-23.37.02:430][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.37.50:882][216]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1A.SPECIAL_ROOM_1A
+[2018.09.28-23.37.52:064][216]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.09.28-23.37.54:039][216]LogSlate: Took 0.023361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.28-23.38.14:151][393]LogRenderer: Reallocating scene render targets to support 1028x600 Format 10 NumSamples 1 (Frame:1).
+[2018.09.28-23.38.25:281][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.38.27:434][175]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2A.SPECIAL_ROOM_2A
+[2018.09.28-23.38.34:861][569]LogSlate: Took 0.042782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.28-23.38.36:011][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.38.46:425][227]BlueprintLog: New page: Compile SPECIAL_ROOM_2A
+[2018.09.28-23.38.48:433][301]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_2A3342E4C745203EC3D50A70B18E830A2C.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_2A.uasset'
+[2018.09.28-23.38.51:768][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.38.57:187][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.38.57:287][812]BlueprintLog: New page: Compile SPECIAL_ROOM_1A
+[2018.09.28-23.38.57:704][819]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_1AA02B1A60468088508A8394961C2C312C.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1A.uasset'
+[2018.09.28-23.39.20:359][897]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.28-23.39.37:996][817]LogTexture: Display: Building textures: EXO_specular (AutoDXT, 1024X1024)
+[2018.09.28-23.39.37:996][817]LogTexture: Display: Building textures: EXO_diffuse (AutoDXT, 2048X2048)
+[2018.09.28-23.39.37:996][817]LogTexture: Display: Building textures: EXO_normal (BC5, 2048X2048)
+[2018.09.28-23.39.37:996][817]LogMaterial: Display: Missing cached shader map for material Exo_MAT, compiling. 
+[2018.09.28-23.39.38:033][817]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.09.28-23.39.38:033][817]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.09.28-23.39.38:033][817]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.09.28-23.39.38:033][817]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.09.28-23.39.41:141][998]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.28-23.39.41:599][ 25]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.28-23.40.40:521][537]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.28-23.40.46:767][896]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.28-23.41.14:346][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.41.14:845][171]LogRenderer: Reallocating scene render targets to support 1416x900 Format 10 NumSamples 1 (Frame:1068).
+[2018.09.28-23.41.17:389][317]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3A.SPECIAL_ROOM_3A
+[2018.09.28-23.41.20:305][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.41.23:983][677]BlueprintLog: New page: Compile SPECIAL_ROOM_3A
+[2018.09.28-23.41.24:548][693]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_3A3A9261D8460F60557D22C6A4B2EE9224.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_3A.uasset'
+[2018.09.28-23.42.22:825][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.28-23.42.30:158][352]LogEditorTransaction: Undo Edit Static Mesh
+[2018.09.28-23.42.30:627][374]LogEditorTransaction: Undo Edit Static Mesh
+[2018.09.28-23.42.31:169][405]LogEditorTransaction: Undo Replace component used material
+[2018.09.28-23.42.33:119][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.42.35:126][634]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.28-23.42.38:901][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.42.39:523][888]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_1A9CD1E2D645C76E2A699D3BA659E7962A.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1A.uasset'
+[2018.09.28-23.42.40:615][953]BlueprintLog: New page: Compile SPECIAL_ROOM_1A
+[2018.09.28-23.42.41:293][973]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_1AC54BD1FC4BFFD7FCD317BAA2178B7E9C.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_1A.uasset'
+[2018.09.28-23.42.43:180][ 84]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_4A.SPECIAL_ROOM_4A
+[2018.09.28-23.42.46:070][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.42.50:474][484]BlueprintLog: New page: Compile SPECIAL_ROOM_4A
+[2018.09.28-23.42.50:968][497]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_4A511085F64021E64954DD6EA5AB2E99C3.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_4A.uasset'
+[2018.09.28-23.42.53:012][618]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_5A.SPECIAL_ROOM_5A
+[2018.09.28-23.42.56:276][787]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-23.42.59:593][976]BlueprintLog: New page: Compile SPECIAL_ROOM_5A
+[2018.09.28-23.43.00:040][986]LogSavePackage: Moving '../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/SPECIAL_ROOM_5ADB21A4CC41437F2C92597BBBC20B19FD.tmp' to '../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/SPECIAL_ROOM_5A.uasset'
