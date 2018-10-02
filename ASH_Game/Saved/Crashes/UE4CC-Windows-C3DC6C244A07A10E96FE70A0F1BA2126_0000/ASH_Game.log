@@ -1,0 +1,582 @@
+﻿Log file open, 10/02/18 18:36:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ASH_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.420867
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.145s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: NVIDIA GeForce GTX 1060
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.020s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.02-22.36.44:294][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.02-22.36.44:294][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.02-22.36.44:322][  0]LogHAL: Display: Platform has ~ 16 GB [17028878336 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.02-22.36.44:332][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.02-22.36.44:337][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.02-22.36.44:366][  0]LogInit: Computer: DESKTOP-EQNU1S5
+[2018.10.02-22.36.44:366][  0]LogInit: User: XENO
+[2018.10.02-22.36.44:366][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.10.02-22.36.44:366][  0]LogInit: High frequency timer resolution =2.156250 MHz
+[2018.10.02-22.36.44:366][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.02-22.36.44:366][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.02-22.36.44:366][  0]LogMemory: Process Physical Memory: 101.73 MB used, 101.73 MB peak
+[2018.10.02-22.36.44:366][  0]LogMemory: Process Virtual Memory: 93.99 MB used, 93.99 MB peak
+[2018.10.02-22.36.44:366][  0]LogMemory: Physical Memory: 6213.52 MB used,  10026.48 MB free, 16240.00 MB total
+[2018.10.02-22.36.44:366][  0]LogMemory: Virtual Memory: 4665.25 MB used,  10026.48 MB free, 134217728.00 MB total
+[2018.10.02-22.36.45:457][  0]LogInit: Using OS detected language (en-US).
+[2018.10.02-22.36.45:457][  0]LogInit: Using OS detected locale (en-CA).
+[2018.10.02-22.36.45:504][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.02-22.36.46:273][  0]LogStreaming: Display: Took  0.823s to InitEngineTextLocalization.
+[2018.10.02-22.36.46:282][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.02-22.36.46:849][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.02-22.36.46:849][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.02-22.36.47:482][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.02-22.36.47:482][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.02-22.36.47:547][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.10.02-22.36.47:547][  0]LogD3D11RHI:       6061/0/8120 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.02-22.36.47:560][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2018.10.02-22.36.47:560][  0]LogD3D11RHI:       128/0/8120 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.02-22.36.47:562][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.02-22.36.47:563][  0]LogD3D11RHI:       0/0/8120 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.02-22.36.47:563][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.02-22.36.47:584][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.02-22.36.47:584][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.02-22.36.47:598][  0]LogWindows: EnumDisplayDevices:
+[2018.10.02-22.36.47:598][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.10.02-22.36.47:598][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.10.02-22.36.47:598][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.10.02-22.36.47:599][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.10.02-22.36.47:599][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.10.02-22.36.47:599][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.10.02-22.36.47:599][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.10.02-22.36.47:599][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.02-22.36.47:600][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.10.02-22.36.47:610][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
+[2018.10.02-22.36.47:611][  0]LogD3D11RHI:      Driver Date: 3-7-2018
+[2018.10.02-22.36.47:611][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.10.02-22.36.47:666][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.02-22.36.47:919][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.10.02-22.36.48:029][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../UnrealProjects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/17764/).
+[2018.10.02-22.36.48:029][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/XENO/AppData/Local/Temp/UnrealShaderWorkingDir/025869E64E4FEF969021C88A79DDF7F4/'.
+[2018.10.02-22.36.48:691][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.02-22.36.48:733][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.02-22.36.48:755][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.02-22.36.48:783][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.02-22.36.48:826][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.02-22.36.48:858][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.02-22.36.48:887][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.02-22.36.48:914][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.02-22.36.48:923][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:070][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-22.36.49:085][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.02-22.36.49:231][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.02-22.36.49:231][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.02-22.36.49:273][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.02-22.36.49:273][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.02-22.36.49:315][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.02-22.36.49:346][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.02-22.36.49:376][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.02-22.36.49:411][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.02-22.36.49:431][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.02-22.36.49:431][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.02-22.36.49:845][  0]LogXGEController: Cleaning working directory: C:/Users/XENO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.02-22.36.49:845][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.02-22.36.49:845][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.02-22.36.49:845][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.02-22.36.52:133][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.02-22.36.52:458][  0]LogDerivedDataCache: Loaded boot cache 0.32s 71MB C:/Users/XENO/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.02-22.36.52:459][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/XENO/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.02-22.36.52:459][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UnrealProjects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.02-22.36.52:459][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.02-22.36.52:459][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UnrealProjects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.02-22.36.52:459][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.02-22.36.52:560][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.02-22.36.52:574][  0]LogDerivedDataCache: Using Local data cache path C:/Users/XENO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.02-22.36.52:574][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.02-22.36.52:574][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.02-22.36.52:662][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.02-22.36.52:716][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.02-22.36.52:836][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.02-22.36.53:298][  0]LogAssetRegistry: FAssetRegistry took 0.0403 seconds to start up
+[2018.10.02-22.36.56:340][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.02-22.36.57:323][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.02-22.36.57:469][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.02-22.36.57:469][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.02-22.36.57:481][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.02-22.36.57:481][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.02-22.36.58:043][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.10.02-22.37.01:778][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.127923 seconds
+[2018.10.02-22.37.01:824][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.02-22.37.01:824][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.02-22.37.01:824][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.02-22.37.09:229][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.02-22.37.09:257][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.02-22.37.10:205][  0]SourceControl: Source control is disabled
+[2018.10.02-22.37.10:205][  0]SourceControl: Source control is disabled
+[2018.10.02-22.37.10:305][  0]SourceControl: Source control is disabled
+[2018.10.02-22.37.10:323][  0]SourceControl: Source control is disabled
+[2018.10.02-22.37.11:543][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.02-22.37.11:731][  0]LogOcInput: OculusInput pre-init called
+[2018.10.02-22.37.12:276][  0]LogEngine: Initializing Engine...
+[2018.10.02-22.37.12:301][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.02-22.37.12:325][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.02-22.37.12:325][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.02-22.37.12:325][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.02-22.37.12:325][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.02-22.37.12:996][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.02-22.37.13:256][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.02-22.37.13:397][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.02-22.37.13:497][  0]LogInit: FAudioDevice initialized.
+[2018.10.02-22.37.13:497][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.02-22.37.13:587][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/XENO/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.02-22.37.13:588][  0]LogInit: Texture streaming: Enabled
+[2018.10.02-22.37.13:686][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.02-22.37.13:832][  0]LogInit: Transaction tracking system initialized
+[2018.10.02-22.37.14:238][  0]BlueprintLog: New page: Editor Load
+[2018.10.02-22.37.15:162][  0]LocalizationService: Localization service is disabled
+[2018.10.02-22.37.17:467][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/' took 0.03s
+[2018.10.02-22.37.17:467][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.02-22.37.17:468][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.02-22.37.17:489][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.02-22.37.17:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.02-22.37.17:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.02-22.37.17:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.02-22.37.17:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.02-22.37.19:104][  0]SourceControl: Source control is disabled
+[2018.10.02-22.37.19:129][  0]Cmd: MAP LOAD FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/UI-Rick/MainMenuTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.02-22.37.19:131][  0]LightingResults: New page: Lighting Build
+[2018.10.02-22.37.19:273][  0]MapCheck: New page: Map Check
+[2018.10.02-22.37.19:273][  0]LightingResults: New page: Lighting Build
+[2018.10.02-22.37.24:337][  0]LogBlueprint: Error: [Compiler GunPickup_Base] In use pin  <Unnamed>  no longer exists on node  Pick Up Item . Please refresh node or break links to remove pin.
+[2018.10.02-22.37.24:337][  0]LogBlueprint: Error: [Compiler GunPickup_Base] In use pin  <Unnamed>  no longer exists on node  Pick Up Item . Please refresh node or break links to remove pin.
+[2018.10.02-22.37.24:337][  0]LogBlueprint: Error: [Compiler GunPickup_Base] In use pin  Target  no longer exists on node  Pick Up Item . Please refresh node or break links to remove pin.
+[2018.10.02-22.37.24:337][  0]LogBlueprint: Error: [Compiler GunPickup_Base] Could not find a function named "PickUpItem" in 'TopDownCharacter_C'.
+Make sure 'TopDownCharacter_C' has been compiled for  Pick Up Item
+[2018.10.02-22.37.24:433][  0]LogBlueprint: Warning: [Compiler MapGenerator_BP] Could not find a variable named "PlayerSpawn" in 'ROOM_DEF_C'.
+Make sure 'ROOM_DEF_C' has been compiled for  Get PlayerSpawn
+[2018.10.02-22.37.24:552][  0]LogBlueprint: Warning: [Compiler Survivor1ANIM_BP] Could not find a variable named "HasRifle" in 'Survivor_C'.
+Make sure 'Survivor_C' has been compiled for  Get HasRifle
+[2018.10.02-22.37.24:779][  0]LogBlueprint: Error: [Compiler MapGenerator_BP] The property associated with  Player Spawn  could not be found in '/Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP_C'
+[2018.10.02-22.37.25:127][  0]LogBlueprint: Warning: [Compiler GunPickup_Base] [0049.77] Compile of GunPickup_Base failed. 4 Fatal Issue(s) 0 Warning(s) [in 1,190 ms] (/Game/TopDownBP/Blueprints/Weapons/WeaponPickup/GunPickup_Base.GunPickup_Base)
+[2018.10.02-22.37.25:127][  0]LogBlueprint: Warning: [Compiler MapGenerator_BP] [0049.77] Compile of MapGenerator_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 1,190 ms] (/Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP)
+[2018.10.02-22.37.25:127][  0]LogBlueprint: Warning: [Compiler Survivor1ANIM_BP] [0049.77] Compile of Survivor1ANIM_BP successful, but with 1 Warning(s) [in 1,191 ms] (/Game/TopDownBP/Blueprints/Assets_Erick/NPCs/Passengers/Survivor1/Survivor1ANIM_BP.Survivor1ANIM_BP)
+[2018.10.02-22.37.26:287][  0]LogTexture: Display: Building textures: BODY_specular (AutoDXT, 2048X2048)
+[2018.10.02-22.37.26:287][  0]LogTexture: Display: Building textures: BODY_diffuse (AutoDXT, 2048X2048)
+[2018.10.02-22.37.26:287][  0]LogTexture: Display: Building textures: BODY_normal (BC5, 2048X2048)
+[2018.10.02-22.37.26:287][  0]LogTexture: Display: Building textures: parasiteZombie_specular (AutoDXT, 2048X2048)
+[2018.10.02-22.37.26:339][  0]LogTexture: Display: Building textures: parasiteZombie_normal (BC5, 2048X2048)
+[2018.10.02-22.37.26:996][  0]LogTexture: Display: Building textures: parasiteZombie_diffuse (AutoDXT, 2048X2048)
+[2018.10.02-22.37.26:996][  0]LogStaticMesh: Building static mesh Gun...
+[2018.10.02-22.37.27:241][  0]LogStaticMesh: Built static mesh [0.25s] /Game/FPWeapon/Gun.Gun
+[2018.10.02-22.37.27:817][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/NPCs/Passengers/Survivor1/Survivor1_Neutral_Idle_Anim.Survivor1_Neutral_Idle_Anim
+[2018.10.02-22.37.27:863][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/NPCs/Passengers/Survivor1/Survivor1_Neutral_Idle_Anim.Survivor1_Neutral_Idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.02-22.37.29:754][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Clacking_Step_4...
+[2018.10.02-22.37.29:754][  0]LogTemp: Couldn't find amount to resample to.
+[2018.10.02-22.37.29:880][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 83284 while cooking SoundWave /Game/Sounds/Alien_Footsteps/Clacking_Step_4.Clacking_Step_4.
+[2018.10.02-22.37.29:881][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Clacking_Step_3...
+[2018.10.02-22.37.29:881][  0]LogTemp: Couldn't find amount to resample to.
+[2018.10.02-22.37.29:903][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 102500 while cooking SoundWave /Game/Sounds/Alien_Footsteps/Clacking_Step_3.Clacking_Step_3.
+[2018.10.02-22.37.29:904][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Clacking_Step_2...
+[2018.10.02-22.37.29:904][  0]LogTemp: Couldn't find amount to resample to.
+[2018.10.02-22.37.29:918][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 64064 while cooking SoundWave /Game/Sounds/Alien_Footsteps/Clacking_Step_2.Clacking_Step_2.
+[2018.10.02-22.37.29:919][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Clacking_Step_1...
+[2018.10.02-22.37.29:919][  0]LogTemp: Couldn't find amount to resample to.
+[2018.10.02-22.37.29:938][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 70468 while cooking SoundWave /Game/Sounds/Alien_Footsteps/Clacking_Step_1.Clacking_Step_1.
+[2018.10.02-22.37.29:939][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Parasite/Parasite_Sprint_Anim_mixamo_com.Parasite_Sprint_Anim_mixamo_com
+[2018.10.02-22.37.29:939][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Parasite/Parasite_Sprint_Anim_mixamo_com.Parasite_Sprint_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.02-22.37.29:975][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Parasite/Parasite_Idle_Anim_mixamo_com.Parasite_Idle_Anim_mixamo_com
+[2018.10.02-22.37.29:975][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Parasite/Parasite_Idle_Anim_mixamo_com.Parasite_Idle_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.02-22.37.29:979][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Parasite/Parasite_Swipe_Anim_mixamo_com.Parasite_Swipe_Anim_mixamo_com
+[2018.10.02-22.37.29:979][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Parasite/Parasite_Swipe_Anim_mixamo_com.Parasite_Swipe_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.02-22.37.30:351][  0]LogMaterial: Display: Missing cached shader map for material Trigger1, compiling. 
+[2018.10.02-22.37.30:547][  0]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.02-22.37.30:547][  0]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.02-22.37.30:547][  0]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.02-22.37.30:547][  0]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.02-22.37.30:547][  0]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.02-22.37.30:547][  0]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.02-22.37.30:547][  0]LogMaterial: Display: Missing cached shader map for material Orange, compiling. 
+[2018.10.02-22.37.30:598][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.10.02-22.37.30:764][  0]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.10.02-22.37.30:764][  0]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.10.02-22.37.30:764][  0]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.10.02-22.37.30:764][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/NPCs/Passengers/Survivor1/Survivor1_Walking_Anim.Survivor1_Walking_Anim
+[2018.10.02-22.37.30:764][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/NPCs/Passengers/Survivor1/Survivor1_Walking_Anim.Survivor1_Walking_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.02-22.37.30:766][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/NPCs/Passengers/Survivor1/Survivor1_Run_Anim.Survivor1_Run_Anim
+[2018.10.02-22.37.30:767][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/NPCs/Passengers/Survivor1/Survivor1_Run_Anim.Survivor1_Run_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.02-22.37.31:193][  0]LogMaterial: Display: Missing cached shader map for material parasitezomb_MAT, compiling. 
+[2018.10.02-22.37.31:238][  0]LogSkeletalMesh: Building Skeletal Mesh parasite-TPose...
+[2018.10.02-22.37.31:260][  0]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Parasite/parasite-TPose.parasite-TPose
+[2018.10.02-22.37.31:265][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Parasite/Parasite_Walk_Anim_mixamo_com.Parasite_Walk_Anim_mixamo_com
+[2018.10.02-22.37.31:265][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Parasite/Parasite_Walk_Anim_mixamo_com.Parasite_Walk_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.02-22.37.31:309][  0]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.02-22.37.31:412][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.02-22.37.31:604][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.02-22.37.31:729][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124.691ms to complete.
+[2018.10.02-22.37.31:729][  0]LogFileHelpers: Loading map 'MainMenuTest' took 12.613
+[2018.10.02-22.37.32:937][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-22.37.32:965][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-22.37.32:981][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-22.37.32:996][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-22.37.33:096][  0]LogCollectionManager: Loaded 0 collections in 0.001478 seconds
+[2018.10.02-22.37.33:232][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
+[2018.10.02-22.37.33:232][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/Developers/XENO/Collections/' took 0.01s
+[2018.10.02-22.37.33:232][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
+[2018.10.02-22.37.33:232][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.02-22.37.33:251][  0]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 2572 classes and 603 folders.
+[2018.10.02-22.37.33:304][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.02-22.37.33:973][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.02-22.37.34:035][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.02-22.37.34:405][  0]LogSlate: Took 0.013141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.02-22.37.34:438][  0]LogSlate: Took 0.019475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.02-22.37.34:488][  0]LogSlate: Took 0.009453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.02-22.37.34:943][  0]LogRenderer: Reallocating scene render targets to support 1612x808 Format 10 NumSamples 1 (Frame:1).
+[2018.10.02-22.37.35:473][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.02-22.37.35:473][  0]LogLoad: (Engine Initialization) Total time: 60.12 seconds
+[2018.10.02-22.37.35:473][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.02-22.37.35:508][  0]LogShaderCompilers: Display: Shaders left to compile 150
+[2018.10.02-22.37.35:508][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.02-22.37.35:717][  0]LogShaderCompilers: Display: Shaders left to compile 140
+[2018.10.02-22.37.35:717][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.02-22.37.35:886][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/UnrealProjects/A.S.H/ASH_Game/Content/' took 0.31s
+[2018.10.02-22.37.36:451][  4]LogAssetRegistry: Asset discovery search completed in 43.1863 seconds
+[2018.10.02-22.37.36:456][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.02-22.37.36:456][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000126 seconds (updated 0 objects)
+[2018.10.02-22.37.39:203][ 19]LogShaderCompilers: Display: Shaders left to compile 130
+[2018.10.02-22.37.39:203][ 19]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.10.02-22.37.39:217][ 19]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.10.02-22.37.40:787][ 60]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.10.02-22.37.43:158][ 68]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.10.02-22.37.43:811][ 70]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.10.02-22.37.43:989][ 71]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.10.02-22.37.44:450][ 73]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.02-22.37.46:962][ 86]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.02-22.37.47:205][ 87]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.02-22.37.48:535][ 92]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.02-22.37.48:742][ 93]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.02-22.37.49:688][ 97]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.02-22.38.36:819][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-22.38.56:532][478]LogSlate: Took 0.025011 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.02-22.38.56:541][478]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2018.10.02-22.38.57:515][478]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.10.02-22.38.59:294][478]LogSlate: Took 0.013120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.02-22.39.02:267][568]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.02-22.39.02:336][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.39.02:336][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-22.39.06:002][568]LogSlate: Window 'Message' being destroyed
+[2018.10.02-22.39.07:358][611]LogSlate: Took 0.012895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.02-22.39.08:293][642]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.02-22.39.14:097][742]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.02-22.39.14:114][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.39.14:114][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-22.39.16:645][742]LogSlate: Window 'Message' being destroyed
+[2018.10.02-22.39.23:547][258]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP
+[2018.10.02-22.39.26:270][297]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.10.02-22.39.26:552][297]LogBlueprint: Warning: [Compiler MapGenerator_BP] Could not find a variable named "PlayerSpawn" in 'ROOM_DEF_C'.
+Make sure 'ROOM_DEF_C' has been compiled for  Get PlayerSpawn
+[2018.10.02-22.39.26:583][297]LogBlueprint: Error: [Compiler MapGenerator_BP] The property associated with  Player Spawn  could not be found in '/Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP_C'
+[2018.10.02-22.39.26:879][297]LogBlueprint: Warning: [Compiler MapGenerator_BP] [0171.53] Compile of MapGenerator_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 608 ms] (/Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP)
+[2018.10.02-22.39.58:203][896]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.10.02-22.39.58:495][896]LogBlueprint: Warning: [Compiler MapGenerator_BP] Could not find a variable named "PlayerSpawn" in 'ROOM_DEF_C'.
+Make sure 'ROOM_DEF_C' has been compiled for  Get PlayerSpawn
+[2018.10.02-22.39.58:522][896]LogBlueprint: Error: [Compiler MapGenerator_BP] The property associated with  Player Spawn  could not be found in '/Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP_C'
+[2018.10.02-22.39.58:819][896]LogBlueprint: Warning: [Compiler MapGenerator_BP] [0203.47] Compile of MapGenerator_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 616 ms] (/Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP)
+[2018.10.02-22.43.53:663][366]LogSlate: Took 0.039071 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.02-22.45.24:005][511]LogSlate: Window 'Delete Variable' being destroyed
+[2018.10.02-22.46.40:875][754]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Enemy_SpawnPoints/Rooms/ROOM_DEF.ROOM_DEF
+[2018.10.02-22.46.52:790][413]BlueprintLog: New page: Compile ROOM_DEF
+[2018.10.02-22.46.57:248][539]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.10.02-22.46.57:652][539]LogBlueprint: Warning: [Compiler MapGenerator_BP] Could not find a variable named "PlayerSpawn" in 'ROOM_DEF_C'.
+Make sure 'ROOM_DEF_C' has been compiled for  Get PlayerSpawn
+[2018.10.02-22.46.57:686][539]LogBlueprint: Error: [Compiler MapGenerator_BP] The property associated with  Player Spawn  could not be found in '/Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP_C'
+[2018.10.02-22.46.58:137][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapGenerator_Mike/MapGenerator_BP" FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset" SILENT=true
+[2018.10.02-22.46.58:745][539]LogSavePackage: Moving '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/MapGenerator_BP126C21854347F86338136C9533ECA369.tmp' to '../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset'
+[2018.10.02-22.46.58:781][539]LogBlueprint: Warning: [Compiler MapGenerator_BP] [0623.43] Compile of MapGenerator_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 1,533 ms] (/Game/MapGenerator_Mike/MapGenerator_BP.MapGenerator_BP)
+[2018.10.02-22.49.50:521][118]BlueprintLog: New page: Compile MapGenerator_BP
+[2018.10.02-22.49.51:202][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapGenerator_Mike/MapGenerator_BP" FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset" SILENT=true
+[2018.10.02-22.49.51:586][118]LogSavePackage: Moving '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/MapGenerator_BP7E51491241C6D9BAF8FA868D7CDB3EC0.tmp' to '../../../../UnrealProjects/A.S.H/ASH_Game/Content/MapGenerator_Mike/MapGenerator_BP.uasset'
+[2018.10.02-22.49.52:936][125]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.02-22.49.52:966][125]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.49.52:966][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-22.49.54:737][125]LogSlate: Window 'Message' being destroyed
+[2018.10.02-22.49.55:732][169]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.02-22.49.55:758][169]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.49.55:758][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-22.49.57:174][169]LogSlate: Window 'Message' being destroyed
+[2018.10.02-22.49.57:233][169]PIE: New page: PIE session: MainMenuTest (Oct 2, 2018, 2:49:57 PM)
+[2018.10.02-22.49.57:233][169]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.02-22.49.57:262][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028538s)
+[2018.10.02-22.49.57:263][169]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.02-22.49.57:263][169]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2018.10.02-22.49.57:263][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.029691s)
+[2018.10.02-22.49.57:307][169]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.02-22.49.57:366][169]LogInit: FAudioDevice initialized.
+[2018.10.02-22.49.57:387][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-22.49.57:483][169]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.02-22.49.57:499][169]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.10.02-18.49.57
+[2018.10.02-22.49.57:499][169]LogWorld: Bringing up level for play took: 0.000590
+[2018.10.02-22.49.57:584][169]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.10.02-22.49.57:636][169]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 2.578
+[2018.10.02-22.49.57:637][169]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.49.59:167][225]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.02-22.49.59:176][225]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.49.59:209][225]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-22.49.59:210][225]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.49.59:357][226]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.02-22.50.17:956][430]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.02-22.50.17:978][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.50.17:978][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-22.50.17:978][430]PIE: New page: PIE session: MainMenuTest (Oct 2, 2018, 2:50:17 PM)
+[2018.10.02-22.50.17:978][430]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.02-22.50.17:980][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001144s)
+[2018.10.02-22.50.17:980][430]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.02-22.50.17:981][430]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2018.10.02-22.50.17:981][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.002293s)
+[2018.10.02-22.50.18:025][430]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.02-22.50.18:090][430]LogInit: FAudioDevice initialized.
+[2018.10.02-22.50.18:105][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-22.50.18:174][430]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.02-22.50.18:175][430]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.10.02-18.50.18
+[2018.10.02-22.50.18:175][430]LogWorld: Bringing up level for play took: 0.000464
+[2018.10.02-22.50.18:210][430]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 1.153
+[2018.10.02-22.50.18:210][430]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.50.19:852][532]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.02-22.50.19:858][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.50.19:893][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-22.50.19:894][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.50.19:954][533]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.10.02-22.50.22:050][743]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Weapons/WeaponPickup/GunPickup_Base.GunPickup_Base
+[2018.10.02-22.50.29:862][227]BlueprintLog: New page: Compile GunPickup_Base
+[2018.10.02-22.50.29:955][227]LogBlueprint: Error: [Compiler GunPickup_Base] In use pin  <Unnamed>  no longer exists on node  Pick Up Item . Please refresh node or break links to remove pin.
+[2018.10.02-22.50.29:955][227]LogBlueprint: Error: [Compiler GunPickup_Base] In use pin  <Unnamed>  no longer exists on node  Pick Up Item . Please refresh node or break links to remove pin.
+[2018.10.02-22.50.29:955][227]LogBlueprint: Error: [Compiler GunPickup_Base] In use pin  Target  no longer exists on node  Pick Up Item . Please refresh node or break links to remove pin.
+[2018.10.02-22.50.29:955][227]LogBlueprint: Error: [Compiler GunPickup_Base] Could not find a function named "PickUpItem" in 'TopDownCharacter_C'.
+Make sure 'TopDownCharacter_C' has been compiled for  Pick Up Item
+[2018.10.02-22.50.30:182][227]LogBlueprint: Warning: [Compiler GunPickup_Base] [0834.83] Compile of GunPickup_Base failed. 4 Fatal Issue(s) 0 Warning(s) [in 319 ms] (/Game/TopDownBP/Blueprints/Weapons/WeaponPickup/GunPickup_Base.GunPickup_Base)
+[2018.10.02-22.50.52:731][468]LogEditorTransaction: Undo Delete current selection
+[2018.10.02-22.51.24:298][131]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/UI-Rick/MainMenuTest' took 0.032
+[2018.10.02-22.51.24:301][131]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.10.02-22.51.24:325][131]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2018.10.02-22.51.24:325][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2018.10.02-22.51.24:724][131]LogSavePackage: Moving '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/TopDownCharacter_Auto1DADCD1E148D8199220346496B6AE5D74.tmp' to '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto1.uasset'
+[2018.10.02-22.51.24:725][131]LogFileHelpers: Auto-saving content packages took 0.425
+[2018.10.02-22.51.51:918][715]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.02-22.51.51:947][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-22.51.51:947][715]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.02-22.51.52:181][715]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
+[2018.10.02-22.51.52:801][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2018.10.02-22.51.53:202][715]LogSavePackage: Moving '../../../../UnrealProjects/A.S.H/ASH_Game/Saved/TopDownCharacter0FCCC1F34B4B636C80DD33BCDD986FE9.tmp' to '../../../../UnrealProjects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.02-22.51.53:252][715]LogPlayLevel: PlayLevel: Blueprint regeneration took 1305 ms (1 blueprints)
+[2018.10.02-22.51.55:566][715]LogSlate: Window 'Message' being destroyed
+[2018.10.02-22.51.59:027][842]LogHttp: Warning: 0000015320FB8680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.10.02-22.51.59:028][842]LogHttp: Warning: 0000015320FB8680: libcurl info message cache 0 (Connection 7 seems to be dead!)
+[2018.10.02-22.51.59:028][842]LogHttp: Warning: 0000015320FB8680: libcurl info message cache 1 (Closing connection 7)
+[2018.10.02-22.51.59:028][842]LogHttp: Warning: 0000015320FB8680: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.10.02-22.51.59:028][842]LogHttp: Warning: 0000015320FB8680: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.10.02-22.51.59:028][842]LogHttp: Warning: 0000015320FB8680: libcurl info message cache 4 (Closing connection 8)
+[2018.10.02-22.52.55:800][997]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/Picking_Up_Anim.Picking_Up_Anim
+[2018.10.02-22.52.55:920][997]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.02-22.52.56:441][997]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.02-22.52.56:485][997]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.10.02-22.52.56:684][997]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.10.02-22.52.57:402][997]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.10.02-22.52.57:521][997]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.10.02-22.53.13:099][150]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/TopDownBP/Blueprints/Assets_Erick/PlayerCharacter/PlayerCharacterAnim_BP.PlayerCharacterAnim_BP
+[2018.10.02-22.53.13:160][150]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.02-22.53.13:473][150]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.10.02-22.53.13:947][150]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.10.02-22.53.19:661][480]LogUObjectBase: Warning: Object is not registered
+[2018.10.02-22.53.21:484][480]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.822 s
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: 
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: Stack: 
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: [Callstack] 0x00007ffdb44771f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: [Callstack] 0x00007ffdb41b0c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: [Callstack] 0x00007ffdb41cb356 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: [Callstack] 0x00007ffdaf8611db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: [Callstack] 0x00007ffdaf87060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: [Callstack] 0x00007ffdae0eda7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: [Callstack] 0x00007ffdad17ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: [Callstack] 0x00007ffdad13f337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: [Callstack] 0x00007ffdb69d8204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.02-22.53.21:484][480]LogOutputDevice: Error: [Callstack] 0x00007ffdb6c1e933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffdb6a3281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffdb6a08190 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffdb69fb073 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffde366d007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffde3660270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffde366f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffde365c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffe12116cc1 USER32.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffe12116693 USER32.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffde3670646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ff6957454e5 UE4Editor.exe!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ff695755b3c UE4Editor.exe!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ff695755bba UE4Editor.exe!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ff695763dac UE4Editor.exe!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ff695765aaa UE4Editor.exe!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffe12cc3034 KERNEL32.DLL!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: [Callstack] 0x00007ffe133c1461 ntdll.dll!UnknownFunction []
+[2018.10.02-22.53.21:485][480]LogOutputDevice: Error: 
+[2018.10.02-22.53.21:491][480]LogStats:                SubmitErrorReport -  0.000 s
