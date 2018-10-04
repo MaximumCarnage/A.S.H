@@ -1,0 +1,527 @@
+﻿Log file open, 10/02/18 19:56:24
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ASH_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.300841
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.133s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: D:/UE_4.20/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.02-23.56.24:806][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.02-23.56.24:806][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.02-23.56.24:821][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.02-23.56.24:821][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.02-23.56.24:822][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.02-23.56.24:822][  0]LogInit: Computer: DESKTOP-EKVR1F9
+[2018.10.02-23.56.24:822][  0]LogInit: User: DylanBruton
+[2018.10.02-23.56.24:822][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.02-23.56.24:822][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.10.02-23.56.24:822][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.02-23.56.24:822][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.02-23.56.24:822][  0]LogMemory: Process Physical Memory: 99.89 MB used, 99.89 MB peak
+[2018.10.02-23.56.24:822][  0]LogMemory: Process Virtual Memory: 91.14 MB used, 91.14 MB peak
+[2018.10.02-23.56.24:822][  0]LogMemory: Physical Memory: 9351.32 MB used,  6905.71 MB free, 16257.03 MB total
+[2018.10.02-23.56.24:822][  0]LogMemory: Virtual Memory: 4644.98 MB used,  6905.71 MB free, 134217728.00 MB total
+[2018.10.02-23.56.25:193][  0]LogInit: Using OS detected language (en-US).
+[2018.10.02-23.56.25:193][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.02-23.56.25:194][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.02-23.56.25:609][  0]LogStreaming: Display: Took  0.416s to InitEngineTextLocalization.
+[2018.10.02-23.56.25:609][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.02-23.56.25:647][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.02-23.56.25:647][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.02-23.56.25:945][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.02-23.56.25:945][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.02-23.56.25:995][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.02-23.56.25:995][  0]LogD3D11RHI:       8089/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.02-23.56.26:018][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.10.02-23.56.26:018][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.02-23.56.26:020][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.02-23.56.26:020][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.02-23.56.26:020][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.02-23.56.26:031][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.02-23.56.26:031][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.02-23.56.26:031][  0]LogWindows: EnumDisplayDevices:
+[2018.10.02-23.56.26:031][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.02-23.56.26:031][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.02-23.56.26:032][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.02-23.56.26:032][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.02-23.56.26:032][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.02-23.56.26:032][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.02-23.56.26:032][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.02-23.56.26:032][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.02-23.56.26:032][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.02-23.56.26:032][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
+[2018.10.02-23.56.26:033][  0]LogD3D11RHI:      Driver Date: 3-7-2018
+[2018.10.02-23.56.26:033][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
+[2018.10.02-23.56.26:061][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.02-23.56.26:131][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.10.02-23.56.26:177][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../GameDev/_Projects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/28344/).
+[2018.10.02-23.56.26:177][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dylan Bruton/AppData/Local/Temp/UnrealShaderWorkingDir/41068FB74B78DB371CC0E8A82219EA32/'.
+[2018.10.02-23.56.26:461][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.02-23.56.26:476][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.02-23.56.26:493][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.02-23.56.26:506][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.02-23.56.26:521][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.02-23.56.26:534][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.02-23.56.26:547][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.02-23.56.26:561][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.02-23.56.26:568][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.02-23.56.26:651][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:651][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:652][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-23.56.26:653][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.02-23.56.26:717][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.02-23.56.26:717][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.02-23.56.26:744][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.02-23.56.26:744][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.02-23.56.26:758][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.02-23.56.26:773][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.02-23.56.26:788][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.02-23.56.26:803][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.02-23.56.26:815][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.02-23.56.26:815][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.02-23.56.26:870][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.02-23.56.26:870][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.02-23.56.26:870][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.02-23.56.27:674][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.02-23.56.27:729][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.02-23.56.27:729][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.02-23.56.27:730][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.02-23.56.27:730][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.02-23.56.27:730][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.02-23.56.27:730][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.02-23.56.27:746][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.02-23.56.27:758][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.02-23.56.27:758][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.02-23.56.27:758][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.02-23.56.27:780][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.02-23.56.27:781][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.02-23.56.27:782][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.02-23.56.27:868][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2018.10.02-23.56.28:247][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.02-23.56.28:296][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.02-23.56.28:300][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.02-23.56.28:300][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.02-23.56.28:300][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.02-23.56.28:300][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.02-23.56.28:410][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.10.02-23.56.29:020][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.131115 seconds
+[2018.10.02-23.56.29:028][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.02-23.56.29:028][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.02-23.56.29:028][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.02-23.56.30:056][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.02-23.56.30:070][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.02-23.56.30:224][  0]SourceControl: Source control is disabled
+[2018.10.02-23.56.30:224][  0]SourceControl: Source control is disabled
+[2018.10.02-23.56.30:225][  0]SourceControl: Source control is disabled
+[2018.10.02-23.56.30:226][  0]SourceControl: Source control is disabled
+[2018.10.02-23.56.30:397][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.02-23.56.30:549][  0]LogOcInput: OculusInput pre-init called
+[2018.10.02-23.56.30:613][  0]LogEngine: Initializing Engine...
+[2018.10.02-23.56.30:613][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.02-23.56.30:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.02-23.56.30:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.02-23.56.30:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.02-23.56.30:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.02-23.56.30:922][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.02-23.56.30:932][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.02-23.56.30:959][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.02-23.56.31:481][  0]LogInit: FAudioDevice initialized.
+[2018.10.02-23.56.31:482][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.02-23.56.31:570][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.02-23.56.31:583][  0]LogInit: Texture streaming: Enabled
+[2018.10.02-23.56.31:598][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.02-23.56.31:613][  0]LogInit: Transaction tracking system initialized
+[2018.10.02-23.56.31:632][  0]BlueprintLog: New page: Editor Load
+[2018.10.02-23.56.31:693][  0]LocalizationService: Localization service is disabled
+[2018.10.02-23.56.31:972][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.02-23.56.31:972][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.02-23.56.31:972][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.02-23.56.31:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.02-23.56.31:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.02-23.56.31:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.02-23.56.31:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.02-23.56.32:024][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.04s
+[2018.10.02-23.56.32:096][  0]SourceControl: Source control is disabled
+[2018.10.02-23.56.32:096][  0]Cmd: MAP LOAD FILE="../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/UI-Rick/MainMenuTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.02-23.56.32:097][  0]LightingResults: New page: Lighting Build
+[2018.10.02-23.56.32:098][  0]MapCheck: New page: Map Check
+[2018.10.02-23.56.32:099][  0]LightingResults: New page: Lighting Build
+[2018.10.02-23.56.32:382][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_Burst'
+[2018.10.02-23.56.32:382][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_Burst' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.uasset.
+[2018.10.02-23.56.32:382][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_Burst
+[2018.10.02-23.56.32:382][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_explosion_subUV'
+[2018.10.02-23.56.32:382][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_explosion_subUV' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.uasset.
+[2018.10.02-23.56.32:382][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_explosion_subUV
+[2018.10.02-23.56.32:382][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/m_flare_01'
+[2018.10.02-23.56.32:382][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/m_flare_01' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.uasset.
+[2018.10.02-23.56.32:382][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion : Can't find file for asset. /Game/StarterContent/Particles/Materials/m_flare_01
+[2018.10.02-23.56.32:383][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_radial_ramp'
+[2018.10.02-23.56.32:383][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_radial_ramp' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.uasset.
+[2018.10.02-23.56.32:383][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_radial_ramp
+[2018.10.02-23.56.32:383][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_smoke_subUV'
+[2018.10.02-23.56.32:383][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_smoke_subUV' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.uasset.
+[2018.10.02-23.56.32:383][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_smoke_subUV
+[2018.10.02-23.56.32:383][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_Burst'
+[2018.10.02-23.56.32:383][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_Burst' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.uasset.
+[2018.10.02-23.56.32:383][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_Burst
+[2018.10.02-23.56.32:383][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_explosion_subUV'
+[2018.10.02-23.56.32:383][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_explosion_subUV' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.uasset.
+[2018.10.02-23.56.32:383][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_explosion_subUV
+[2018.10.02-23.56.32:383][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/m_flare_01'
+[2018.10.02-23.56.32:384][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/m_flare_01' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.uasset.
+[2018.10.02-23.56.32:384][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion : Can't find file for asset. /Game/StarterContent/Particles/Materials/m_flare_01
+[2018.10.02-23.56.32:384][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_radial_ramp'
+[2018.10.02-23.56.32:384][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_radial_ramp' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.uasset.
+[2018.10.02-23.56.32:384][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_radial_ramp
+[2018.10.02-23.56.32:384][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_smoke_subUV'
+[2018.10.02-23.56.32:384][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_smoke_subUV' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.uasset.
+[2018.10.02-23.56.32:384][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_smoke_subUV
+[2018.10.02-23.56.32:917][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_Radial_Gradient'
+[2018.10.02-23.56.32:917][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_Radial_Gradient' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Sparks.uasset.
+[2018.10.02-23.56.32:917][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_Radial_Gradient
+[2018.10.02-23.56.32:917][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_smoke_subUV'
+[2018.10.02-23.56.32:917][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_smoke_subUV' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Sparks.uasset.
+[2018.10.02-23.56.32:917][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_smoke_subUV
+[2018.10.02-23.56.32:917][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_Spark'
+[2018.10.02-23.56.32:917][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_Spark' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Sparks.uasset.
+[2018.10.02-23.56.32:917][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_Spark
+[2018.10.02-23.56.32:917][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_Radial_Gradient'
+[2018.10.02-23.56.32:917][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_Radial_Gradient' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Sparks.uasset.
+[2018.10.02-23.56.32:917][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_Radial_Gradient
+[2018.10.02-23.56.32:918][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_smoke_subUV'
+[2018.10.02-23.56.32:918][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_smoke_subUV' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Sparks.uasset.
+[2018.10.02-23.56.32:918][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_smoke_subUV
+[2018.10.02-23.56.32:918][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_Spark'
+[2018.10.02-23.56.32:918][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_Spark' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Weapons/Particles/P_Sparks.uasset.
+[2018.10.02-23.56.32:918][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks : Can't find file for asset. /Game/StarterContent/Particles/Materials/M_Spark
+[2018.10.02-23.56.33:139][  0]LogBlueprint: Warning: [Compiler Gun_BP] Could not find a variable named "Empty?" in 'TopDownCharacter_C'.
+Make sure 'TopDownCharacter_C' has been compiled for  Set Empty?
+[2018.10.02-23.56.33:139][  0]LogBlueprint: Warning: [Compiler Gun_BP] Could not find a variable named "Bulletcount" in 'TopDownCharacter_C'.
+Make sure 'TopDownCharacter_C' has been compiled for  Get Bulletcount
+[2018.10.02-23.56.33:280][  0]LogBlueprint: Warning: [Compiler FirstPersonHUD] Could not find a variable named "Bulletcount" in 'TopDownCharacter_C'.
+Make sure 'TopDownCharacter_C' has been compiled for  Get Bulletcount
+[2018.10.02-23.56.33:281][  0]LogBlueprint: Warning: [Compiler FirstPersonHUD] Could not find a variable named "ClipCount" in 'TopDownCharacter_C'.
+Make sure 'TopDownCharacter_C' has been compiled for  Get ClipCount
+[2018.10.02-23.56.33:377][  0]LogBlueprint: Error: [Compiler Gun_BP] The property associated with  Empty?  could not be found in '/Game/FPWeapon/Gun_BP.Gun_BP_C'
+[2018.10.02-23.56.33:377][  0]LogBlueprint: Error: [Compiler Gun_BP] The property associated with  Bulletcount  could not be found in '/Game/FPWeapon/Gun_BP.Gun_BP_C'
+[2018.10.02-23.56.33:425][  0]LogBlueprint: Error: [Compiler FirstPersonHUD] The property associated with  Clip Count  could not be found in '/Game/UI-Rick/FirstPersonHUD.FirstPersonHUD_C'
+[2018.10.02-23.56.33:425][  0]LogBlueprint: Error: [Compiler FirstPersonHUD] The property associated with  Bulletcount  could not be found in '/Game/UI-Rick/FirstPersonHUD.FirstPersonHUD_C'
+[2018.10.02-23.56.33:606][  0]LogBlueprint: Warning: [Compiler Gun_BP] [0010.75] Compile of Gun_BP failed. 2 Fatal Issue(s) 2 Warning(s) [in 629 ms] (/Game/FPWeapon/Gun_BP.Gun_BP)
+[2018.10.02-23.56.33:607][  0]LogBlueprint: Warning: [Compiler FirstPersonHUD] [0010.75] Compile of FirstPersonHUD failed. 2 Fatal Issue(s) 2 Warning(s) [in 630 ms] (/Game/UI-Rick/FirstPersonHUD.FirstPersonHUD)
+[2018.10.02-23.56.33:726][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_smoke_subUV'
+[2018.10.02-23.56.33:726][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV Referenced by ParticleModuleRequired_0
+[2018.10.02-23.56.33:726][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_smoke_subUV' while loading NULL.
+[2018.10.02-23.56.33:726][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV Referenced by ParticleModuleRequired_0
+[2018.10.02-23.56.33:726][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_explosion_subUV'
+[2018.10.02-23.56.33:726][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV Referenced by ParticleModuleRequired_2
+[2018.10.02-23.56.33:726][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_explosion_subUV' while loading NULL.
+[2018.10.02-23.56.33:726][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV Referenced by ParticleModuleRequired_2
+[2018.10.02-23.56.33:726][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_radial_ramp'
+[2018.10.02-23.56.33:727][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_radial_ramp.M_radial_ramp Referenced by ParticleModuleRequired_3
+[2018.10.02-23.56.33:727][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_radial_ramp' while loading NULL.
+[2018.10.02-23.56.33:727][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_radial_ramp.M_radial_ramp Referenced by ParticleModuleRequired_3
+[2018.10.02-23.56.33:727][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/m_flare_01'
+[2018.10.02-23.56.33:727][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/m_flare_01.m_flare_01 Referenced by ParticleModuleRequired_4
+[2018.10.02-23.56.33:727][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/m_flare_01' while loading NULL.
+[2018.10.02-23.56.33:727][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/m_flare_01.m_flare_01 Referenced by ParticleModuleRequired_4
+[2018.10.02-23.56.33:727][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_Burst'
+[2018.10.02-23.56.33:727][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_Burst.M_Burst Referenced by ParticleModuleRequired_8
+[2018.10.02-23.56.33:727][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_Burst' while loading NULL.
+[2018.10.02-23.56.33:727][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_Burst.M_Burst Referenced by ParticleModuleRequired_8
+[2018.10.02-23.56.33:775][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_Spark'
+[2018.10.02-23.56.33:775][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_Spark.M_Spark Referenced by ParticleModuleRequired_0
+[2018.10.02-23.56.33:776][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_Spark' while loading NULL.
+[2018.10.02-23.56.33:776][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_Spark.M_Spark Referenced by ParticleModuleRequired_0
+[2018.10.02-23.56.33:776][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_smoke_subUV'
+[2018.10.02-23.56.33:776][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV Referenced by ParticleModuleRequired_1
+[2018.10.02-23.56.33:776][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_smoke_subUV' while loading NULL.
+[2018.10.02-23.56.33:776][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV Referenced by ParticleModuleRequired_1
+[2018.10.02-23.56.33:776][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_Radial_Gradient'
+[2018.10.02-23.56.33:776][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_Radial_Gradient.M_Radial_Gradient Referenced by ParticleModuleRequired_4
+[2018.10.02-23.56.33:776][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/Materials/M_Radial_Gradient' while loading NULL.
+[2018.10.02-23.56.33:776][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/Materials/M_Radial_Gradient.M_Radial_Gradient Referenced by ParticleModuleRequired_4
+[2018.10.02-23.56.34:514][  0]LogMaterial: Display: Missing cached shader map for material M_TRANS, compiling. 
+[2018.10.02-23.56.35:009][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.02-23.56.35:009][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.02-23.56.35:009][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.02-23.56.35:009][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.02-23.56.35:009][  0]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.02-23.56.35:010][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.02-23.56.35:047][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.02-23.56.35:169][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 121.863ms to complete.
+[2018.10.02-23.56.35:169][  0]LogFileHelpers: Loading map 'MainMenuTest' took 3.073
+[2018.10.02-23.56.35:291][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-23.56.35:301][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-23.56.35:309][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-23.56.35:316][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-23.56.35:321][  0]LogCollectionManager: Loaded 0 collections in 0.001050 seconds
+[2018.10.02-23.56.35:365][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
+[2018.10.02-23.56.35:365][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Developers/DylanBruton/Collections/' took 0.01s
+[2018.10.02-23.56.35:365][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
+[2018.10.02-23.56.35:365][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.02-23.56.35:380][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2572 classes and 603 folders.
+[2018.10.02-23.56.35:387][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.02-23.56.35:466][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.02-23.56.35:470][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.02-23.56.35:592][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.02-23.56.35:595][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.02-23.56.35:602][  0]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.02-23.56.35:706][  0]LogRenderer: Reallocating scene render targets to support 1028x388 Format 10 NumSamples 1 (Frame:1).
+[2018.10.02-23.56.35:884][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.02-23.56.35:884][  0]LogLoad: (Engine Initialization) Total time: 13.03 seconds
+[2018.10.02-23.56.35:884][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.02-23.56.35:903][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.02-23.56.35:939][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.02-23.56.35:945][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-23.56.36:050][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.13s
+[2018.10.02-23.56.36:135][  3]LogAssetRegistry: Asset discovery search completed in 8.2888 seconds
+[2018.10.02-23.56.36:138][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.02-23.56.36:138][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
+[2018.10.02-23.56.43:792][457]LogSlate: Window 'Message Log' being destroyed
+[2018.10.02-23.56.43:796][457]LogSlate: Window 'Message Log' being destroyed
+[2018.10.02-23.56.46:294][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-23.56.48:477][738]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-23.56.48:495][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.02-23.56.48:495][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-23.56.49:723][738]LogSlate: Window 'Message' being destroyed
+[2018.10.02-23.57.20:684][ 98]LogAIModule: Creating AISystem for world TestTHISBITCH
+[2018.10.02-23.57.21:770][ 98]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.02-23.57.21:783][ 98]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.02-23.57.31:870][674]LogAIModule: Creating AISystem for world BetaMenu
+[2018.10.02-23.57.43:402][352]LogMetaData: Removing '/Game/Beta/BetaMenu.SKEL_BetaMenu_C' ref from Metadata '/Game/UI-Rick/BetaMenu.PackageMetaData'
+[2018.10.02-23.57.43:402][352]LogMetaData: Removing '/Game/Beta/BetaMenu.BetaMenu_C' ref from Metadata '/Game/UI-Rick/BetaMenu.PackageMetaData'
+[2018.10.02-23.57.43:551][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Beta/BetaMenu" FILE="../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Beta/BetaMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.02-23.57.43:691][352]LogSavePackage: Moving '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/BetaMenuAFEE33FF4E07C3DDC1F46C8D5A54A648.tmp' to '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Beta/BetaMenu.umap'
+[2018.10.02-23.57.43:697][352]LogFileHelpers: Saving map 'BetaMenu' took 0.258
+[2018.10.02-23.59.26:806][661]LogEditorViewport: Clicking Background
+[2018.10.02-23.59.29:156][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-00.01.03:160][292]LogEditorViewport: Clicking Background
+[2018.10.03-00.01.04:296][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-00.01.06:733][505]LogAssetEditorManager: Opening Asset editor for World /Game/Beta/BetaMenu.BetaMenu
+[2018.10.03-00.01.06:760][505]Cmd: MAP LOAD FILE="../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/Beta/BetaMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.03-00.01.06:760][505]LightingResults: New page: Lighting Build
+[2018.10.03-00.01.06:761][505]LoadErrors: New page: Loading map: BetaMenu.umap
+[2018.10.03-00.01.06:761][505]MapCheck: New page: Map Check
+[2018.10.03-00.01.06:761][505]LightingResults: New page: Lighting Build
+[2018.10.03-00.01.06:946][505]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.03-00.01.06:999][505]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.03-00.01.07:116][505]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 117.024ms to complete.
+[2018.10.03-00.01.07:118][505]LogFileHelpers: Loading map 'BetaMenu' took 0.359
+[2018.10.03-00.01.08:188][567]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.03-00.01.08:202][567]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel.BetaMenu' with GeneratedClass '/Game/Beta/BetaMenu.BetaMenu_C' with ClassGeneratedBy '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel.BetaMenu'
+[2018.10.03-00.01.08:202][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.03-00.01.10:279][567]LogSlate: Window 'Message' being destroyed
+[2018.10.03-00.01.10:298][567]PIE: New page: PIE session: BetaMenu (Oct 2, 2018, 4:01:10 PM)
+[2018.10.03-00.01.10:299][567]LogPlayLevel: Creating play world package: /Game/Beta/UEDPIE_0_BetaMenu
+[2018.10.03-00.01.10:300][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001098s)
+[2018.10.03-00.01.10:300][567]LogAIModule: Creating AISystem for world BetaMenu
+[2018.10.03-00.01.10:301][567]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2018.10.03-00.01.10:301][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Beta/BetaMenu.BetaMenu to /Game/Beta/UEDPIE_0_BetaMenu.BetaMenu (0.002161s)
+[2018.10.03-00.01.10:345][567]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.03-00.01.10:418][567]LogInit: FAudioDevice initialized.
+[2018.10.03-00.01.10:465][567]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.03-00.01.10:467][567]LogWorld: Bringing World /Game/Beta/UEDPIE_0_BetaMenu.BetaMenu up for play (max tick rate 60) at 2018.10.02-20.01.10
+[2018.10.03-00.01.10:467][567]LogWorld: Bringing up level for play took: 0.000529
+[2018.10.03-00.01.10:483][567]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.10.03-00.01.10:484][567]PIE: Play in editor start time for /Game/Beta/UEDPIE_0_BetaMenu 2.475
+[2018.10.03-00.01.10:485][567]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel.BetaMenu' with GeneratedClass '/Game/Beta/BetaMenu.BetaMenu_C' with ClassGeneratedBy '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel.BetaMenu'
+[2018.10.03-00.01.12:281][673]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.03-00.01.12:281][673]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.03-00.01.13:361][673]LogSkeletalMesh: Building Skeletal Mesh skeletonzombie-TPose...
+[2018.10.03-00.01.13:517][673]LogTexture: Display: Building textures: skeletonZombie_glow (AutoDXT, 2048X2048)
+[2018.10.03-00.01.13:517][673]LogSkeletalMesh: Built Skeletal Mesh [0.16s] /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/SkeletonZombie/skeletonzombie-TPose.skeletonzombie-TPose
+[2018.10.03-00.01.16:142][673]LogTexture: Display: Building textures: skeletonZombie_specular (AutoDXT, 2048X2048)
+[2018.10.03-00.01.16:142][673]LogTexture: Display: Building textures: skeletonZombie_diffuse (AutoDXT, 2048X2048)
+[2018.10.03-00.01.16:142][673]LogTexture: Display: Building textures: skeletonZombie_normal (BC5, 2048X2048)
+[2018.10.03-00.01.16:142][673]LogMaterial: Display: Missing cached shader map for material SkeltonZombie_MAT, compiling. 
+[2018.10.03-00.01.16:274][673]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.03-00.01.16:274][673]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.03-00.01.16:274][673]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.03-00.01.16:274][673]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.03-00.01.16:274][673]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/SkeletonZombie/Skeleton_Idle_Anim_mixamo_com.Skeleton_Idle_Anim_mixamo_com
+[2018.10.03-00.01.16:289][673]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/SkeletonZombie/Skeleton_Idle_Anim_mixamo_com.Skeleton_Idle_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.03-00.01.16:300][673]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/SkeletonZombie/Skeleton_Sprint_Anim_mixamo_com.Skeleton_Sprint_Anim_mixamo_com
+[2018.10.03-00.01.16:300][673]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/SkeletonZombie/Skeleton_Sprint_Anim_mixamo_com.Skeleton_Sprint_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.03-00.01.16:301][673]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/SkeletonZombie/Skeleton_Walking_Anim_mixamo_com.Skeleton_Walking_Anim_mixamo_com
+[2018.10.03-00.01.16:301][673]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/SkeletonZombie/Skeleton_Walking_Anim_mixamo_com.Skeleton_Walking_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.03-00.01.16:303][673]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/SkeletonZombie/Skeleton_Swiping_Anim_mixamo_com.Skeleton_Swiping_Anim_mixamo_com
+[2018.10.03-00.01.16:303][673]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/SkeletonZombie/Skeleton_Swiping_Anim_mixamo_com.Skeleton_Swiping_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.03-00.01.16:932][673]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.03-00.01.16:933][673]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.03-00.01.16:948][673]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 60) at 2018.10.02-20.01.16
+[2018.10.03-00.01.16:949][673]LogWorld: Bringing up level for play took: 0.015376
+[2018.10.03-00.01.16:951][673]LogBlueprintUserMessages: [MapGenerator_BP_2] REAbranch#2
+[2018.10.03-00.01.16:951][673]LogBlueprintUserMessages: [MapGenerator_BP_2] CBbranch#1
+[2018.10.03-00.01.16:997][673]LogBlueprintUserMessages: [MapGenerator_BP_2] CB Spawned
+[2018.10.03-00.01.17:083][673]LogBlueprintUserMessages: [MapGenerator_BP_2] REA Spawned
+[2018.10.03-00.01.17:210][673]LogLoad: Took 4.929296 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.03-00.01.17:621][682]LogBlueprintUserMessages: [TopDownCharacter] false
+[2018.10.03-00.01.18:627][742]LogBlueprintUserMessages: [TopDownCharacter] false
+[2018.10.03-00.01.19:470][793]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-00.01.19:629][802]LogBlueprintUserMessages: [TopDownCharacter] false
+[2018.10.03-00.01.19:864][816]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel.BetaMenu' with GeneratedClass '/Game/Beta/BetaMenu.BetaMenu_C' with ClassGeneratedBy '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel.BetaMenu'
+[2018.10.03-00.01.19:864][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-00.01.19:936][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.03-00.01.19:936][816]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel.BetaMenu' with GeneratedClass '/Game/Beta/BetaMenu.BetaMenu_C' with ClassGeneratedBy '/Game/Beta/BetaMenu.BetaMenu:PersistentLevel.BetaMenu'
+[2018.10.03-00.01.19:980][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-00.01.20:022][817]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.10.03-00.01.20:312][835]LogShaderCompilers: Display: Shaders left to compile 10
