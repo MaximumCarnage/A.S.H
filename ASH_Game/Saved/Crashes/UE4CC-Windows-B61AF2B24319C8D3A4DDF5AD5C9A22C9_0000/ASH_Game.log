@@ -1,0 +1,1460 @@
+﻿Log file open, 10/08/18 17:04:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ASH_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.305927
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.231s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: D:/UE_4.20/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.08-21.04.49:645][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.08-21.04.49:645][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.08-21.04.49:686][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.08-21.04.49:686][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.08-21.04.49:686][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.08-21.04.49:687][  0]LogInit: Computer: DESKTOP-EKVR1F9
+[2018.10.08-21.04.49:687][  0]LogInit: User: DylanBruton
+[2018.10.08-21.04.49:687][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.08-21.04.49:687][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.10.08-21.04.49:687][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.08-21.04.49:687][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.08-21.04.49:687][  0]LogMemory: Process Physical Memory: 101.54 MB used, 101.54 MB peak
+[2018.10.08-21.04.49:687][  0]LogMemory: Process Virtual Memory: 90.61 MB used, 90.61 MB peak
+[2018.10.08-21.04.49:687][  0]LogMemory: Physical Memory: 8633.98 MB used,  7623.05 MB free, 16257.03 MB total
+[2018.10.08-21.04.49:687][  0]LogMemory: Virtual Memory: 4644.48 MB used,  7623.05 MB free, 134217728.00 MB total
+[2018.10.08-21.04.50:137][  0]LogInit: Using OS detected language (en-US).
+[2018.10.08-21.04.50:137][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.08-21.04.50:139][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.08-21.04.50:578][  0]LogStreaming: Display: Took  0.441s to InitEngineTextLocalization.
+[2018.10.08-21.04.50:578][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.08-21.04.50:602][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.08-21.04.50:602][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.08-21.04.50:999][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.08-21.04.50:999][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.08-21.04.51:062][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.08-21.04.51:062][  0]LogD3D11RHI:       8089/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.08-21.04.51:086][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.10.08-21.04.51:086][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.08-21.04.51:089][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.08-21.04.51:089][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.08-21.04.51:089][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.08-21.04.51:106][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.08-21.04.51:106][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.08-21.04.51:106][  0]LogWindows: EnumDisplayDevices:
+[2018.10.08-21.04.51:107][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.08-21.04.51:108][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.08-21.04.51:108][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.08-21.04.51:108][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.08-21.04.51:109][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.08-21.04.51:109][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.08-21.04.51:109][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.08-21.04.51:109][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.08-21.04.51:109][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.08-21.04.51:109][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
+[2018.10.08-21.04.51:109][  0]LogD3D11RHI:      Driver Date: 3-7-2018
+[2018.10.08-21.04.51:109][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
+[2018.10.08-21.04.51:159][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.08-21.04.51:280][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.10.08-21.04.51:330][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../GameDev/_Projects/A.S.H/ASH_Game/Intermediate/Shaders/WorkingDirectory/21260/).
+[2018.10.08-21.04.51:330][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dylan Bruton/AppData/Local/Temp/UnrealShaderWorkingDir/CB9BF00D4D0FDCCF293852972F546A35/'.
+[2018.10.08-21.04.51:777][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.08-21.04.51:797][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.08-21.04.51:818][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.08-21.04.51:836][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.08-21.04.51:857][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.08-21.04.51:883][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.08-21.04.51:903][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.08-21.04.51:926][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.08-21.04.51:936][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-21.04.52:064][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.08-21.04.52:139][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.08-21.04.52:139][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.08-21.04.52:176][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.08-21.04.52:176][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.08-21.04.52:198][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.08-21.04.52:220][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.08-21.04.52:242][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.08-21.04.52:265][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.08-21.04.52:278][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.08-21.04.52:278][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.08-21.04.52:348][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.08-21.04.52:348][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.08-21.04.52:349][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.08-21.04.53:557][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.08-21.04.53:630][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.08-21.04.53:630][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.08-21.04.53:630][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.08-21.04.53:630][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.08-21.04.53:630][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameDev/_Projects/A.S.H/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.08-21.04.53:630][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.08-21.04.53:649][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.08-21.04.53:662][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.08-21.04.53:662][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.08-21.04.53:662][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.08-21.04.53:688][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.08-21.04.53:690][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.08-21.04.53:691][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.08-21.04.53:803][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2018.10.08-21.04.54:290][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.08-21.04.54:503][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.08-21.04.54:508][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.08-21.04.54:508][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.08-21.04.54:508][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.08-21.04.54:508][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.08-21.04.54:538][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.10.08-21.04.55:434][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.226999 seconds
+[2018.10.08-21.04.55:445][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.08-21.04.55:445][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.08-21.04.55:445][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.08-21.04.56:787][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.08-21.04.56:802][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.08-21.04.56:986][  0]SourceControl: Source control is disabled
+[2018.10.08-21.04.56:986][  0]SourceControl: Source control is disabled
+[2018.10.08-21.04.56:987][  0]SourceControl: Source control is disabled
+[2018.10.08-21.04.56:989][  0]SourceControl: Source control is disabled
+[2018.10.08-21.04.57:181][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.08-21.04.57:367][  0]LogOcInput: OculusInput pre-init called
+[2018.10.08-21.04.57:446][  0]LogEngine: Initializing Engine...
+[2018.10.08-21.04.57:447][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.08-21.04.57:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.08-21.04.57:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.08-21.04.57:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.08-21.04.57:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.08-21.04.57:740][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.08-21.04.57:754][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.08-21.04.57:876][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-21.04.57:969][  0]LogInit: FAudioDevice initialized.
+[2018.10.08-21.04.57:970][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.08-21.04.58:060][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.08-21.04.58:075][  0]LogInit: Texture streaming: Enabled
+[2018.10.08-21.04.58:093][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.08-21.04.58:110][  0]LogInit: Transaction tracking system initialized
+[2018.10.08-21.04.58:133][  0]BlueprintLog: New page: Editor Load
+[2018.10.08-21.04.58:212][  0]LocalizationService: Localization service is disabled
+[2018.10.08-21.04.58:575][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.08-21.04.58:575][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.08-21.04.58:575][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.08-21.04.58:575][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.08-21.04.58:575][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.08-21.04.58:575][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.08-21.04.58:575][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.08-21.04.58:745][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.07s
+[2018.10.08-21.04.58:745][  0]SourceControl: Source control is disabled
+[2018.10.08-21.04.58:746][  0]Cmd: MAP LOAD FILE="../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/UI-Rick/MainMenuTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.08-21.04.58:746][  0]LightingResults: New page: Lighting Build
+[2018.10.08-21.04.58:749][  0]MapCheck: New page: Map Check
+[2018.10.08-21.04.58:749][  0]LightingResults: New page: Lighting Build
+[2018.10.08-21.05.00:849][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-21.05.00:849][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-21.05.00:849][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Explosion_BP : Can't find file for asset. /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion
+[2018.10.08-21.05.00:850][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-21.05.00:850][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-21.05.00:850][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Explosion_BP : Can't find file for asset. /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion
+[2018.10.08-21.05.00:851][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-21.05.00:851][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-21.05.00:851][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Generator_BP : Can't find file for asset. /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion
+[2018.10.08-21.05.00:851][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-21.05.00:851][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-21.05.00:851][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Generator_BP : Can't find file for asset. /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion
+[2018.10.08-21.05.00:853][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-21.05.00:853][  0]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.P_Explosion Referenced by ParticleSystem_GEN_VARIABLE
+[2018.10.08-21.05.00:854][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-21.05.00:854][  0]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion.P_Explosion Referenced by ParticleSystem_GEN_VARIABLE
+[2018.10.08-21.05.00:854][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Generator_BP : Can't find file for asset. /Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion
+[2018.10.08-21.05.01:438][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-21.05.01:438][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-21.05.01:438][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Generator_BP : Can't find file for asset. /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks
+[2018.10.08-21.05.01:438][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-21.05.01:439][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-21.05.01:439][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Generator_BP : Can't find file for asset. /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks
+[2018.10.08-21.05.01:440][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-21.05.01:440][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Assets_Erick/Enemies/Mutant/MutantAnim_BP.uasset.
+[2018.10.08-21.05.01:440][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Mutant/MutantAnim_BP : Can't find file for asset. /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks
+[2018.10.08-21.05.01:440][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-21.05.01:440][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Assets_Erick/Enemies/Mutant/MutantAnim_BP.uasset.
+[2018.10.08-21.05.01:440][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Mutant/MutantAnim_BP : Can't find file for asset. /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks
+[2018.10.08-21.05.01:443][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-21.05.01:443][  0]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks.P_Sparks Referenced by K2Node_CallFunction_7
+[2018.10.08-21.05.01:443][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Assets_Erick/Enemies/Mutant/MutantAnim_BP.uasset.
+[2018.10.08-21.05.01:443][  0]LoadErrors: Failed to load /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks.P_Sparks Referenced by K2Node_CallFunction_7
+[2018.10.08-21.05.01:443][  0]LoadErrors: Error: /Game/TopDownBP/Blueprints/Assets_Erick/Enemies/Mutant/MutantAnim_BP : Can't find file for asset. /Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks
+[2018.10.08-21.05.15:540][  0]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-21.05.15:541][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.08-21.05.15:603][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.08-21.05.15:760][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 156.859ms to complete.
+[2018.10.08-21.05.15:760][  0]LogFileHelpers: Loading map 'MainMenuTest' took 17.015
+[2018.10.08-21.05.16:137][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-21.05.16:147][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-21.05.16:157][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-21.05.16:167][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-21.05.16:177][  0]LogCollectionManager: Loaded 0 collections in 0.001143 seconds
+[2018.10.08-21.05.16:242][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Saved/Collections/' took 0.01s
+[2018.10.08-21.05.16:242][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Developers/DylanBruton/Collections/' took 0.01s
+[2018.10.08-21.05.16:242][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/Collections/' took 0.01s
+[2018.10.08-21.05.16:242][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.08-21.05.16:254][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2572 classes and 603 folders.
+[2018.10.08-21.05.16:260][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.08-21.05.17:132][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.08-21.05.17:173][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.08-21.05.17:554][  0]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.08-21.05.17:557][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.08-21.05.17:586][  0]LogSlate: Took 0.022264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.08-21.05.17:846][  0]LogRenderer: Reallocating scene render targets to support 1048x460 Format 10 NumSamples 1 (Frame:1).
+[2018.10.08-21.05.18:099][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.08-21.05.18:099][  0]LogLoad: (Engine Initialization) Total time: 31.11 seconds
+[2018.10.08-21.05.18:099][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.08-21.05.18:195][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.08-21.05.18:202][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-21.05.18:382][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GameDev/_Projects/A.S.H/ASH_Game/Content/' took 0.25s
+[2018.10.08-21.05.18:637][  3]LogAssetRegistry: Asset discovery search completed in 24.8576 seconds
+[2018.10.08-21.05.18:640][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.08-21.05.18:640][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000112 seconds (updated 0 objects)
+[2018.10.08-21.05.19:714][  6]LogSlate: Took 0.012156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.08-21.07.47:796][480]LogSlate: Window 'Message Log' being destroyed
+[2018.10.08-21.07.47:853][480]LogSlate: Window 'Message Log' being destroyed
+[2018.10.08-21.07.48:662][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-21.07.48:762][504]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-21.07.48:783][504]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.07.48:783][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-21.07.48:870][504]PIE: New page: PIE session: MainMenuTest (Oct 8, 2018, 1:07:48 PM)
+[2018.10.08-21.07.48:870][504]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.08-21.07.48:872][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001394s)
+[2018.10.08-21.07.48:872][504]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-21.07.48:872][504]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2018.10.08-21.07.48:884][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.013533s)
+[2018.10.08-21.07.48:931][504]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-21.07.49:012][504]LogInit: FAudioDevice initialized.
+[2018.10.08-21.07.49:027][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-21.07.49:136][504]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-21.07.49:139][504]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.10.08-17.07.49
+[2018.10.08-21.07.49:139][504]LogWorld: Bringing up level for play took: 0.000660
+[2018.10.08-21.07.49:183][504]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.10.08-21.07.49:224][504]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 0.173
+[2018.10.08-21.07.49:225][504]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.07.49:285][504]LogRenderer: Reallocating scene render targets to support 1048x480 Format 10 NumSamples 1 (Frame:1).
+[2018.10.08-21.07.51:819][556]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.08-21.07.51:867][556]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.08-21.07.56:591][556]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.08-21.07.56:591][556]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-21.07.56:613][556]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 0) at 2018.10.08-17.07.56
+[2018.10.08-21.07.56:614][556]LogWorld: Bringing up level for play took: 0.021692
+[2018.10.08-21.07.56:977][556]LogMaterial: Warning: Material /Engine/EditorMaterials/PersonaFloorMat.PersonaFloorMat missing bUsedWithSkeletalMesh=True! Default Material will be used in game.
+[2018.10.08-21.07.56:977][556]LogMaterial: Warning:      The material will recompile every editor launch until resaved.
+[2018.10.08-21.07.56:979][556]PIE: Warning: AttachTo: '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SPECIAL_ROOM_3A_C_0.Desk2_Blueprint' is not static  (in blueprint "SPECIAL_ROOM_3A"), cannot attach '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.Desk2_Blueprint_GEN_VARIABLE_Desk2_Blueprint_C_CAT_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.10.08-21.07.56:981][556]PIE: Warning: AttachTo: '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SPECIAL_ROOM_3A_C_0.Desk3_Blueprint' is not static  (in blueprint "SPECIAL_ROOM_3A"), cannot attach '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.Desk3_Blueprint_GEN_VARIABLE_Desk3_Blueprint_C_CAT_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.10.08-21.07.56:996][556]LogLoad: Took 5.129258 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.08-21.08.28:015][521]LogBlueprintUserMessages: [Point_1_EnemySpawn_C_0] 1 WAVE STARTS
+[2018.10.08-21.08.28:526][547]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1289.543 Y=2376.387 Z=34.761] for [Parasite_C]
+[2018.10.08-21.09.18:612][927]LogBlueprintUserMessages: [PistolBullet_C_0] Hit Enemy
+[2018.10.08-21.09.18:612][927]LogBlueprintUserMessages: [PistolBullet_C_0] 0.9
+[2018.10.08-21.09.18:711][932]LogBlueprintUserMessages: [PistolBullet_C_1] Hit Enemy
+[2018.10.08-21.09.18:711][932]LogBlueprintUserMessages: [PistolBullet_C_1] 0.8
+[2018.10.08-21.09.18:799][937]LogBlueprintUserMessages: [PistolBullet_C_2] Hit Enemy
+[2018.10.08-21.09.18:799][937]LogBlueprintUserMessages: [PistolBullet_C_2] 0.7
+[2018.10.08-21.09.18:910][943]LogBlueprintUserMessages: [PistolBullet_C_3] Hit Enemy
+[2018.10.08-21.09.18:910][943]LogBlueprintUserMessages: [PistolBullet_C_3] 0.6
+[2018.10.08-21.09.19:015][949]LogBlueprintUserMessages: [PistolBullet_C_4] Hit Enemy
+[2018.10.08-21.09.19:015][949]LogBlueprintUserMessages: [PistolBullet_C_4] 0.5
+[2018.10.08-21.09.19:124][955]LogBlueprintUserMessages: [PistolBullet_C_5] Hit Enemy
+[2018.10.08-21.09.19:124][955]LogBlueprintUserMessages: [PistolBullet_C_5] 0.4
+[2018.10.08-21.09.19:235][961]LogBlueprintUserMessages: [PistolBullet_C_6] Hit Enemy
+[2018.10.08-21.09.19:235][961]LogBlueprintUserMessages: [PistolBullet_C_6] 0.3
+[2018.10.08-21.09.19:442][973]LogBlueprintUserMessages: [PistolBullet_C_8] Hit Enemy
+[2018.10.08-21.09.19:442][973]LogBlueprintUserMessages: [PistolBullet_C_8] 0.2
+[2018.10.08-21.09.20:796][ 51]LogBlueprintUserMessages: [PistolBullet_C_10] Hit Enemy
+[2018.10.08-21.09.20:796][ 51]LogBlueprintUserMessages: [PistolBullet_C_10] 0.1
+[2018.10.08-21.09.20:898][ 57]LogBlueprintUserMessages: [PistolBullet_C_11] Hit Enemy
+[2018.10.08-21.09.20:898][ 57]LogBlueprintUserMessages: [PistolBullet_C_11] -0.0
+[2018.10.08-21.09.23:757][221]LogBlueprintUserMessages: [PistolBullet_C_12] Hit Enemy
+[2018.10.08-21.09.23:757][221]LogBlueprintUserMessages: [PistolBullet_C_12] 0.9
+[2018.10.08-21.09.23:876][228]LogBlueprintUserMessages: [PistolBullet_C_13] Hit Enemy
+[2018.10.08-21.09.23:876][228]LogBlueprintUserMessages: [PistolBullet_C_13] 0.8
+[2018.10.08-21.09.23:978][234]LogBlueprintUserMessages: [PistolBullet_C_14] Hit Enemy
+[2018.10.08-21.09.23:978][234]LogBlueprintUserMessages: [PistolBullet_C_14] 0.7
+[2018.10.08-21.09.24:082][240]LogBlueprintUserMessages: [PistolBullet_C_15] Hit Enemy
+[2018.10.08-21.09.24:082][240]LogBlueprintUserMessages: [PistolBullet_C_15] 0.6
+[2018.10.08-21.09.24:172][245]LogBlueprintUserMessages: [PistolBullet_C_16] Hit Enemy
+[2018.10.08-21.09.24:172][245]LogBlueprintUserMessages: [PistolBullet_C_16] 0.5
+[2018.10.08-21.09.24:278][251]LogBlueprintUserMessages: [PistolBullet_C_17] Hit Enemy
+[2018.10.08-21.09.24:278][251]LogBlueprintUserMessages: [PistolBullet_C_17] 0.4
+[2018.10.08-21.09.24:391][257]LogBlueprintUserMessages: [PistolBullet_C_18] Hit Enemy
+[2018.10.08-21.09.24:391][257]LogBlueprintUserMessages: [PistolBullet_C_18] 0.3
+[2018.10.08-21.09.26:429][377]LogBlueprintUserMessages: [PistolBullet_C_19] Hit Enemy
+[2018.10.08-21.09.26:429][377]LogBlueprintUserMessages: [PistolBullet_C_19] 0.2
+[2018.10.08-21.09.26:531][383]LogBlueprintUserMessages: [PistolBullet_C_20] Hit Enemy
+[2018.10.08-21.09.26:531][383]LogBlueprintUserMessages: [PistolBullet_C_20] 0.1
+[2018.10.08-21.09.26:617][388]LogBlueprintUserMessages: [PistolBullet_C_21] Hit Enemy
+[2018.10.08-21.09.26:617][388]LogBlueprintUserMessages: [PistolBullet_C_21] -0.0
+[2018.10.08-21.09.26:650][388]LogScript: Warning: Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is pending kill
+	SkeletonZombie_C /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SkeletonZombie_C_4
+	Function /Game/TopDownBP/Blueprints/SkeletonZombie.SkeletonZombie_C:ExecuteUbergraph_SkeletonZombie:0296
+[2018.10.08-21.09.26:650][388]PIE: Error: Blueprint Runtime Error: "Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is pending kill". Blueprint:  SkeletonZombie Function:  Execute Ubergraph Skeleton Zombie Graph:  EventGraph Node:  Set Movement Mode
+[2018.10.08-21.09.28:013][466]LogBlueprintUserMessages: [PistolBullet_C_27] Hit Enemy
+[2018.10.08-21.09.28:013][466]LogBlueprintUserMessages: [PistolBullet_C_27] 0.9
+[2018.10.08-21.09.28:118][472]LogBlueprintUserMessages: [PistolBullet_C_28] Hit Enemy
+[2018.10.08-21.09.28:119][472]LogBlueprintUserMessages: [PistolBullet_C_28] 0.8
+[2018.10.08-21.09.28:220][478]LogBlueprintUserMessages: [PistolBullet_C_29] Hit Enemy
+[2018.10.08-21.09.28:220][478]LogBlueprintUserMessages: [PistolBullet_C_29] 0.7
+[2018.10.08-21.09.28:330][484]LogBlueprintUserMessages: [PistolBullet_C_30] Hit Enemy
+[2018.10.08-21.09.28:330][484]LogBlueprintUserMessages: [PistolBullet_C_30] 0.6
+[2018.10.08-21.09.30:826][627]LogBlueprintUserMessages: [PistolBullet_C_31] Hit Enemy
+[2018.10.08-21.09.30:826][627]LogBlueprintUserMessages: [PistolBullet_C_31] 0.5
+[2018.10.08-21.09.30:916][632]LogBlueprintUserMessages: [PistolBullet_C_32] Hit Enemy
+[2018.10.08-21.09.30:916][632]LogBlueprintUserMessages: [PistolBullet_C_32] 0.4
+[2018.10.08-21.09.31:019][638]LogBlueprintUserMessages: [PistolBullet_C_33] Hit Enemy
+[2018.10.08-21.09.31:019][638]LogBlueprintUserMessages: [PistolBullet_C_33] 0.3
+[2018.10.08-21.09.31:126][644]LogBlueprintUserMessages: [PistolBullet_C_34] Hit Enemy
+[2018.10.08-21.09.31:126][644]LogBlueprintUserMessages: [PistolBullet_C_34] 0.2
+[2018.10.08-21.09.31:227][650]LogBlueprintUserMessages: [PistolBullet_C_35] Hit Enemy
+[2018.10.08-21.09.31:227][650]LogBlueprintUserMessages: [PistolBullet_C_35] 0.1
+[2018.10.08-21.09.31:330][656]LogBlueprintUserMessages: [PistolBullet_C_36] Hit Enemy
+[2018.10.08-21.09.31:330][656]LogBlueprintUserMessages: [PistolBullet_C_36] -0.0
+[2018.10.08-21.09.34:458][827]LogBlueprintUserMessages: [PistolBullet_C_37] Hit Enemy
+[2018.10.08-21.09.34:458][827]LogBlueprintUserMessages: [PistolBullet_C_37] 0.9
+[2018.10.08-21.09.34:591][834]LogBlueprintUserMessages: [PistolBullet_C_38] Hit Enemy
+[2018.10.08-21.09.34:591][834]LogBlueprintUserMessages: [PistolBullet_C_38] 0.8
+[2018.10.08-21.09.34:708][840]LogBlueprintUserMessages: [PistolBullet_C_39] Hit Enemy
+[2018.10.08-21.09.34:708][840]LogBlueprintUserMessages: [PistolBullet_C_39] 0.7
+[2018.10.08-21.09.34:826][846]LogBlueprintUserMessages: [PistolBullet_C_40] Hit Enemy
+[2018.10.08-21.09.34:826][846]LogBlueprintUserMessages: [PistolBullet_C_40] 0.6
+[2018.10.08-21.09.34:946][852]LogBlueprintUserMessages: [PistolBullet_C_41] Hit Enemy
+[2018.10.08-21.09.34:947][852]LogBlueprintUserMessages: [PistolBullet_C_41] 0.9
+[2018.10.08-21.09.35:065][858]LogBlueprintUserMessages: [PistolBullet_C_42] Hit Enemy
+[2018.10.08-21.09.35:065][858]LogBlueprintUserMessages: [PistolBullet_C_42] 0.8
+[2018.10.08-21.09.35:187][864]LogBlueprintUserMessages: [PistolBullet_C_43] Hit Enemy
+[2018.10.08-21.09.35:187][864]LogBlueprintUserMessages: [PistolBullet_C_43] 0.7
+[2018.10.08-21.09.35:284][869]LogBlueprintUserMessages: [PistolBullet_C_44] Hit Enemy
+[2018.10.08-21.09.35:284][869]LogBlueprintUserMessages: [PistolBullet_C_44] 0.6
+[2018.10.08-21.09.35:404][875]LogBlueprintUserMessages: [PistolBullet_C_45] Hit Enemy
+[2018.10.08-21.09.35:404][875]LogBlueprintUserMessages: [PistolBullet_C_45] 0.5
+[2018.10.08-21.09.35:523][881]LogBlueprintUserMessages: [PistolBullet_C_46] Hit Enemy
+[2018.10.08-21.09.35:523][881]LogBlueprintUserMessages: [PistolBullet_C_46] 0.5
+[2018.10.08-21.09.35:625][886]LogBlueprintUserMessages: [PistolBullet_C_47] Hit Enemy
+[2018.10.08-21.09.35:625][886]LogBlueprintUserMessages: [PistolBullet_C_47] 0.4
+[2018.10.08-21.09.35:724][891]LogBlueprintUserMessages: [PistolBullet_C_48] Hit Enemy
+[2018.10.08-21.09.35:724][891]LogBlueprintUserMessages: [PistolBullet_C_48] 0.3
+[2018.10.08-21.09.38:965][ 62]LogBlueprintUserMessages: [PistolBullet_C_49] Hit Enemy
+[2018.10.08-21.09.38:965][ 62]LogBlueprintUserMessages: [PistolBullet_C_49] 0.2
+[2018.10.08-21.09.39:300][ 79]LogBlueprintUserMessages: [PistolBullet_C_52] Hit Enemy
+[2018.10.08-21.09.39:300][ 79]LogBlueprintUserMessages: [PistolBullet_C_52] 0.1
+[2018.10.08-21.09.39:404][ 84]LogBlueprintUserMessages: [PistolBullet_C_53] Hit Enemy
+[2018.10.08-21.09.39:404][ 84]LogBlueprintUserMessages: [PistolBullet_C_53] -0.0
+[2018.10.08-21.09.40:435][136]LogBlueprintUserMessages: [PistolBullet_C_59] Hit Enemy
+[2018.10.08-21.09.40:435][136]LogBlueprintUserMessages: [PistolBullet_C_59] 0.4
+[2018.10.08-21.09.40:567][143]LogBlueprintUserMessages: [PistolBullet_C_60] Hit Enemy
+[2018.10.08-21.09.40:567][143]LogBlueprintUserMessages: [PistolBullet_C_60] 0.3
+[2018.10.08-21.09.43:013][272]LogBlueprintUserMessages: [PistolBullet_C_62] Hit Enemy
+[2018.10.08-21.09.43:013][272]LogBlueprintUserMessages: [PistolBullet_C_62] 0.2
+[2018.10.08-21.09.43:145][279]LogBlueprintUserMessages: [PistolBullet_C_63] Hit Enemy
+[2018.10.08-21.09.43:145][279]LogBlueprintUserMessages: [PistolBullet_C_63] 0.1
+[2018.10.08-21.09.43:258][285]LogBlueprintUserMessages: [PistolBullet_C_64] Hit Enemy
+[2018.10.08-21.09.43:258][285]LogBlueprintUserMessages: [PistolBullet_C_64] -0.0
+[2018.10.08-21.09.43:335][289]LogBlueprintUserMessages: [PistolBullet_C_65] Hit Enemy
+[2018.10.08-21.09.43:336][289]LogBlueprintUserMessages: [PistolBullet_C_65] 0.9
+[2018.10.08-21.09.43:445][295]LogBlueprintUserMessages: [PistolBullet_C_66] Hit Enemy
+[2018.10.08-21.09.43:445][295]LogBlueprintUserMessages: [PistolBullet_C_66] 0.8
+[2018.10.08-21.09.43:549][301]LogBlueprintUserMessages: [PistolBullet_C_67] Hit Enemy
+[2018.10.08-21.09.43:549][301]LogBlueprintUserMessages: [PistolBullet_C_67] 0.7
+[2018.10.08-21.09.43:652][307]LogBlueprintUserMessages: [PistolBullet_C_68] Hit Enemy
+[2018.10.08-21.09.43:652][307]LogBlueprintUserMessages: [PistolBullet_C_68] 0.6
+[2018.10.08-21.09.43:754][313]LogBlueprintUserMessages: [PistolBullet_C_69] Hit Enemy
+[2018.10.08-21.09.43:755][313]LogBlueprintUserMessages: [PistolBullet_C_69] 0.5
+[2018.10.08-21.09.45:860][438]LogBlueprintUserMessages: [PistolBullet_C_70] Hit Enemy
+[2018.10.08-21.09.45:860][438]LogBlueprintUserMessages: [PistolBullet_C_70] 0.4
+[2018.10.08-21.09.45:961][444]LogBlueprintUserMessages: [PistolBullet_C_71] Hit Enemy
+[2018.10.08-21.09.45:962][444]LogBlueprintUserMessages: [PistolBullet_C_71] 0.3
+[2018.10.08-21.09.46:062][450]LogBlueprintUserMessages: [PistolBullet_C_72] Hit Enemy
+[2018.10.08-21.09.46:062][450]LogBlueprintUserMessages: [PistolBullet_C_72] 0.2
+[2018.10.08-21.09.49:095][629]LogBlueprintUserMessages: [PistolBullet_C_73] Hit Enemy
+[2018.10.08-21.09.49:095][629]LogBlueprintUserMessages: [PistolBullet_C_73] 0.1
+[2018.10.08-21.09.49:420][647]LogBlueprintUserMessages: [PistolBullet_C_76] Hit Enemy
+[2018.10.08-21.09.49:420][647]LogBlueprintUserMessages: [PistolBullet_C_76] -0.0
+[2018.10.08-21.09.51:981][785]LogBlueprintUserMessages: [PistolBullet_C_81] Hit Enemy
+[2018.10.08-21.09.51:981][785]LogBlueprintUserMessages: [PistolBullet_C_81] 0.9
+[2018.10.08-21.09.52:099][791]LogBlueprintUserMessages: [PistolBullet_C_82] Hit Enemy
+[2018.10.08-21.09.52:100][791]LogBlueprintUserMessages: [PistolBullet_C_82] 0.8
+[2018.10.08-21.09.52:222][797]LogBlueprintUserMessages: [PistolBullet_C_83] Hit Enemy
+[2018.10.08-21.09.52:222][797]LogBlueprintUserMessages: [PistolBullet_C_83] 0.7
+[2018.10.08-21.09.52:350][803]LogBlueprintUserMessages: [PistolBullet_C_84] Hit Enemy
+[2018.10.08-21.09.52:350][803]LogBlueprintUserMessages: [PistolBullet_C_84] 0.9
+[2018.10.08-21.09.52:457][808]LogBlueprintUserMessages: [PistolBullet_C_85] Hit Enemy
+[2018.10.08-21.09.52:457][808]LogBlueprintUserMessages: [PistolBullet_C_85] 0.8
+[2018.10.08-21.09.52:558][813]LogBlueprintUserMessages: [PistolBullet_C_86] Hit Enemy
+[2018.10.08-21.09.52:558][813]LogBlueprintUserMessages: [PistolBullet_C_86] 0.7
+[2018.10.08-21.09.52:662][818]LogBlueprintUserMessages: [PistolBullet_C_87] Hit Enemy
+[2018.10.08-21.09.52:662][818]LogBlueprintUserMessages: [PistolBullet_C_87] 0.6
+[2018.10.08-21.09.52:771][823]LogBlueprintUserMessages: [PistolBullet_C_88] Hit Enemy
+[2018.10.08-21.09.52:771][823]LogBlueprintUserMessages: [PistolBullet_C_88] 0.5
+[2018.10.08-21.09.52:850][827]LogBlueprintUserMessages: [PistolBullet_C_89] Hit Enemy
+[2018.10.08-21.09.52:850][827]LogBlueprintUserMessages: [PistolBullet_C_89] 0.6
+[2018.10.08-21.09.52:949][832]LogBlueprintUserMessages: [PistolBullet_C_90] Hit Enemy
+[2018.10.08-21.09.52:949][832]LogBlueprintUserMessages: [PistolBullet_C_90] 0.5
+[2018.10.08-21.09.53:066][838]LogBlueprintUserMessages: [PistolBullet_C_91] Hit Enemy
+[2018.10.08-21.09.53:067][838]LogBlueprintUserMessages: [PistolBullet_C_91] 0.4
+[2018.10.08-21.09.53:189][844]LogBlueprintUserMessages: [PistolBullet_C_92] Hit Enemy
+[2018.10.08-21.09.53:189][844]LogBlueprintUserMessages: [PistolBullet_C_92] 0.3
+[2018.10.08-21.09.54:625][923]LogBlueprintUserMessages: [PistolBullet_C_93] Hit Enemy
+[2018.10.08-21.09.54:625][923]LogBlueprintUserMessages: [PistolBullet_C_93] 0.2
+[2018.10.08-21.09.54:730][929]LogBlueprintUserMessages: [PistolBullet_C_94] Hit Enemy
+[2018.10.08-21.09.54:730][929]LogBlueprintUserMessages: [PistolBullet_C_94] 0.1
+[2018.10.08-21.09.54:836][935]LogBlueprintUserMessages: [PistolBullet_C_95] Hit Enemy
+[2018.10.08-21.09.54:836][935]LogBlueprintUserMessages: [PistolBullet_C_95] -0.0
+[2018.10.08-21.09.54:959][942]LogBlueprintUserMessages: [PistolBullet_C_96] Hit Enemy
+[2018.10.08-21.09.54:959][942]LogBlueprintUserMessages: [PistolBullet_C_96] 0.4
+[2018.10.08-21.09.55:068][948]LogBlueprintUserMessages: [PistolBullet_C_97] Hit Enemy
+[2018.10.08-21.09.55:068][948]LogBlueprintUserMessages: [PistolBullet_C_97] 0.3
+[2018.10.08-21.09.55:174][954]LogBlueprintUserMessages: [PistolBullet_C_98] Hit Enemy
+[2018.10.08-21.09.55:174][954]LogBlueprintUserMessages: [PistolBullet_C_98] 0.2
+[2018.10.08-21.09.55:279][960]LogBlueprintUserMessages: [PistolBullet_C_99] Hit Enemy
+[2018.10.08-21.09.55:279][960]LogBlueprintUserMessages: [PistolBullet_C_99] 0.1
+[2018.10.08-21.09.55:453][970]LogBlueprintUserMessages: [PistolBullet_C_100] Hit Enemy
+[2018.10.08-21.09.55:454][970]LogBlueprintUserMessages: [PistolBullet_C_100] 0.9
+[2018.10.08-21.09.55:489][972]LogBlueprintUserMessages: [PistolBullet_C_101] Hit Enemy
+[2018.10.08-21.09.55:489][972]LogBlueprintUserMessages: [PistolBullet_C_101] -0.0
+[2018.10.08-21.09.55:490][972]LogScript: Warning: Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is pending kill
+	SkeletonZombie_C /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SkeletonZombie_C_3
+	Function /Game/TopDownBP/Blueprints/SkeletonZombie.SkeletonZombie_C:ExecuteUbergraph_SkeletonZombie:0296
+[2018.10.08-21.09.55:491][972]PIE: Error: Blueprint Runtime Error: "Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is pending kill". Blueprint:  SkeletonZombie Function:  Execute Ubergraph Skeleton Zombie Graph:  EventGraph Node:  Set Movement Mode
+[2018.10.08-21.09.55:665][982]LogBlueprintUserMessages: [PistolBullet_C_102] Hit Enemy
+[2018.10.08-21.09.55:665][982]LogBlueprintUserMessages: [PistolBullet_C_102] 0.8
+[2018.10.08-21.09.55:771][988]LogBlueprintUserMessages: [PistolBullet_C_103] Hit Enemy
+[2018.10.08-21.09.55:771][988]LogBlueprintUserMessages: [PistolBullet_C_103] 0.7
+[2018.10.08-21.09.55:878][994]LogBlueprintUserMessages: [PistolBullet_C_104] Hit Enemy
+[2018.10.08-21.09.55:878][994]LogBlueprintUserMessages: [PistolBullet_C_104] 0.6
+[2018.10.08-21.10.00:203][233]LogBlueprintUserMessages: [PistolBullet_C_105] Hit Enemy
+[2018.10.08-21.10.00:203][233]LogBlueprintUserMessages: [PistolBullet_C_105] 0.9
+[2018.10.08-21.10.00:291][238]LogBlueprintUserMessages: [PistolBullet_C_106] Hit Enemy
+[2018.10.08-21.10.00:291][238]LogBlueprintUserMessages: [PistolBullet_C_106] 0.8
+[2018.10.08-21.10.00:397][243]LogBlueprintUserMessages: [PistolBullet_C_107] Hit Enemy
+[2018.10.08-21.10.00:397][243]LogBlueprintUserMessages: [PistolBullet_C_107] 0.7
+[2018.10.08-21.10.00:492][248]LogBlueprintUserMessages: [PistolBullet_C_108] Hit Enemy
+[2018.10.08-21.10.00:492][248]LogBlueprintUserMessages: [PistolBullet_C_108] 0.6
+[2018.10.08-21.10.00:583][253]LogBlueprintUserMessages: [PistolBullet_C_109] Hit Enemy
+[2018.10.08-21.10.00:583][253]LogBlueprintUserMessages: [PistolBullet_C_109] 0.9
+[2018.10.08-21.10.00:676][258]LogBlueprintUserMessages: [PistolBullet_C_110] Hit Enemy
+[2018.10.08-21.10.00:676][258]LogBlueprintUserMessages: [PistolBullet_C_110] 0.8
+[2018.10.08-21.10.00:782][264]LogBlueprintUserMessages: [PistolBullet_C_111] Hit Enemy
+[2018.10.08-21.10.00:782][264]LogBlueprintUserMessages: [PistolBullet_C_111] 0.7
+[2018.10.08-21.10.00:889][270]LogBlueprintUserMessages: [PistolBullet_C_112] Hit Enemy
+[2018.10.08-21.10.00:889][270]LogBlueprintUserMessages: [PistolBullet_C_112] 0.6
+[2018.10.08-21.10.00:998][276]LogBlueprintUserMessages: [PistolBullet_C_113] Hit Enemy
+[2018.10.08-21.10.00:998][276]LogBlueprintUserMessages: [PistolBullet_C_113] 0.5
+[2018.10.08-21.10.01:111][282]LogBlueprintUserMessages: [PistolBullet_C_114] Hit Enemy
+[2018.10.08-21.10.01:111][282]LogBlueprintUserMessages: [PistolBullet_C_114] 0.4
+[2018.10.08-21.10.01:218][288]LogBlueprintUserMessages: [PistolBullet_C_115] Hit Enemy
+[2018.10.08-21.10.01:218][288]LogBlueprintUserMessages: [PistolBullet_C_115] 0.3
+[2018.10.08-21.10.01:876][325]LogBlueprintUserMessages: [PistolBullet_C_116] Hit Enemy
+[2018.10.08-21.10.01:876][325]LogBlueprintUserMessages: [PistolBullet_C_116] 0.5
+[2018.10.08-21.10.04:457][469]LogBlueprintUserMessages: [PistolBullet_C_117] Hit Enemy
+[2018.10.08-21.10.04:457][469]LogBlueprintUserMessages: [PistolBullet_C_117] 0.2
+[2018.10.08-21.10.04:558][475]LogBlueprintUserMessages: [PistolBullet_C_118] Hit Enemy
+[2018.10.08-21.10.04:558][475]LogBlueprintUserMessages: [PistolBullet_C_118] 0.1
+[2018.10.08-21.10.04:661][481]LogBlueprintUserMessages: [PistolBullet_C_119] Hit Enemy
+[2018.10.08-21.10.04:661][481]LogBlueprintUserMessages: [PistolBullet_C_119] -0.0
+[2018.10.08-21.10.04:781][488]LogBlueprintUserMessages: [PistolBullet_C_120] Hit Enemy
+[2018.10.08-21.10.04:781][488]LogBlueprintUserMessages: [PistolBullet_C_120] 0.4
+[2018.10.08-21.10.04:883][494]LogBlueprintUserMessages: [PistolBullet_C_121] Hit Enemy
+[2018.10.08-21.10.04:883][494]LogBlueprintUserMessages: [PistolBullet_C_121] 0.3
+[2018.10.08-21.10.04:988][500]LogBlueprintUserMessages: [PistolBullet_C_122] Hit Enemy
+[2018.10.08-21.10.04:988][500]LogBlueprintUserMessages: [PistolBullet_C_122] 0.2
+[2018.10.08-21.10.05:098][506]LogBlueprintUserMessages: [PistolBullet_C_123] Hit Enemy
+[2018.10.08-21.10.05:098][506]LogBlueprintUserMessages: [PistolBullet_C_123] 0.1
+[2018.10.08-21.10.05:205][512]LogBlueprintUserMessages: [PistolBullet_C_124] Hit Enemy
+[2018.10.08-21.10.05:205][512]LogBlueprintUserMessages: [PistolBullet_C_124] 0.9
+[2018.10.08-21.10.05:326][519]LogBlueprintUserMessages: [PistolBullet_C_125] Hit Enemy
+[2018.10.08-21.10.05:326][519]LogBlueprintUserMessages: [PistolBullet_C_125] 0.8
+[2018.10.08-21.10.05:434][525]LogBlueprintUserMessages: [PistolBullet_C_126] Hit Enemy
+[2018.10.08-21.10.05:434][525]LogBlueprintUserMessages: [PistolBullet_C_126] 0.7
+[2018.10.08-21.10.05:539][531]LogBlueprintUserMessages: [PistolBullet_C_127] Hit Enemy
+[2018.10.08-21.10.05:539][531]LogBlueprintUserMessages: [PistolBullet_C_127] 0.6
+[2018.10.08-21.10.05:643][537]LogBlueprintUserMessages: [PistolBullet_C_128] Hit Enemy
+[2018.10.08-21.10.05:643][537]LogBlueprintUserMessages: [PistolBullet_C_128] 0.5
+[2018.10.08-21.10.08:119][681]LogBlueprintUserMessages: [PistolBullet_C_129] Hit Enemy
+[2018.10.08-21.10.08:119][681]LogBlueprintUserMessages: [PistolBullet_C_129] -0.0
+[2018.10.08-21.10.08:120][681]LogScript: Warning: Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is pending kill
+	SkeletonZombie_C /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SkeletonZombie_C_0
+	Function /Game/TopDownBP/Blueprints/SkeletonZombie.SkeletonZombie_C:ExecuteUbergraph_SkeletonZombie:0296
+[2018.10.08-21.10.08:120][681]PIE: Error: Blueprint Runtime Error: "Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is pending kill". Blueprint:  SkeletonZombie Function:  Execute Ubergraph Skeleton Zombie Graph:  EventGraph Node:  Set Movement Mode
+[2018.10.08-21.10.08:244][688]LogBlueprintUserMessages: [PistolBullet_C_130] Hit Enemy
+[2018.10.08-21.10.08:244][688]LogBlueprintUserMessages: [PistolBullet_C_130] 0.9
+[2018.10.08-21.10.08:349][694]LogBlueprintUserMessages: [PistolBullet_C_131] Hit Enemy
+[2018.10.08-21.10.08:349][694]LogBlueprintUserMessages: [PistolBullet_C_131] 0.4
+[2018.10.08-21.10.08:447][699]LogBlueprintUserMessages: [PistolBullet_C_132] Hit Enemy
+[2018.10.08-21.10.08:447][699]LogBlueprintUserMessages: [PistolBullet_C_132] 0.3
+[2018.10.08-21.10.08:555][705]LogBlueprintUserMessages: [PistolBullet_C_133] Hit Enemy
+[2018.10.08-21.10.08:555][705]LogBlueprintUserMessages: [PistolBullet_C_133] 0.2
+[2018.10.08-21.10.08:675][712]LogBlueprintUserMessages: [PistolBullet_C_134] Hit Enemy
+[2018.10.08-21.10.08:675][712]LogBlueprintUserMessages: [PistolBullet_C_134] 0.1
+[2018.10.08-21.10.08:774][718]LogBlueprintUserMessages: [PistolBullet_C_135] Hit Enemy
+[2018.10.08-21.10.08:774][718]LogBlueprintUserMessages: [PistolBullet_C_135] -0.0
+[2018.10.08-21.10.11:206][859]LogBlueprintUserMessages: [EnemyDamageBox_C_0] 75.0
+[2018.10.08-21.10.12:351][926]LogBlueprintUserMessages: [PistolBullet_C_141] Hit Enemy
+[2018.10.08-21.10.12:351][926]LogBlueprintUserMessages: [PistolBullet_C_141] 0.8
+[2018.10.08-21.10.12:457][932]LogBlueprintUserMessages: [PistolBullet_C_142] Hit Enemy
+[2018.10.08-21.10.12:457][932]LogBlueprintUserMessages: [PistolBullet_C_142] 0.7
+[2018.10.08-21.10.12:560][938]LogBlueprintUserMessages: [PistolBullet_C_143] Hit Enemy
+[2018.10.08-21.10.12:560][938]LogBlueprintUserMessages: [PistolBullet_C_143] 0.6
+[2018.10.08-21.10.12:660][944]LogBlueprintUserMessages: [PistolBullet_C_144] Hit Enemy
+[2018.10.08-21.10.12:661][944]LogBlueprintUserMessages: [PistolBullet_C_144] 0.5
+[2018.10.08-21.10.12:866][956]LogBlueprintUserMessages: [PistolBullet_C_145] Hit Enemy
+[2018.10.08-21.10.12:866][956]LogBlueprintUserMessages: [PistolBullet_C_145] 0.4
+[2018.10.08-21.10.12:971][962]LogBlueprintUserMessages: [PistolBullet_C_146] Hit Enemy
+[2018.10.08-21.10.12:971][962]LogBlueprintUserMessages: [PistolBullet_C_146] 0.3
+[2018.10.08-21.10.13:071][968]LogBlueprintUserMessages: [PistolBullet_C_147] Hit Enemy
+[2018.10.08-21.10.13:071][968]LogBlueprintUserMessages: [PistolBullet_C_147] 0.2
+[2018.10.08-21.10.13:173][974]LogBlueprintUserMessages: [PistolBullet_C_148] Hit Enemy
+[2018.10.08-21.10.13:173][974]LogBlueprintUserMessages: [PistolBullet_C_148] 0.1
+[2018.10.08-21.10.13:274][980]LogBlueprintUserMessages: [PistolBullet_C_149] Hit Enemy
+[2018.10.08-21.10.13:274][980]LogBlueprintUserMessages: [PistolBullet_C_149] -0.0
+[2018.10.08-21.10.13:275][980]LogScript: Warning: Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is pending kill
+	SkeletonZombie_C /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SkeletonZombie_C_2
+	Function /Game/TopDownBP/Blueprints/SkeletonZombie.SkeletonZombie_C:ExecuteUbergraph_SkeletonZombie:0296
+[2018.10.08-21.10.13:275][980]PIE: Error: Blueprint Runtime Error: "Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is pending kill". Blueprint:  SkeletonZombie Function:  Execute Ubergraph Skeleton Zombie Graph:  EventGraph Node:  Set Movement Mode
+[2018.10.08-21.10.18:952][303]LogBlueprintUserMessages: [PistolBullet_C_153] Hit Enemy
+[2018.10.08-21.10.18:953][303]LogBlueprintUserMessages: [PistolBullet_C_153] 0.9
+[2018.10.08-21.10.19:056][309]LogBlueprintUserMessages: [PistolBullet_C_154] Hit Enemy
+[2018.10.08-21.10.19:056][309]LogBlueprintUserMessages: [PistolBullet_C_154] 0.8
+[2018.10.08-21.10.19:164][315]LogBlueprintUserMessages: [PistolBullet_C_155] Hit Enemy
+[2018.10.08-21.10.19:164][315]LogBlueprintUserMessages: [PistolBullet_C_155] 0.7
+[2018.10.08-21.10.19:269][321]LogBlueprintUserMessages: [PistolBullet_C_156] Hit Enemy
+[2018.10.08-21.10.19:269][321]LogBlueprintUserMessages: [PistolBullet_C_156] 0.6
+[2018.10.08-21.10.19:372][327]LogBlueprintUserMessages: [PistolBullet_C_157] Hit Enemy
+[2018.10.08-21.10.19:373][327]LogBlueprintUserMessages: [PistolBullet_C_157] 0.5
+[2018.10.08-21.10.19:495][334]LogBlueprintUserMessages: [PistolBullet_C_158] Hit Enemy
+[2018.10.08-21.10.19:495][334]LogBlueprintUserMessages: [PistolBullet_C_158] 0.9
+[2018.10.08-21.10.19:600][340]LogBlueprintUserMessages: [PistolBullet_C_159] Hit Enemy
+[2018.10.08-21.10.19:600][340]LogBlueprintUserMessages: [PistolBullet_C_159] 0.9
+[2018.10.08-21.10.19:705][346]LogBlueprintUserMessages: [PistolBullet_C_160] Hit Enemy
+[2018.10.08-21.10.19:705][346]LogBlueprintUserMessages: [PistolBullet_C_160] 0.8
+[2018.10.08-21.10.19:808][352]LogBlueprintUserMessages: [PistolBullet_C_161] Hit Enemy
+[2018.10.08-21.10.19:808][352]LogBlueprintUserMessages: [PistolBullet_C_161] 0.7
+[2018.10.08-21.10.19:912][358]LogBlueprintUserMessages: [PistolBullet_C_162] Hit Enemy
+[2018.10.08-21.10.19:912][358]LogBlueprintUserMessages: [PistolBullet_C_162] 0.5
+[2018.10.08-21.10.20:002][363]LogBlueprintUserMessages: [PistolBullet_C_163] Hit Enemy
+[2018.10.08-21.10.20:002][363]LogBlueprintUserMessages: [PistolBullet_C_163] 0.4
+[2018.10.08-21.10.20:108][369]LogBlueprintUserMessages: [PistolBullet_C_164] Hit Enemy
+[2018.10.08-21.10.20:108][369]LogBlueprintUserMessages: [PistolBullet_C_164] 0.3
+[2018.10.08-21.10.23:262][552]LogBlueprintUserMessages: [PistolBullet_C_165] Hit Enemy
+[2018.10.08-21.10.23:262][552]LogBlueprintUserMessages: [PistolBullet_C_165] 0.6
+[2018.10.08-21.10.23:362][558]LogBlueprintUserMessages: [PistolBullet_C_166] Hit Enemy
+[2018.10.08-21.10.23:362][558]LogBlueprintUserMessages: [PistolBullet_C_166] 0.5
+[2018.10.08-21.10.23:469][564]LogBlueprintUserMessages: [PistolBullet_C_167] Hit Enemy
+[2018.10.08-21.10.23:469][564]LogBlueprintUserMessages: [PistolBullet_C_167] 0.8
+[2018.10.08-21.10.23:557][569]LogBlueprintUserMessages: [PistolBullet_C_168] Hit Enemy
+[2018.10.08-21.10.23:557][569]LogBlueprintUserMessages: [PistolBullet_C_168] 0.2
+[2018.10.08-21.10.23:662][575]LogBlueprintUserMessages: [PistolBullet_C_169] Hit Enemy
+[2018.10.08-21.10.23:662][575]LogBlueprintUserMessages: [PistolBullet_C_169] 0.1
+[2018.10.08-21.10.23:783][582]LogBlueprintUserMessages: [PistolBullet_C_170] Hit Enemy
+[2018.10.08-21.10.23:784][582]LogBlueprintUserMessages: [PistolBullet_C_170] -0.0
+[2018.10.08-21.10.23:891][588]LogBlueprintUserMessages: [PistolBullet_C_171] Hit Enemy
+[2018.10.08-21.10.23:891][588]LogBlueprintUserMessages: [PistolBullet_C_171] 0.7
+[2018.10.08-21.10.23:996][594]LogBlueprintUserMessages: [PistolBullet_C_172] Hit Enemy
+[2018.10.08-21.10.23:996][594]LogBlueprintUserMessages: [PistolBullet_C_172] 0.6
+[2018.10.08-21.10.24:102][600]LogBlueprintUserMessages: [PistolBullet_C_173] Hit Enemy
+[2018.10.08-21.10.24:102][600]LogBlueprintUserMessages: [PistolBullet_C_173] 0.4
+[2018.10.08-21.10.24:207][606]LogBlueprintUserMessages: [PistolBullet_C_174] Hit Enemy
+[2018.10.08-21.10.24:207][606]LogBlueprintUserMessages: [PistolBullet_C_174] 0.4
+[2018.10.08-21.10.24:313][612]LogBlueprintUserMessages: [PistolBullet_C_175] Hit Enemy
+[2018.10.08-21.10.24:313][612]LogBlueprintUserMessages: [PistolBullet_C_175] 0.3
+[2018.10.08-21.10.24:429][618]LogBlueprintUserMessages: [PistolBullet_C_176] Hit Enemy
+[2018.10.08-21.10.24:429][618]LogBlueprintUserMessages: [PistolBullet_C_176] 0.9
+[2018.10.08-21.10.27:086][769]LogBlueprintUserMessages: [PistolBullet_C_177] Hit Enemy
+[2018.10.08-21.10.27:086][769]LogBlueprintUserMessages: [PistolBullet_C_177] 0.5
+[2018.10.08-21.10.27:194][775]LogBlueprintUserMessages: [PistolBullet_C_178] Hit Enemy
+[2018.10.08-21.10.27:194][775]LogBlueprintUserMessages: [PistolBullet_C_178] 0.2
+[2018.10.08-21.10.27:299][781]LogBlueprintUserMessages: [PistolBullet_C_179] Hit Enemy
+[2018.10.08-21.10.27:300][781]LogBlueprintUserMessages: [PistolBullet_C_179] 0.1
+[2018.10.08-21.10.27:410][787]LogBlueprintUserMessages: [PistolBullet_C_180] Hit Enemy
+[2018.10.08-21.10.27:410][787]LogBlueprintUserMessages: [PistolBullet_C_180] -0.0
+[2018.10.08-21.10.27:534][794]LogBlueprintUserMessages: [PistolBullet_C_181] Hit Enemy
+[2018.10.08-21.10.27:534][794]LogBlueprintUserMessages: [PistolBullet_C_181] 0.3
+[2018.10.08-21.10.27:639][800]LogBlueprintUserMessages: [PistolBullet_C_182] Hit Enemy
+[2018.10.08-21.10.27:639][800]LogBlueprintUserMessages: [PistolBullet_C_182] 0.2
+[2018.10.08-21.10.27:748][806]LogBlueprintUserMessages: [PistolBullet_C_183] Hit Enemy
+[2018.10.08-21.10.27:748][806]LogBlueprintUserMessages: [PistolBullet_C_183] 0.1
+[2018.10.08-21.10.27:768][807]LogBlueprintUserMessages: [EnemyDamageBox_C_1] 50.0
+[2018.10.08-21.10.27:856][812]LogBlueprintUserMessages: [PistolBullet_C_184] Hit Enemy
+[2018.10.08-21.10.27:856][812]LogBlueprintUserMessages: [PistolBullet_C_184] -0.0
+[2018.10.08-21.10.27:966][818]LogBlueprintUserMessages: [PistolBullet_C_185] Hit Enemy
+[2018.10.08-21.10.27:966][818]LogBlueprintUserMessages: [PistolBullet_C_185] 0.4
+[2018.10.08-21.10.28:069][824]LogBlueprintUserMessages: [PistolBullet_C_186] Hit Enemy
+[2018.10.08-21.10.28:069][824]LogBlueprintUserMessages: [PistolBullet_C_186] 0.3
+[2018.10.08-21.10.28:177][830]LogBlueprintUserMessages: [PistolBullet_C_187] Hit Enemy
+[2018.10.08-21.10.28:177][830]LogBlueprintUserMessages: [PistolBullet_C_187] 0.2
+[2018.10.08-21.10.28:302][837]LogBlueprintUserMessages: [PistolBullet_C_188] Hit Enemy
+[2018.10.08-21.10.28:302][837]LogBlueprintUserMessages: [PistolBullet_C_188] 0.8
+[2018.10.08-21.10.30:367][954]LogBlueprintUserMessages: [PistolBullet_C_189] Hit Enemy
+[2018.10.08-21.10.30:367][954]LogBlueprintUserMessages: [PistolBullet_C_189] 0.9
+[2018.10.08-21.10.30:468][960]LogBlueprintUserMessages: [PistolBullet_C_190] Hit Enemy
+[2018.10.08-21.10.30:468][960]LogBlueprintUserMessages: [PistolBullet_C_190] 0.8
+[2018.10.08-21.10.30:572][966]LogBlueprintUserMessages: [PistolBullet_C_191] Hit Enemy
+[2018.10.08-21.10.30:572][966]LogBlueprintUserMessages: [PistolBullet_C_191] 0.7
+[2018.10.08-21.10.30:674][972]LogBlueprintUserMessages: [PistolBullet_C_192] Hit Enemy
+[2018.10.08-21.10.30:674][972]LogBlueprintUserMessages: [PistolBullet_C_192] 0.6
+[2018.10.08-21.10.30:775][978]LogBlueprintUserMessages: [PistolBullet_C_193] Hit Enemy
+[2018.10.08-21.10.30:775][978]LogBlueprintUserMessages: [PistolBullet_C_193] 0.5
+[2018.10.08-21.10.30:880][984]LogBlueprintUserMessages: [PistolBullet_C_194] Hit Enemy
+[2018.10.08-21.10.30:880][984]LogBlueprintUserMessages: [PistolBullet_C_194] 0.4
+[2018.10.08-21.10.30:980][990]LogBlueprintUserMessages: [PistolBullet_C_195] Hit Enemy
+[2018.10.08-21.10.30:980][990]LogBlueprintUserMessages: [PistolBullet_C_195] 0.3
+[2018.10.08-21.10.31:084][996]LogBlueprintUserMessages: [PistolBullet_C_196] Hit Enemy
+[2018.10.08-21.10.31:084][996]LogBlueprintUserMessages: [PistolBullet_C_196] 0.2
+[2018.10.08-21.10.31:189][  2]LogBlueprintUserMessages: [PistolBullet_C_197] Hit Enemy
+[2018.10.08-21.10.31:189][  2]LogBlueprintUserMessages: [PistolBullet_C_197] 0.1
+[2018.10.08-21.10.31:294][  8]LogBlueprintUserMessages: [PistolBullet_C_198] Hit Enemy
+[2018.10.08-21.10.31:294][  8]LogBlueprintUserMessages: [PistolBullet_C_198] -0.0
+[2018.10.08-21.10.31:295][  8]LogScript: Warning: Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is pending kill
+	Mutant_C /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.Mutant_C_3
+	Function /Game/TopDownBP/Blueprints/Mutant.Mutant_C:ExecuteUbergraph_Mutant:0320
+[2018.10.08-21.10.31:295][  8]PIE: Error: Blueprint Runtime Error: "Attempted to access CharMoveComp via property CharacterMovement, but CharMoveComp is pending kill". Blueprint:  Mutant Function:  Execute Ubergraph Mutant Graph:  EventGraph Node:  Set Movement Mode
+[2018.10.08-21.10.46:592][919]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.10.46:592][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-21.10.46:612][919]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-21.10.46:709][919]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.08-21.10.46:709][919]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.10.46:784][920]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.10.08-21.11.31:851][521]LogMetaData: Removing '/Game/UI-Rick/WinWidget.SKEL_WinWidget_C' ref from Metadata '/Game/UI-Rick/NewWidgetBlueprint.PackageMetaData'
+[2018.10.08-21.11.31:851][521]LogMetaData: Removing '/Game/UI-Rick/WinWidget.WinWidget_C' ref from Metadata '/Game/UI-Rick/NewWidgetBlueprint.PackageMetaData'
+[2018.10.08-21.11.31:851][521]LogMetaData: Removing '/Game/UI-Rick/WinWidget.WinWidget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI-Rick/NewWidgetBlueprint.PackageMetaData'
+[2018.10.08-21.11.31:851][521]LogMetaData: Removing '/Game/UI-Rick/WinWidget.WinWidget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI-Rick/NewWidgetBlueprint.PackageMetaData'
+[2018.10.08-21.11.31:851][521]LogMetaData: Removing '/Game/UI-Rick/WinWidget.WinWidget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI-Rick/NewWidgetBlueprint.PackageMetaData'
+[2018.10.08-21.11.31:888][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI-Rick/WinWidget" FILE="../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/UI-Rick/WinWidget.uasset" SILENT=true
+[2018.10.08-21.11.31:903][521]LogSavePackage: Moving '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/WinWidget7309CA3740D92B358A767794100D59B0.tmp' to '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/UI-Rick/WinWidget.uasset'
+[2018.10.08-21.11.34:545][661]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI-Rick/LossWidget.LossWidget
+[2018.10.08-21.11.35:462][661]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.10.08-21.11.36:692][661]LogSlate: Took 0.011818 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.08-21.11.38:952][791]BlueprintLog: New page: Compile LossWidget
+[2018.10.08-21.17.46:609][ 35]BlueprintLog: New page: Compile LossWidget
+[2018.10.08-21.18.01:029][882]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/SkeletonZombie.SkeletonZombie
+[2018.10.08-21.18.01:628][883]LogSlate: Took 0.015107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.08-21.18.19:431][935]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Parasite.Parasite
+[2018.10.08-21.18.53:647][939]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/UI-Rick/MainMenuTest' took 0.037
+[2018.10.08-21.18.53:650][939]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI-Rick/LossWidget] ([1] browsable assets)...
+[2018.10.08-21.18.53:650][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI-Rick/LossWidget]
+[2018.10.08-21.18.53:650][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI-Rick/LossWidget" FILE="../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/LossWidget_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.08-21.18.53:668][939]LogSavePackage: Moving '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/LossWidget_Auto193A24B2C466702432FEA699D67679933.tmp' to '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/UI-Rick/LossWidget_Auto1.uasset'
+[2018.10.08-21.18.53:669][939]LogFileHelpers: Auto-saving content packages took 0.021
+[2018.10.08-21.20.22:241][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI-Rick/LossWidget" FILE="../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/UI-Rick/LossWidget.uasset" SILENT=true
+[2018.10.08-21.20.22:263][251]LogSavePackage: Moving '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/LossWidget2387A00C483CF621F61B5D8CBEF055EA.tmp' to '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/UI-Rick/LossWidget.uasset'
+[2018.10.08-21.21.34:378][566]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Mutant.Mutant
+[2018.10.08-21.22.12:218][770]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2018.10.08-21.28.19:908][527]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.08-21.28.24:013][674]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-21.28.24:052][674]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.28.24:052][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-21.28.24:052][674]PIE: New page: PIE session: MainMenuTest (Oct 8, 2018, 1:28:24 PM)
+[2018.10.08-21.28.24:054][674]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.08-21.28.24:056][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001707s)
+[2018.10.08-21.28.24:057][674]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-21.28.24:057][674]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2018.10.08-21.28.24:057][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.003253s)
+[2018.10.08-21.28.24:123][674]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-21.28.24:198][674]LogInit: FAudioDevice initialized.
+[2018.10.08-21.28.24:213][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-21.28.24:333][674]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-21.28.24:334][674]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 60) at 2018.10.08-17.28.24
+[2018.10.08-21.28.24:335][674]LogWorld: Bringing up level for play took: 0.000462
+[2018.10.08-21.28.24:375][674]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 1.324
+[2018.10.08-21.28.24:375][674]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.28.26:297][786]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.08-21.28.26:297][786]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.08-21.28.26:583][786]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-21.28.26:584][786]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-21.28.26:584][786]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-21.28.26:584][786]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-21.28.26:612][786]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-21.28.26:613][786]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-21.28.26:613][786]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-21.28.26:613][786]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-21.28.27:171][786]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.08-21.28.27:171][786]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-21.28.27:182][786]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 60) at 2018.10.08-17.28.27
+[2018.10.08-21.28.27:182][786]LogWorld: Bringing up level for play took: 0.010484
+[2018.10.08-21.28.27:206][786]PIE: Warning: AttachTo: '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SPECIAL_ROOM_3A_C_0.Desk2_Blueprint' is not static  (in blueprint "SPECIAL_ROOM_3A"), cannot attach '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.Desk2_Blueprint_GEN_VARIABLE_Desk2_Blueprint_C_CAT_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.10.08-21.28.27:209][786]PIE: Warning: AttachTo: '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SPECIAL_ROOM_3A_C_0.Desk3_Blueprint' is not static  (in blueprint "SPECIAL_ROOM_3A"), cannot attach '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.Desk3_Blueprint_GEN_VARIABLE_Desk3_Blueprint_C_CAT_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.10.08-21.28.27:365][786]LogLoad: Took 1.067353 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.08-21.28.43:668][751]LogBlueprintUserMessages: [Point_1_EnemySpawn_C_0] 1 WAVE STARTS
+[2018.10.08-21.28.46:186][882]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=9316.422 Y=4643.885 Z=129.784] for [SkeletonZombie_C]
+[2018.10.08-21.28.47:187][933]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=11979.107 Y=4656.229 Z=133.952] for [Mutant_C]
+[2018.10.08-21.29.39:277][806]LogBlueprintUserMessages: [EnemyDamageBox_C_0] 75.0
+[2018.10.08-21.29.39:277][806]LogBlueprintUserMessages: [EnemyDamageBox_C_0] 50.0
+[2018.10.08-21.29.44:619][111]LogBlueprintUserMessages: [EnemyDamageBox_C_1] 25.0
+[2018.10.08-21.29.48:356][322]LogBlueprintUserMessages: [EnemyDamageBox_C_2] 0.0
+[2018.10.08-21.29.48:356][322]LogBlueprintUserMessages: [EnemyDamageBox_C_2] -25.0
+[2018.10.08-21.29.50:901][471]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.29.50:903][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-21.29.50:924][471]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-21.29.50:998][471]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.08-21.29.50:998][471]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.29.51:084][472]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.10.08-21.30.20:837][250]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/UI-Rick/MainMenuTest' took 0.039
+[2018.10.08-21.30.20:840][250]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.10.08-21.30.21:126][250]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2018.10.08-21.30.21:126][250]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2018.10.08-21.30.21:496][250]LogSavePackage: Moving '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/TopDownCharacter_Auto234B47CD844C2978E4AA9328CA1F0476D.tmp' to '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto2.uasset'
+[2018.10.08-21.30.21:498][250]LogFileHelpers: Auto-saving content packages took 0.659
+[2018.10.08-21.31.30:567][341]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.08-21.31.32:182][342]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-21.31.32:229][342]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.31.32:229][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-21.31.32:230][342]PIE: New page: PIE session: MainMenuTest (Oct 8, 2018, 1:31:32 PM)
+[2018.10.08-21.31.32:231][342]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.08-21.31.32:233][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001705s)
+[2018.10.08-21.31.32:234][342]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-21.31.32:234][342]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2018.10.08-21.31.32:234][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.002722s)
+[2018.10.08-21.31.32:305][342]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-21.31.32:378][342]LogInit: FAudioDevice initialized.
+[2018.10.08-21.31.32:393][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-21.31.32:523][342]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-21.31.32:524][342]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 60) at 2018.10.08-17.31.32
+[2018.10.08-21.31.32:525][342]LogWorld: Bringing up level for play took: 0.000509
+[2018.10.08-21.31.32:564][342]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest -0.487
+[2018.10.08-21.31.32:565][342]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.32.57:650][409]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.08-21.32.57:650][409]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.08-21.32.57:925][409]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-21.32.57:925][409]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-21.32.57:925][409]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-21.32.57:925][409]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-21.32.57:952][409]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-21.32.57:952][409]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-21.32.57:952][409]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-21.32.57:953][409]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-21.32.58:536][409]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.08-21.32.58:536][409]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-21.32.58:547][409]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 60) at 2018.10.08-17.32.58
+[2018.10.08-21.32.58:547][409]LogWorld: Bringing up level for play took: 0.010449
+[2018.10.08-21.32.59:001][409]LogLoad: Took 1.351295 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.08-21.33.24:531][374]LogBlueprintUserMessages: [Point_1_EnemySpawn_C_0] 1 WAVE STARTS
+[2018.10.08-21.33.27:069][442]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8384.043 Y=2376.387 Z=238.746] for [Exploding_Parasite_C]
+[2018.10.08-21.33.28:037][467]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2316.547 Y=6393.885 Z=129.784] for [Mutant_C]
+[2018.10.08-21.34.54:824][195]LogBlueprintUserMessages: [PistolBullet_C_0] Hit Enemy
+[2018.10.08-21.34.54:824][195]LogBlueprintUserMessages: [PistolBullet_C_0] 0.9
+[2018.10.08-21.34.55:735][224]LogBlueprintUserMessages: [PistolBullet_C_1] Hit Enemy
+[2018.10.08-21.34.55:735][224]LogBlueprintUserMessages: [PistolBullet_C_1] 0.8
+[2018.10.08-21.34.55:906][229]LogBlueprintUserMessages: [PistolBullet_C_2] Hit Enemy
+[2018.10.08-21.34.55:906][229]LogBlueprintUserMessages: [PistolBullet_C_2] 0.7
+[2018.10.08-21.34.56:034][233]LogBlueprintUserMessages: [PistolBullet_C_3] Hit Enemy
+[2018.10.08-21.34.56:034][233]LogBlueprintUserMessages: [PistolBullet_C_3] 0.6
+[2018.10.08-21.34.56:142][236]LogBlueprintUserMessages: [PistolBullet_C_4] Hit Enemy
+[2018.10.08-21.34.56:142][236]LogBlueprintUserMessages: [PistolBullet_C_4] 0.5
+[2018.10.08-21.34.56:344][242]LogBlueprintUserMessages: [PistolBullet_C_5] Hit Enemy
+[2018.10.08-21.34.56:344][242]LogBlueprintUserMessages: [PistolBullet_C_5] 0.4
+[2018.10.08-21.35.09:080][621]LogCharacterMovement: Mutant_C_1 is stuck and failed to move! Velocity: X=599.91 Y=-10.40 Z=0.00 Location: X=4300.32 Y=45.49 Z=120.15 Normal: X=-0.20 Y=0.00 Z=-0.98 PenetrationDepth:9.206 Actor:ROOM_DOOR_4_BP_C_5 Component:BLOCK BoneName:None (0 other events since notify)
+[2018.10.08-21.35.12:694][734]LogBlueprintUserMessages: [EnemyDamageBox_C_0] 75.0
+[2018.10.08-21.35.22:538][ 36]LogBlueprintUserMessages: [EnemyDamageBox_C_1] 50.0
+[2018.10.08-21.35.31:751][330]LogBlueprintUserMessages: [EnemyDamageBox_C_2] 25.0
+[2018.10.08-21.35.31:751][330]LogBlueprintUserMessages: [EnemyDamageBox_C_2] 0.0
+[2018.10.08-21.35.31:751][330]LogBlueprintUserMessages: [EnemyDamageBox_C_2] -25.0
+[2018.10.08-21.35.35:344][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.35.35:346][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-21.35.35:367][449]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-21.35.35:499][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.08-21.35.35:500][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-21.35.35:616][450]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.10.08-21.44.26:352][879]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/UI-Rick/MainMenuTest' took 0.048
+[2018.10.08-21.44.26:356][879]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.10.08-21.44.26:370][879]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2018.10.08-21.44.26:370][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2018.10.08-21.44.26:729][879]LogSavePackage: Moving '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/TopDownCharacter_Auto30BA9C94E4C58D42E822DF284A8B05C60.tmp' to '../../../../../GameDev/_Projects/A.S.H/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto3.uasset'
+[2018.10.08-21.44.26:731][879]LogFileHelpers: Auto-saving content packages took 0.377
+[2018.10.08-22.01.09:967][ 68]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.08-22.01.18:295][691]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-22.01.18:335][691]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.01.18:335][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-22.01.18:336][691]PIE: New page: PIE session: MainMenuTest (Oct 8, 2018, 2:01:18 PM)
+[2018.10.08-22.01.18:337][691]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.08-22.01.18:338][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001032s)
+[2018.10.08-22.01.18:339][691]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-22.01.18:339][691]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2018.10.08-22.01.18:339][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001828s)
+[2018.10.08-22.01.18:406][691]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-22.01.18:473][691]LogInit: FAudioDevice initialized.
+[2018.10.08-22.01.18:487][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.01.18:616][691]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.01.18:617][691]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.10.08-18.01.18
+[2018.10.08-22.01.18:617][691]LogWorld: Bringing up level for play took: 0.000484
+[2018.10.08-22.01.18:657][691]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest -0.394
+[2018.10.08-22.01.18:657][691]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.01.21:654][ 19]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.08-22.01.21:654][ 19]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.08-22.01.21:942][ 19]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.01.21:943][ 19]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.01.21:943][ 19]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.01.21:943][ 19]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.01.21:973][ 19]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.01.21:974][ 19]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.01.21:974][ 19]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.01.21:974][ 19]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.01.22:578][ 19]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.08-22.01.22:578][ 19]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.01.22:588][ 19]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 0) at 2018.10.08-18.01.22
+[2018.10.08-22.01.22:589][ 19]LogWorld: Bringing up level for play took: 0.010028
+[2018.10.08-22.01.22:786][ 19]PIE: Warning: AttachTo: '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SPECIAL_ROOM_3A_C_0.Desk2_Blueprint' is not static  (in blueprint "SPECIAL_ROOM_3A"), cannot attach '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.Desk2_Blueprint_GEN_VARIABLE_Desk2_Blueprint_C_CAT_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.10.08-22.01.22:788][ 19]PIE: Warning: AttachTo: '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SPECIAL_ROOM_3A_C_0.Desk3_Blueprint' is not static  (in blueprint "SPECIAL_ROOM_3A"), cannot attach '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.Desk3_Blueprint_GEN_VARIABLE_Desk3_Blueprint_C_CAT_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.10.08-22.01.22:851][ 19]LogLoad: Took 1.196695 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.08-22.01.37:484][985]LogBlueprintUserMessages: [Point_1_EnemySpawn_C_0] 1 WAVE STARTS
+[2018.10.08-22.01.39:013][ 53]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=9309.739 Y=4630.260 Z=129.785] for [SkeletonZombie_C]
+[2018.10.08-22.01.39:997][ 95]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=9309.739 Y=4630.259 Z=129.784] for [Exploding_Parasite_C]
+[2018.10.08-22.02.01:031][ 82]LogBlueprintUserMessages: [PistolBullet_C_2] Hit Enemy
+[2018.10.08-22.02.01:031][ 82]LogBlueprintUserMessages: [PistolBullet_C_2] 0.9
+[2018.10.08-22.02.01:722][115]LogBlueprintUserMessages: [PistolBullet_C_4] Hit Enemy
+[2018.10.08-22.02.01:722][115]LogBlueprintUserMessages: [PistolBullet_C_4] 0.9
+[2018.10.08-22.02.01:807][119]LogBlueprintUserMessages: [PistolBullet_C_5] Hit Enemy
+[2018.10.08-22.02.01:807][119]LogBlueprintUserMessages: [PistolBullet_C_5] 0.9
+[2018.10.08-22.02.02:139][135]LogBlueprintUserMessages: [PistolBullet_C_8] Hit Enemy
+[2018.10.08-22.02.02:139][135]LogBlueprintUserMessages: [PistolBullet_C_8] 0.8
+[2018.10.08-22.02.02:244][140]LogBlueprintUserMessages: [PistolBullet_C_9] Hit Enemy
+[2018.10.08-22.02.02:244][140]LogBlueprintUserMessages: [PistolBullet_C_9] 0.7
+[2018.10.08-22.02.03:870][216]LogBlueprintUserMessages: [PistolBullet_C_10] Hit Enemy
+[2018.10.08-22.02.03:870][216]LogBlueprintUserMessages: [PistolBullet_C_10] 0.8
+[2018.10.08-22.02.03:950][220]LogBlueprintUserMessages: [PistolBullet_C_11] Hit Enemy
+[2018.10.08-22.02.03:951][220]LogBlueprintUserMessages: [PistolBullet_C_11] 0.9
+[2018.10.08-22.02.07:068][366]LogBlueprintUserMessages: [PistolBullet_C_12] Hit Enemy
+[2018.10.08-22.02.07:068][366]LogBlueprintUserMessages: [PistolBullet_C_12] 0.9
+[2018.10.08-22.02.07:259][375]LogBlueprintUserMessages: [PistolBullet_C_13] Hit Enemy
+[2018.10.08-22.02.07:259][375]LogBlueprintUserMessages: [PistolBullet_C_13] 0.9
+[2018.10.08-22.02.15:579][759]LogBlueprintUserMessages: [PistolBullet_C_14] Hit Enemy
+[2018.10.08-22.02.15:579][759]LogBlueprintUserMessages: [PistolBullet_C_14] 0.8
+[2018.10.08-22.02.15:699][764]LogBlueprintUserMessages: [PistolBullet_C_15] Hit Enemy
+[2018.10.08-22.02.15:699][764]LogBlueprintUserMessages: [PistolBullet_C_15] 0.7
+[2018.10.08-22.02.15:815][769]LogBlueprintUserMessages: [PistolBullet_C_16] Hit Enemy
+[2018.10.08-22.02.15:815][769]LogBlueprintUserMessages: [PistolBullet_C_16] 0.7
+[2018.10.08-22.02.15:926][774]LogBlueprintUserMessages: [PistolBullet_C_17] Hit Enemy
+[2018.10.08-22.02.15:926][774]LogBlueprintUserMessages: [PistolBullet_C_17] 0.6
+[2018.10.08-22.02.16:039][779]LogBlueprintUserMessages: [PistolBullet_C_18] Hit Enemy
+[2018.10.08-22.02.16:039][779]LogBlueprintUserMessages: [PistolBullet_C_18] 0.5
+[2018.10.08-22.02.20:194][968]LogCharacterMovement: Parasite_C_4 is stuck and failed to move! Velocity: X=5.20 Y=176.50 Z=0.00 Location: X=8801.97 Y=6050.64 Z=96.09 Normal: X=0.00 Y=-0.27 Z=-0.96 PenetrationDepth:10.772 Actor:ROOM_DOOR_2_BP_C_41 Component:BLOCK BoneName:None (0 other events since notify)
+[2018.10.08-22.02.25:185][201]LogBlueprintUserMessages: [PistolBullet_C_24] Hit Enemy
+[2018.10.08-22.02.25:185][201]LogBlueprintUserMessages: [PistolBullet_C_24] 0.9
+[2018.10.08-22.02.25:286][206]LogBlueprintUserMessages: [PistolBullet_C_25] Hit Enemy
+[2018.10.08-22.02.25:286][206]LogBlueprintUserMessages: [PistolBullet_C_25] 0.8
+[2018.10.08-22.02.30:088][435]LogBlueprintUserMessages: [PistolBullet_C_26] Hit Enemy
+[2018.10.08-22.02.30:088][435]LogBlueprintUserMessages: [PistolBullet_C_26] 0.8
+[2018.10.08-22.02.30:195][440]LogBlueprintUserMessages: [PistolBullet_C_27] Hit Enemy
+[2018.10.08-22.02.30:195][440]LogBlueprintUserMessages: [PistolBullet_C_27] 0.7
+[2018.10.08-22.02.30:306][445]LogBlueprintUserMessages: [PistolBullet_C_28] Hit Enemy
+[2018.10.08-22.02.30:306][445]LogBlueprintUserMessages: [PistolBullet_C_28] 0.6
+[2018.10.08-22.02.30:411][450]LogBlueprintUserMessages: [PistolBullet_C_29] Hit Enemy
+[2018.10.08-22.02.30:411][450]LogBlueprintUserMessages: [PistolBullet_C_29] 0.5
+[2018.10.08-22.02.30:518][455]LogBlueprintUserMessages: [PistolBullet_C_30] Hit Enemy
+[2018.10.08-22.02.30:518][455]LogBlueprintUserMessages: [PistolBullet_C_30] 0.4
+[2018.10.08-22.02.30:621][460]LogBlueprintUserMessages: [PistolBullet_C_31] Hit Enemy
+[2018.10.08-22.02.30:621][460]LogBlueprintUserMessages: [PistolBullet_C_31] 0.3
+[2018.10.08-22.02.30:728][465]LogBlueprintUserMessages: [PistolBullet_C_32] Hit Enemy
+[2018.10.08-22.02.30:728][465]LogBlueprintUserMessages: [PistolBullet_C_32] 0.2
+[2018.10.08-22.02.30:830][470]LogBlueprintUserMessages: [PistolBullet_C_33] Hit Enemy
+[2018.10.08-22.02.30:830][470]LogBlueprintUserMessages: [PistolBullet_C_33] 0.1
+[2018.10.08-22.02.30:936][475]LogBlueprintUserMessages: [PistolBullet_C_34] Hit Enemy
+[2018.10.08-22.02.30:936][475]LogBlueprintUserMessages: [PistolBullet_C_34] -0.0
+[2018.10.08-22.02.35:347][687]LogBlueprintUserMessages: [PistolBullet_C_36] Hit Enemy
+[2018.10.08-22.02.35:347][687]LogBlueprintUserMessages: [PistolBullet_C_36] 0.7
+[2018.10.08-22.02.35:449][692]LogBlueprintUserMessages: [PistolBullet_C_37] Hit Enemy
+[2018.10.08-22.02.35:449][692]LogBlueprintUserMessages: [PistolBullet_C_37] 0.6
+[2018.10.08-22.02.35:569][698]LogBlueprintUserMessages: [PistolBullet_C_38] Hit Enemy
+[2018.10.08-22.02.35:569][698]LogBlueprintUserMessages: [PistolBullet_C_38] 0.5
+[2018.10.08-22.02.35:689][704]LogBlueprintUserMessages: [PistolBullet_C_39] Hit Enemy
+[2018.10.08-22.02.35:689][704]LogBlueprintUserMessages: [PistolBullet_C_39] 0.4
+[2018.10.08-22.02.35:778][708]LogBlueprintUserMessages: [PistolBullet_C_40] Hit Enemy
+[2018.10.08-22.02.35:778][708]LogBlueprintUserMessages: [PistolBullet_C_40] 0.3
+[2018.10.08-22.02.35:905][714]LogBlueprintUserMessages: [PistolBullet_C_41] Hit Enemy
+[2018.10.08-22.02.35:905][714]LogBlueprintUserMessages: [PistolBullet_C_41] 0.2
+[2018.10.08-22.02.36:011][719]LogBlueprintUserMessages: [PistolBullet_C_42] Hit Enemy
+[2018.10.08-22.02.36:011][719]LogBlueprintUserMessages: [PistolBullet_C_42] 0.1
+[2018.10.08-22.02.36:922][761]LogBlueprintUserMessages: [PistolBullet_C_43] Hit Enemy
+[2018.10.08-22.02.36:922][761]LogBlueprintUserMessages: [PistolBullet_C_43] -0.0
+[2018.10.08-22.02.37:071][768]LogBlueprintUserMessages: [PistolBullet_C_44] Hit Enemy
+[2018.10.08-22.02.37:071][768]LogBlueprintUserMessages: [PistolBullet_C_44] 0.4
+[2018.10.08-22.02.38:281][827]LogBlueprintUserMessages: [PistolBullet_C_45] Hit Enemy
+[2018.10.08-22.02.38:281][827]LogBlueprintUserMessages: [PistolBullet_C_45] 0.3
+[2018.10.08-22.02.38:407][833]LogBlueprintUserMessages: [PistolBullet_C_46] Hit Enemy
+[2018.10.08-22.02.38:407][833]LogBlueprintUserMessages: [PistolBullet_C_46] 0.2
+[2018.10.08-22.02.38:503][838]LogBlueprintUserMessages: [PistolBullet_C_47] Hit Enemy
+[2018.10.08-22.02.38:503][838]LogBlueprintUserMessages: [PistolBullet_C_47] 0.1
+[2018.10.08-22.02.45:030][153]LogBlueprintUserMessages: [PistolBullet_C_49] Hit Enemy
+[2018.10.08-22.02.45:030][153]LogBlueprintUserMessages: [PistolBullet_C_49] -0.0
+[2018.10.08-22.02.47:624][283]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.02.47:625][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.02.47:646][283]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-22.02.47:740][283]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.08-22.02.47:740][283]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.02.47:797][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.02.47:836][284]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.10.08-22.02.54:010][ 11]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-22.02.54:047][ 11]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.02.54:047][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-22.02.54:047][ 11]PIE: New page: PIE session: MainMenuTest (Oct 8, 2018, 2:02:54 PM)
+[2018.10.08-22.02.54:048][ 11]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.08-22.02.54:050][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001083s)
+[2018.10.08-22.02.54:050][ 11]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-22.02.54:050][ 11]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2018.10.08-22.02.54:050][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001851s)
+[2018.10.08-22.02.54:108][ 11]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-22.02.54:175][ 11]LogInit: FAudioDevice initialized.
+[2018.10.08-22.02.54:187][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.02.54:310][ 11]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.02.54:312][ 11]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.10.08-18.02.54
+[2018.10.08-22.02.54:312][ 11]LogWorld: Bringing up level for play took: 0.000516
+[2018.10.08-22.02.54:350][ 11]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 1.299
+[2018.10.08-22.02.54:351][ 11]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.02.56:138][190]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.08-22.02.56:138][190]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.08-22.02.56:422][190]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.02.56:422][190]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.02.56:423][190]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.02.56:423][190]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.02.56:456][190]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.02.56:456][190]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.02.56:456][190]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.02.56:457][190]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.02.57:055][190]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.08-22.02.57:055][190]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.02.57:066][190]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 0) at 2018.10.08-18.02.57
+[2018.10.08-22.02.57:067][190]LogWorld: Bringing up level for play took: 0.010568
+[2018.10.08-22.02.57:485][190]LogLoad: Took 1.347581 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.08-22.03.15:690][156]LogBlueprintUserMessages: [Point_1_EnemySpawn_C_0] 1 WAVE STARTS
+[2018.10.08-22.03.42:711][207]LogBlueprintUserMessages: [PistolBullet_C_7] Hit Enemy
+[2018.10.08-22.03.42:711][207]LogBlueprintUserMessages: [PistolBullet_C_7] 0.9
+[2018.10.08-22.03.42:812][211]LogBlueprintUserMessages: [PistolBullet_C_8] Hit Enemy
+[2018.10.08-22.03.42:812][211]LogBlueprintUserMessages: [PistolBullet_C_8] 0.8
+[2018.10.08-22.03.42:941][216]LogBlueprintUserMessages: [PistolBullet_C_9] Hit Enemy
+[2018.10.08-22.03.42:941][216]LogBlueprintUserMessages: [PistolBullet_C_9] 0.7
+[2018.10.08-22.03.43:036][220]LogBlueprintUserMessages: [PistolBullet_C_10] Hit Enemy
+[2018.10.08-22.03.43:036][220]LogBlueprintUserMessages: [PistolBullet_C_10] 0.6
+[2018.10.08-22.04.16:852][558]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.04.16:853][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.04.16:879][558]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-22.04.17:009][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.08-22.04.17:010][558]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.04.17:080][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.04.17:108][559]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.10.08-22.04.18:881][766]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-22.04.18:918][766]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.04.18:918][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-22.04.18:918][766]PIE: New page: PIE session: MainMenuTest (Oct 8, 2018, 2:04:18 PM)
+[2018.10.08-22.04.18:920][766]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.08-22.04.18:921][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001399s)
+[2018.10.08-22.04.18:922][766]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-22.04.18:922][766]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2018.10.08-22.04.18:922][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.002324s)
+[2018.10.08-22.04.18:980][766]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-22.04.19:049][766]LogInit: FAudioDevice initialized.
+[2018.10.08-22.04.19:064][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.04.19:191][766]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.04.19:191][766]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.10.08-18.04.19
+[2018.10.08-22.04.19:192][766]LogWorld: Bringing up level for play took: 0.000457
+[2018.10.08-22.04.19:232][766]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 0.18
+[2018.10.08-22.04.19:232][766]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.04.20:945][945]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.08-22.04.20:945][945]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.08-22.04.21:219][945]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.04.21:219][945]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.04.21:219][945]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.04.21:219][945]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.04.21:249][945]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.04.21:249][945]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.04.21:250][945]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.04.21:250][945]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.04.21:837][945]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.08-22.04.21:837][945]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.04.21:847][945]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 0) at 2018.10.08-18.04.21
+[2018.10.08-22.04.21:847][945]LogWorld: Bringing up level for play took: 0.009206
+[2018.10.08-22.04.22:190][945]LogLoad: Took 1.245283 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.08-22.04.38:672][911]LogBlueprintUserMessages: [Point_1_EnemySpawn_C_0] 1 WAVE STARTS
+[2018.10.08-22.04.41:184][  9]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=14566.547 Y=11643.885 Z=129.784] for [SkeletonZombie_C]
+[2018.10.08-22.04.43:652][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.04.43:653][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.04.43:673][112]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-22.04.43:787][112]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.08-22.04.43:787][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.04.43:848][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.04.43:880][113]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.10.08-22.04.45:719][322]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-22.04.45:758][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.04.45:758][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-22.04.45:758][322]PIE: New page: PIE session: MainMenuTest (Oct 8, 2018, 2:04:45 PM)
+[2018.10.08-22.04.45:760][322]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.08-22.04.45:762][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001836s)
+[2018.10.08-22.04.45:763][322]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-22.04.45:763][322]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2018.10.08-22.04.45:763][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.002840s)
+[2018.10.08-22.04.45:819][322]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-22.04.45:887][322]LogInit: FAudioDevice initialized.
+[2018.10.08-22.04.45:901][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.04.46:023][322]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.04.46:024][322]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.10.08-18.04.46
+[2018.10.08-22.04.46:024][322]LogWorld: Bringing up level for play took: 0.000337
+[2018.10.08-22.04.46:065][322]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 1.014
+[2018.10.08-22.04.46:065][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.04.47:803][508]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.08-22.04.47:803][508]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.08-22.04.48:091][508]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.04.48:091][508]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.04.48:092][508]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.04.48:092][508]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.04.48:122][508]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.04.48:122][508]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.04.48:123][508]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.04.48:123][508]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.04.48:717][508]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.08-22.04.48:718][508]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.04.48:728][508]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 0) at 2018.10.08-18.04.48
+[2018.10.08-22.04.48:728][508]LogWorld: Bringing up level for play took: 0.009106
+[2018.10.08-22.04.49:071][508]LogLoad: Took 1.267462 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.08-22.04.54:861][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.05.05:316][474]LogBlueprintUserMessages: [Point_1_EnemySpawn_C_0] 1 WAVE STARTS
+[2018.10.08-22.05.08:838][604]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=6623.542 Y=-2873.613 Z=218.071] for [SkeletonZombie_C]
+[2018.10.08-22.05.17:475][982]LogBlueprintUserMessages: [PistolBullet_C_0] Hit Enemy
+[2018.10.08-22.05.17:475][982]LogBlueprintUserMessages: [PistolBullet_C_0] 0.9
+[2018.10.08-22.05.17:619][988]LogBlueprintUserMessages: [PistolBullet_C_1] Hit Enemy
+[2018.10.08-22.05.17:619][988]LogBlueprintUserMessages: [PistolBullet_C_1] 0.8
+[2018.10.08-22.05.17:737][993]LogBlueprintUserMessages: [PistolBullet_C_2] Hit Enemy
+[2018.10.08-22.05.17:737][993]LogBlueprintUserMessages: [PistolBullet_C_2] 0.7
+[2018.10.08-22.05.17:889][999]LogBlueprintUserMessages: [PistolBullet_C_3] Hit Enemy
+[2018.10.08-22.05.17:889][999]LogBlueprintUserMessages: [PistolBullet_C_3] 0.9
+[2018.10.08-22.05.17:991][  3]LogBlueprintUserMessages: [PistolBullet_C_4] Hit Enemy
+[2018.10.08-22.05.17:991][  3]LogBlueprintUserMessages: [PistolBullet_C_4] 0.8
+[2018.10.08-22.05.18:109][  8]LogBlueprintUserMessages: [PistolBullet_C_5] Hit Enemy
+[2018.10.08-22.05.18:109][  8]LogBlueprintUserMessages: [PistolBullet_C_5] 0.7
+[2018.10.08-22.05.18:228][ 13]LogBlueprintUserMessages: [PistolBullet_C_6] Hit Enemy
+[2018.10.08-22.05.18:228][ 13]LogBlueprintUserMessages: [PistolBullet_C_6] 0.6
+[2018.10.08-22.05.18:372][ 19]LogBlueprintUserMessages: [PistolBullet_C_7] Hit Enemy
+[2018.10.08-22.05.18:372][ 19]LogBlueprintUserMessages: [PistolBullet_C_7] 0.6
+[2018.10.08-22.05.18:469][ 23]LogBlueprintUserMessages: [PistolBullet_C_8] Hit Enemy
+[2018.10.08-22.05.18:469][ 23]LogBlueprintUserMessages: [PistolBullet_C_8] 0.5
+[2018.10.08-22.05.18:612][ 29]LogBlueprintUserMessages: [PistolBullet_C_9] Hit Enemy
+[2018.10.08-22.05.18:612][ 29]LogBlueprintUserMessages: [PistolBullet_C_9] 0.4
+[2018.10.08-22.05.18:729][ 34]LogBlueprintUserMessages: [PistolBullet_C_10] Hit Enemy
+[2018.10.08-22.05.18:729][ 34]LogBlueprintUserMessages: [PistolBullet_C_10] 0.3
+[2018.10.08-22.05.24:520][296]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.05.24:521][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.05.24:542][296]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-22.05.24:652][296]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.08-22.05.24:652][296]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.05.24:714][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.05.24:745][297]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.10.08-22.05.29:947][906]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-22.05.29:984][906]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.05.29:984][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-22.05.29:984][906]PIE: New page: PIE session: MainMenuTest (Oct 8, 2018, 2:05:29 PM)
+[2018.10.08-22.05.29:985][906]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.08-22.05.29:986][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000927s)
+[2018.10.08-22.05.29:987][906]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-22.05.29:987][906]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2018.10.08-22.05.29:987][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001646s)
+[2018.10.08-22.05.30:045][906]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-22.05.30:117][906]LogInit: FAudioDevice initialized.
+[2018.10.08-22.05.30:131][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.05.30:258][906]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.05.30:259][906]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.10.08-18.05.30
+[2018.10.08-22.05.30:260][906]LogWorld: Bringing up level for play took: 0.000475
+[2018.10.08-22.05.30:300][906]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 1.249
+[2018.10.08-22.05.30:301][906]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.05.31:992][ 84]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.08-22.05.31:992][ 84]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.08-22.05.32:291][ 84]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.05.32:291][ 84]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.05.32:292][ 84]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.05.32:292][ 84]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.05.32:324][ 84]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.05.32:324][ 84]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.05.32:325][ 84]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.05.32:325][ 84]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.05.32:917][ 84]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.08-22.05.32:918][ 84]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.05.32:929][ 84]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 0) at 2018.10.08-18.05.32
+[2018.10.08-22.05.32:929][ 84]LogWorld: Bringing up level for play took: 0.010637
+[2018.10.08-22.05.33:201][ 84]LogLoad: Took 1.209172 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.08-22.05.48:182][ 50]LogBlueprintUserMessages: [Point_1_EnemySpawn_C_0] 1 WAVE STARTS
+[2018.10.08-22.05.51:204][180]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=15373.668 Y=5876.387 Z=218.071] for [Mutant_C]
+[2018.10.08-22.06.18:760][480]LogBlueprintUserMessages: [PistolBullet_C_2] Hit Enemy
+[2018.10.08-22.06.18:760][480]LogBlueprintUserMessages: [PistolBullet_C_2] 0.9
+[2018.10.08-22.06.18:864][485]LogBlueprintUserMessages: [PistolBullet_C_3] Hit Enemy
+[2018.10.08-22.06.18:864][485]LogBlueprintUserMessages: [PistolBullet_C_3] 0.8
+[2018.10.08-22.06.18:950][489]LogBlueprintUserMessages: [PistolBullet_C_4] Hit Enemy
+[2018.10.08-22.06.18:950][489]LogBlueprintUserMessages: [PistolBullet_C_4] 0.7
+[2018.10.08-22.06.19:063][494]LogBlueprintUserMessages: [PistolBullet_C_5] Hit Enemy
+[2018.10.08-22.06.19:063][494]LogBlueprintUserMessages: [PistolBullet_C_5] 0.6
+[2018.10.08-22.06.19:170][499]LogBlueprintUserMessages: [PistolBullet_C_6] Hit Enemy
+[2018.10.08-22.06.19:170][499]LogBlueprintUserMessages: [PistolBullet_C_6] 0.5
+[2018.10.08-22.06.19:275][504]LogBlueprintUserMessages: [PistolBullet_C_7] Hit Enemy
+[2018.10.08-22.06.19:275][504]LogBlueprintUserMessages: [PistolBullet_C_7] 0.4
+[2018.10.08-22.06.19:379][509]LogBlueprintUserMessages: [PistolBullet_C_8] Hit Enemy
+[2018.10.08-22.06.19:379][509]LogBlueprintUserMessages: [PistolBullet_C_8] 0.3
+[2018.10.08-22.06.19:478][514]LogBlueprintUserMessages: [PistolBullet_C_9] Hit Enemy
+[2018.10.08-22.06.19:479][514]LogBlueprintUserMessages: [PistolBullet_C_9] 0.2
+[2018.10.08-22.06.19:590][519]LogBlueprintUserMessages: [PistolBullet_C_10] Hit Enemy
+[2018.10.08-22.06.19:590][519]LogBlueprintUserMessages: [PistolBullet_C_10] 0.1
+[2018.10.08-22.06.19:715][525]LogBlueprintUserMessages: [PistolBullet_C_11] Hit Enemy
+[2018.10.08-22.06.19:715][525]LogBlueprintUserMessages: [PistolBullet_C_11] -0.0
+[2018.10.08-22.06.30:011][  5]LogBlueprintUserMessages: [PistolBullet_C_12] Hit Enemy
+[2018.10.08-22.06.30:011][  5]LogBlueprintUserMessages: [PistolBullet_C_12] 0.9
+[2018.10.08-22.06.30:137][ 11]LogBlueprintUserMessages: [PistolBullet_C_13] Hit Enemy
+[2018.10.08-22.06.30:137][ 11]LogBlueprintUserMessages: [PistolBullet_C_13] 0.8
+[2018.10.08-22.06.30:224][ 15]LogBlueprintUserMessages: [PistolBullet_C_14] Hit Enemy
+[2018.10.08-22.06.30:224][ 15]LogBlueprintUserMessages: [PistolBullet_C_14] 0.7
+[2018.10.08-22.06.30:346][ 21]LogBlueprintUserMessages: [PistolBullet_C_15] Hit Enemy
+[2018.10.08-22.06.30:346][ 21]LogBlueprintUserMessages: [PistolBullet_C_15] 0.6
+[2018.10.08-22.06.30:432][ 25]LogBlueprintUserMessages: [PistolBullet_C_16] Hit Enemy
+[2018.10.08-22.06.30:432][ 25]LogBlueprintUserMessages: [PistolBullet_C_16] 0.5
+[2018.10.08-22.06.30:552][ 31]LogBlueprintUserMessages: [PistolBullet_C_17] Hit Enemy
+[2018.10.08-22.06.30:552][ 31]LogBlueprintUserMessages: [PistolBullet_C_17] 0.4
+[2018.10.08-22.06.33:093][151]LogBlueprintUserMessages: [PistolBullet_C_18] Hit Enemy
+[2018.10.08-22.06.33:093][151]LogBlueprintUserMessages: [PistolBullet_C_18] 0.3
+[2018.10.08-22.06.33:208][156]LogBlueprintUserMessages: [PistolBullet_C_19] Hit Enemy
+[2018.10.08-22.06.33:208][156]LogBlueprintUserMessages: [PistolBullet_C_19] 0.2
+[2018.10.08-22.06.33:314][161]LogBlueprintUserMessages: [PistolBullet_C_20] Hit Enemy
+[2018.10.08-22.06.33:314][161]LogBlueprintUserMessages: [PistolBullet_C_20] 0.1
+[2018.10.08-22.06.33:420][166]LogBlueprintUserMessages: [PistolBullet_C_21] Hit Enemy
+[2018.10.08-22.06.33:420][166]LogBlueprintUserMessages: [PistolBullet_C_21] -0.0
+[2018.10.08-22.06.33:907][190]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.06.33:907][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.06.33:930][190]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-22.06.34:025][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.08-22.06.34:025][190]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.06.34:087][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.06.34:110][191]Cmd: SELECT NONE
+[2018.10.08-22.06.34:222][191]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.10.08-22.07.22:027][235]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-22.07.22:068][235]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.07.22:069][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-22.07.22:069][235]PIE: New page: PIE session: MainMenuTest (Oct 8, 2018, 2:07:22 PM)
+[2018.10.08-22.07.22:070][235]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.08-22.07.22:071][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001071s)
+[2018.10.08-22.07.22:071][235]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-22.07.22:071][235]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2018.10.08-22.07.22:071][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001820s)
+[2018.10.08-22.07.22:129][235]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-22.07.22:198][235]LogInit: FAudioDevice initialized.
+[2018.10.08-22.07.22:210][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.07.22:294][235]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.07.22:295][235]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.10.08-18.07.22
+[2018.10.08-22.07.22:296][235]LogWorld: Bringing up level for play took: 0.000512
+[2018.10.08-22.07.22:316][235]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 1.265
+[2018.10.08-22.07.22:316][235]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.07.24:156][339]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.08-22.07.24:156][339]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.08-22.07.24:434][339]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.07.24:434][339]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.07.24:435][339]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.07.24:435][339]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.07.24:465][339]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.07.24:465][339]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.07.24:465][339]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.07.24:465][339]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.07.25:059][339]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.08-22.07.25:059][339]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.07.25:072][339]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 0) at 2018.10.08-18.07.25
+[2018.10.08-22.07.25:072][339]LogWorld: Bringing up level for play took: 0.012605
+[2018.10.08-22.07.25:099][339]PIE: Warning: AttachTo: '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SPECIAL_ROOM_2A_C_0.Desk1_Blueprint' is not static  (in blueprint "SPECIAL_ROOM_2A"), cannot attach '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.Desk1_Blueprint_GEN_VARIABLE_Desk1_Blueprint_C_CAT_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.10.08-22.07.25:331][339]LogLoad: Took 1.174760 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.08-22.07.29:918][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.07.29:919][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.07.29:939][531]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-22.07.30:028][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.08-22.07.30:028][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.07.30:139][532]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.10.08-22.08.31:378][759]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.08-22.08.33:048][790]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-22.08.33:088][790]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.08.33:088][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-22.08.33:088][790]PIE: New page: PIE session: MainMenuTest (Oct 8, 2018, 2:08:33 PM)
+[2018.10.08-22.08.33:089][790]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.08-22.08.33:090][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000949s)
+[2018.10.08-22.08.33:091][790]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-22.08.33:091][790]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2018.10.08-22.08.33:091][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001680s)
+[2018.10.08-22.08.33:164][790]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-22.08.33:237][790]LogInit: FAudioDevice initialized.
+[2018.10.08-22.08.33:247][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.08.33:372][790]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.08.33:373][790]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.10.08-18.08.33
+[2018.10.08-22.08.33:373][790]LogWorld: Bringing up level for play took: 0.000536
+[2018.10.08-22.08.33:411][790]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest 0.36
+[2018.10.08-22.08.33:411][790]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.08.35:206][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.08.35:327][894]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.08-22.08.35:327][894]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.08-22.08.35:617][894]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.08.35:617][894]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.08.35:617][894]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.08.35:617][894]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.08.35:647][894]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.08.35:647][894]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.08.35:647][894]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.08.35:647][894]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.08.36:240][894]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.08-22.08.36:240][894]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.08.36:252][894]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 0) at 2018.10.08-18.08.36
+[2018.10.08-22.08.36:252][894]LogWorld: Bringing up level for play took: 0.011171
+[2018.10.08-22.08.36:333][894]PIE: Warning: AttachTo: '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SPECIAL_ROOM_2A_C_0.Desk1_Blueprint' is not static  (in blueprint "SPECIAL_ROOM_2A"), cannot attach '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.Desk1_Blueprint_GEN_VARIABLE_Desk1_Blueprint_C_CAT_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.10.08-22.08.36:466][894]LogLoad: Took 1.139227 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.08-22.08.57:524][859]LogBlueprintUserMessages: [Point_1_EnemySpawn_C_0] 1 WAVE STARTS
+[2018.10.08-22.09.00:057][939]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=6623.668 Y=2376.387 Z=218.071] for [Mutant_C]
+[2018.10.08-22.09.00:061][939]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=6623.668 Y=2376.387 Z=218.071] for [SkeletonZombie_C]
+[2018.10.08-22.09.08:857][228]LogBlueprintUserMessages: [EnemyDamageBox_C_0] 75.0
+[2018.10.08-22.09.10:395][283]LogBlueprintUserMessages: [EnemyDamageBox_C_1] 50.0
+[2018.10.08-22.09.14:227][421]LogBlueprintUserMessages: [EnemyDamageBox_C_2] 25.0
+[2018.10.08-22.09.14:227][421]LogBlueprintUserMessages: [EnemyDamageBox_C_2] 0.0
+[2018.10.08-22.09.14:227][421]LogBlueprintUserMessages: [EnemyDamageBox_C_2] -25.0
+[2018.10.08-22.09.14:227][421]LogBlueprintUserMessages: [EnemyDamageBox_C_2] -50.0
+[2018.10.08-22.09.17:721][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.09.20:034][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.09.21:890][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.09.24:243][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.09.24:692][804]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.09.24:698][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.09.24:718][804]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-22.09.24:806][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.08-22.09.24:806][804]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.09.24:935][805]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.10.08-22.09.44:311][ 39]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.08-22.09.45:139][ 39]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.08-22.09.48:676][191]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.08-22.09.50:240][215]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-22.09.50:280][215]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.09.50:280][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-22.09.50:281][215]PIE: New page: PIE session: MainMenuTest (Oct 8, 2018, 2:09:50 PM)
+[2018.10.08-22.09.50:282][215]LogPlayLevel: Creating play world package: /Game/UI-Rick/UEDPIE_0_MainMenuTest
+[2018.10.08-22.09.50:283][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000966s)
+[2018.10.08-22.09.50:283][215]LogAIModule: Creating AISystem for world MainMenuTest
+[2018.10.08-22.09.50:284][215]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2018.10.08-22.09.50:284][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UI-Rick/MainMenuTest.MainMenuTest to /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest (0.001673s)
+[2018.10.08-22.09.50:346][215]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.08-22.09.50:413][215]LogInit: FAudioDevice initialized.
+[2018.10.08-22.09.50:427][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.09.50:553][215]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.09.50:554][215]LogWorld: Bringing World /Game/UI-Rick/UEDPIE_0_MainMenuTest.MainMenuTest up for play (max tick rate 0) at 2018.10.08-18.09.50
+[2018.10.08-22.09.50:554][215]LogWorld: Bringing up level for play took: 0.000389
+[2018.10.08-22.09.50:594][215]PIE: Play in editor start time for /Game/UI-Rick/UEDPIE_0_MainMenuTest -0.456
+[2018.10.08-22.09.50:595][215]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.09.52:007][289]LogNet: Browse: /Game/Beta/MapGeneration
+[2018.10.08-22.09.52:007][289]LogLoad: LoadMap: /Game/Beta/MapGeneration
+[2018.10.08-22.09.52:295][289]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.09.52:296][289]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.09.52:296][289]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion'
+[2018.10.08-22.09.52:296][289]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Explosion' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Explosion_BP.uasset.
+[2018.10.08-22.09.52:328][289]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.09.52:328][289]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.09.52:328][289]LogLinker: Warning: Can't find file '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks'
+[2018.10.08-22.09.52:328][289]LogLinker: Warning: Can't find file for asset '/Game/TopDownBP/Blueprints/Weapons/Particles/P_Sparks' while loading ../../../../../GameDev/_Projects/A.S.H/ASH_Game/Content/TopDownBP/Blueprints/Generator_BP.uasset.
+[2018.10.08-22.09.52:896][289]LogAIModule: Creating AISystem for world MapGeneration
+[2018.10.08-22.09.52:897][289]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.08-22.09.52:908][289]LogWorld: Bringing World /Game/Beta/UEDPIE_0_MapGeneration.MapGeneration up for play (max tick rate 0) at 2018.10.08-18.09.52
+[2018.10.08-22.09.52:908][289]LogWorld: Bringing up level for play took: 0.010581
+[2018.10.08-22.09.52:931][289]PIE: Warning: AttachTo: '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.SPECIAL_ROOM_2A_C_0.Desk1_Blueprint' is not static  (in blueprint "SPECIAL_ROOM_2A"), cannot attach '/Game/Beta/UEDPIE_0_MapGeneration.MapGeneration:PersistentLevel.Desk1_Blueprint_GEN_VARIABLE_Desk1_Blueprint_C_CAT_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.10.08-22.09.53:243][289]LogLoad: Took 1.235532 seconds to LoadMap(/Game/Beta/MapGeneration)
+[2018.10.08-22.10.16:858][254]LogBlueprintUserMessages: [Point_1_EnemySpawn_C_0] 1 WAVE STARTS
+[2018.10.08-22.12.10:625][954]LogBlueprintUserMessages: [EnemyDamageBox_C_0] 75.0
+[2018.10.08-22.12.21:082][280]LogBlueprintUserMessages: [EnemyDamageBox_C_1] 50.0
+[2018.10.08-22.12.21:082][280]LogBlueprintUserMessages: [EnemyDamageBox_C_1] 25.0
+[2018.10.08-22.12.21:082][280]LogBlueprintUserMessages: [EnemyDamageBox_C_1] 0.0
+[2018.10.08-22.12.21:114][281]LogBlueprintUserMessages: [EnemyDamageBox_C_1] -25.0
+[2018.10.08-22.12.21:114][281]LogBlueprintUserMessages: [EnemyDamageBox_C_1] -50.0
+[2018.10.08-22.12.21:147][282]LogBlueprintUserMessages: [EnemyDamageBox_C_1] -75.0
+[2018.10.08-22.12.24:691][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.12.25:160][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.12.25:512][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.12.25:756][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.12.26:131][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.12.26:676][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.12.26:932][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.12.27:163][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.12.27:351][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-22.12.27:581][488]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.12.27:585][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.08-22.12.27:606][488]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-22.12.27:723][488]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.08-22.12.27:723][488]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel' has LevelScriptBlueprint '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest' with GeneratedClass '/Game/UI-Rick/MainMenuTest.MainMenuTest_C' with ClassGeneratedBy '/Game/UI-Rick/MainMenuTest.MainMenuTest:PersistentLevel.MainMenuTest'
+[2018.10.08-22.12.30:009][488]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.200 s
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: 
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: Ensure condition failed: !IsGarbageCollecting() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\UMG\Private\Slate\SObjectWidget.cpp] [Line: 41]
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: SObjectWidget for 'LossWidget_C /Engine/Transient.UnrealEdEngine_0:ASH_GameInstance_C_10.LossWidget_C_208' destroyed while collecting garbage.  This can lead to multiple GCs being required to cleanup the object.  Possible causes might be,
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: 1) ReleaseSlateResources not being implemented for the owner of this pointer.
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: 2) You may just be holding onto some slate pointers on an actor that don't get reset until the actor is Garbage Collected.  You should avoid doing this, and instead reset those references when the actor is Destroyed.
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: Stack: 
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007fff0a2e71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007fff0a020c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007fff0a03b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007fff0aa89a63 UE4Editor-UMG.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007fff1e9ed246 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007ffeebb28959 UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007ffeebb3297f UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007fff14e31be7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007fff14df3f89 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007fff14df34ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007ffeea6e72b1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007ffeea1382b2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007ffeeaa2f666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007ff637ce5cbd UE4Editor.exe!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007ff637cf5b3c UE4Editor.exe!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007ff637cf5bba UE4Editor.exe!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007ff637d03dac UE4Editor.exe!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007ff637d05aaa UE4Editor.exe!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007fff54db3034 KERNEL32.DLL!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: [Callstack] 0x00007fff578b1461 ntdll.dll!UnknownFunction []
+[2018.10.08-22.12.30:009][488]LogOutputDevice: Error: 
+[2018.10.08-22.12.30:011][488]LogStats:                SubmitErrorReport -  0.000 s
